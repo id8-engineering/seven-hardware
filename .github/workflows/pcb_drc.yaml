@@ -1,0 +1,27 @@
+name: KiCad ERC & DRC
+
+on:
+  pull_request:
+
+jobs:
+  kicad-checks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@0c366fd6a839edf440554fa01a7085ccba70ac98
+
+      - name: Install KiCad CLI
+        run: |
+          sudo add-apt-repository -y ppa:kicad/kicad-9.0-releases
+          sudo apt-get update
+          sudo apt-get install -y kicad
+          kicad-cli version
+
+      - name: Run ERC
+        run: |
+          kicad-cli sch erc kicad/seven.kicad_sch --exit-code-violations
+
+      - name: Run DRC
+        run: |
+          kicad-cli pcb drc kicad/seven.kicad_pcb

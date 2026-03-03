@@ -5,37 +5,28 @@
 	(uuid "8e3cc843-5797-49f3-8b3a-1c11450ccd1e")
 	(paper "A4")
 	(lib_symbols
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
+		(symbol "seven_lib:mikroBUS_Socket"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
+			(property "Reference" "J"
+				(at -6.35 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Value" "mikroBUS_Socket"
+				(at 12.7 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "seven-lib:mikroBUS_Socket"
+				(at 0 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -44,6 +35,15 @@
 				)
 			)
 			(property "Datasheet" ""
+				(at 3.81 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -52,67 +52,137 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "mikroBUS_Socket_0_0"
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "PWM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+				(pin output line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
-			)
-			(symbol "+3.3V_1_1"
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
+					(at -2.54 15.24 270)
+					(length 2.54)
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -127,105 +197,161 @@
 						)
 					)
 				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+				(pin power_in line
+					(at 2.54 15.24 270)
+					(length 2.54)
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(hide yes)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "AN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
+			(symbol "mikroBUS_Socket_1_1"
+				(rectangle
+					(start -7.62 12.7)
+					(end 7.62 -10.16)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+						(type background)
 					)
 				)
 			)
@@ -2418,6 +2544,10 @@
 		)
 		(uuid "913978ab-5ebc-4c54-8e49-0f286dfb7491")
 	)
+	(no_connect
+		(at 146.05 96.52)
+		(uuid "9f2ae488-646c-4cf9-8527-fcb3dcc425f3")
+	)
 	(polyline
 		(pts
 			(xy 115.57 12.7) (xy 115.57 196.85)
@@ -2428,45 +2558,36 @@
 		)
 		(uuid "9db4613c-c925-4042-8526-d04088b47b40")
 	)
-	(label "p0.00"
-		(at 33.02 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7ffda964-e625-4674-925c-cca58d89cb58")
-	)
 	(symbol
-		(lib_id "power:GND")
-		(at 66.04 179.07 0)
+		(lib_id "seven_lib:mikroBUS_Socket")
+		(at 140.97 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4956a68e-d210-46c5-804b-720b7e9082e0")
-		(property "Reference" "#PWR04"
-			(at 66.04 185.42 0)
+		(uuid "5368d913-cd4a-41e8-83c0-195a1e1f9f60")
+		(property "Reference" "J1"
+			(at 145.6533 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 66.04 184.15 0)
+		(property "Value" "mikroBUS_Socket"
+			(at 145.6533 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 66.04 179.07 0)
+		(property "Footprint" "seven-lib:mikroBUS_Socket"
+			(at 140.97 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,7 +2596,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 179.07 0)
+			(at 144.78 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2483,88 +2604,67 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 179.07 0)
+		(property "Description" ""
+			(at 140.97 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "15"
+			(uuid "36a30eae-3dc5-4b0c-951c-bfbf995592e9")
+		)
+		(pin "4"
+			(uuid "f7cda3b7-a6f6-40ac-aa22-a9bca447349d")
+		)
+		(pin "3"
+			(uuid "53fe619c-14e7-44ee-8eef-766988307361")
+		)
+		(pin "13"
+			(uuid "33b0f056-0425-4d1b-a8e4-6b5c8b69ba97")
+		)
+		(pin "9"
+			(uuid "be360726-a290-4f84-82b5-32c481cf9693")
+		)
+		(pin "11"
+			(uuid "13c73d4c-914c-49f7-b659-76d10ef000d7")
+		)
+		(pin "12"
+			(uuid "6790a8ad-5c96-4b35-b487-20d14e5f55f3")
+		)
+		(pin "10"
+			(uuid "e462f90b-9c37-4c6c-8be5-1db01d4100df")
+		)
+		(pin "14"
+			(uuid "e2de4815-a3f1-4fff-ab64-acc263e307cf")
+		)
+		(pin "2"
+			(uuid "6ac1a731-5ee9-42ef-83d0-806080c35463")
+		)
+		(pin "16"
+			(uuid "4ca10f01-e786-45fd-91f2-061b39e3429e")
 		)
 		(pin "1"
-			(uuid "1845dc70-5732-41bf-891e-a392479953ad")
+			(uuid "3605f07f-0b3e-41f6-bd2f-3c1f36ea408d")
 		)
-		(instances
-			(project "seven"
-				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
+		(pin "5"
+			(uuid "a9ca5fde-5460-4866-a2fe-f18d3a43d8a7")
 		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 63.5 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "522da2f6-398c-4d05-b95d-59dfc61e5ae1")
-		(property "Reference" "#PWR05"
-			(at 63.5 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "6"
+			(uuid "e2c20d97-b4ae-4714-972e-abc68c54b772")
 		)
-		(property "Value" "+3.3V"
-			(at 63.5 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "7"
+			(uuid "f1d0690b-05de-48ac-a11b-487979897b4b")
 		)
-		(property "Footprint" ""
-			(at 63.5 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 63.5 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2454f22b-4f8f-4ad6-86f4-5fc124d9a336")
+		(pin "8"
+			(uuid "ced4b08b-7fdb-4363-b0e0-29494224f708")
 		)
 		(instances
 			(project ""
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
-					(reference "#PWR05")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2968,6 +3068,118 @@
 			(project ""
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "seven_lib:mikroBUS_Socket")
+		(at 179.07 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3e54008-4861-4ad7-af28-034164690d8c")
+		(property "Reference" "J2"
+			(at 183.7533 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "mikroBUS_Socket"
+			(at 183.7533 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "seven-lib:mikroBUS_Socket"
+			(at 179.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "15"
+			(uuid "5c742f72-f620-4317-882b-d2c279c843a7")
+		)
+		(pin "4"
+			(uuid "c4f9b5c4-aa0e-42dc-aba6-9183b31871de")
+		)
+		(pin "3"
+			(uuid "48053bba-8119-4e25-b70b-78db4cb94a9e")
+		)
+		(pin "13"
+			(uuid "a3ef0480-7de0-4f44-be8c-a4c38b9859ae")
+		)
+		(pin "9"
+			(uuid "dd9cefa7-6a54-4aa8-970a-8c77a29ac225")
+		)
+		(pin "11"
+			(uuid "42c9eebd-1bd6-4a0a-a10c-4de1e04260e3")
+		)
+		(pin "12"
+			(uuid "a90925d3-7948-4700-96df-5b78eaf206e7")
+		)
+		(pin "10"
+			(uuid "3e55320c-88b7-4541-b797-b319c465d296")
+		)
+		(pin "14"
+			(uuid "ab7380ed-1b40-46c3-8927-4040a1d7898f")
+		)
+		(pin "2"
+			(uuid "7b3115e7-ae7f-42ec-97fd-88ee55dfc405")
+		)
+		(pin "16"
+			(uuid "b6f51d6b-eefa-4b0d-a05e-9f67040e59ae")
+		)
+		(pin "1"
+			(uuid "1bb1dfad-5900-4ffe-9f6d-9393a941f705")
+		)
+		(pin "5"
+			(uuid "73fa9aeb-7740-4560-b6e6-8bb1cf5c9da7")
+		)
+		(pin "6"
+			(uuid "b860d1c5-e08e-40b9-bab3-84b7ac51443c")
+		)
+		(pin "7"
+			(uuid "f00c388f-eb73-4f31-8cc6-d0fae9a71c0f")
+		)
+		(pin "8"
+			(uuid "ef0e3372-ba8a-49ea-a609-76ad8a533e50")
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
+					(reference "J2")
 					(unit 1)
 				)
 			)

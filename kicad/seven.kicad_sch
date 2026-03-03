@@ -2524,7 +2524,7 @@
 					(end 27.94 -68.58)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type background)
@@ -2536,7 +2536,7 @@
 	)
 	(text "nRF9151"
 		(exclude_from_sim no)
-		(at 63.754 18.288 0)
+		(at 60.198 19.304 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -2544,9 +2544,413 @@
 		)
 		(uuid "913978ab-5ebc-4c54-8e49-0f286dfb7491")
 	)
+	(text "MikroBUS\n"
+		(exclude_from_sim no)
+		(at 154.94 20.32 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "fba0ff34-4733-4868-83e7-46f22997edea")
+	)
 	(no_connect
-		(at 146.05 96.52)
-		(uuid "9f2ae488-646c-4cf9-8527-fcb3dcc425f3")
+		(at 60.96 31.75)
+		(uuid "04599033-8a1d-42fe-88db-1fbfb1732af3")
+	)
+	(no_connect
+		(at 127 58.42)
+		(uuid "04d9f0bd-152f-4a90-a712-6f695a008906")
+	)
+	(no_connect
+		(at 147.32 58.42)
+		(uuid "077eb98c-5810-41e7-8076-af96de5e5c16")
+	)
+	(no_connect
+		(at 93.98 113.03)
+		(uuid "07ed7060-4919-4f68-b1c3-3b0e32e6b93c")
+	)
+	(no_connect
+		(at 147.32 48.26)
+		(uuid "0815a8cf-d2d4-4242-95a2-b9ff2e535091")
+	)
+	(no_connect
+		(at 180.34 55.88)
+		(uuid "0ab86472-56a0-415e-888c-a88fa38b7b43")
+	)
+	(no_connect
+		(at 27.94 105.41)
+		(uuid "0fb07b8d-0576-44ac-bc4c-806fa1c69c19")
+	)
+	(no_connect
+		(at 147.32 50.8)
+		(uuid "13e05e5d-9866-4d09-b3b3-33a635c806f7")
+	)
+	(no_connect
+		(at 66.04 31.75)
+		(uuid "15f57ce1-fb19-4ea4-88c8-ee44a54f316f")
+	)
+	(no_connect
+		(at 93.98 69.85)
+		(uuid "164fa9b8-bf1e-4791-8c5f-ae0c78e6ad0d")
+	)
+	(no_connect
+		(at 147.32 55.88)
+		(uuid "1770e7e3-d877-4cf7-99a9-fc05441e9525")
+	)
+	(no_connect
+		(at 160.02 58.42)
+		(uuid "1820f941-4456-4cbb-99de-d6af9be22fd4")
+	)
+	(no_connect
+		(at 27.94 59.69)
+		(uuid "218e5dd0-2fe1-4f0f-8165-0e556cf74bf9")
+	)
+	(no_connect
+		(at 147.32 45.72)
+		(uuid "223a83bc-a290-4e16-931e-f3adb1098a61")
+	)
+	(no_connect
+		(at 127 48.26)
+		(uuid "246c2bf8-c25a-4913-982d-fb8b539043a4")
+	)
+	(no_connect
+		(at 93.98 115.57)
+		(uuid "2595d12d-b46a-4ac5-9a0f-582eade12c1d")
+	)
+	(no_connect
+		(at 93.98 67.31)
+		(uuid "2650515d-4e34-4fa3-ba1f-da74e414c315")
+	)
+	(no_connect
+		(at 127 50.8)
+		(uuid "26ecb55c-90a8-4f55-bf6c-45f2b966accb")
+	)
+	(no_connect
+		(at 27.94 120.65)
+		(uuid "28b4c15e-dd8e-4fea-83d4-048eebfc3589")
+	)
+	(no_connect
+		(at 27.94 54.61)
+		(uuid "298947ba-3574-48a8-8e5d-db5c280754f9")
+	)
+	(no_connect
+		(at 160.02 45.72)
+		(uuid "2bcd5ab2-19c9-4212-a4fb-58187e5bdebf")
+	)
+	(no_connect
+		(at 147.32 53.34)
+		(uuid "355f779d-7842-403a-98b0-5bbed921a71a")
+	)
+	(no_connect
+		(at 60.96 179.07)
+		(uuid "36a470c0-5622-4eb0-9b39-49ec41df183d")
+	)
+	(no_connect
+		(at 93.98 118.11)
+		(uuid "38806d56-3776-4555-b204-7013f4d0b42b")
+	)
+	(no_connect
+		(at 93.98 133.35)
+		(uuid "3abd0256-24ec-427e-b380-1abbe0b510cf")
+	)
+	(no_connect
+		(at 170.18 63.5)
+		(uuid "3b914151-0c75-42ef-bef9-0f1e55a1c5bc")
+	)
+	(no_connect
+		(at 27.94 166.37)
+		(uuid "3e0bd1b2-b0e4-4226-aa08-8f41a4bffb84")
+	)
+	(no_connect
+		(at 127 55.88)
+		(uuid "3ea0b9d3-e2e9-4980-8db1-be1e2d2823db")
+	)
+	(no_connect
+		(at 27.94 46.99)
+		(uuid "478bb69a-101f-41e9-b3c4-a2e85d3d46c1")
+	)
+	(no_connect
+		(at 160.02 53.34)
+		(uuid "4a899dbf-ff2f-42bc-ac6d-e537662358ca")
+	)
+	(no_connect
+		(at 27.94 163.83)
+		(uuid "4db3eee7-8172-410f-b64d-65c43134158f")
+	)
+	(no_connect
+		(at 93.98 110.49)
+		(uuid "52692069-02ac-4905-a1c8-4111a24dc7a4")
+	)
+	(no_connect
+		(at 180.34 48.26)
+		(uuid "53b6bbeb-ebd8-411c-a88c-61bcdf49f918")
+	)
+	(no_connect
+		(at 27.94 133.35)
+		(uuid "5821bd66-b66a-47ed-bf8d-9ef35856def7")
+	)
+	(no_connect
+		(at 27.94 107.95)
+		(uuid "60a90d20-b284-4b1b-8ed4-d41154a29848")
+	)
+	(no_connect
+		(at 27.94 153.67)
+		(uuid "6130de6e-ede4-4e31-bb6e-d1a9bf27827b")
+	)
+	(no_connect
+		(at 27.94 161.29)
+		(uuid "61dc3825-69ea-4479-baf2-d3889b585572")
+	)
+	(no_connect
+		(at 93.98 135.89)
+		(uuid "624675ec-b5f8-4887-a72b-5ca724dfcf84")
+	)
+	(no_connect
+		(at 27.94 130.81)
+		(uuid "66f83c15-0758-47f6-8efb-c0adca5cd977")
+	)
+	(no_connect
+		(at 27.94 72.39)
+		(uuid "682288a6-60af-4d5e-919d-314a81be9ef5")
+	)
+	(no_connect
+		(at 93.98 153.67)
+		(uuid "684c1287-d390-430e-9740-408631dc0beb")
+	)
+	(no_connect
+		(at 134.62 35.56)
+		(uuid "687d44a3-5fa4-4728-9ae9-abe2f9419947")
+	)
+	(no_connect
+		(at 27.94 146.05)
+		(uuid "6b862d4c-2c55-4697-a742-dae41f3147b6")
+	)
+	(no_connect
+		(at 27.94 67.31)
+		(uuid "70ab888e-8030-40ef-9563-16c1aa53ea7a")
+	)
+	(no_connect
+		(at 180.34 53.34)
+		(uuid "70ad0977-d9b1-447e-9210-da39fd8ecd1b")
+	)
+	(no_connect
+		(at 93.98 151.13)
+		(uuid "722e2bcf-4447-4e61-9595-f0060402ea18")
+	)
+	(no_connect
+		(at 27.94 87.63)
+		(uuid "72885201-e3a6-4bf9-91a0-47fd80b72bde")
+	)
+	(no_connect
+		(at 27.94 100.33)
+		(uuid "74949b88-1894-4731-b5b7-d0882cc11835")
+	)
+	(no_connect
+		(at 93.98 120.65)
+		(uuid "76f284d0-52fd-4015-bd97-acb47e191a8d")
+	)
+	(no_connect
+		(at 27.94 80.01)
+		(uuid "79db22ff-52da-4630-a080-421c4ac736c4")
+	)
+	(no_connect
+		(at 180.34 50.8)
+		(uuid "7ac76151-e999-4263-a356-716502f03017")
+	)
+	(no_connect
+		(at 27.94 90.17)
+		(uuid "7eb026f6-60d7-4592-896b-55b8c50cdd33")
+	)
+	(no_connect
+		(at 27.94 57.15)
+		(uuid "7f9a16e1-b0da-43d5-a5fc-650b7689f6ed")
+	)
+	(no_connect
+		(at 27.94 135.89)
+		(uuid "859c84ba-c579-4e89-913d-291545312386")
+	)
+	(no_connect
+		(at 27.94 64.77)
+		(uuid "897bd6c3-4dcc-413a-8adf-8c8afbb72903")
+	)
+	(no_connect
+		(at 160.02 55.88)
+		(uuid "8e3e9e22-471c-4110-acf4-81a7c12332ac")
+	)
+	(no_connect
+		(at 27.94 118.11)
+		(uuid "8f835ed9-45ef-4384-abac-ea578ac7261c")
+	)
+	(no_connect
+		(at 139.7 35.56)
+		(uuid "92677813-6133-484d-aae9-c3849a4733d3")
+	)
+	(no_connect
+		(at 167.64 35.56)
+		(uuid "968287ed-bd3e-452c-aafa-96054c5b9630")
+	)
+	(no_connect
+		(at 27.94 110.49)
+		(uuid "9f4d7893-03e3-49c5-99f0-a7586a3e4c79")
+	)
+	(no_connect
+		(at 127 45.72)
+		(uuid "a0857214-77b4-49fe-bf48-efda7ce77a5d")
+	)
+	(no_connect
+		(at 93.98 90.17)
+		(uuid "a1220193-ba4e-49f7-8a2f-39a81cf1a9a4")
+	)
+	(no_connect
+		(at 27.94 151.13)
+		(uuid "a4a46a6b-db81-487f-a257-e05f40046585")
+	)
+	(no_connect
+		(at 93.98 46.99)
+		(uuid "a93416da-31c6-433b-8b81-624f9059fce0")
+	)
+	(no_connect
+		(at 127 53.34)
+		(uuid "b0423f4e-f3b1-4c73-9ffc-0f1eb10a1d1d")
+	)
+	(no_connect
+		(at 93.98 146.05)
+		(uuid "b0aa93da-5f86-435b-bdc2-52c756ff635e")
+	)
+	(no_connect
+		(at 27.94 77.47)
+		(uuid "b13e7a63-7701-431e-8579-5d70095100c9")
+	)
+	(no_connect
+		(at 27.94 82.55)
+		(uuid "b59cf8c5-41c2-4c2f-9ea4-c902be6a9fac")
+	)
+	(no_connect
+		(at 180.34 45.72)
+		(uuid "b5a3d57b-d4a2-4451-8f1c-7dbb4c428024")
+	)
+	(no_connect
+		(at 27.94 92.71)
+		(uuid "bc04eb2d-ac74-4081-8214-8abd36a9192d")
+	)
+	(no_connect
+		(at 27.94 113.03)
+		(uuid "c173ec61-0cfa-488e-8114-2e0866df9cbc")
+	)
+	(no_connect
+		(at 160.02 48.26)
+		(uuid "c1e4c332-a118-4d5c-b5a5-ac73cf06c12d")
+	)
+	(no_connect
+		(at 27.94 85.09)
+		(uuid "c3ad864b-b8db-4df9-8573-e4f89980b1d0")
+	)
+	(no_connect
+		(at 180.34 58.42)
+		(uuid "c9bac984-da6d-459d-8465-95f714cd3e25")
+	)
+	(no_connect
+		(at 27.94 69.85)
+		(uuid "ce382af7-87b2-403e-9e3d-9e0e9149e20f")
+	)
+	(no_connect
+		(at 27.94 62.23)
+		(uuid "d111133e-79f4-4113-809a-557541eb2cd7")
+	)
+	(no_connect
+		(at 172.72 35.56)
+		(uuid "d162e693-b15f-440a-83f6-89f170576e54")
+	)
+	(no_connect
+		(at 27.94 115.57)
+		(uuid "d32ead5b-ac47-4c62-9dc8-14e482497236")
+	)
+	(no_connect
+		(at 27.94 102.87)
+		(uuid "d91579e6-0991-4ccf-8f7a-aa3902d00361")
+	)
+	(no_connect
+		(at 27.94 97.79)
+		(uuid "dce343d5-2a84-44e0-a0ec-62ec2bab07c5")
+	)
+	(no_connect
+		(at 27.94 74.93)
+		(uuid "e00a25de-6433-4595-946b-9c128d184ea4")
+	)
+	(no_connect
+		(at 27.94 148.59)
+		(uuid "e418da32-3076-4760-9703-77e8fc54608d")
+	)
+	(no_connect
+		(at 58.42 31.75)
+		(uuid "e5584c2b-9b7f-441c-a56f-3d779cfd1ad4")
+	)
+	(no_connect
+		(at 137.16 63.5)
+		(uuid "ef2b4437-75db-4619-b2f0-495285fec54d")
+	)
+	(no_connect
+		(at 93.98 138.43)
+		(uuid "fa1df5ad-4575-4669-bbe9-a2a4b3c9db9a")
+	)
+	(no_connect
+		(at 160.02 50.8)
+		(uuid "fbeb2f47-b733-4130-85c2-34d87dceb08b")
+	)
+	(no_connect
+		(at 27.94 95.25)
+		(uuid "fd31a5fd-53ba-4cf6-8a42-5614103eff87")
+	)
+	(polyline
+		(pts
+			(xy 194.31 12.7) (xy 194.31 72.39)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "04816c7f-a2bd-4a42-90a3-c0c545aa063c")
+	)
+	(polyline
+		(pts
+			(xy 178.054 13.208) (xy 178.054 25.908)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e0fbda4-9da7-4bfe-b905-e29c68a0a362")
+	)
+	(polyline
+		(pts
+			(xy 129.794 25.908) (xy 178.054 25.908)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f78bb85-b5c9-43f5-abd3-a80ddd7388ee")
+	)
+	(polyline
+		(pts
+			(xy 35.56 12.7) (xy 35.56 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ad23e4d-2a5b-464e-bc48-17a6571df868")
+	)
+	(polyline
+		(pts
+			(xy 35.56 25.4) (xy 83.82 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "810d7952-efcb-4a07-8e3c-ed857ad2c727")
 	)
 	(polyline
 		(pts
@@ -2558,9 +2962,39 @@
 		)
 		(uuid "9db4613c-c925-4042-8526-d04088b47b40")
 	)
+	(polyline
+		(pts
+			(xy 129.794 13.208) (xy 129.794 25.908)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dca7c16-6e67-4261-af94-b80f3c80213e")
+	)
+	(polyline
+		(pts
+			(xy 83.82 12.7) (xy 83.82 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a9861d-2402-4319-a391-78cfc5ba3534")
+	)
+	(polyline
+		(pts
+			(xy 115.57 72.39) (xy 194.31 72.39)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "ce85f017-7bed-46dd-8deb-a9113dd3cdb7")
+	)
 	(symbol
 		(lib_id "seven_lib:mikroBUS_Socket")
-		(at 140.97 40.64 0)
+		(at 137.16 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2569,7 +3003,7 @@
 		(fields_autoplaced yes)
 		(uuid "5368d913-cd4a-41e8-83c0-195a1e1f9f60")
 		(property "Reference" "J1"
-			(at 145.6533 22.86 0)
+			(at 141.8433 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2578,7 +3012,7 @@
 			)
 		)
 		(property "Value" "mikroBUS_Socket"
-			(at 145.6533 25.4 0)
+			(at 141.8433 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2587,7 +3021,7 @@
 			)
 		)
 		(property "Footprint" "seven-lib:mikroBUS_Socket"
-			(at 140.97 63.5 0)
+			(at 137.16 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,7 +3030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 55.88 0)
+			(at 140.97 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,7 +3039,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 40.64 0)
+			(at 137.16 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2672,7 +3106,7 @@
 	)
 	(symbol
 		(lib_id "seven_lib:nRF9151-LAXX")
-		(at 66.04 105.41 0)
+		(at 60.96 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2681,7 +3115,7 @@
 		(fields_autoplaced yes)
 		(uuid "c33853fb-5ffc-41bd-86d5-cd4e28942027")
 		(property "Reference" "U2"
-			(at 66.04 105.41 0)
+			(at 60.96 105.41 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2690,7 +3124,7 @@
 			)
 		)
 		(property "Value" "nRF9151-LAXX"
-			(at 66.04 107.95 0)
+			(at 60.96 107.95 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2699,7 +3133,7 @@
 			)
 		)
 		(property "Footprint" "PCM_nordic-lib-kicad-nrf9:LGA_9151_12.1x11.1mm"
-			(at 66.04 191.77 0)
+			(at 60.96 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,7 +3142,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.nordicsemi.com/bundle/ps_nrf9151/page/nRF9151_html5_keyfeatures.html"
-			(at 66.04 194.31 0)
+			(at 60.96 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2717,7 +3151,7 @@
 			)
 		)
 		(property "Description" "LTE-M/NB-IoT/DECT-NR+ SiP, ARM Cortex-M33, GNSS, LGA-100"
-			(at 66.04 196.85 0)
+			(at 60.96 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3075,7 +3509,7 @@
 	)
 	(symbol
 		(lib_id "seven_lib:mikroBUS_Socket")
-		(at 179.07 40.64 0)
+		(at 170.18 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3084,7 +3518,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3e54008-4861-4ad7-af28-034164690d8c")
 		(property "Reference" "J2"
-			(at 183.7533 22.86 0)
+			(at 174.8633 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3093,7 +3527,7 @@
 			)
 		)
 		(property "Value" "mikroBUS_Socket"
-			(at 183.7533 25.4 0)
+			(at 174.8633 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3102,7 +3536,7 @@
 			)
 		)
 		(property "Footprint" "seven-lib:mikroBUS_Socket"
-			(at 179.07 63.5 0)
+			(at 170.18 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3111,7 +3545,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 55.88 0)
+			(at 173.99 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,7 +3554,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 40.64 0)
+			(at 170.18 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)

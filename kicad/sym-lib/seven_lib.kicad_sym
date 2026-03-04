@@ -280,7 +280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "seven-lib:C_1812_4532Metric"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -415,7 +415,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "seven-lib:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
 			(at 0 0 0)
 			(effects
 				(font
@@ -661,7 +661,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "seven-lib:L_1008_2520Metric"
 			(at 0 0 0)
 			(effects
 				(font
@@ -923,7 +923,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "seven-lib:R_0603_1608Metric"
 			(at -1.778 0 90)
 			(effects
 				(font
@@ -1046,7 +1046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias"
+		(property "Footprint" "seven-lib:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias"
 			(at 3.81 -8.89 0)
 			(effects
 				(font
@@ -1293,7 +1293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_B3QFN-14-1EP_5x5.5mm_P0.65mm_ThermalVia"
+		(property "Footprint" "seven-lib:Texas_B3QFN-14-1EP_5x5.5mm_P0.65mm_ThermalVia"
 			(at 0 17.78 0)
 			(effects
 				(font
@@ -2007,7 +2007,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_nordic-lib-kicad-nrf9:LGA_9151_12.1x11.1mm"
+		(property "Footprint" "seven-lib:LGA_9151_12.1x11.1mm"
 			(at 0 -86.36 0)
 			(effects
 				(font

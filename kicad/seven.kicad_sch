@@ -1559,6 +1559,261 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "seven_lib:SK6805-EC15"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "SK6805-EC15"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "seven-lib:LED_SK6805_EC15-PLCC4"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel Nano addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*SK6805*PLCC*2.4x2.7mm*P1.3mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6805-EC15_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "SK6805-EC15_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SK6805-EC15_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "seven_lib:TPS62162DSG"
 			(pin_names
 				(offset 0.254)
@@ -4750,6 +5005,16 @@
 		)
 		(uuid "913978ab-5ebc-4c54-8e49-0f286dfb7491")
 	)
+	(text "System\n"
+		(exclude_from_sim no)
+		(at 172.72 88.138 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "f5007647-7bdb-4d96-8236-d69d4ecb2087")
+	)
 	(text "MikroBUS\n"
 		(exclude_from_sim no)
 		(at 160.02 20.32 0)
@@ -4935,6 +5200,10 @@
 		(uuid "3e0bd1b2-b0e4-4226-aa08-8f41a4bffb84")
 	)
 	(no_connect
+		(at 187.96 101.6)
+		(uuid "410077e2-7e0e-4f2d-af55-2cfd596eb70e")
+	)
+	(no_connect
 		(at 27.94 50.8)
 		(uuid "478bb69a-101f-41e9-b3c4-a2e85d3d46c1")
 	)
@@ -5013,10 +5282,6 @@
 	(no_connect
 		(at 93.98 142.24)
 		(uuid "fa1df5ad-4575-4669-bbe9-a2a4b3c9db9a")
-	)
-	(no_connect
-		(at 27.94 104.14)
-		(uuid "fdd11bac-f653-422b-acb1-dcbd7de07abe")
 	)
 	(wire
 		(pts
@@ -5257,6 +5522,16 @@
 			(type default)
 		)
 		(uuid "245faf56-b35b-4f0c-b825-d70c06d4c8a6")
+	)
+	(wire
+		(pts
+			(xy 26.67 104.14) (xy 27.94 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "247cd0fd-ad80-4f7f-a6f1-dddf4b50bb99")
 	)
 	(wire
 		(pts
@@ -5740,6 +6015,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 91.44) (xy 187.96 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "706b70c4-c38f-4500-afcc-5c092233fbd7")
+	)
+	(wire
+		(pts
 			(xy 26.67 111.76) (xy 27.94 111.76)
 		)
 		(stroke
@@ -6080,6 +6365,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 109.22) (xy 180.34 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa8704d-5507-486a-8d4d-bb75835c4568")
+	)
+	(wire
+		(pts
 			(xy 273.05 24.13) (xy 273.05 30.48)
 		)
 		(stroke
@@ -6197,6 +6492,16 @@
 			(type default)
 		)
 		(uuid "ccea4d66-11cc-46f1-a3ad-76dc644f0ecc")
+	)
+	(wire
+		(pts
+			(xy 187.96 93.98) (xy 180.34 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdc26316-9735-4911-921b-fd84e4e42c82")
 	)
 	(polyline
 		(pts
@@ -6457,6 +6762,16 @@
 			(type default)
 		)
 		(uuid "f339fc13-7be7-4b9d-97af-7425ae0c3a16")
+	)
+	(wire
+		(pts
+			(xy 199.39 91.44) (xy 199.39 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f384b346-9437-47ce-83c9-e4a24075d3a4")
 	)
 	(wire
 		(pts
@@ -6818,6 +7133,16 @@
 		)
 		(uuid "7df4e4c3-0f62-4a0b-a6fc-74c96bab6328")
 	)
+	(label "SYSTEM_LED"
+		(at 26.67 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "85589299-03cb-4a0c-a158-6860d4ee3b8e")
+	)
 	(label "SPI_SCK2"
 		(at 190.5 50.8 0)
 		(effects
@@ -6937,6 +7262,16 @@
 			(justify right bottom)
 		)
 		(uuid "b5e7c513-58fc-4dc3-bc07-187d07123f99")
+	)
+	(label "SYSTEM_LED"
+		(at 172.72 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b7a1b7b7-05cf-4df6-b950-c936da3feb26")
 	)
 	(label "AN1"
 		(at 26.67 93.98 180)
@@ -8573,6 +8908,72 @@
 		)
 	)
 	(symbol
+		(lib_id "seven_lib:GND")
+		(at 199.39 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ffb1435-f139-4cc4-82b8-247fdf98491f")
+		(property "Reference" "#PWR024"
+			(at 199.39 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "676cbd70-edbc-4a20-bb3c-a45925c4cb58")
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "seven_lib:+5V")
 		(at 181.61 34.29 0)
 		(unit 1)
@@ -9172,6 +9573,72 @@
 			(project "seven"
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "seven_lib:+5V")
+		(at 187.96 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9318ee63-2275-432d-805b-8bf481825245")
+		(property "Reference" "#PWR023"
+			(at 187.96 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 187.96 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 187.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc3e8852-a092-43cd-8805-56a0f219af3f")
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10426,6 +10893,81 @@
 			(project "seven"
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "seven_lib:SK6805-EC15")
+		(at 180.34 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8d2b044-7cd5-45cd-8a84-c3fcb9bd6ee7")
+		(property "Reference" "D2"
+			(at 192.024 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805-EC15"
+			(at 192.532 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "seven-lib:LED_SK6805_EC15-PLCC4"
+			(at 181.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4492/Datasheet.pdf"
+			(at 182.88 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 180.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40fba611-28cb-4f42-8e57-9f28a41f1a64")
+		)
+		(pin "3"
+			(uuid "4ea2461f-77af-4a7f-9a56-982c473c633f")
+		)
+		(pin "2"
+			(uuid "2a87e84f-a029-4099-af5f-0d479dead68c")
+		)
+		(pin "4"
+			(uuid "caa7e5fb-0bc6-4585-ad0d-3777e77a1f5a")
+		)
+		(instances
+			(project ""
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
+					(reference "D2")
 					(unit 1)
 				)
 			)

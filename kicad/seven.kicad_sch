@@ -635,7 +635,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "seven-lib:C_1812_4532Metric"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -770,7 +770,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "seven-lib:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1016,7 +1016,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "seven-lib:L_1008_2520Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1278,7 +1278,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "seven-lib:R_0603_1608Metric"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -1401,7 +1401,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias"
+			(property "Footprint" "seven-lib:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias"
 				(at 3.81 -8.89 0)
 				(effects
 					(font
@@ -1648,7 +1648,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:Texas_B3QFN-14-1EP_5x5.5mm_P0.65mm_ThermalVia"
+			(property "Footprint" "seven-lib:Texas_B3QFN-14-1EP_5x5.5mm_P0.65mm_ThermalVia"
 				(at 0 17.78 0)
 				(effects
 					(font
@@ -2362,7 +2362,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_nordic-lib-kicad-nrf9:LGA_9151_12.1x11.1mm"
+			(property "Footprint" "seven-lib:LGA_9151_12.1x11.1mm"
 				(at 0 -86.36 0)
 				(effects
 					(font
@@ -6767,7 +6767,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+		(property "Footprint" "seven-lib:L_1008_2520Metric"
 			(at 260.35 95.25 0)
 			(effects
 				(font
@@ -7037,7 +7037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "seven-lib:R_0603_1608Metric"
 			(at 236.982 45.72 90)
 			(effects
 				(font
@@ -7171,7 +7171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias"
+		(property "Footprint" "seven-lib:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias"
 			(at 247.65 111.76 0)
 			(effects
 				(font
@@ -7263,7 +7263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" "seven-lib:C_1812_4532Metric"
 			(at 218.1352 104.14 0)
 			(effects
 				(font
@@ -7509,7 +7509,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" "seven-lib:C_1812_4532Metric"
 			(at 280.67 23.1648 0)
 			(effects
 				(font
@@ -7710,7 +7710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "seven-lib:R_0603_1608Metric"
 			(at 278.892 48.26 90)
 			(effects
 				(font
@@ -7845,7 +7845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" "seven-lib:C_1812_4532Metric"
 			(at 277.8252 106.68 0)
 			(effects
 				(font
@@ -7914,7 +7914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "seven-lib:R_0603_1608Metric"
 			(at 267.462 102.87 90)
 			(effects
 				(font
@@ -8247,7 +8247,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" "seven-lib:C_1812_4532Metric"
 			(at 227.6348 41.91 0)
 			(effects
 				(font
@@ -8316,7 +8316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "seven-lib:R_0603_1608Metric"
 			(at 272.542 48.26 90)
 			(effects
 				(font
@@ -8516,7 +8516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "seven-lib:R_0603_1608Metric"
 			(at 262.382 102.87 90)
 			(effects
 				(font
@@ -8585,7 +8585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "seven-lib:R_0603_1608Metric"
 			(at 273.05 110.998 90)
 			(effects
 				(font
@@ -8917,7 +8917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "seven-lib:R_0603_1608Metric"
 			(at 278.892 58.42 90)
 			(effects
 				(font
@@ -9167,7 +9167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" "seven-lib:C_1812_4532Metric"
 			(at 218.1352 49.53 0)
 			(effects
 				(font
@@ -9772,7 +9772,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" "seven-lib:C_1812_4532Metric"
 			(at 273.05 36.5252 0)
 			(effects
 				(font
@@ -9840,7 +9840,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "seven-lib:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
 			(at 209.55 43.18 0)
 			(effects
 				(font

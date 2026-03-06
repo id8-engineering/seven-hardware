@@ -653,6 +653,10 @@
     [
       "bfb076a8-082c-4e75-8c21-42e3541223ce",
       "UART Debugger"
+    ],
+    [
+      "fcef6494-c0b2-4cc5-a2e1-aeb845f0853f",
+      "Reset Button"
     ]
   ],
   "text_variables": {}

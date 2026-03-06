@@ -1559,6 +1559,261 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "seven_lib:SK6805-EC15"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "SK6805-EC15"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "seven-lib:LED_SK6805_EC15-PLCC4"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel Nano addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*SK6805*PLCC*2.4x2.7mm*P1.3mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6805-EC15_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "SK6805-EC15_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SK6805-EC15_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "seven_lib:TPS62162DSG"
 			(pin_names
 				(offset 0.254)
@@ -4750,6 +5005,16 @@
 		)
 		(uuid "913978ab-5ebc-4c54-8e49-0f286dfb7491")
 	)
+	(text "System\n"
+		(exclude_from_sim no)
+		(at 172.72 88.138 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "f5007647-7bdb-4d96-8236-d69d4ecb2087")
+	)
 	(text "MikroBUS\n"
 		(exclude_from_sim no)
 		(at 160.02 20.32 0)
@@ -4899,10 +5164,6 @@
 		(uuid "f7ba4241-3e64-44c6-ae5d-8595b97909a0")
 	)
 	(no_connect
-		(at 27.94 111.76)
-		(uuid "06e25afe-73a9-4ba5-88d4-287c2022098b")
-	)
-	(no_connect
 		(at 93.98 116.84)
 		(uuid "07ed7060-4919-4f68-b1c3-3b0e32e6b93c")
 	)
@@ -4927,10 +5188,6 @@
 		(uuid "2650515d-4e34-4fa3-ba1f-da74e414c315")
 	)
 	(no_connect
-		(at 27.94 124.46)
-		(uuid "28b4c15e-dd8e-4fea-83d4-048eebfc3589")
-	)
-	(no_connect
 		(at 93.98 121.92)
 		(uuid "38806d56-3776-4555-b204-7013f4d0b42b")
 	)
@@ -4941,6 +5198,10 @@
 	(no_connect
 		(at 27.94 170.18)
 		(uuid "3e0bd1b2-b0e4-4226-aa08-8f41a4bffb84")
+	)
+	(no_connect
+		(at 187.96 101.6)
+		(uuid "410077e2-7e0e-4f2d-af55-2cfd596eb70e")
 	)
 	(no_connect
 		(at 27.94 50.8)
@@ -4979,16 +5240,8 @@
 		(uuid "684c1287-d390-430e-9740-408631dc0beb")
 	)
 	(no_connect
-		(at 27.94 114.3)
-		(uuid "68d58403-db14-4f2e-a6e2-3b0076fe70ca")
-	)
-	(no_connect
 		(at 27.94 149.86)
 		(uuid "6b862d4c-2c55-4697-a742-dae41f3147b6")
-	)
-	(no_connect
-		(at 27.94 116.84)
-		(uuid "6e3ae7ff-03c0-4ecb-a839-d8b9b1ed1a69")
 	)
 	(no_connect
 		(at 93.98 154.94)
@@ -5001,14 +5254,6 @@
 	(no_connect
 		(at 27.94 139.7)
 		(uuid "859c84ba-c579-4e89-913d-291545312386")
-	)
-	(no_connect
-		(at 27.94 121.92)
-		(uuid "8f835ed9-45ef-4384-abac-ea578ac7261c")
-	)
-	(no_connect
-		(at 27.94 119.38)
-		(uuid "9941cc26-b544-4f20-8d8c-a9a7c87f58c2")
 	)
 	(no_connect
 		(at 93.98 93.98)
@@ -5200,6 +5445,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 124.46) (xy 27.94 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20744c1e-970e-452e-af5a-bf52cbaf1219")
+	)
+	(wire
+		(pts
 			(xy 280.67 24.13) (xy 280.67 35.56)
 		)
 		(stroke
@@ -5270,6 +5525,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 104.14) (xy 27.94 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "247cd0fd-ad80-4f7f-a6f1-dddf4b50bb99")
+	)
+	(wire
+		(pts
 			(xy 243.84 114.3) (xy 243.84 113.03)
 		)
 		(stroke
@@ -5287,6 +5552,16 @@
 			(type default)
 		)
 		(uuid "292ed768-59ad-4a2f-bbcc-199e470bde96")
+	)
+	(wire
+		(pts
+			(xy 26.67 119.38) (xy 27.94 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2abbb7a1-56a3-408a-8c57-1f7fd588f569")
 	)
 	(wire
 		(pts
@@ -5410,6 +5685,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 121.92) (xy 27.94 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c15e8ba-8dfe-4846-9443-49260460b3ca")
+	)
+	(wire
+		(pts
 			(xy 26.67 101.6) (xy 27.94 101.6)
 		)
 		(stroke
@@ -5417,6 +5702,16 @@
 			(type default)
 		)
 		(uuid "3d4ae2fb-a87b-46df-9a0f-2279b4444c9f")
+	)
+	(wire
+		(pts
+			(xy 26.67 114.3) (xy 27.94 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f827643-77da-44c6-8ceb-aefdc8d49d2b")
 	)
 	(wire
 		(pts
@@ -5717,6 +6012,26 @@
 			(type default)
 		)
 		(uuid "6ed607b8-6e07-425d-813c-f8a2d7bce2f9")
+	)
+	(wire
+		(pts
+			(xy 187.96 91.44) (xy 187.96 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "706b70c4-c38f-4500-afcc-5c092233fbd7")
+	)
+	(wire
+		(pts
+			(xy 26.67 111.76) (xy 27.94 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72aac6b6-c400-4b51-80f8-d454414cc2a6")
 	)
 	(polyline
 		(pts
@@ -6050,6 +6365,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 109.22) (xy 180.34 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa8704d-5507-486a-8d4d-bb75835c4568")
+	)
+	(wire
+		(pts
 			(xy 273.05 24.13) (xy 273.05 30.48)
 		)
 		(stroke
@@ -6168,6 +6493,16 @@
 		)
 		(uuid "ccea4d66-11cc-46f1-a3ad-76dc644f0ecc")
 	)
+	(wire
+		(pts
+			(xy 187.96 93.98) (xy 180.34 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdc26316-9735-4911-921b-fd84e4e42c82")
+	)
 	(polyline
 		(pts
 			(xy 115.57 72.39) (xy 201.93 72.39)
@@ -6187,16 +6522,6 @@
 			(type default)
 		)
 		(uuid "cf34a3f9-8ca9-4870-91ee-f5feeb462e2f")
-	)
-	(wire
-		(pts
-			(xy 26.67 104.14) (xy 27.94 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf4c544d-0716-4d28-86c7-f3ec055e4d61")
 	)
 	(wire
 		(pts
@@ -6330,6 +6655,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 116.84) (xy 27.94 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e91af880-e339-47f1-ac26-58f87094f8bc")
+	)
+	(wire
+		(pts
 			(xy 274.32 97.79) (xy 276.86 97.79)
 		)
 		(stroke
@@ -6427,6 +6762,16 @@
 			(type default)
 		)
 		(uuid "f339fc13-7be7-4b9d-97af-7425ae0c3a16")
+	)
+	(wire
+		(pts
+			(xy 199.39 91.44) (xy 199.39 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f384b346-9437-47ce-83c9-e4a24075d3a4")
 	)
 	(wire
 		(pts
@@ -6548,7 +6893,7 @@
 		)
 		(uuid "0b1a522f-81d4-485b-bbf0-8d61da16deb8")
 	)
-	(label "SPI_MOSI"
+	(label "SPI_MOSI1"
 		(at 148.59 45.72 0)
 		(effects
 			(font
@@ -6578,17 +6923,7 @@
 		)
 		(uuid "11e825ef-8f42-4531-a879-27f8d816049f")
 	)
-	(label "AN2"
-		(at 26.67 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "17f2d2a4-ad86-48cc-8837-d7679a3b0eed")
-	)
-	(label "I2C_SDA"
+	(label "I2C_SDA1"
 		(at 125.73 55.88 180)
 		(effects
 			(font
@@ -6598,7 +6933,7 @@
 		)
 		(uuid "1e33361d-7c84-48a4-adff-bc4678a914e1")
 	)
-	(label "SPI_MOSI"
+	(label "SPI_MOSI2"
 		(at 190.5 45.72 0)
 		(effects
 			(font
@@ -6618,7 +6953,7 @@
 		)
 		(uuid "2c9f22f2-e428-4ff1-a517-82683541a206")
 	)
-	(label "SPI_MISO"
+	(label "SPI_MISO1"
 		(at 26.67 71.12 180)
 		(effects
 			(font
@@ -6628,7 +6963,7 @@
 		)
 		(uuid "2d16ca80-ec49-4e06-b459-ee6ff2f08f49")
 	)
-	(label "SPI_SCK"
+	(label "SPI_SCK1"
 		(at 148.59 50.8 0)
 		(effects
 			(font
@@ -6648,7 +6983,7 @@
 		)
 		(uuid "35d4da9f-264b-4085-b1c9-ec2122afacef")
 	)
-	(label "I2C_SDA"
+	(label "I2C_SDA2"
 		(at 167.64 55.88 180)
 		(effects
 			(font
@@ -6688,7 +7023,7 @@
 		)
 		(uuid "4f36f9cb-5e2b-4d7c-8162-0f68fbb2e10d")
 	)
-	(label "I2C_SCL"
+	(label "I2C_SCL2"
 		(at 167.64 58.42 180)
 		(effects
 			(font
@@ -6707,6 +7042,16 @@
 			(justify right bottom)
 		)
 		(uuid "4fe2835f-abc9-486b-b8bb-94987fc7c658")
+	)
+	(label "I2C_SCL2"
+		(at 26.67 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5554a85c-ed5b-4dc7-a652-37eb543dfc9f")
 	)
 	(label "FB"
 		(at 276.86 53.34 0)
@@ -6738,7 +7083,7 @@
 		)
 		(uuid "6da4aa48-5b6b-43c9-9c0b-4c22e29432a2")
 	)
-	(label "I2C_SCL"
+	(label "I2C_SCL1"
 		(at 26.67 78.74 180)
 		(effects
 			(font
@@ -6748,7 +7093,17 @@
 		)
 		(uuid "6fcd79f2-200e-4aef-9b70-3e191b2d4a77")
 	)
-	(label "I2C_SDA"
+	(label "SPI_SCK2"
+		(at 26.67 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6feaa636-3fc8-4b91-b534-302f91b76e7e")
+	)
+	(label "I2C_SDA1"
 		(at 26.67 81.28 180)
 		(effects
 			(font
@@ -6778,7 +7133,17 @@
 		)
 		(uuid "7df4e4c3-0f62-4a0b-a6fc-74c96bab6328")
 	)
-	(label "SPI_SCK"
+	(label "SYSTEM_LED"
+		(at 26.67 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "85589299-03cb-4a0c-a158-6860d4ee3b8e")
+	)
+	(label "SPI_SCK2"
 		(at 190.5 50.8 0)
 		(effects
 			(font
@@ -6788,7 +7153,17 @@
 		)
 		(uuid "8983eca1-5d8e-4031-a483-2b8bef8d22b0")
 	)
-	(label "SPI_MISO"
+	(label "SPI_MOSI2"
+		(at 26.67 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a165595-0d47-411b-9329-3ba5d4b9da76")
+	)
+	(label "SPI_MISO1"
 		(at 148.59 48.26 0)
 		(effects
 			(font
@@ -6818,7 +7193,7 @@
 		)
 		(uuid "99971a0e-ed9e-42f4-8104-374faca9ca6c")
 	)
-	(label "SPI_SCK"
+	(label "SPI_SCK1"
 		(at 26.67 73.66 180)
 		(effects
 			(font
@@ -6838,7 +7213,7 @@
 		)
 		(uuid "9bd2c072-63bc-46f1-b6e0-9f0a1c1328b2")
 	)
-	(label "SPI_MOSI"
+	(label "SPI_MOSI1"
 		(at 26.67 68.58 180)
 		(effects
 			(font
@@ -6888,6 +7263,16 @@
 		)
 		(uuid "b5e7c513-58fc-4dc3-bc07-187d07123f99")
 	)
+	(label "SYSTEM_LED"
+		(at 172.72 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b7a1b7b7-05cf-4df6-b950-c936da3feb26")
+	)
 	(label "AN1"
 		(at 26.67 93.98 180)
 		(effects
@@ -6897,6 +7282,16 @@
 			(justify right bottom)
 		)
 		(uuid "be373613-ff47-4518-969d-3a275b1a7361")
+	)
+	(label "SPI_MISO2"
+		(at 26.67 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf0d6d8c-cf0a-4fe8-a2b6-3b4143bc4403")
 	)
 	(label "UART_TX2"
 		(at 26.67 88.9 180)
@@ -6908,6 +7303,16 @@
 		)
 		(uuid "c36343c6-dce2-4f54-b40f-36290ec2df41")
 	)
+	(label "I2C_SDA2"
+		(at 26.67 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c37aac4a-59da-4b5f-a78e-338af2803b1a")
+	)
 	(label "CS1"
 		(at 26.67 58.42 180)
 		(effects
@@ -6917,6 +7322,16 @@
 			(justify right bottom)
 		)
 		(uuid "c8de88bb-3b8b-4c94-9a59-03c4bf8862b3")
+	)
+	(label "AN2"
+		(at 26.67 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d307cb8e-75ad-4eb0-9992-15a68251f879")
 	)
 	(label "UART_RX1"
 		(at 26.67 86.36 180)
@@ -6958,7 +7373,7 @@
 		)
 		(uuid "e4efd815-50d6-4638-bf39-84436fe76f4a")
 	)
-	(label "I2C_SCL"
+	(label "I2C_SCL1"
 		(at 125.73 58.42 180)
 		(effects
 			(font
@@ -6978,7 +7393,7 @@
 		)
 		(uuid "e7dbe00e-62cd-49d0-ba14-ba4976455fd8")
 	)
-	(label "SPI_MISO"
+	(label "SPI_MISO2"
 		(at 190.5 48.26 0)
 		(effects
 			(font
@@ -8493,6 +8908,72 @@
 		)
 	)
 	(symbol
+		(lib_id "seven_lib:GND")
+		(at 199.39 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ffb1435-f139-4cc4-82b8-247fdf98491f")
+		(property "Reference" "#PWR024"
+			(at 199.39 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "676cbd70-edbc-4a20-bb3c-a45925c4cb58")
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "seven_lib:+5V")
 		(at 181.61 34.29 0)
 		(unit 1)
@@ -9092,6 +9573,72 @@
 			(project "seven"
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "seven_lib:+5V")
+		(at 187.96 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9318ee63-2275-432d-805b-8bf481825245")
+		(property "Reference" "#PWR023"
+			(at 187.96 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 187.96 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 187.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc3e8852-a092-43cd-8805-56a0f219af3f")
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10346,6 +10893,81 @@
 			(project "seven"
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "seven_lib:SK6805-EC15")
+		(at 180.34 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8d2b044-7cd5-45cd-8a84-c3fcb9bd6ee7")
+		(property "Reference" "D2"
+			(at 192.024 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805-EC15"
+			(at 192.532 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "seven-lib:LED_SK6805_EC15-PLCC4"
+			(at 181.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4492/Datasheet.pdf"
+			(at 182.88 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 180.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40fba611-28cb-4f42-8e57-9f28a41f1a64")
+		)
+		(pin "3"
+			(uuid "4ea2461f-77af-4a7f-9a56-982c473c633f")
+		)
+		(pin "2"
+			(uuid "2a87e84f-a029-4099-af5f-0d479dead68c")
+		)
+		(pin "4"
+			(uuid "caa7e5fb-0bc6-4585-ad0d-3777e77a1f5a")
+		)
+		(instances
+			(project ""
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
+					(reference "D2")
 					(unit 1)
 				)
 			)

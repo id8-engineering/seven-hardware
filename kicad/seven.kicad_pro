@@ -628,11 +628,11 @@
     ],
     [
       "6d67fa3a-9367-4165-80f3-5f39034a7c0b",
-      "MikroBUS Socket"
+      "MikroBUS Socket 1"
     ],
     [
-      "212f259f-7773-4a20-96f5-c599a3d0b814",
-      "Power Supply"
+      "a6d18936-8c23-4481-bbfb-aad5f65c42c8",
+      "MikroBUS Socket 2"
     ],
     [
       "184102d6-38c7-410c-9d7f-e631dd7f9fe2",
@@ -641,6 +641,10 @@
     [
       "57402695-b5b6-411c-ba67-6244479e2395",
       "System Controlled LED"
+    ],
+    [
+      "212f259f-7773-4a20-96f5-c599a3d0b814",
+      "Power Supply"
     ]
   ],
   "text_variables": {}

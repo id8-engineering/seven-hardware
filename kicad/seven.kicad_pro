@@ -649,6 +649,10 @@
     [
       "05f18bcb-1f58-4fb2-bbec-23b1ba834d60",
       "JTAG SWD"
+    ],
+    [
+      "bfb076a8-082c-4e75-8c21-42e3541223ce",
+      "UART Debugger"
     ]
   ],
   "text_variables": {}

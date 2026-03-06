@@ -2686,16 +2686,8 @@
 		(uuid "732c5e5a-bc80-4de9-a46b-626e3f0e5451")
 	)
 	(no_connect
-		(at 125.73 114.3)
-		(uuid "9862dfc0-b3ee-4a3d-a06e-e5034a50ed59")
-	)
-	(no_connect
 		(at 59.69 106.68)
 		(uuid "9ed8efac-0447-4111-94d9-16337f03bc26")
-	)
-	(no_connect
-		(at 125.73 111.76)
-		(uuid "a18b259e-31c0-45c0-b435-e229e3718e27")
 	)
 	(no_connect
 		(at 59.69 167.64)
@@ -2770,6 +2762,16 @@
 			(type default)
 		)
 		(uuid "132b3710-9741-4e5c-afcb-6b101df545b9")
+	)
+	(wire
+		(pts
+			(xy 127 111.76) (xy 125.73 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c149ce-a979-4738-9f08-ff89ef077f8c")
 	)
 	(wire
 		(pts
@@ -2970,6 +2972,16 @@
 			(type dash)
 		)
 		(uuid "b9c946c4-a4be-41c2-ae79-fe854499158d")
+	)
+	(wire
+		(pts
+			(xy 127 114.3) (xy 125.73 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfff159d-dc9c-4fc7-8027-0da113e22c43")
 	)
 	(wire
 		(pts
@@ -3193,6 +3205,17 @@
 		)
 		(uuid "5de18f4e-74fe-4929-9d85-2d391c2e67e9")
 	)
+	(hierarchical_label "UART_TX"
+		(shape input)
+		(at 127 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61c43772-ec2c-437b-ba97-24ff2c9ed528")
+	)
 	(hierarchical_label "I2C_SDA2"
 		(shape input)
 		(at 58.42 121.92 180)
@@ -3368,6 +3391,17 @@
 			(justify right)
 		)
 		(uuid "fe5d1a2a-3334-4df3-8e7c-b905a4ffe49d")
+	)
+	(hierarchical_label "UART_RX"
+		(shape input)
+		(at 127 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff8cefb4-3c49-4f4c-8e76-209615d4e2bd")
 	)
 	(symbol
 		(lib_id "seven_lib:+3V3")

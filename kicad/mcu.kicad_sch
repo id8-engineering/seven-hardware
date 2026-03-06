@@ -2678,10 +2678,6 @@
 		(uuid "62243038-657f-4c6d-823d-230347606bd6")
 	)
 	(no_connect
-		(at 125.73 152.4)
-		(uuid "67ada335-bb6e-48fa-804a-fd92368e99c4")
-	)
-	(no_connect
 		(at 59.69 162.56)
 		(uuid "6b7a2282-1c4d-4ad3-9921-5457bc871351")
 	)
@@ -2690,16 +2686,8 @@
 		(uuid "732c5e5a-bc80-4de9-a46b-626e3f0e5451")
 	)
 	(no_connect
-		(at 125.73 114.3)
-		(uuid "9862dfc0-b3ee-4a3d-a06e-e5034a50ed59")
-	)
-	(no_connect
 		(at 59.69 106.68)
 		(uuid "9ed8efac-0447-4111-94d9-16337f03bc26")
-	)
-	(no_connect
-		(at 125.73 111.76)
-		(uuid "a18b259e-31c0-45c0-b435-e229e3718e27")
 	)
 	(no_connect
 		(at 59.69 167.64)
@@ -2722,20 +2710,12 @@
 		(uuid "cef7bc63-0974-4e46-80af-541e30898a3e")
 	)
 	(no_connect
-		(at 125.73 154.94)
-		(uuid "d243d944-d310-41bf-8433-2451b8e0309d")
-	)
-	(no_connect
 		(at 125.73 119.38)
 		(uuid "d3a67312-c28f-46ec-8eac-53127e5a771b")
 	)
 	(no_connect
 		(at 59.69 137.16)
 		(uuid "e3d87b5e-8185-4e14-b766-6abe0b5b082c")
-	)
-	(no_connect
-		(at 125.73 147.32)
-		(uuid "e5afccc3-5724-40a5-a152-2fba5d64bbcf")
 	)
 	(no_connect
 		(at 125.73 68.58)
@@ -2752,6 +2732,16 @@
 	(no_connect
 		(at 125.73 137.16)
 		(uuid "fe765a28-51d3-4418-8650-9f83f8d8817e")
+	)
+	(wire
+		(pts
+			(xy 127 147.32) (xy 125.73 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09209d7c-6915-41b3-a61a-80e00b4cbef8")
 	)
 	(wire
 		(pts
@@ -2772,6 +2762,16 @@
 			(type default)
 		)
 		(uuid "132b3710-9741-4e5c-afcb-6b101df545b9")
+	)
+	(wire
+		(pts
+			(xy 127 111.76) (xy 125.73 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c149ce-a979-4738-9f08-ff89ef077f8c")
 	)
 	(wire
 		(pts
@@ -2822,6 +2822,16 @@
 			(type default)
 		)
 		(uuid "43d0f0b6-a118-446f-9c57-783129d96b88")
+	)
+	(wire
+		(pts
+			(xy 127 154.94) (xy 125.73 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57205741-fdf9-4a18-bf34-c0aee742cca5")
 	)
 	(wire
 		(pts
@@ -2943,6 +2953,16 @@
 		)
 		(uuid "b6438bcc-29b2-4782-b4fe-23d383682b7c")
 	)
+	(wire
+		(pts
+			(xy 127 152.4) (xy 125.73 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ec9d47-b49b-4e44-b282-ff63062f8d99")
+	)
 	(polyline
 		(pts
 			(xy 177.546 77.47) (xy 285.496 77.47)
@@ -2952,6 +2972,16 @@
 			(type dash)
 		)
 		(uuid "b9c946c4-a4be-41c2-ae79-fe854499158d")
+	)
+	(wire
+		(pts
+			(xy 127 114.3) (xy 125.73 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfff159d-dc9c-4fc7-8027-0da113e22c43")
 	)
 	(wire
 		(pts
@@ -3175,6 +3205,17 @@
 		)
 		(uuid "5de18f4e-74fe-4929-9d85-2d391c2e67e9")
 	)
+	(hierarchical_label "UART_TX"
+		(shape input)
+		(at 127 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61c43772-ec2c-437b-ba97-24ff2c9ed528")
+	)
 	(hierarchical_label "I2C_SDA2"
 		(shape input)
 		(at 58.42 121.92 180)
@@ -3241,6 +3282,17 @@
 		)
 		(uuid "9b541b6d-e544-4a5d-aeb1-9e27ac6f9ed0")
 	)
+	(hierarchical_label "SWCLK"
+		(shape input)
+		(at 127 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9df01b16-e5e8-4d01-8f6b-8b9536dcce6f")
+	)
 	(hierarchical_label "I2C_SCL1"
 		(shape input)
 		(at 58.42 76.2 180)
@@ -3251,6 +3303,17 @@
 			(justify right)
 		)
 		(uuid "9ebc9dc2-905a-433c-84b9-8df50cd52b75")
+	)
+	(hierarchical_label "SWDIO"
+		(shape input)
+		(at 127 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa99b99e-7d32-4da2-b3aa-a54ca75a83ae")
 	)
 	(hierarchical_label "RST2"
 		(shape input)
@@ -3285,6 +3348,17 @@
 		)
 		(uuid "c896924e-c3dc-460e-8c0a-5a30449b5efc")
 	)
+	(hierarchical_label "nRESET"
+		(shape input)
+		(at 127 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2d7b9e1-d9cb-449d-9e14-29fe09616cc1")
+	)
 	(hierarchical_label "PWN2"
 		(shape input)
 		(at 58.42 99.06 180)
@@ -3317,6 +3391,17 @@
 			(justify right)
 		)
 		(uuid "fe5d1a2a-3334-4df3-8e7c-b905a4ffe49d")
+	)
+	(hierarchical_label "UART_RX"
+		(shape input)
+		(at 127 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff8cefb4-3c49-4f4c-8e76-209615d4e2bd")
 	)
 	(symbol
 		(lib_id "seven_lib:+3V3")

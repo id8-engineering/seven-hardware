@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 0.7874,
+          "width": 0.7874
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -645,6 +645,14 @@
     [
       "212f259f-7773-4a20-96f5-c599a3d0b814",
       "Power Supply"
+    ],
+    [
+      "05f18bcb-1f58-4fb2-bbec-23b1ba834d60",
+      "JTAG SWD"
+    ],
+    [
+      "bfb076a8-082c-4e75-8c21-42e3541223ce",
+      "UART Debugger"
     ]
   ],
   "text_variables": {}

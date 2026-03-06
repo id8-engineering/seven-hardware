@@ -318,6 +318,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 58.42) (xy 78.74 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b1a0530-e7ee-474c-9b89-b7dcbeaeb7d2")
+	)
+	(wire
+		(pts
 			(xy 118.11 124.46) (xy 127 124.46)
 		)
 		(stroke
@@ -335,6 +345,16 @@
 			(type default)
 		)
 		(uuid "442a74e4-0ba8-42c5-b3c8-a8e66b0663a0")
+	)
+	(wire
+		(pts
+			(xy 90.17 58.42) (xy 90.17 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc92d04-e369-4f08-8a2c-31d7e3eb790c")
 	)
 	(wire
 		(pts
@@ -375,6 +395,16 @@
 			(type default)
 		)
 		(uuid "760e2c23-a8c2-4d44-be96-60b83e19f483")
+	)
+	(wire
+		(pts
+			(xy 76.2 58.42) (xy 76.2 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e57b274-b8e7-4ddc-bc29-07411037b9a2")
 	)
 	(wire
 		(pts
@@ -425,6 +455,16 @@
 			(type default)
 		)
 		(uuid "9e3f6b9e-3110-4ae6-9a76-7985e164eea5")
+	)
+	(wire
+		(pts
+			(xy 73.66 58.42) (xy 73.66 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa62f4e9-9dc8-4f1a-a6a4-b9ec7d06a2f0")
 	)
 	(wire
 		(pts
@@ -505,6 +545,16 @@
 			(type default)
 		)
 		(uuid "e6a0897a-f7f5-4520-80cc-7052f8fcacbc")
+	)
+	(wire
+		(pts
+			(xy 92.71 58.42) (xy 92.71 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7b5ca36-c339-4806-96e6-a54531cba4ff")
 	)
 	(wire
 		(pts
@@ -653,6 +703,77 @@
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
 					(reference "#PWR038")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 72.39 50.8)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "05f18bcb-1f58-4fb2-bbec-23b1ba834d60")
+		(property "Sheetname" "JTAG SWD"
+			(at 72.136 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "JTAG.kicad_sch"
+			(at 85.852 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SWCLK" input
+			(at 73.66 58.42 270)
+			(uuid "e1856ebe-0356-4a76-8bd1-b5013d098b42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWDIO" input
+			(at 76.2 58.42 270)
+			(uuid "79e2b45a-b870-4167-a421-82ddeb9e2bbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "nRESET" input
+			(at 78.74 58.42 270)
+			(uuid "fcaf35a9-5b90-473c-9d70-f493267077af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
+					(page "8")
 				)
 			)
 		)
@@ -1136,13 +1257,73 @@
 		)
 	)
 	(sheet
+		(at 88.9 50.8)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bfb076a8-082c-4e75-8c21-42e3541223ce")
+		(property "Sheetname" "UART Debugger"
+			(at 88.646 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "uart_debugger.kicad_sch"
+			(at 103.632 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "UART_TX" input
+			(at 90.17 58.42 270)
+			(uuid "459f4849-82c3-4841-b642-2af2c2201b44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_RX" input
+			(at 92.71 58.42 270)
+			(uuid "fb2ecbba-1518-4a48-87d1-a6a0ab2e7b6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 72.39 64.77)
 		(size 45.72 81.28)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1152,7 +1333,7 @@
 		)
 		(uuid "cf07285a-6c1b-4971-a8bc-a281923e473a")
 		(property "Sheetname" "MCU"
-			(at 72.39 64.0584 0)
+			(at 92.964 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1412,6 +1593,56 @@
 		(pin "SYSTEM_LED" input
 			(at 118.11 143.51 0)
 			(uuid "98c93a6f-cdaa-4346-846e-e24cb60f2a78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRESET" input
+			(at 78.74 64.77 90)
+			(uuid "30d8fa65-ea6f-4de2-a3ba-214b4bec6acf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWCLK" input
+			(at 73.66 64.77 90)
+			(uuid "2d7679f3-b2de-466f-bb08-626f4f6fbec3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWDIO" input
+			(at 76.2 64.77 90)
+			(uuid "d86fab25-23fa-4d1c-8c3c-1c3d55c68cfc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_RX" input
+			(at 92.71 64.77 90)
+			(uuid "2d053f05-f13c-4442-af25-f97548623639")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_TX" input
+			(at 90.17 64.77 90)
+			(uuid "2350890f-c3b5-44bd-9e55-260115e5fa14")
 			(effects
 				(font
 					(size 1.27 1.27)

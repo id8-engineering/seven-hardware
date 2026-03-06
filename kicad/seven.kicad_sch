@@ -398,7 +398,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 146.05) (xy 127 146.05)
+			(xy 118.11 143.51) (xy 127 143.51)
 		)
 		(stroke
 			(width 0)
@@ -658,7 +658,7 @@
 		)
 	)
 	(sheet
-		(at 127 134.62)
+		(at 127 132.08)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -674,7 +674,7 @@
 		)
 		(uuid "184102d6-38c7-410c-9d7f-e631dd7f9fe2")
 		(property "Sheetname" "Power LED"
-			(at 127 133.9084 0)
+			(at 127 131.3684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -683,7 +683,7 @@
 			)
 		)
 		(property "Sheetfile" "power_LED.kicad_sch"
-			(at 127 139.0146 0)
+			(at 127 136.4746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -756,13 +756,13 @@
 		(instances
 			(project "seven"
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
-					(page "4")
+					(page "7")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 127 144.78)
+		(at 127 142.24)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -778,7 +778,7 @@
 		)
 		(uuid "57402695-b5b6-411c-ba67-6244479e2395")
 		(property "Sheetname" "System Controlled LED"
-			(at 127 144.0684 0)
+			(at 127 141.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -787,7 +787,7 @@
 			)
 		)
 		(property "Sheetfile" "system_LED.kicad_sch"
-			(at 127 149.1746 0)
+			(at 127 146.6346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -796,7 +796,7 @@
 			)
 		)
 		(pin "SYSTEM_LED" input
-			(at 127 146.05 180)
+			(at 127 143.51 180)
 			(uuid "032e85e7-d8fe-47b2-bf41-07c5e3b9e1c7")
 			(effects
 				(font
@@ -815,12 +815,11 @@
 	)
 	(sheet
 		(at 127 64.77)
-		(size 38.1 63.5)
+		(size 12.7 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -829,8 +828,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "6d67fa3a-9367-4165-80f3-5f39034a7c0b")
-		(property "Sheetname" "MikroBUS Socket"
-			(at 127 64.0584 0)
+		(property "Sheetname" "MikroBUS Socket 1"
+			(at 142.24 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -838,8 +837,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "mikroBUS.kicad_sch"
-			(at 127 128.8546 0)
+		(property "Sheetfile" "mikroBUS_1.kicad_sch"
+			(at 143.51 92.202 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -967,49 +966,50 @@
 				(justify left)
 			)
 		)
-		(pin "AN2" input
-			(at 127 104.14 180)
-			(uuid "a51e45b7-8594-425c-b97c-67f72da9e53d")
-			(effects
-				(font
-					(size 1.27 1.27)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
+					(page "3")
 				)
-				(justify left)
 			)
 		)
-		(pin "UART_RX2" input
-			(at 127 124.46 180)
-			(uuid "2c7f9f33-edaa-4181-8bb1-578ba8781199")
+	)
+	(sheet
+		(at 127 97.79)
+		(size 12.7 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a6d18936-8c23-4481-bbfb-aad5f65c42c8")
+		(property "Sheetname" "MikroBUS Socket 2"
+			(at 142.494 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mikroBUS_2.kicad_sch"
+			(at 143.51 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 		(pin "SPI_SCK2" input
 			(at 127 116.84 180)
-			(uuid "2dc954c0-b94a-4261-925c-765a658ba86a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "INT2" input
-			(at 127 109.22 180)
-			(uuid "7138e730-bd85-44c7-920e-8de9f18094ab")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI_MISO2" input
-			(at 127 111.76 180)
-			(uuid "2a73255f-ed4c-42fa-a4ce-f49c20bf053a")
+			(uuid "43583b71-f3e0-43d2-ab98-e696500fdaa5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1019,7 +1019,17 @@
 		)
 		(pin "SPI_MOSI2" input
 			(at 127 114.3 180)
-			(uuid "6bb36cb1-3a7e-444e-ba99-206dfa200505")
+			(uuid "c7815a5f-abbb-49fa-95ae-eac2b930a547")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_MISO2" input
+			(at 127 111.76 180)
+			(uuid "f4a8e8d0-0897-457f-8d9d-3c8f515e73f0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1029,7 +1039,7 @@
 		)
 		(pin "I2C_SCL2" input
 			(at 127 121.92 180)
-			(uuid "c8852e98-833c-4f01-b42d-936d95ac7b2b")
+			(uuid "7116a2e3-49d5-4995-9753-b0d4446bb0f4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1037,19 +1047,9 @@
 				(justify left)
 			)
 		)
-		(pin "RST2" input
-			(at 127 99.06 180)
-			(uuid "ddd0994f-91a7-4447-bc99-1f59687f4f70")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CS2" input
-			(at 127 106.68 180)
-			(uuid "50dc35ac-1941-48f1-b313-e89664605777")
+		(pin "UART_RX2" input
+			(at 127 124.46 180)
+			(uuid "0801d157-ee12-4373-91d9-7315feb91ac5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1059,17 +1059,7 @@
 		)
 		(pin "I2C_SDA2" input
 			(at 127 119.38 180)
-			(uuid "ef7ff645-a29b-4572-b5dd-51715f32dcb1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "UART_TX2" input
-			(at 127 127 180)
-			(uuid "ed5cff13-f066-4b77-83a1-ca2704255339")
+			(uuid "3c703779-d534-48b1-8857-6f895161029d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1079,7 +1069,57 @@
 		)
 		(pin "PWM2" input
 			(at 127 101.6 180)
-			(uuid "9872ef9c-33d0-4965-87b4-9e87643e62dd")
+			(uuid "660d30d7-7457-4b90-b71b-620103c8a608")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT2" input
+			(at 127 109.22 180)
+			(uuid "41d98497-e3a2-4273-bae0-707695841589")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS2" input
+			(at 127 106.68 180)
+			(uuid "f5f05184-35eb-4dd5-97b4-4f513cb158c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RST2" input
+			(at 127 99.06 180)
+			(uuid "e9cd272e-6ac9-469f-a1b5-8ccbcf5b32d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_TX2" input
+			(at 127 127 180)
+			(uuid "0376f280-dd5f-41cc-8723-b13bac489743")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AN2" input
+			(at 127 104.14 180)
+			(uuid "93d5d2e6-cf0d-45a5-8727-fde4ff287428")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1090,14 +1130,14 @@
 		(instances
 			(project "seven"
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
-					(page "3")
+					(page "4")
 				)
 			)
 		)
 	)
 	(sheet
 		(at 72.39 64.77)
-		(size 45.72 83.82)
+		(size 45.72 81.28)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1121,7 +1161,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 72.39 149.1746 0)
+			(at 72.39 146.6346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1370,7 +1410,7 @@
 			)
 		)
 		(pin "SYSTEM_LED" input
-			(at 118.11 146.05 0)
+			(at 118.11 143.51 0)
 			(uuid "98c93a6f-cdaa-4346-846e-e24cb60f2a78")
 			(effects
 				(font

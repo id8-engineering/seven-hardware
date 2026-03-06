@@ -2678,10 +2678,6 @@
 		(uuid "62243038-657f-4c6d-823d-230347606bd6")
 	)
 	(no_connect
-		(at 125.73 152.4)
-		(uuid "67ada335-bb6e-48fa-804a-fd92368e99c4")
-	)
-	(no_connect
 		(at 59.69 162.56)
 		(uuid "6b7a2282-1c4d-4ad3-9921-5457bc871351")
 	)
@@ -2722,20 +2718,12 @@
 		(uuid "cef7bc63-0974-4e46-80af-541e30898a3e")
 	)
 	(no_connect
-		(at 125.73 154.94)
-		(uuid "d243d944-d310-41bf-8433-2451b8e0309d")
-	)
-	(no_connect
 		(at 125.73 119.38)
 		(uuid "d3a67312-c28f-46ec-8eac-53127e5a771b")
 	)
 	(no_connect
 		(at 59.69 137.16)
 		(uuid "e3d87b5e-8185-4e14-b766-6abe0b5b082c")
-	)
-	(no_connect
-		(at 125.73 147.32)
-		(uuid "e5afccc3-5724-40a5-a152-2fba5d64bbcf")
 	)
 	(no_connect
 		(at 125.73 68.58)
@@ -2752,6 +2740,16 @@
 	(no_connect
 		(at 125.73 137.16)
 		(uuid "fe765a28-51d3-4418-8650-9f83f8d8817e")
+	)
+	(wire
+		(pts
+			(xy 127 147.32) (xy 125.73 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09209d7c-6915-41b3-a61a-80e00b4cbef8")
 	)
 	(wire
 		(pts
@@ -2822,6 +2820,16 @@
 			(type default)
 		)
 		(uuid "43d0f0b6-a118-446f-9c57-783129d96b88")
+	)
+	(wire
+		(pts
+			(xy 127 154.94) (xy 125.73 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57205741-fdf9-4a18-bf34-c0aee742cca5")
 	)
 	(wire
 		(pts
@@ -2942,6 +2950,16 @@
 			(type default)
 		)
 		(uuid "b6438bcc-29b2-4782-b4fe-23d383682b7c")
+	)
+	(wire
+		(pts
+			(xy 127 152.4) (xy 125.73 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ec9d47-b49b-4e44-b282-ff63062f8d99")
 	)
 	(polyline
 		(pts
@@ -3241,6 +3259,17 @@
 		)
 		(uuid "9b541b6d-e544-4a5d-aeb1-9e27ac6f9ed0")
 	)
+	(hierarchical_label "SWCLK"
+		(shape input)
+		(at 127 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9df01b16-e5e8-4d01-8f6b-8b9536dcce6f")
+	)
 	(hierarchical_label "I2C_SCL1"
 		(shape input)
 		(at 58.42 76.2 180)
@@ -3251,6 +3280,17 @@
 			(justify right)
 		)
 		(uuid "9ebc9dc2-905a-433c-84b9-8df50cd52b75")
+	)
+	(hierarchical_label "SWDIO"
+		(shape input)
+		(at 127 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa99b99e-7d32-4da2-b3aa-a54ca75a83ae")
 	)
 	(hierarchical_label "RST2"
 		(shape input)
@@ -3284,6 +3324,17 @@
 			(justify right)
 		)
 		(uuid "c896924e-c3dc-460e-8c0a-5a30449b5efc")
+	)
+	(hierarchical_label "nRESET"
+		(shape input)
+		(at 127 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2d7b9e1-d9cb-449d-9e14-29fe09616cc1")
 	)
 	(hierarchical_label "PWN2"
 		(shape input)

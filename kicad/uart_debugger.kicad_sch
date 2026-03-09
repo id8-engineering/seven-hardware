@@ -435,7 +435,7 @@
 		(uuid "b6b8ef39-4cfc-4c69-92c2-2ff771727880")
 	)
 	(hierarchical_label "UART_TX"
-		(shape input)
+		(shape output)
 		(at 83.82 91.44 180)
 		(effects
 			(font

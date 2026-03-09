@@ -1589,7 +1589,7 @@
 		(uuid "06f24393-c723-419c-bc19-231b1a7d61f5")
 	)
 	(hierarchical_label "SIM_IO"
-		(shape input)
+		(shape bidirectional)
 		(at 49.53 83.82 180)
 		(effects
 			(font

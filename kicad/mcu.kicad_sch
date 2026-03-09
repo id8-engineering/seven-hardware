@@ -3116,7 +3116,7 @@
 		(uuid "faf195af-e363-4672-8ee2-91f354dc5f7c")
 	)
 	(hierarchical_label "SPI_SCK2"
-		(shape input)
+		(shape output)
 		(at 58.42 116.84 180)
 		(effects
 			(font
@@ -3160,7 +3160,7 @@
 		(uuid "204d1b61-28db-435a-a47b-48fbcd57c3ce")
 	)
 	(hierarchical_label "SPI_MOSI1"
-		(shape input)
+		(shape output)
 		(at 58.42 66.04 180)
 		(effects
 			(font
@@ -3171,7 +3171,7 @@
 		(uuid "22529834-6e71-44e3-8946-89fa35873ba7")
 	)
 	(hierarchical_label "SIM_CLK"
-		(shape input)
+		(shape output)
 		(at 58.42 147.32 180)
 		(effects
 			(font
@@ -3193,7 +3193,7 @@
 		(uuid "250a866d-68cb-407d-b880-d97052dedf2d")
 	)
 	(hierarchical_label "SPI_MOSI2"
-		(shape input)
+		(shape output)
 		(at 58.42 111.76 180)
 		(effects
 			(font
@@ -3204,7 +3204,7 @@
 		(uuid "3350b8e9-a7da-4b11-9ac9-8cbc81687488")
 	)
 	(hierarchical_label "SIM_1V8"
-		(shape input)
+		(shape output)
 		(at 97.79 31.75 90)
 		(effects
 			(font
@@ -3215,7 +3215,7 @@
 		(uuid "42419952-bf03-444c-bdfb-b4cf3527a633")
 	)
 	(hierarchical_label "SIM_RST"
-		(shape input)
+		(shape output)
 		(at 58.42 152.4 180)
 		(effects
 			(font
@@ -3226,7 +3226,7 @@
 		(uuid "4e14d332-1395-40da-b939-59ea4aa82e6e")
 	)
 	(hierarchical_label "I2C_SCL2"
-		(shape input)
+		(shape output)
 		(at 58.42 119.38 180)
 		(effects
 			(font
@@ -3248,7 +3248,7 @@
 		(uuid "512f54b1-e9d3-458e-a56c-6c074e3c7c3f")
 	)
 	(hierarchical_label "PWM1"
-		(shape input)
+		(shape output)
 		(at 58.42 63.5 180)
 		(effects
 			(font
@@ -3259,7 +3259,7 @@
 		(uuid "5d28fcd6-5bf2-4805-93cf-cf2cacfd6fd1")
 	)
 	(hierarchical_label "SYSTEM_LED"
-		(shape input)
+		(shape output)
 		(at 58.42 101.6 180)
 		(effects
 			(font
@@ -3270,7 +3270,7 @@
 		(uuid "5dc07629-1110-40a6-bc41-8f5ae97980a9")
 	)
 	(hierarchical_label "CS2"
-		(shape input)
+		(shape output)
 		(at 58.42 73.66 180)
 		(effects
 			(font
@@ -3281,7 +3281,7 @@
 		(uuid "5de18f4e-74fe-4929-9d85-2d391c2e67e9")
 	)
 	(hierarchical_label "UART_TX"
-		(shape input)
+		(shape output)
 		(at 127 114.3 0)
 		(effects
 			(font
@@ -3292,7 +3292,7 @@
 		(uuid "61c43772-ec2c-437b-ba97-24ff2c9ed528")
 	)
 	(hierarchical_label "I2C_SDA2"
-		(shape input)
+		(shape bidirectional)
 		(at 58.42 121.92 180)
 		(effects
 			(font
@@ -3314,7 +3314,7 @@
 		(uuid "6d302333-e207-4882-aaa6-aad1aed65dfc")
 	)
 	(hierarchical_label "UART_TX2"
-		(shape input)
+		(shape output)
 		(at 58.42 86.36 180)
 		(effects
 			(font
@@ -3325,7 +3325,7 @@
 		(uuid "7ce758bd-5012-4013-9757-e94424653387")
 	)
 	(hierarchical_label "RST1"
-		(shape input)
+		(shape output)
 		(at 58.42 60.96 180)
 		(effects
 			(font
@@ -3347,7 +3347,7 @@
 		(uuid "99e4858a-6522-4a5f-82ae-abb7baf3c64b")
 	)
 	(hierarchical_label "CS1"
-		(shape input)
+		(shape output)
 		(at 58.42 55.88 180)
 		(effects
 			(font
@@ -3369,7 +3369,7 @@
 		(uuid "9df01b16-e5e8-4d01-8f6b-8b9536dcce6f")
 	)
 	(hierarchical_label "I2C_SCL1"
-		(shape input)
+		(shape output)
 		(at 58.42 76.2 180)
 		(effects
 			(font
@@ -3380,7 +3380,7 @@
 		(uuid "9ebc9dc2-905a-433c-84b9-8df50cd52b75")
 	)
 	(hierarchical_label "SWDIO"
-		(shape input)
+		(shape bidirectional)
 		(at 127 154.94 0)
 		(effects
 			(font
@@ -3391,7 +3391,7 @@
 		(uuid "aa99b99e-7d32-4da2-b3aa-a54ca75a83ae")
 	)
 	(hierarchical_label "BUZZER"
-		(shape input)
+		(shape output)
 		(at 58.42 104.14 180)
 		(effects
 			(font
@@ -3402,7 +3402,7 @@
 		(uuid "b3943ecf-30db-4395-a9df-52d84a97bab5")
 	)
 	(hierarchical_label "RST2"
-		(shape input)
+		(shape output)
 		(at 58.42 96.52 180)
 		(effects
 			(font
@@ -3424,7 +3424,7 @@
 		(uuid "b88d7bdf-2830-4a76-afe7-ad9c447e5bc0")
 	)
 	(hierarchical_label "I2C_SDA1"
-		(shape input)
+		(shape bidirectional)
 		(at 58.42 78.74 180)
 		(effects
 			(font
@@ -3446,7 +3446,7 @@
 		(uuid "e2d7b9e1-d9cb-449d-9e14-29fe09616cc1")
 	)
 	(hierarchical_label "PWN2"
-		(shape input)
+		(shape output)
 		(at 58.42 99.06 180)
 		(effects
 			(font
@@ -3457,7 +3457,7 @@
 		(uuid "e732d792-f9ff-4222-8356-53361519d764")
 	)
 	(hierarchical_label "SPI_SCK1"
-		(shape input)
+		(shape output)
 		(at 58.42 71.12 180)
 		(effects
 			(font
@@ -3468,7 +3468,7 @@
 		(uuid "e8b0e6ce-0e4c-4efd-ae5f-bef20c3b75b1")
 	)
 	(hierarchical_label "SIM_IO"
-		(shape input)
+		(shape bidirectional)
 		(at 58.42 149.86 180)
 		(effects
 			(font
@@ -3479,7 +3479,7 @@
 		(uuid "f33c836f-2726-4da9-82b6-aeb9c825477f")
 	)
 	(hierarchical_label "UART_TX1"
-		(shape input)
+		(shape output)
 		(at 58.42 81.28 180)
 		(effects
 			(font

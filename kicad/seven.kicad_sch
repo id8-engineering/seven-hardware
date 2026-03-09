@@ -816,7 +816,7 @@
 				(justify left top)
 			)
 		)
-		(pin "SWCLK" input
+		(pin "SWCLK" output
 			(at 73.66 71.12 270)
 			(uuid "e1856ebe-0356-4a76-8bd1-b5013d098b42")
 			(effects
@@ -826,7 +826,7 @@
 				(justify left)
 			)
 		)
-		(pin "SWDIO" input
+		(pin "SWDIO" bidirectional
 			(at 71.12 71.12 270)
 			(uuid "79e2b45a-b870-4167-a421-82ddeb9e2bbb")
 			(effects
@@ -836,7 +836,7 @@
 				(justify left)
 			)
 		)
-		(pin "nRESET" input
+		(pin "nRESET" output
 			(at 68.58 71.12 270)
 			(uuid "fcaf35a9-5b90-473c-9d70-f493267077af")
 			(effects
@@ -930,7 +930,7 @@
 				(justify left top)
 			)
 		)
-		(pin "+3V3" input
+		(pin "+3V3" output
 			(at 87.63 43.18 0)
 			(uuid "5fab1806-afdb-489f-8366-df55cb60ed1a")
 			(effects
@@ -940,7 +940,7 @@
 				(justify right)
 			)
 		)
-		(pin "+5V" input
+		(pin "+5V" output
 			(at 87.63 36.83 0)
 			(uuid "86fd8b39-85f7-40ac-8c46-172cee1b38ec")
 			(effects
@@ -1114,7 +1114,7 @@
 				(justify left)
 			)
 		)
-		(pin "AN1" input
+		(pin "AN1" output
 			(at 121.92 83.82 180)
 			(uuid "cdf40ab8-2dda-487f-bb10-33ccef6d151b")
 			(effects
@@ -1124,7 +1124,7 @@
 				(justify left)
 			)
 		)
-		(pin "SPI_MISO1" input
+		(pin "SPI_MISO1" output
 			(at 121.92 91.44 180)
 			(uuid "938f034c-96d9-436f-8de6-cbee78a54b81")
 			(effects
@@ -1154,7 +1154,7 @@
 				(justify left)
 			)
 		)
-		(pin "I2C_SDA1" input
+		(pin "I2C_SDA1" bidirectional
 			(at 121.92 99.06 180)
 			(uuid "e145f95d-f7d6-4c60-a2b0-75d046a19545")
 			(effects
@@ -1184,7 +1184,7 @@
 				(justify left)
 			)
 		)
-		(pin "UART_RX1" input
+		(pin "UART_RX1" output
 			(at 121.92 104.14 180)
 			(uuid "8af1cd03-52c8-41f9-8885-3778c89fe748")
 			(effects
@@ -1194,7 +1194,7 @@
 				(justify left)
 			)
 		)
-		(pin "INT1" input
+		(pin "INT1" output
 			(at 121.92 88.9 180)
 			(uuid "7d4009b7-86cf-4dc1-83ad-0271ad64645b")
 			(effects
@@ -1275,7 +1275,7 @@
 				(justify left)
 			)
 		)
-		(pin "SPI_MISO2" input
+		(pin "SPI_MISO2" output
 			(at 121.92 124.46 180)
 			(uuid "f4a8e8d0-0897-457f-8d9d-3c8f515e73f0")
 			(effects
@@ -1295,7 +1295,7 @@
 				(justify left)
 			)
 		)
-		(pin "UART_RX2" input
+		(pin "UART_RX2" output
 			(at 121.92 137.16 180)
 			(uuid "0801d157-ee12-4373-91d9-7315feb91ac5")
 			(effects
@@ -1305,7 +1305,7 @@
 				(justify left)
 			)
 		)
-		(pin "I2C_SDA2" input
+		(pin "I2C_SDA2" bidirectional
 			(at 121.92 132.08 180)
 			(uuid "3c703779-d534-48b1-8857-6f895161029d")
 			(effects
@@ -1325,7 +1325,7 @@
 				(justify left)
 			)
 		)
-		(pin "INT2" input
+		(pin "INT2" output
 			(at 121.92 121.92 180)
 			(uuid "41d98497-e3a2-4273-bae0-707695841589")
 			(effects
@@ -1365,7 +1365,7 @@
 				(justify left)
 			)
 		)
-		(pin "AN2" input
+		(pin "AN2" output
 			(at 121.92 116.84 180)
 			(uuid "93d5d2e6-cf0d-45a5-8727-fde4ff287428")
 			(effects
@@ -1426,7 +1426,7 @@
 				(justify left)
 			)
 		)
-		(pin "UART_RX" input
+		(pin "UART_RX" output
 			(at 87.63 71.12 270)
 			(uuid "fb2ecbba-1518-4a48-87d1-a6a0ab2e7b6e")
 			(effects
@@ -1477,7 +1477,7 @@
 				(justify left top)
 			)
 		)
-		(pin "I2C_SCL2" input
+		(pin "I2C_SCL2" output
 			(at 113.03 134.62 0)
 			(uuid "e83ffe62-9629-486e-bd10-abc18fe34ed7")
 			(effects
@@ -1487,7 +1487,7 @@
 				(justify right)
 			)
 		)
-		(pin "PWN2" input
+		(pin "PWN2" output
 			(at 113.03 114.3 0)
 			(uuid "3816d58f-cbd4-47f5-ae9f-6d2dc860b65e")
 			(effects
@@ -1507,7 +1507,7 @@
 				(justify right)
 			)
 		)
-		(pin "SPI_MOSI1" input
+		(pin "SPI_MOSI1" output
 			(at 113.03 93.98 0)
 			(uuid "5aa3ee6b-6cf7-4448-90b4-1cc774684305")
 			(effects
@@ -1517,7 +1517,7 @@
 				(justify right)
 			)
 		)
-		(pin "CS2" input
+		(pin "CS2" output
 			(at 113.03 119.38 0)
 			(uuid "a9d8779d-ff28-4aba-b35f-83456433cb2d")
 			(effects
@@ -1527,7 +1527,7 @@
 				(justify right)
 			)
 		)
-		(pin "SPI_SCK2" input
+		(pin "SPI_SCK2" output
 			(at 113.03 129.54 0)
 			(uuid "b328dcad-316a-4531-b42d-6d57ebf8b480")
 			(effects
@@ -1537,7 +1537,7 @@
 				(justify right)
 			)
 		)
-		(pin "SPI_MOSI2" input
+		(pin "SPI_MOSI2" output
 			(at 113.03 127 0)
 			(uuid "7f93256e-d06a-41f8-96fa-257bde420fb4")
 			(effects
@@ -1557,7 +1557,7 @@
 				(justify right)
 			)
 		)
-		(pin "I2C_SDA1" input
+		(pin "I2C_SDA1" bidirectional
 			(at 113.03 99.06 0)
 			(uuid "35b9aaf9-3170-4497-9e87-978e06dbfdd8")
 			(effects
@@ -1567,7 +1567,7 @@
 				(justify right)
 			)
 		)
-		(pin "I2C_SDA2" input
+		(pin "I2C_SDA2" bidirectional
 			(at 113.03 132.08 0)
 			(uuid "864cdcc7-20e6-4eb2-8a11-cea154bdc70a")
 			(effects
@@ -1587,7 +1587,7 @@
 				(justify right)
 			)
 		)
-		(pin "SPI_SCK1" input
+		(pin "SPI_SCK1" output
 			(at 113.03 96.52 0)
 			(uuid "1595c76e-ae9c-4ddb-b23b-83b9ac631fbf")
 			(effects
@@ -1607,7 +1607,7 @@
 				(justify right)
 			)
 		)
-		(pin "I2C_SCL1" input
+		(pin "I2C_SCL1" output
 			(at 113.03 101.6 0)
 			(uuid "7deba312-fe26-4f64-be62-be54d5b42041")
 			(effects
@@ -1647,7 +1647,7 @@
 				(justify right)
 			)
 		)
-		(pin "PWM1" input
+		(pin "PWM1" output
 			(at 113.03 81.28 0)
 			(uuid "f553b31e-84a9-4956-82dd-b4b6e25ea735")
 			(effects
@@ -1657,7 +1657,7 @@
 				(justify right)
 			)
 		)
-		(pin "RST1" input
+		(pin "RST1" output
 			(at 113.03 78.74 0)
 			(uuid "00119f49-3f77-4e79-8465-c8c119d5adc1")
 			(effects
@@ -1667,7 +1667,7 @@
 				(justify right)
 			)
 		)
-		(pin "UART_TX1" input
+		(pin "UART_TX1" output
 			(at 113.03 106.68 0)
 			(uuid "5ae273fa-05c4-4ea9-ab37-8422faaca1aa")
 			(effects
@@ -1687,7 +1687,7 @@
 				(justify right)
 			)
 		)
-		(pin "CS1" input
+		(pin "CS1" output
 			(at 113.03 86.36 0)
 			(uuid "49c3745b-26d7-4d93-915c-7830e968eb62")
 			(effects
@@ -1697,7 +1697,7 @@
 				(justify right)
 			)
 		)
-		(pin "UART_TX2" input
+		(pin "UART_TX2" output
 			(at 113.03 139.7 0)
 			(uuid "dcf2c644-b6f1-416e-8d54-452a39e5d21c")
 			(effects
@@ -1707,7 +1707,7 @@
 				(justify right)
 			)
 		)
-		(pin "RST2" input
+		(pin "RST2" output
 			(at 113.03 111.76 0)
 			(uuid "bed71267-5f06-4a3e-b8c1-0cf1816bc07f")
 			(effects
@@ -1717,7 +1717,7 @@
 				(justify right)
 			)
 		)
-		(pin "SYSTEM_LED" input
+		(pin "SYSTEM_LED" output
 			(at 113.03 156.21 0)
 			(uuid "98c93a6f-cdaa-4346-846e-e24cb60f2a78")
 			(effects
@@ -1747,7 +1747,7 @@
 				(justify right)
 			)
 		)
-		(pin "SWDIO" input
+		(pin "SWDIO" bidirectional
 			(at 71.12 77.47 90)
 			(uuid "d86fab25-23fa-4d1c-8c3c-1c3d55c68cfc")
 			(effects
@@ -1767,7 +1767,7 @@
 				(justify right)
 			)
 		)
-		(pin "UART_TX" input
+		(pin "UART_TX" output
 			(at 85.09 77.47 90)
 			(uuid "2350890f-c3b5-44bd-9e55-260115e5fa14")
 			(effects
@@ -1777,7 +1777,7 @@
 				(justify right)
 			)
 		)
-		(pin "BUZZER" input
+		(pin "BUZZER" output
 			(at 67.31 88.9 180)
 			(uuid "544a5769-5d25-4fa1-9665-d937f5415871")
 			(effects
@@ -1787,7 +1787,7 @@
 				(justify left)
 			)
 		)
-		(pin "SIM_RST" input
+		(pin "SIM_RST" output
 			(at 67.31 100.33 180)
 			(uuid "44066a26-4050-473d-8c5d-8f5000eec6c8")
 			(effects
@@ -1797,7 +1797,7 @@
 				(justify left)
 			)
 		)
-		(pin "SIM_CLK" input
+		(pin "SIM_CLK" output
 			(at 67.31 102.87 180)
 			(uuid "7b029f48-4ac1-4e45-afa9-6b790d53e328")
 			(effects
@@ -1807,7 +1807,7 @@
 				(justify left)
 			)
 		)
-		(pin "SIM_1V8" input
+		(pin "SIM_1V8" output
 			(at 67.31 105.41 180)
 			(uuid "d55da262-55e9-4222-82a1-42704a4d14d8")
 			(effects
@@ -1817,7 +1817,7 @@
 				(justify left)
 			)
 		)
-		(pin "SIM_IO" input
+		(pin "SIM_IO" bidirectional
 			(at 67.31 107.95 180)
 			(uuid "282d118b-b747-4632-bdcd-f11a2285b412")
 			(effects
@@ -1889,7 +1889,7 @@
 				(justify right)
 			)
 		)
-		(pin "SIM_IO" input
+		(pin "SIM_IO" bidirectional
 			(at 60.96 107.95 0)
 			(uuid "f3f40dbe-eabe-4e8b-9e5d-7c97f18757fa")
 			(effects
@@ -1950,7 +1950,7 @@
 				(justify left top)
 			)
 		)
-		(pin "nRESET" input
+		(pin "nRESET" output
 			(at 60.96 73.66 0)
 			(uuid "0d9931bd-0724-4957-9be8-73bf04c09f7c")
 			(effects

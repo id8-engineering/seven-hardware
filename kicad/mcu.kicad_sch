@@ -2726,10 +2726,6 @@
 		(uuid "f0343796-38ef-49c3-a627-91c1c26f9959")
 	)
 	(no_connect
-		(at 59.69 104.14)
-		(uuid "fa4177ed-28f3-410c-b77b-5268b1967caa")
-	)
-	(no_connect
 		(at 125.73 137.16)
 		(uuid "fe765a28-51d3-4418-8650-9f83f8d8817e")
 	)
@@ -2822,6 +2818,16 @@
 			(type default)
 		)
 		(uuid "43d0f0b6-a118-446f-9c57-783129d96b88")
+	)
+	(wire
+		(pts
+			(xy 58.42 104.14) (xy 59.69 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c9724d6-9df5-4e70-bc4e-db468431d00e")
 	)
 	(wire
 		(pts
@@ -3314,6 +3320,17 @@
 			(justify left)
 		)
 		(uuid "aa99b99e-7d32-4da2-b3aa-a54ca75a83ae")
+	)
+	(hierarchical_label "BUZZER"
+		(shape input)
+		(at 58.42 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3943ecf-30db-4395-a9df-52d84a97bab5")
 	)
 	(hierarchical_label "RST2"
 		(shape input)

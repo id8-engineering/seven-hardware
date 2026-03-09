@@ -384,6 +384,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 76.2) (xy 72.39 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "683daf95-8f78-496f-b91a-ccba4725e694")
+	)
+	(wire
+		(pts
 			(xy 118.11 76.2) (xy 127 76.2)
 		)
 		(stroke
@@ -904,6 +914,57 @@
 			(project "seven"
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 73.66)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3959a5c9-da67-4dbd-8c3b-230c0962e71e")
+		(property "Sheetname" "Buzzer"
+			(at 53.34 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buzzer.kicad_sch"
+			(at 48.514 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BUZZER" input
+			(at 66.04 76.2 0)
+			(uuid "f5e1f1bb-4247-4525-bc8f-05cd91cf50ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
+					(page "11")
 				)
 			)
 		)
@@ -1674,6 +1735,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "BUZZER" input
+			(at 72.39 76.2 180)
+			(uuid "544a5769-5d25-4fa1-9665-d937f5415871")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

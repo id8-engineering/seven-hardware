@@ -657,6 +657,10 @@
     [
       "fcef6494-c0b2-4cc5-a2e1-aeb845f0853f",
       "Reset Button"
+    ],
+    [
+      "3959a5c9-da67-4dbd-8c3b-230c0962e71e",
+      "Buzzer"
     ]
   ],
   "text_variables": {}

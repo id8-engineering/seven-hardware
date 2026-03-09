@@ -1173,7 +1173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
 			(at 86.36 92.71 0)
 			(effects
 				(font

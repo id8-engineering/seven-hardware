@@ -284,6 +284,26 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 139.7) (xy 121.92 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b450395-c4a5-4f07-b68b-a7a593875c1e")
+	)
+	(wire
+		(pts
+			(xy 113.03 137.16) (xy 121.92 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b8448c6-03f3-4d98-be3b-8e9f1473e359")
+	)
+	(wire
+		(pts
 			(xy 68.58 73.66) (xy 68.58 77.47)
 		)
 		(stroke
@@ -311,6 +331,16 @@
 			(type default)
 		)
 		(uuid "31fa5890-71a0-4d0f-bc62-c32e55c1bfc3")
+	)
+	(wire
+		(pts
+			(xy 113.03 104.14) (xy 121.92 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "326d7dc0-f98b-4b08-826b-b13f7a60e145")
 	)
 	(wire
 		(pts
@@ -344,16 +374,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 137.16) (xy 121.92 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40f5f018-ce2b-428e-829c-58926d36c593")
-	)
-	(wire
-		(pts
 			(xy 91.44 43.18) (xy 87.63 43.18)
 		)
 		(stroke
@@ -361,16 +381,6 @@
 			(type default)
 		)
 		(uuid "442a74e4-0ba8-42c5-b3c8-a8e66b0663a0")
-	)
-	(wire
-		(pts
-			(xy 85.09 71.12) (xy 85.09 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cc92d04-e369-4f08-8a2c-31d7e3eb790c")
 	)
 	(wire
 		(pts
@@ -414,16 +424,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 106.68) (xy 121.92 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "760e2c23-a8c2-4d44-be96-60b83e19f483")
-	)
-	(wire
-		(pts
 			(xy 71.12 71.12) (xy 71.12 77.47)
 		)
 		(stroke
@@ -451,16 +451,6 @@
 			(type default)
 		)
 		(uuid "8aceab44-05ef-409e-b9e9-677a6da5805a")
-	)
-	(wire
-		(pts
-			(xy 113.03 104.14) (xy 121.92 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "918b6d22-871f-48f3-b685-f4aadbcc6503")
 	)
 	(wire
 		(pts
@@ -504,6 +494,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 71.12) (xy 87.63 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c892b5-b934-4093-a327-7b6e6fcf702b")
+	)
+	(wire
+		(pts
 			(xy 60.96 73.66) (xy 68.58 73.66)
 		)
 		(stroke
@@ -511,16 +511,6 @@
 			(type default)
 		)
 		(uuid "a52475af-0a70-49ab-9a3a-24c41fc10e42")
-	)
-	(wire
-		(pts
-			(xy 113.03 139.7) (xy 121.92 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad7250f1-9ba6-4cf9-af3d-fda1d7957291")
 	)
 	(wire
 		(pts
@@ -551,6 +541,16 @@
 			(type default)
 		)
 		(uuid "bbcd5fec-712c-4584-ac60-f9f7976a5e5c")
+	)
+	(wire
+		(pts
+			(xy 113.03 106.68) (xy 121.92 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4384110-37db-4ce4-8661-1a914522eba8")
 	)
 	(wire
 		(pts
@@ -624,7 +624,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 71.12) (xy 87.63 77.47)
+			(xy 85.09 71.12) (xy 85.09 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1134,7 +1134,7 @@
 				(justify left)
 			)
 		)
-		(pin "UART_TX1" input
+		(pin "UART_TX1" output
 			(at 121.92 106.68 180)
 			(uuid "30124ad1-67a1-40e2-8a5e-5c3dcf3d03ce")
 			(effects
@@ -1184,7 +1184,7 @@
 				(justify left)
 			)
 		)
-		(pin "UART_RX1" output
+		(pin "UART_RX1" input
 			(at 121.92 104.14 180)
 			(uuid "8af1cd03-52c8-41f9-8885-3778c89fe748")
 			(effects
@@ -1295,8 +1295,8 @@
 				(justify left)
 			)
 		)
-		(pin "UART_RX2" output
-			(at 121.92 137.16 180)
+		(pin "UART_RX2" input
+			(at 121.92 139.7 180)
 			(uuid "0801d157-ee12-4373-91d9-7315feb91ac5")
 			(effects
 				(font
@@ -1355,8 +1355,8 @@
 				(justify left)
 			)
 		)
-		(pin "UART_TX2" input
-			(at 121.92 139.7 180)
+		(pin "UART_TX2" output
+			(at 121.92 137.16 180)
 			(uuid "0376f280-dd5f-41cc-8723-b13bac489743")
 			(effects
 				(font
@@ -1416,8 +1416,8 @@
 				(justify left top)
 			)
 		)
-		(pin "UART_TX" input
-			(at 85.09 71.12 270)
+		(pin "UART_TX" output
+			(at 87.63 71.12 270)
 			(uuid "459f4849-82c3-4841-b642-2af2c2201b44")
 			(effects
 				(font
@@ -1426,8 +1426,8 @@
 				(justify left)
 			)
 		)
-		(pin "UART_RX" output
-			(at 87.63 71.12 270)
+		(pin "UART_RX" input
+			(at 85.09 71.12 270)
 			(uuid "fb2ecbba-1518-4a48-87d1-a6a0ab2e7b6e")
 			(effects
 				(font
@@ -1498,7 +1498,7 @@
 			)
 		)
 		(pin "UART_RX1" input
-			(at 113.03 104.14 0)
+			(at 113.03 106.68 0)
 			(uuid "83439a19-7eb8-466b-bc17-440879f85e7b")
 			(effects
 				(font
@@ -1668,7 +1668,7 @@
 			)
 		)
 		(pin "UART_TX1" output
-			(at 113.03 106.68 0)
+			(at 113.03 104.14 0)
 			(uuid "5ae273fa-05c4-4ea9-ab37-8422faaca1aa")
 			(effects
 				(font

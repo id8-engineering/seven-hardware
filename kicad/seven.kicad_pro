@@ -661,6 +661,10 @@
     [
       "3959a5c9-da67-4dbd-8c3b-230c0962e71e",
       "Buzzer"
+    ],
+    [
+      "ef31896a-fdc5-4b8e-a0fb-516beec6daff",
+      "SIM Socket"
     ]
   ],
   "text_variables": {}

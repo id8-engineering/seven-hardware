@@ -925,7 +925,7 @@
 		(uuid "fbcf337c-8734-465f-a4f0-5b956c1d721f")
 	)
 	(hierarchical_label "nRESET"
-		(shape input)
+		(shape output)
 		(at 60.96 92.71 180)
 		(effects
 			(font

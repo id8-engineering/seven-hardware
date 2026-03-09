@@ -700,7 +700,7 @@
 		(uuid "e9039b59-491e-4678-a572-fce27877b820")
 	)
 	(hierarchical_label "SWDIO"
-		(shape input)
+		(shape bidirectional)
 		(at 100.33 92.71 0)
 		(effects
 			(font
@@ -711,7 +711,7 @@
 		(uuid "31837fd2-144b-46ea-8d62-1377d1b329b1")
 	)
 	(hierarchical_label "SWCLK"
-		(shape input)
+		(shape output)
 		(at 100.33 95.25 0)
 		(effects
 			(font
@@ -722,7 +722,7 @@
 		(uuid "931ee8c1-6ad7-4b4a-8e1f-80679ede3d78")
 	)
 	(hierarchical_label "nRESET"
-		(shape input)
+		(shape output)
 		(at 85.09 95.25 180)
 		(effects
 			(font

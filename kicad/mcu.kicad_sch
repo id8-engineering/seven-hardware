@@ -3148,20 +3148,12 @@
 		(uuid "ccd5c0e2-8dad-4669-a88d-a8dadd0cebf8")
 	)
 	(no_connect
-		(at 125.73 91.44)
-		(uuid "cef7bc63-0974-4e46-80af-541e30898a3e")
-	)
-	(no_connect
 		(at 125.73 119.38)
 		(uuid "d3a67312-c28f-46ec-8eac-53127e5a771b")
 	)
 	(no_connect
 		(at 59.69 137.16)
 		(uuid "e3d87b5e-8185-4e14-b766-6abe0b5b082c")
-	)
-	(no_connect
-		(at 125.73 68.58)
-		(uuid "eab7feb3-2bbf-4c80-b3dc-82aed38c8d71")
 	)
 	(no_connect
 		(at 125.73 139.7)
@@ -3250,6 +3242,16 @@
 			(type default)
 		)
 		(uuid "132b3710-9741-4e5c-afcb-6b101df545b9")
+	)
+	(wire
+		(pts
+			(xy 127 68.58) (xy 125.73 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e13b3b-1a6f-45f9-a01a-3f6e89763f4d")
 	)
 	(wire
 		(pts
@@ -3570,6 +3572,16 @@
 			(type default)
 		)
 		(uuid "a6e298ea-75db-495b-8ca0-efe6e7a4ac15")
+	)
+	(wire
+		(pts
+			(xy 127 91.44) (xy 125.73 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa46f51f-afdf-4a33-ab34-6193cb7e2480")
 	)
 	(wire
 		(pts
@@ -3900,6 +3912,17 @@
 		)
 		(uuid "42419952-bf03-444c-bdfb-b4cf3527a633")
 	)
+	(hierarchical_label "GNSS_ANTENNA"
+		(shape input)
+		(at 127 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "42584251-3f0d-4657-b249-5f26133bd71e")
+	)
 	(hierarchical_label "SIM_RST"
 		(shape output)
 		(at 58.42 152.4 180)
@@ -3998,6 +4021,17 @@
 			(justify right)
 		)
 		(uuid "6d302333-e207-4882-aaa6-aad1aed65dfc")
+	)
+	(hierarchical_label "LTE_ANTENNA"
+		(shape bidirectional)
+		(at 127 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6fa4ca78-01c0-4bca-becb-abe7dd07c376")
 	)
 	(hierarchical_label "UART_TX2"
 		(shape output)

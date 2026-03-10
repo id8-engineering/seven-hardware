@@ -1199,7 +1199,7 @@
 		)
 		(uuid "b7e7955b-1d6f-4d04-b5bc-a9313dbc0e86")
 	)
-	(text_box "\n"
+	(text_box "Nano-SIM card connector, push-pull type, 8-pin, SMD\n"
 		(exclude_from_sim no)
 		(at 176.53 85.09 0)
 		(size 107.95 80.01)

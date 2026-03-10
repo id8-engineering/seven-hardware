@@ -5,6 +5,297 @@
 	(uuid "fdd951ce-bb65-49f6-a2db-9d8c41221acb")
 	(paper "A4")
 	(lib_symbols
+		(symbol "seven_lib:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "seven_lib:BAT54W"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BAT54KFILM"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "seven-lib:D_SOD-523"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "file:///home/bobo/Downloads/bat54-1.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky barrier diode, SOT-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?323*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BAT54W_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAT54W_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 0 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "seven_lib:Buzzer"
 			(pin_names
 				(offset 0.0254)
@@ -22,7 +313,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Buzzer"
+			(property "Value" "CMT-8504-100-SMT-TR"
 				(at 3.81 -1.27 0)
 				(effects
 					(font
@@ -31,7 +322,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "seven-lib:XDCR_CMT-8504-100-SMT-TR"
 				(at -0.635 2.54 90)
 				(effects
 					(font
@@ -267,6 +558,512 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "seven_lib:MMST3904-7-F"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MMST3904-7-F"
+				(at 5.08 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "seven-lib:SOT65P210X110-3N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Diodes Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Trans GP BJT NPN 40V 0.2A 3Pin SOT323 | Diodes Inc MMST3904-7-F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE" "TSOT-3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MMST3904-7-F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SOT-323 Diodes Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "OC_FARNELL" "1773606"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MMST3904-7-F/Diodes+Inc./view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "MMST3904-7-F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=263089&manufacturer=Diodes Inc.&part_name=MMST3904-7-F&search_term=None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SUPPLIER" "DIODES INC."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "OC_NEWARK" "51R6845"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/MMST3904-7-F/Diodes+Inc./view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "MMST3904-7-F_0_0"
+				(rectangle
+					(start -0.254 -2.54)
+					(end 0.508 2.54)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -2.286) (xy 1.905 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -2.413) (xy 2.286 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.54 -2.04) (xy 0.308 -1.424)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -1.524) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -1.778) (xy 1.524 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -2.286) (xy 1.778 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.413) (xy 1.778 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 0.508 1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "seven_lib:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "seven-lib:R_0603_1608Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "\n\n"
 		(exclude_from_sim no)
@@ -278,7 +1075,7 @@
 		)
 		(uuid "eafa95af-4c3e-475a-9696-48b60dc7a100")
 	)
-	(text_box "\n"
+	(text_box "BZ1 - Buzzer\nMagnetic transducer that converts the electrical signal into sound.\n\nQ1 - NPN Transistor (MMST3904)\nActs as a low-side switch to drive the buzzer current.\n\nR3 - Base Resistor\nLimits current from the control signal into the transistor base.\n\nD1 - Schottky Diode (BAT54)\nFlyback diode protecting the transistor from voltage spikes."
 		(exclude_from_sim no)
 		(at 176.53 85.09 0)
 		(size 107.95 80.01)
@@ -320,7 +1117,7 @@
 		)
 		(uuid "45b6c1e0-acb9-4b33-ba79-74506cb7727e")
 	)
-	(text_box "Passive buzzer that is controlled by PWM"
+	(text_box "Transistor-driven buzzer driver controlled by a digital signal called BUZZER. The purpose is to allow a low-current logic output (such as from a microcontroller) to drive a magnetic buzzer/transducer that requires higher current and a 5 V supply."
 		(exclude_from_sim no)
 		(at 176.53 24.13 0)
 		(size 107.95 53.34)
@@ -384,6 +1181,48 @@
 		)
 		(uuid "ea2a25ef-a97d-4dbc-a591-63ef0c94ef44")
 	)
+	(junction
+		(at 85.09 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3877c963-e063-4090-8fd9-92294ddb9032")
+	)
+	(junction
+		(at 85.09 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eae92ac1-8592-48ca-86a2-3bfd7346b7e5")
+	)
+	(wire
+		(pts
+			(xy 85.09 86.36) (xy 85.09 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26792563-8553-49ed-81ec-4f06e1aa16a8")
+	)
+	(wire
+		(pts
+			(xy 59.69 101.6) (xy 67.31 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a9262d-5990-4472-bdec-d1db9cd30114")
+	)
+	(wire
+		(pts
+			(xy 85.09 80.01) (xy 90.17 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "330c2e39-5414-4bcf-aea3-1148ef28e8b6")
+	)
 	(polyline
 		(pts
 			(xy 176.53 77.47) (xy 284.48 77.47)
@@ -396,47 +1235,127 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 95.25) (xy 93.98 91.44)
+			(xy 74.93 101.6) (xy 80.01 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "658d9538-c3fc-4956-9687-98d572c55e59")
+		(uuid "70fcbd78-2120-4662-878c-984108a493c9")
 	)
 	(wire
 		(pts
-			(xy 93.98 95.25) (xy 106.68 95.25)
+			(xy 85.09 106.68) (xy 85.09 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1dea006-baa9-4934-9a72-a66aead29e07")
+		(uuid "a3af5a2e-54ba-44d1-a64c-4900aa84ced7")
 	)
 	(wire
 		(pts
-			(xy 76.2 95.25) (xy 88.9 95.25)
+			(xy 74.93 81.28) (xy 74.93 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f0b5d724-7512-4e25-82c3-0e80eaeae968")
+		(uuid "aef98b05-ab67-476d-8a8e-981559581710")
 	)
 	(wire
 		(pts
-			(xy 88.9 91.44) (xy 88.9 95.25)
+			(xy 85.09 93.98) (xy 85.09 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1ed4d2c-3b7d-4e90-80b4-17e533a09ef9")
+		(uuid "baadd2a3-a63a-44e2-a59c-c1d20388ecc3")
+	)
+	(wire
+		(pts
+			(xy 85.09 74.93) (xy 90.17 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2de830e-98dd-4446-87ce-6f6997bbbbdd")
+	)
+	(wire
+		(pts
+			(xy 74.93 69.85) (xy 74.93 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9013880-f0ae-4d94-9219-62950dc47c37")
+	)
+	(wire
+		(pts
+			(xy 85.09 85.09) (xy 85.09 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc49eead-5e75-453e-acf3-a0095f806506")
+	)
+	(wire
+		(pts
+			(xy 85.09 69.85) (xy 74.93 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d844a7e6-c39b-4a99-8566-a13a58bd78e7")
+	)
+	(wire
+		(pts
+			(xy 85.09 68.58) (xy 85.09 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea32d41b-51a9-49e9-96ad-b7377ec29fb1")
+	)
+	(wire
+		(pts
+			(xy 85.09 69.85) (xy 85.09 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebc80658-4e90-463d-a675-6585b5e4dfc8")
+	)
+	(wire
+		(pts
+			(xy 74.93 85.09) (xy 85.09 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f37a6864-d905-4b5a-9c5f-0ec81198d9d1")
+	)
+	(wire
+		(pts
+			(xy 85.09 58.42) (xy 85.09 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f93bd56b-1426-4a75-aba0-598ddf78be4a")
 	)
 	(hierarchical_label "BUZZER"
 		(shape input)
-		(at 76.2 95.25 180)
+		(at 59.69 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -446,17 +1365,17 @@
 		(uuid "4f5486ca-580e-482a-afed-4e70a64ecbe4")
 	)
 	(symbol
-		(lib_id "seven_lib:Buzzer")
-		(at 91.44 88.9 90)
+		(lib_id "seven_lib:R")
+		(at 85.09 64.77 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3429d1ac-7afa-416f-856e-902f5e96d98c")
-		(property "Reference" "BZ1"
-			(at 95.25 86.8748 90)
+		(uuid "3d398931-5f25-4c22-99c9-cd3b908b5152")
+		(property "Reference" "R5"
+			(at 87.63 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -464,8 +1383,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Buzzer"
-			(at 95.25 89.4148 90)
+		(property "Value" "0"
+			(at 87.63 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -473,8 +1392,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 88.9 89.535 90)
+		(property "Footprint" "seven-lib:R_0603_1608Metric"
+			(at 86.868 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -483,7 +1402,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 89.535 90)
+			(at 85.09 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -491,8 +1410,215 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Buzzer, polarized"
-			(at 91.44 88.9 0)
+		(property "Description" "Resistor"
+			(at 85.09 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98bc16ae-59b6-418a-a740-d1fb9994574e")
+		)
+		(pin "2"
+			(uuid "72ec6a30-cfa4-4e83-ad05-9e485bd2a0b7")
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/3959a5c9-da67-4dbd-8c3b-230c0962e71e"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "seven_lib:R")
+		(at 85.09 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59280e35-4bb1-451d-b487-86f8dd8e32b4")
+		(property "Reference" "R4"
+			(at 87.63 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 87.63 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "seven-lib:R_0603_1608Metric"
+			(at 86.868 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 85.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3577fb77-1c79-4e4a-8f11-ab5c90dad908")
+		)
+		(pin "2"
+			(uuid "dc3cc664-a9f4-43f9-818c-c37f4c4beed0")
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/3959a5c9-da67-4dbd-8c3b-230c0962e71e"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "seven_lib:R")
+		(at 71.12 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a28087e-b6c9-482e-96c0-7ae00441fa75")
+		(property "Reference" "R3"
+			(at 71.12 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "300"
+			(at 71.12 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "seven-lib:R_0603_1608Metric"
+			(at 71.12 103.378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 71.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d71d890d-0668-47c0-98b3-e83588e2a04e")
+		)
+		(pin "2"
+			(uuid "27902bfa-884e-4622-bafd-f17f0401807d")
+		)
+		(instances
+			(project ""
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/3959a5c9-da67-4dbd-8c3b-230c0962e71e"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "seven_lib:BAT54W")
+		(at 74.93 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8537116c-7a2d-45cf-a773-fba2ea0778a6")
+		(property "Reference" "D1"
+			(at 70.104 76.454 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54KFILM"
+			(at 61.214 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "seven-lib:D_SOD-523"
+			(at 70.485 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "file:///home/bobo/Downloads/bat54-1.pdf"
+			(at 74.93 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky barrier diode, SOT-323"
+			(at 74.93 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -501,10 +1627,215 @@
 			)
 		)
 		(pin "2"
-			(uuid "48e2a4dd-cace-43d0-bb1f-f73dec60cc35")
+			(uuid "29ef8e38-fc9e-4a12-aa4e-d0a1df9ee517")
+		)
+		(pin "3"
+			(uuid "fedc1900-f62b-4e31-b3f5-d98e01b95ccd")
 		)
 		(pin "1"
-			(uuid "35f26c7d-0d12-4ed7-8ae7-04da470fdada")
+			(uuid "ea4730b8-5657-43aa-b7cf-d5225432e3a3")
+		)
+		(instances
+			(project ""
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/3959a5c9-da67-4dbd-8c3b-230c0962e71e"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "seven_lib:+5V")
+		(at 85.09 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "915bac75-c472-44d6-9581-c3d7519963fe")
+		(property "Reference" "#PWR023"
+			(at 85.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 85.09 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 85.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "712fd560-7067-483f-b592-5f7c2c8cfc5e")
+		)
+		(instances
+			(project ""
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/3959a5c9-da67-4dbd-8c3b-230c0962e71e"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "seven_lib:GND")
+		(at 85.09 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db1788e3-2c53-401d-8a98-95e9d892a2d8")
+		(property "Reference" "#PWR09"
+			(at 85.09 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5833144d-d562-4c88-a8ac-d21505890824")
+		)
+		(instances
+			(project ""
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/3959a5c9-da67-4dbd-8c3b-230c0962e71e"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "seven_lib:Buzzer")
+		(at 92.71 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd2f58d4-c854-4de7-b2c2-af7b2d4458b1")
+		(property "Reference" "BZ1"
+			(at 96.52 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CMT-8504-100-SMT-TR"
+			(at 96.52 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "seven-lib:XDCR_CMT-8504-100-SMT-TR"
+			(at 92.075 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.075 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buzzer, polarized"
+			(at 92.71 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c7df8f2d-b102-43fd-8d37-f8b641b59a21")
+		)
+		(pin "1"
+			(uuid "a937000b-1d01-4109-8c19-952d9ea3be83")
 		)
 		(instances
 			(project ""
@@ -516,44 +1847,45 @@
 		)
 	)
 	(symbol
-		(lib_id "seven_lib:GND")
-		(at 106.68 95.25 90)
+		(lib_id "seven_lib:MMST3904-7-F")
+		(at 82.55 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "82a643dd-289b-4fd9-9aa0-b19c0234de15")
-		(property "Reference" "#PWR09"
-			(at 113.03 95.25 0)
+		(uuid "f977c649-c68d-4f0c-bce6-90bc7daaf44b")
+		(property "Reference" "Q1"
+			(at 86.36 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 110.49 95.2499 90)
+		(property "Value" "MMST3904-7-F"
+			(at 86.36 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 106.68 95.25 0)
+		(property "Footprint" "seven-lib:SOT65P210X110-3N"
+			(at 82.55 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 95.25 0)
+			(at 82.55 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -561,22 +1893,168 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 95.25 0)
+		(property "Description" ""
+			(at 82.55 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "MF" "Diodes Inc."
+			(at 82.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Trans GP BJT NPN 40V 0.2A 3Pin SOT323 | Diodes Inc MMST3904-7-F"
+			(at 82.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "TSOT-3"
+			(at 82.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMST3904-7-F"
+			(at 82.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 82.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-323 Diodes Inc."
+			(at 82.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1773606"
+			(at 82.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MMST3904-7-F/Diodes+Inc./view-part/?ref=snap"
+			(at 82.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MMST3904-7-F"
+			(at 82.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=263089&manufacturer=Diodes Inc.&part_name=MMST3904-7-F&search_term=None"
+			(at 82.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "DIODES INC."
+			(at 82.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_NEWARK" "51R6845"
+			(at 82.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 82.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MMST3904-7-F/Diodes+Inc./view-part/?ref=eda"
+			(at 82.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8dff3403-ef0e-4ab3-b134-018a264642dd")
+		)
+		(pin "3"
+			(uuid "c2e5a439-a758-438b-bd69-67dd386685b9")
 		)
 		(pin "1"
-			(uuid "f323b798-7837-48fc-be79-16b1c0aea411")
+			(uuid "5e5161ce-e744-4039-8395-1726f61ae8cb")
 		)
 		(instances
 			(project ""
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/3959a5c9-da67-4dbd-8c3b-230c0962e71e"
-					(reference "#PWR09")
+					(reference "Q1")
 					(unit 1)
 				)
 			)

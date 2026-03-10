@@ -1,6 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "seven_lib")(type "KiCad")(uri "${KIPRJMOD}/sym-lib/seven_lib.kicad_sym")(options "")(descr ""))
-  (lib (name "693043020611")(type "KiCad")(uri "/home/bobo/my_lib_kicad/693043020611.kicad_sym")(options "")(descr ""))
-  (lib (name "SMA_CONNECTOR")(type "KiCad")(uri "/home/bobo/my_lib_kicad/SMA_CONNECTOR.kicad_sym")(options "")(descr ""))
+  (lib (name "NSIM-2-C")(type "KiCad")(uri "/home/bobo/my_lib_kicad/NSIM-2-C.kicad_sym")(options "")(descr ""))
 )

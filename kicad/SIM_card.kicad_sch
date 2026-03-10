@@ -5,478 +5,6 @@
 	(uuid "95fbb2f6-4e89-4097-a436-907df83a420c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "seven_lib:693043020611"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 8.255 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Value" "693043020611"
-				(at -6.35 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "seven-lib:693043020611"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Wurth Electronics"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "CardConnector_SMT_NanoSIM_Push & Pull_6pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/693043020611/Wurth+Electronics/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "693043020611"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=481995&manufacturer=Wurth Electronics&part_name=693043020611&search_term=None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/693043020611/Wurth+Electronics/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "693043020611_0_0"
-				(polyline
-					(pts
-						(xy -7.62 6.985) (xy -7.62 -8.89)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -8.89) (xy 2.96 -8.89)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -10.16) (xy 6.35 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 6.985) (xy -7.62 6.985)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -6.42) (xy 2.96 -8.89)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -6.42) (xy 5.08 6.985)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -10.16) (xy 6.35 6.985)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "shield"
-					(at -2.12 -11.7 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "Nano SIM Card"
-					(at 4.283 -7.212 900)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left bottom)
-					)
-				)
-			)
-			(symbol "693043020611_1_0"
-				(pin passive line
-					(at -12.7 5.08 0)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 2.54 0)
-					(length 5.08)
-					(name "RST"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -2.54 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -5.08 0)
-					(length 5.08)
-					(name "VPP"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -7.62 0)
-					(length 5.08)
-					(name "I/O"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -10.16 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -10.16 0)
-					(length 5.08)
-					(hide yes)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -10.16 0)
-					(length 5.08)
-					(hide yes)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -10.16 0)
-					(length 5.08)
-					(hide yes)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -10.16 0)
-					(length 5.08)
-					(hide yes)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -10.16 0)
-					(length 5.08)
-					(hide yes)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "seven_lib:C"
 			(pin_numbers
 				(hide yes)
@@ -710,6 +238,388 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "seven_lib:NSIM-2-C"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -7.62 16.002 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "NSIM-2-C"
+				(at -7.62 -20.066 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "seven-lib:CUI_NSIM-2-C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Same Sky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/NSIM-2-C/Same+Sky/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "1.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/NSIM-2-C/Same+Sky/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "NSIM-2-C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=15683173&manufacturer=Same Sky&part_name=NSIM-2-C&search_term=None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Nano SIM Card Connectors, 6 Positions, Connector, Hinged, Surface Mount, 1.4 mm Height Above Board, Gold Flash"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "CUI Devices"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "NSIM-2-C_0_0"
+				(rectangle
+					(start -7.62 15.24)
+					(end 7.62 -17.78)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -12.7 12.7 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 10.16 0)
+					(length 5.08)
+					(name "VPP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "RST"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "I/O"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "S/W"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S/W"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -12.7 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NSIM-2-C_1_0"
+				(pin power_in line
+					(at -12.7 -15.24 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -15.24 0)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -15.24 0)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH3"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1310,86 +1220,80 @@
 		(uuid "ba29cf63-17a8-4e4c-84f5-c5dafff62803")
 	)
 	(junction
-		(at 109.22 101.6)
+		(at 119.38 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2ddd4f9b-0b34-4f68-82ea-4422f9527413")
+		(uuid "0e4bbac4-1a76-4b7d-bc5d-8f83f90c7503")
 	)
 	(junction
-		(at 71.12 62.23)
+		(at 113.03 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3d8bfe46-0389-4a30-8332-879b05f36bd9")
+		(uuid "55856011-ff56-4dda-b24a-1e0444e143c9")
 	)
 	(junction
-		(at 113.03 101.6)
+		(at 113.03 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "53367277-6009-42e9-8868-33352281771b")
+		(uuid "75d6be0c-9540-4945-8f5d-0e50dc4aee52")
 	)
 	(junction
-		(at 113.03 76.2)
+		(at 71.12 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "71425fec-f88f-4e92-b797-e2306db3e565")
+		(uuid "75e07b0a-a0cb-4f4d-8bae-d967459d9def")
 	)
 	(no_connect
-		(at 118.11 86.36)
-		(uuid "33d4848f-b410-4231-aa17-b22cd3509eda")
+		(at 124.46 91.44)
+		(uuid "0aa30297-a5e7-48f2-9fd2-219f42c1f2ef")
+	)
+	(no_connect
+		(at 124.46 73.66)
+		(uuid "3fa337de-437b-4f2f-b2b8-75299d800e2a")
 	)
 	(wire
 		(pts
-			(xy 109.22 83.82) (xy 118.11 83.82)
+			(xy 91.44 67.31) (xy 71.12 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "14b9a8f0-84f7-46c0-a458-2b3e5d202c4f")
+		(uuid "00d10fe4-7b29-48a4-9d97-3712c3a6996e")
 	)
 	(wire
 		(pts
-			(xy 91.44 88.9) (xy 118.11 88.9)
+			(xy 91.44 83.82) (xy 124.46 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "173f93c3-3902-4052-a787-2c86d6074acb")
+		(uuid "1499fecf-adaf-4098-9121-f3bf47bb1ae2")
 	)
 	(wire
 		(pts
-			(xy 109.22 83.82) (xy 109.22 101.6)
+			(xy 119.38 96.52) (xy 119.38 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c3f9854-a3aa-4eeb-8f6d-dce41f2d43ee")
+		(uuid "22825f72-bc61-4882-b5da-621d1bdc628e")
 	)
 	(wire
 		(pts
-			(xy 113.03 76.2) (xy 113.03 91.44)
+			(xy 124.46 71.12) (xy 113.03 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "253607f1-33e4-4130-a136-c442c13a52a2")
+		(uuid "2502df6b-6bce-49e9-af82-fae8a993c4b1")
 	)
 	(wire
 		(pts
-			(xy 109.22 102.87) (xy 109.22 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f3cfe61-5450-46aa-8a71-8b9ce1af0e88")
-	)
-	(wire
-		(pts
-			(xy 71.12 101.6) (xy 109.22 101.6)
+			(xy 71.12 99.06) (xy 113.03 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1399,47 +1303,37 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 101.6) (xy 113.03 101.6)
+			(xy 119.38 99.06) (xy 124.46 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5363c2ad-bb6a-4824-8c8d-342a6085bedb")
+		(uuid "5a8acc96-478a-4bc8-a237-d51c3eebea94")
 	)
 	(wire
 		(pts
-			(xy 118.11 101.6) (xy 118.11 91.44)
+			(xy 113.03 100.33) (xy 113.03 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b418242-14ff-4e82-ae43-d79c79ffbe39")
+		(uuid "5b42c2f4-3445-40e0-89f1-5df73cc21ee2")
 	)
 	(wire
 		(pts
-			(xy 101.6 76.2) (xy 101.6 62.23)
+			(xy 124.46 96.52) (xy 119.38 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "785b3d62-66e2-4e6b-a168-b17c29a65ae4")
+		(uuid "6bfb4903-fccc-4fa2-97a2-f503fb93a943")
 	)
 	(wire
 		(pts
-			(xy 101.6 76.2) (xy 113.03 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86c699b1-877c-4f53-8faa-fd84e4a41dda")
-	)
-	(wire
-		(pts
-			(xy 113.03 99.06) (xy 113.03 101.6)
+			(xy 113.03 93.98) (xy 113.03 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1449,7 +1343,27 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 81.28) (xy 118.11 81.28)
+			(xy 113.03 71.12) (xy 113.03 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ebac10c-f2dd-4e2e-b01b-79053145cf72")
+	)
+	(wire
+		(pts
+			(xy 113.03 99.06) (xy 119.38 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99736571-5d5e-4d08-9575-8fe3c83254be")
+	)
+	(wire
+		(pts
+			(xy 91.44 81.28) (xy 124.46 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1459,17 +1373,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 76.2) (xy 118.11 76.2)
+			(xy 113.03 71.12) (xy 91.44 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a41cb3b0-3e2d-442a-9d19-c862ec2fd79e")
+		(uuid "ad9b9d59-e5c1-4ebd-9518-b956eec0f662")
 	)
 	(wire
 		(pts
-			(xy 71.12 101.6) (xy 71.12 91.44)
+			(xy 71.12 99.06) (xy 71.12 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1489,23 +1403,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 62.23) (xy 71.12 71.12)
+			(xy 71.12 67.31) (xy 71.12 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b75fe391-cc1e-4677-845b-fe2238f42d00")
-	)
-	(wire
-		(pts
-			(xy 113.03 101.6) (xy 118.11 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be93f4bc-2f20-47d7-9a7f-44c7929371a2")
 	)
 	(wire
 		(pts
@@ -1519,33 +1423,33 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 88.9) (xy 91.44 83.82)
+			(xy 91.44 71.12) (xy 91.44 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d49b0fe0-812b-47a2-8a17-212356b28c19")
+		(uuid "db1f1aa1-2785-44a7-90f5-d83e0f8d7331")
 	)
 	(wire
 		(pts
-			(xy 71.12 62.23) (xy 101.6 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbf81616-383f-49d8-88c3-19d35d13c0d7")
-	)
-	(wire
-		(pts
-			(xy 63.5 62.23) (xy 71.12 62.23)
+			(xy 63.5 67.31) (xy 71.12 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dcada869-9b21-499e-b931-69c4b59635d8")
+	)
+	(wire
+		(pts
+			(xy 124.46 83.82) (xy 124.46 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e23627be-33de-4916-a647-21c77bcf5488")
 	)
 	(wire
 		(pts
@@ -1559,7 +1463,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 78.74) (xy 118.11 78.74)
+			(xy 91.44 78.74) (xy 124.46 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1579,7 +1483,7 @@
 	)
 	(hierarchical_label "SIM_1V8"
 		(shape input)
-		(at 63.5 62.23 180)
+		(at 63.5 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1620,197 +1524,6 @@
 			(justify right)
 		)
 		(uuid "ccd15485-099a-4975-992d-81f66d8a2e97")
-	)
-	(symbol
-		(lib_id "seven_lib:693043020611")
-		(at 130.81 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3bbc9b2c-ad3d-4fd5-8866-2ccef7270371")
-		(property "Reference" "J5"
-			(at 138.43 82.3368 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "693043020611"
-			(at 138.43 84.8768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "seven-lib:693043020611"
-			(at 130.81 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/693043020611.pdf"
-			(at 130.81 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 130.81 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Wurth Electronics"
-			(at 130.81 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "CardConnector_SMT_NanoSIM_Push & Pull_6pins"
-			(at 130.81 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 130.81 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 130.81 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/693043020611/Wurth+Electronics/view-part/?ref=snap"
-			(at 130.81 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "693043020611"
-			(at 130.81 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=481995&manufacturer=Wurth Electronics&part_name=693043020611&search_term=None"
-			(at 130.81 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 130.81 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/693043020611/Wurth+Electronics/view-part/?ref=eda"
-			(at 130.81 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "C6"
-			(uuid "454e3d59-d3c3-479e-bcc1-c514ee026196")
-		)
-		(pin "S5"
-			(uuid "ce649c17-c688-40ba-9bae-a10a458ad201")
-		)
-		(pin "C1"
-			(uuid "c4500c52-ec5a-450b-9459-715652c2cf3d")
-		)
-		(pin "C7"
-			(uuid "16b6e197-c4c3-455d-ac80-58ab742511fa")
-		)
-		(pin "C3"
-			(uuid "1195b118-e712-4d12-9ce3-6bbec3058659")
-		)
-		(pin "C2"
-			(uuid "f871f025-9187-4f0e-a75e-a07aad998d4d")
-		)
-		(pin "S2"
-			(uuid "82f7973b-c326-477d-abfa-b4420cd3a8a0")
-		)
-		(pin "S1"
-			(uuid "d4f4b2ee-d7ec-48e4-a3a9-b10468201fce")
-		)
-		(pin "S3"
-			(uuid "a6db652a-822e-44f9-8b2a-99e5bab80d68")
-		)
-		(pin "S6"
-			(uuid "6def9e24-f7d4-4a07-a44a-b82b5b11694f")
-		)
-		(pin "S4"
-			(uuid "fbff1faf-f541-4909-9328-6cddce74bb9b")
-		)
-		(pin "C5"
-			(uuid "bed1c45a-4bcb-4f7f-9dbe-c5ba0ba4249b")
-		)
-		(instances
-			(project ""
-				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/ef31896a-fdc5-4b8e-a0fb-516beec6daff"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "seven_lib:TPD3F303DPV")
@@ -1904,8 +1617,233 @@
 		)
 	)
 	(symbol
+		(lib_id "seven_lib:NSIM-2-C")
+		(at 137.16 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9df62f9d-5ff2-4896-9679-33814ad1b3c7")
+		(property "Reference" "J7"
+			(at 146.05 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NSIM-2-C"
+			(at 146.05 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "seven-lib:CUI_NSIM-2-C"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Same Sky"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/NSIM-2-C/Same+Sky/view-part/?ref=eda"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.0"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NSIM-2-C/Same+Sky/view-part/?ref=snap"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "NSIM-2-C"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=15683173&manufacturer=Same Sky&part_name=NSIM-2-C&search_term=None"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Nano SIM Card Connectors, 6 Positions, Connector, Hinged, Surface Mount, 1.4 mm Height Above Board, Gold Flash"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CUI Devices"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "C6"
+			(uuid "6bfabd89-adbf-4f54-a91c-39ffd3b19c75")
+		)
+		(pin "C1"
+			(uuid "ca60e3b5-de01-445c-9e2a-06e380e8a7b1")
+		)
+		(pin "C5"
+			(uuid "05287ff6-e190-492b-b951-f5046b708b46")
+		)
+		(pin "SH1"
+			(uuid "22d2c7d9-c6d0-4352-9871-7cf3c1a7c45d")
+		)
+		(pin "SH2"
+			(uuid "6377c282-9836-4db6-a3a8-bfe395892c46")
+		)
+		(pin "SH3"
+			(uuid "6aec5fb1-8f0d-4227-a223-720ab837a67c")
+		)
+		(pin "C2"
+			(uuid "c33614b1-3c66-42cc-afa4-5bf13c85c970")
+		)
+		(pin "C7"
+			(uuid "990edb18-30bf-410b-ba22-749e301e99bd")
+		)
+		(pin "C3"
+			(uuid "50a30c4c-3e16-4083-aa69-5ef218a0c97e")
+		)
+		(pin "S/W"
+			(uuid "b48bbe3c-a531-4e18-b43d-01bef6128252")
+		)
+		(instances
+			(project ""
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/ef31896a-fdc5-4b8e-a0fb-516beec6daff"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "seven_lib:C")
-		(at 113.03 95.25 0)
+		(at 113.03 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1914,7 +1852,7 @@
 		(fields_autoplaced yes)
 		(uuid "adf38b43-932f-45d4-b8e2-f70ee45476a9")
 		(property "Reference" "C1"
-			(at 116.84 93.9799 0)
+			(at 116.84 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1923,7 +1861,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 116.84 96.5199 0)
+			(at 116.84 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1932,7 +1870,7 @@
 			)
 		)
 		(property "Footprint" "seven-lib:C_1812_4532Metric"
-			(at 113.9952 99.06 0)
+			(at 113.9952 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1941,7 +1879,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 95.25 0)
+			(at 113.03 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1950,7 +1888,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 113.03 95.25 0)
+			(at 113.03 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1975,7 +1913,7 @@
 	)
 	(symbol
 		(lib_id "seven_lib:GND")
-		(at 109.22 102.87 0)
+		(at 113.03 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1984,7 +1922,7 @@
 		(fields_autoplaced yes)
 		(uuid "c30ca8ba-9e23-498e-b255-6c17700c6983")
 		(property "Reference" "#PWR011"
-			(at 109.22 109.22 0)
+			(at 113.03 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1993,7 +1931,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 107.95 0)
+			(at 113.03 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2001,7 +1939,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 102.87 0)
+			(at 113.03 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2010,7 +1948,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 102.87 0)
+			(at 113.03 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2019,7 +1957,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 102.87 0)
+			(at 113.03 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -544,6 +544,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 129.54) (xy 67.31 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd79d70b-6e7f-45ce-93ca-2f0ce7085902")
+	)
+	(wire
+		(pts
 			(xy 113.03 106.68) (xy 121.92 106.68)
 		)
 		(stroke
@@ -591,6 +601,16 @@
 			(type default)
 		)
 		(uuid "e28c2bf3-e99d-4ae3-92b4-18a3577a0aa6")
+	)
+	(wire
+		(pts
+			(xy 60.96 116.84) (xy 67.31 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ee6cf6-0cba-4655-936b-738aae75c649")
 	)
 	(wire
 		(pts
@@ -850,6 +870,58 @@
 			(project "seven"
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
 					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 114.3)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0b138663-1828-401e-979e-c711580e91a6")
+		(property "Sheetname" "Antenna LTE"
+			(at 48.26 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "antenna_LTE.kicad_sch"
+			(at 48.26 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LTE_ANTENNA" bidirectional
+			(at 60.96 116.84 0)
+			(uuid "7335e00e-c3b0-4d2e-b2a6-d9ec94f73242")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
+					(page "13")
 				)
 			)
 		)
@@ -1827,10 +1899,82 @@
 				(justify left)
 			)
 		)
+		(pin "LTE_ANTENNA" bidirectional
+			(at 67.31 116.84 180)
+			(uuid "a3a1e342-d02a-4b52-9a15-3198fc6166a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GNSS_ANTENNA" input
+			(at 67.31 129.54 180)
+			(uuid "a65ac001-2588-4870-b6ac-90d52622e4c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "seven"
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 127)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e0d7d36a-9918-47c0-a519-1a389fc09cdf")
+		(property "Sheetname" "Antenna GNSS"
+			(at 48.26 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "antenna_GNSS.kicad_sch"
+			(at 48.26 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GNSS_ANTENNA" output
+			(at 60.96 129.54 0)
+			(uuid "cb453b94-d5e2-454c-806e-646ef542aada")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
+					(page "14")
 				)
 			)
 		)

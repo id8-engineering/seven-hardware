@@ -1417,6 +1417,26 @@
 		)
 		(uuid "230c951d-1f24-45bf-bb28-cfd8f9094090")
 	)
+	(text_box "R14=R15(Vout/0.8V - 1)"
+		(exclude_from_sim no)
+		(at 127 115.57 0)
+		(size 49.53 19.05)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "2c454898-0bc5-46d0-bea5-a9210b52f874")
+	)
 	(text_box "Powers systemlogic and converts input voltage to 5V and 3V3.\n\nBuck 1: 7-36V convertes to 5V\nBuck 2: 5V convertes to 3V3"
 		(exclude_from_sim no)
 		(at 176.53 24.13 0)
@@ -1478,6 +1498,26 @@
 			(justify top)
 		)
 		(uuid "76b19aa4-5a15-4f15-b75b-0743e70b3980")
+	)
+	(text_box "BUCK 2 TPS62162DSG:\n* Input Voltage Range from 3 V to 17 V\n* Adjustable Output Voltage From 0.9 V to 6 V\n* It supports up to 1-A continuous output current\n* Operating junction temperature, -40 150 °C"
+		(exclude_from_sim no)
+		(at 176.53 123.19 0)
+		(size 107.95 41.91)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "ccc8ab57-3880-40ab-bf1b-86813ffb0189")
 	)
 	(text_box "Circuit Description\n"
 		(exclude_from_sim no)

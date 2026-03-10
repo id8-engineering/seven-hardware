@@ -1943,7 +1943,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "e0d7d36a-9918-47c0-a519-1a389fc09cdf")
-		(property "Sheetname" "aa"
+		(property "Sheetname" "Antenna GNSS"
 			(at 48.26 126.2884 0)
 			(effects
 				(font

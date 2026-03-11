@@ -4,258 +4,7 @@
 	(generator_version "9.0")
 	(uuid "8e3cc843-5797-49f3-8b3a-1c11450ccd1e")
 	(paper "A4")
-	(lib_symbols
-		(symbol "seven_lib:+3V3"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "seven_lib:+5V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
+	(lib_symbols)
 	(junction
 		(at 68.58 73.66)
 		(diameter 0)
@@ -314,6 +63,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 69.85) (xy 100.33 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24db2e6c-ff45-4c9e-9c08-1dac96479b12")
+	)
+	(wire
+		(pts
 			(xy 113.03 93.98) (xy 121.92 93.98)
 		)
 		(stroke
@@ -354,6 +113,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 63.5) (xy 107.95 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36ec63be-fbf0-460f-a5b2-de0ebed18319")
+	)
+	(wire
+		(pts
 			(xy 113.03 132.08) (xy 121.92 132.08)
 		)
 		(stroke
@@ -371,16 +140,6 @@
 			(type default)
 		)
 		(uuid "3d2d3916-e71e-4a89-aceb-b036652d0fcf")
-	)
-	(wire
-		(pts
-			(xy 91.44 43.18) (xy 87.63 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "442a74e4-0ba8-42c5-b3c8-a8e66b0663a0")
 	)
 	(wire
 		(pts
@@ -434,13 +193,23 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 105.41) (xy 67.31 105.41)
+			(xy 127 55.88) (xy 133.35 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "831fd6f4-d21e-4bda-ac0e-5f866e9e511a")
+		(uuid "8251c3c6-8cf6-4eb0-98ae-571a54d64247")
+	)
+	(wire
+		(pts
+			(xy 127 60.96) (xy 133.35 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87ef49da-e78d-47e2-b50f-d3e00073e237")
 	)
 	(wire
 		(pts
@@ -504,6 +273,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 69.85) (xy 100.33 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a34c9735-4294-4a56-8f68-7dbd812c32d0")
+	)
+	(wire
+		(pts
 			(xy 60.96 73.66) (xy 68.58 73.66)
 		)
 		(stroke
@@ -514,6 +293,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 58.42) (xy 133.35 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af5f9ef3-b00a-45b0-bec5-c4f806cbf98e")
+	)
+	(wire
+		(pts
 			(xy 113.03 78.74) (xy 121.92 78.74)
 		)
 		(stroke
@@ -521,6 +310,26 @@
 			(type default)
 		)
 		(uuid "b0b48475-c5e5-4a49-8731-3d2e7fc3957d")
+	)
+	(wire
+		(pts
+			(xy 110.49 72.39) (xy 102.87 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1b94644-f7fb-447e-b3c7-ded819a0737d")
+	)
+	(wire
+		(pts
+			(xy 110.49 63.5) (xy 110.49 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7384a7a-ea58-479f-9f48-7054011db203")
 	)
 	(wire
 		(pts
@@ -574,7 +383,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 36.83) (xy 87.63 36.83)
+			(xy 127 48.26) (xy 133.35 48.26)
 		)
 		(stroke
 			(width 0)
@@ -591,6 +400,16 @@
 			(type default)
 		)
 		(uuid "d19a839f-0855-4486-ba63-ad53a69b0b69")
+	)
+	(wire
+		(pts
+			(xy 102.87 72.39) (xy 102.87 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df5bc81c-9418-4700-bb20-b42855065743")
 	)
 	(wire
 		(pts
@@ -634,7 +453,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 107.95) (xy 67.31 107.95)
+			(xy 60.96 105.41) (xy 67.31 105.41)
 		)
 		(stroke
 			(width 0)
@@ -672,134 +491,91 @@
 		)
 		(uuid "f76c9c18-3cab-4170-9634-836f445fff85")
 	)
-	(symbol
-		(lib_id "seven_lib:+3V3")
-		(at 91.44 43.18 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(global_label "VDD_1V8"
+		(shape output)
+		(at 133.35 55.88 0)
 		(fields_autoplaced yes)
-		(uuid "643c4f52-4157-4f0d-be5c-d34e41dd546d")
-		(property "Reference" "#PWR042"
-			(at 87.63 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "395dbd90-8a96-4e89-8eb2-c8f3917fa907")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.439 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 95.25 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 91.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b48096fc-a559-4d78-a6e7-1ce1688f70f2")
-		)
-		(instances
-			(project ""
-				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
-					(reference "#PWR042")
-					(unit 1)
-				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "seven_lib:+5V")
-		(at 91.44 36.83 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "add9b6cf-f831-45a0-8570-90b54ad358df")
-		(property "Reference" "#PWR038"
-			(at 87.63 36.83 0)
+	(global_label "VDD_GNSS"
+		(shape output)
+		(at 133.35 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "743642a9-77b1-4c56-8244-e80c453d5dd7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.9509 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 95.25 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	)
+	(global_label "VDD_5V"
+		(shape output)
+		(at 133.35 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Footprint" ""
-			(at 91.44 36.83 0)
+		(uuid "8b281023-adc9-4518-b129-f60967c09142")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.2295 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 91.44 36.83 0)
+	)
+	(global_label "VDD_3V3"
+		(shape output)
+		(at 133.35 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0387d9f-c2d3-42ee-b50e-facc7aafb4b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.439 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 91.44 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6a79f3f-1788-4e7f-8bf5-94e7804fc72d")
-		)
-		(instances
-			(project ""
-				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
-					(reference "#PWR038")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -834,6 +610,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "SWCLK" output
@@ -875,8 +652,8 @@
 		)
 	)
 	(sheet
-		(at 48.26 114.3)
-		(size 12.7 5.08)
+		(at 45.72 114.3)
+		(size 15.24 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -891,7 +668,7 @@
 		)
 		(uuid "0b138663-1828-401e-979e-c711580e91a6")
 		(property "Sheetname" "Antenna LTE"
-			(at 48.26 113.5884 0)
+			(at 45.72 113.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -900,12 +677,13 @@
 			)
 		)
 		(property "Sheetfile" "antenna_LTE.kicad_sch"
-			(at 48.26 119.9646 0)
+			(at 45.72 119.9646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "LTE_ANTENNA" bidirectional
@@ -958,6 +736,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -969,8 +748,8 @@
 		)
 	)
 	(sheet
-		(at 67.31 34.29)
-		(size 20.32 12.7)
+		(at 106.68 45.72)
+		(size 20.32 5.715)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -985,7 +764,7 @@
 		)
 		(uuid "212f259f-7773-4a20-96f5-c599a3d0b814")
 		(property "Sheetname" "Power Supply"
-			(at 67.31 33.5784 0)
+			(at 106.68 45.0084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -994,27 +773,18 @@
 			)
 		)
 		(property "Sheetfile" "power_supply.kicad_sch"
-			(at 67.31 47.5746 0)
+			(at 106.68 52.0196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
-		(pin "+3V3" output
-			(at 87.63 43.18 0)
-			(uuid "5fab1806-afdb-489f-8366-df55cb60ed1a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "+5V" output
-			(at 87.63 36.83 0)
-			(uuid "86fd8b39-85f7-40ac-8c46-172cee1b38ec")
+		(pin "VDD_5V" output
+			(at 127 48.26 0)
+			(uuid "c7c36d1e-16bb-4bdd-bab4-f899230d2736")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1061,6 +831,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "BUZZER" input
@@ -1113,6 +884,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "SYSTEM_LED" input
@@ -1164,6 +936,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "RST1" input
@@ -1325,6 +1098,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "SPI_SCK2" input
@@ -1480,12 +1254,13 @@
 			)
 		)
 		(property "Sheetfile" "uart_debugger.kicad_sch"
-			(at 98.552 71.12 90)
+			(at 83.82 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "UART_TX" output
@@ -1512,6 +1287,98 @@
 			(project "seven"
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
 					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 54.102)
+		(size 20.32 9.398)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cefcb938-0954-4d9a-a5b2-e2e651c202a6")
+		(property "Sheetname" "PMIC"
+			(at 106.426 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PMIC.kicad_sch"
+			(at 127.5846 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 110.49 63.5 270)
+			(uuid "dd196f63-0fe3-4254-9934-2de8fe6d3ec9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 107.95 63.5 270)
+			(uuid "3853615a-7ea1-4f5e-87a2-6316b166055c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_3V3" output
+			(at 127 60.96 0)
+			(uuid "a674d084-6080-4a20-aab8-3471c2443b3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_GNSS" output
+			(at 127 58.42 0)
+			(uuid "c395a340-d86f-475c-a5dd-5596fdb81873")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_1V8" output
+			(at 127 55.88 0)
+			(uuid "133e2bc7-a3a8-4a94-a3ce-f93302d6327b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
+					(page "15")
 				)
 			)
 		)
@@ -1547,6 +1414,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "I2C_SCL2" output
@@ -1879,18 +1747,8 @@
 				(justify left)
 			)
 		)
-		(pin "SIM_1V8" output
-			(at 67.31 105.41 180)
-			(uuid "d55da262-55e9-4222-82a1-42704a4d14d8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SIM_IO" bidirectional
-			(at 67.31 107.95 180)
+			(at 67.31 105.41 180)
 			(uuid "282d118b-b747-4632-bdcd-f11a2285b412")
 			(effects
 				(font
@@ -1919,6 +1777,26 @@
 				(justify left)
 			)
 		)
+		(pin "SCL" output
+			(at 100.33 77.47 90)
+			(uuid "28a7c8f7-3dfa-4e7a-a55b-c971446663fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 102.87 77.47 90)
+			(uuid "47e8131f-bbad-4c1d-8f3f-48517eec4cf5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "seven"
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
@@ -1928,8 +1806,8 @@
 		)
 	)
 	(sheet
-		(at 48.26 127)
-		(size 12.7 5.08)
+		(at 44.45 127)
+		(size 16.51 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1944,7 +1822,7 @@
 		)
 		(uuid "e0d7d36a-9918-47c0-a519-1a389fc09cdf")
 		(property "Sheetname" "Antenna GNSS"
-			(at 48.26 126.2884 0)
+			(at 44.45 126.2884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1953,12 +1831,13 @@
 			)
 		)
 		(property "Sheetfile" "antenna_GNSS.kicad_sch"
-			(at 48.26 132.6646 0)
+			(at 44.45 132.6646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "GNSS_ANTENNA" output
@@ -1981,7 +1860,7 @@
 	)
 	(sheet
 		(at 48.26 99.06)
-		(size 12.7 10.16)
+		(size 12.7 8.128)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2005,22 +1884,13 @@
 			)
 		)
 		(property "Sheetfile" "SIM_card.kicad_sch"
-			(at 48.26 109.8046 0)
+			(at 48.26 107.7726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "SIM_1V8" input
-			(at 60.96 105.41 0)
-			(uuid "9220505a-5887-4e9e-8870-ae7a31b9e83c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+				(hide yes)
 			)
 		)
 		(pin "SIM_RST" input
@@ -2034,7 +1904,7 @@
 			)
 		)
 		(pin "SIM_IO" bidirectional
-			(at 60.96 107.95 0)
+			(at 60.96 105.41 0)
 			(uuid "f3f40dbe-eabe-4e8b-9e5d-7c97f18757fa")
 			(effects
 				(font
@@ -2092,6 +1962,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "nRESET" output

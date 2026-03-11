@@ -1481,16 +1481,27 @@
 		)
 		(uuid "ff79c627-70d6-414a-b9bb-86e1de986bad")
 	)
-	(hierarchical_label "SIM_1V8"
+	(global_label "VDD_1V8"
 		(shape input)
-		(at 63.5 67.31 180)
+		(at 63.5 67.31 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "06f24393-c723-419c-bc19-231b1a7d61f5")
+		(uuid "10c64e05-ccb3-4a4f-8df3-ba4d1d2a823b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 56.221 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "SIM_IO"
 		(shape bidirectional)

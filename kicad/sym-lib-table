@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "seven_lib")(type "KiCad")(uri "${KIPRJMOD}/sym-lib/seven_lib.kicad_sym")(options "")(descr ""))
   (lib (name "MMST3904-7-F")(type "KiCad")(uri "/home/bobo/my_lib_kicad/MMST3904-7-F.kicad_sym")(options "")(descr ""))
+  (lib (name "2026-03-11_09-54-42")(type "KiCad")(uri "/home/bobo/my_lib_kicad/KiCADv6/2026-03-11_09-54-42.kicad_sym")(options "")(descr ""))
 )

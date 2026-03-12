@@ -2850,7 +2850,7 @@
 		)
 		(uuid "38e3a6ac-c58d-4ed3-a473-e9e81a393f14")
 	)
-	(text_box "GPIOs: 31\nSystem Logic: 3V3\nProgram Interface: SWD\nDebug Interface: VCOM"
+	(text_box "U1 - nRF9151\n\nCellular IoT System-in-Package (SiP)\n\nIntegrated LTE-M / NB-IoT modem\n\nIntegrated GNSS receiver\n\nArm Cortex-M33 MCU\n\nIntegrated RF front end and baseband\n\nMultiple digital interfaces (UART, SPI, I²C)\n\nProgrammable GPIOs\n\nIntegrated power management"
 		(exclude_from_sim no)
 		(at 177.546 85.09 0)
 		(size 107.95 80.01)
@@ -2892,7 +2892,7 @@
 		)
 		(uuid "43126efd-cd00-4b55-b753-0707cfb331f1")
 	)
-	(text_box "MCU circuit containing nRF9151\r\nby Nordic Semiconductor\r\n\n"
+	(text_box "This circuit contains the nRF9151 cellular IoT MCU/module and its required support components. The device is powered from the board supply (5V), with the MCU I/O domain using GPIO_VDD = 1.8 V. The schematic includes the basic power filtering and decoupling."
 		(exclude_from_sim no)
 		(at 177.546 24.13 0)
 		(size 107.95 53.34)
@@ -2911,6 +2911,29 @@
 			(justify left top)
 		)
 		(uuid "f8283ce3-6c19-4a97-aa05-fd875b95029f")
+	)
+	(text_box "NOTE: Avoid placing MCU near noisy components like buck or high-frequency signals"
+		(exclude_from_sim no)
+		(at 146.05 72.39 0)
+		(size 25.4 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 67 78 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "faa12035-1cfe-43fa-a8a5-f4097417a1f3")
 	)
 	(junction
 		(at 45.72 20.32)

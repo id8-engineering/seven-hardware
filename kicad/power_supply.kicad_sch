@@ -420,7 +420,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "ISL85410FRZ-T7A"
+			(property "Datasheet" "https://eu.mouser.com/datasheet/3/1166/1/REN_isl854102_DST_20131109.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1042,7 +1042,7 @@
 		)
 		(uuid "657ec8d8-138f-4f45-ac91-677b0fa0eb99")
 	)
-	(text_box "• Wide input voltage range: 3V to 40V\n• Continuous output current up to 1A\n• Internal or external soft-start (we use external 2,4ms)\n• Full-range industrial temperature of -40°C to +125°C."
+	(text_box "U5 - ISL85410FRZ-T7A\n\nSynchronous buck (step-down) switching regulator\n\nInput voltage range: 3 V - 40 V\n\nOutput current: up to 1 A\n\nIntegrated high-side and low-side NMOS switches\n\nAdjustable switching frequency: 300 kHz - 2 MHz (500 kHz default)\n\nSupports PFM or forced PWM operation\n\nAdjustable output voltage via feedback pin"
 		(exclude_from_sim no)
 		(at 176.53 85.09 0)
 		(size 107.95 80.01)
@@ -1062,7 +1062,7 @@
 		)
 		(uuid "230c951d-1f24-45bf-bb28-cfd8f9094090")
 	)
-	(text_box "Powers supply converting input power\n"
+	(text_box "This circuit implements a buck (step-down) switching regulator that converts an input voltage in the 6-40 V range to a regulated 5 V output supply for the system."
 		(exclude_from_sim no)
 		(at 176.53 24.13 0)
 		(size 107.95 53.34)
@@ -1677,7 +1677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ISL85410FRZ-T7A"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/1166/1/REN_isl854102_DST_20131109.pdf"
 			(at 67.31 80.01 0)
 			(effects
 				(font
@@ -2360,10 +2360,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6f3ce903-fcda-488c-ba09-3d5307e47f7e")
 		(property "Reference" "R12"
-			(at 161.29 80.0099 0)
+			(at 159.766 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2372,7 +2371,7 @@
 			)
 		)
 		(property "Value" "90.9k"
-			(at 161.29 82.5499 0)
+			(at 160.02 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)

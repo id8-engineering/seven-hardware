@@ -280,7 +280,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.sameskydevices.com/product/resource/nsim-2-c.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1135,7 +1135,7 @@
 		)
 		(uuid "515c3f5b-71fa-4a45-92ef-20f9bf84ae36")
 	)
-	(text_box "SIM card holder to hold the SIM card, we use a nano-sized SIM (4FF).\nFor ESD we let RST, CLK and IO signals pass though a ESD protector."
+	(text_box "This circuit implements the SIM card interface for the cellular modem. It connects the MCU SIM signals to a nano-SIM socket and includes an ESD protection device to protect the SIM data and clock lines."
 		(exclude_from_sim no)
 		(at 176.53 24.13 0)
 		(size 107.95 53.34)
@@ -1154,6 +1154,29 @@
 			(justify left top)
 		)
 		(uuid "525cb4de-4cc2-478d-bc77-634d85486f6d")
+	)
+	(text_box "NOTE: Place close to nRF9151"
+		(exclude_from_sim no)
+		(at 105.41 43.18 0)
+		(size 25.4 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 67 78 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "8175a023-938f-4470-959e-48e8d654eb09")
 	)
 	(text_box "SIM card holder\n"
 		(exclude_from_sim no)
@@ -1199,7 +1222,7 @@
 		)
 		(uuid "b7e7955b-1d6f-4d04-b5bc-a9313dbc0e86")
 	)
-	(text_box "Nano-SIM card connector, push-pull type, 8-pin, SMD\n"
+	(text_box "U2 - TPD3F303DPV\n\nSIM interface EMI filter and ESD protection device\n\nProtects DATA, CLK, and RST lines\n\nIntegrated TVS diodes for ESD protection\n\nIntegrated EMI filter network for SIM signals\n\nDesigned specifically for SIM / smart-card interfaces\n\nJ7 - Nano-SIM socket\n\nNano-SIM card connector\n\nProvides electrical interface to the SIM card"
 		(exclude_from_sim no)
 		(at 176.53 85.09 0)
 		(size 107.95 80.01)
@@ -1665,7 +1688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/nsim-2-c.pdf"
 			(at 137.16 83.82 0)
 			(effects
 				(font

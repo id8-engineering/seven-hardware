@@ -862,7 +862,7 @@
 		)
 		(uuid "2fc9abc6-1c15-4cf0-b8af-ac8ece572ebc")
 	)
-	(text_box "GNSS antenna connected to single-ended GNSS receiver antenna port 50 Ω"
+	(text_box "This circuit implements the GNSS antenna interface for the modem. It includes an SMA connector for an external GNSS antenna and an RF matching and bias network used to properly interface the antenna with the GNSS receiver."
 		(exclude_from_sim no)
 		(at 176.53 24.13 0)
 		(size 107.95 53.34)
@@ -882,47 +882,51 @@
 		)
 		(uuid "5e4dbbec-c0dd-4027-9237-a3b861b5bb19")
 	)
-	(text_box "\n"
+	(text_box "NOTE: TRACE SHOULD BE 50Ω IMPEDANCE\n"
 		(exclude_from_sim no)
-		(at 176.53 85.09 0)
-		(size 107.95 80.01)
+		(at 101.6 102.87 0)
+		(size 25.4 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
-			(type dash)
+			(type solid)
+			(color 255 0 0 1)
 		)
 		(fill
-			(type none)
+			(type color)
+			(color 255 67 78 1)
 		)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 1.27 1.27)
+				(color 0 0 0 1)
 			)
 			(justify left top)
 		)
-		(uuid "c206986a-fb8e-42cc-97ea-cffed3bb946d")
+		(uuid "7a73f9e8-d3b5-44be-b011-75a1a0770946")
 	)
-	(text_box "Component Description\n"
+	(text_box "NOTE: Place close to nRF9151"
 		(exclude_from_sim no)
-		(at 176.53 77.47 0)
-		(size 107.95 7.62)
+		(at 114.3 63.5 0)
+		(size 25.4 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
-			(type dash)
+			(type solid)
+			(color 255 0 0 1)
 		)
 		(fill
-			(type none)
+			(type color)
+			(color 255 67 78 1)
 		)
 		(effects
 			(font
-				(size 3.81 3.81)
-				(thickness 0.762)
-				(bold yes)
+				(size 1.27 1.27)
+				(color 0 0 0 1)
 			)
-			(justify top)
+			(justify left top)
 		)
-		(uuid "d850ce86-613c-4ccf-81c2-81f8cf0e4f8f")
+		(uuid "d6c53920-da65-4e2b-9fcf-9b176df88668")
 	)
 	(text_box "Circuit Description\n"
 		(exclude_from_sim no)
@@ -1077,6 +1081,16 @@
 			(type default)
 		)
 		(uuid "6ff70dac-d578-4e35-a5d2-bf8b3e484175")
+	)
+	(polyline
+		(pts
+			(xy 101.6 90.17) (xy 101.6 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "732e6b39-00ff-4080-bf00-4794e7da4082")
 	)
 	(wire
 		(pts

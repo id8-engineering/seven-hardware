@@ -1362,7 +1362,7 @@
 		)
 		(uuid "ab6c1693-db23-40ae-8b4a-60688dc3fb69")
 	)
-	(text_box "Power Management IC with system regulator and two buck converters. Generates regulated 1.8 V and 3.3 V rails from a 5 V input."
+	(text_box "This circuit implements the power management subsystem using the nPM1300 PMIC. It manages power distribution from the 5 V input and generates regulated supply rails for the system, including VDD_1V8, VDD_3V3, and VDD_GNSS."
 		(exclude_from_sim no)
 		(at 176.53 24.13 0)
 		(size 107.95 53.34)
@@ -1382,7 +1382,7 @@
 		)
 		(uuid "34228980-86b2-47d0-8e4f-dc11760ce772")
 	)
-	(text_box "\n"
+	(text_box "U3 - nPM1300-CAAX\n\nPower Management IC (PMIC)\n\nIntegrated two buck regulators (VOUT1, VOUT2)\n\nI²C (TWI) interface for configuration and monitoring\n\nBattery charger support\n\nFuel gauge and power management functions\n\nVSET1, VSET2 used to configure VOUT1 and VOUT2 output voltages"
 		(exclude_from_sim no)
 		(at 176.53 85.09 0)
 		(size 107.95 80.01)
@@ -1446,6 +1446,29 @@
 		)
 		(uuid "51f26c50-08ef-44e9-ab68-71fc37ade594")
 	)
+	(text_box "NOTE: Connect to\nGND layer with a via.\nDo not short to GND\npad directly."
+		(exclude_from_sim no)
+		(at 146.05 82.55 0)
+		(size 25.4 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 67 78 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "a1d63d13-b625-4186-a02f-587622243904")
+	)
 	(text_box "Circuit Description\n"
 		(exclude_from_sim no)
 		(at 217.17 12.7 0)
@@ -1467,6 +1490,29 @@
 			(justify left top)
 		)
 		(uuid "c3aca5d8-51f2-49fb-8847-4a8a1307d116")
+	)
+	(text_box "NOTE: C12 and C19 should be placed close to PVSS1 and PVSS2 pads respectively\n"
+		(exclude_from_sim no)
+		(at 115.57 30.48 0)
+		(size 25.4 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 67 78 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "dad3c6f4-383c-4208-9ab6-c1dc3ad3138d")
 	)
 	(junction
 		(at 30.48 58.42)
@@ -1866,6 +1912,17 @@
 		)
 		(uuid "64b780d7-721a-4552-aaa1-4055662b0f7c")
 	)
+	(polyline
+		(pts
+			(xy 128.27 105.41) (xy 135.89 105.41)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 255 74 77 1)
+		)
+		(uuid "715c4349-0afc-49fe-90c4-0e7a697d217d")
+	)
 	(wire
 		(pts
 			(xy 121.92 85.09) (xy 127 85.09)
@@ -1885,6 +1942,17 @@
 			(type default)
 		)
 		(uuid "73ef3562-7cc9-4b1d-9017-184f35678c57")
+	)
+	(polyline
+		(pts
+			(xy 128.27 92.71) (xy 135.89 92.71)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 255 74 77 1)
+		)
+		(uuid "77c45c3f-cb9e-4a5f-b9ef-22e165abb29e")
 	)
 	(wire
 		(pts
@@ -1925,6 +1993,17 @@
 			(type default)
 		)
 		(uuid "8faa19f6-b124-4bcb-9705-59be83f70db2")
+	)
+	(polyline
+		(pts
+			(xy 135.89 92.71) (xy 146.05 92.71)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 255 74 77 1)
+		)
+		(uuid "93747bb1-7018-4127-b8ea-30cb060b68d6")
 	)
 	(wire
 		(pts
@@ -2045,6 +2124,17 @@
 			(type default)
 		)
 		(uuid "d0f1832e-a259-4987-95dd-752b6e39ae6e")
+	)
+	(polyline
+		(pts
+			(xy 135.89 92.71) (xy 135.89 105.41)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 255 74 77 1)
+		)
+		(uuid "d7e6712d-f680-4529-a02c-198622051e34")
 	)
 	(wire
 		(pts
@@ -2763,16 +2853,15 @@
 	)
 	(symbol
 		(lib_id "seven_lib:GND")
-		(at 128.27 92.71 90)
+		(at 128.27 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "26310da4-612b-481d-8a17-8ea1f5e9240c")
 		(property "Reference" "#PWR042"
-			(at 134.62 92.71 0)
+			(at 128.27 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2781,12 +2870,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 92.7099 90)
+			(at 128.27 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -4039,16 +4127,15 @@
 	)
 	(symbol
 		(lib_id "seven_lib:GND")
-		(at 128.27 105.41 90)
+		(at 128.27 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b3a31e06-f16c-4d0e-b50b-1a0f5445bf6a")
 		(property "Reference" "#PWR050"
-			(at 134.62 105.41 0)
+			(at 128.27 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4057,12 +4144,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 105.4099 90)
+			(at 128.27 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""

@@ -404,7 +404,7 @@
 		)
 		(uuid "f615f3ec-20e5-4c98-bea9-963269ab0a8e")
 	)
-	(text_box "JTAG SWD interface lets the usef flash without the need for a BOM cost\nARM uses SWD JTAG interface\nSWO will not be used, we will instead use UART to debug separately. "
+	(text_box "This circuit provides a Tag-Connect TC2030 programming and debugging interface for the MCU. It exposes the SWD (Serial Wire Debug) signals and power reference required to program and debug the device."
 		(exclude_from_sim no)
 		(at 176.53 24.13 0)
 		(size 107.95 53.34)
@@ -467,48 +467,6 @@
 			(justify left top)
 		)
 		(uuid "5d762859-1aff-4623-a06b-60ad08af630e")
-	)
-	(text_box "\n"
-		(exclude_from_sim no)
-		(at 176.53 85.09 0)
-		(size 107.95 80.01)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left top)
-		)
-		(uuid "784a9e3a-7a82-4752-b32f-be79a18db742")
-	)
-	(text_box "Component Description\n"
-		(exclude_from_sim no)
-		(at 176.53 77.47 0)
-		(size 107.95 7.62)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(thickness 0.762)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "ac050c1d-9f45-4116-bc07-6701962f1d45")
 	)
 	(no_connect
 		(at 104.14 97.79)

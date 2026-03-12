@@ -5,6 +5,118 @@
 	(uuid "8e3cc843-5797-49f3-8b3a-1c11450ccd1e")
 	(paper "A4")
 	(lib_symbols)
+	(rectangle
+		(start 223.52 12.7)
+		(end 284.48 45.72)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2e9e48cc-72ea-4011-8ff3-3dd2b74860bc)
+	)
+	(text_box "L4:LOW PRIORITY SIGNALS"
+		(exclude_from_sim no)
+		(at 224.79 39.37 0)
+		(size 58.42 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "03425d54-8f58-417f-bf17-f6a5dbf74f7a")
+	)
+	(text_box "L1:CRITICAL SIGNALS / Components / RF TRACES"
+		(exclude_from_sim no)
+		(at 224.79 24.13 0)
+		(size 58.42 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "27f89750-0db1-417c-a5fc-fb289c5f50c3")
+	)
+	(text_box "L2:GND"
+		(exclude_from_sim no)
+		(at 224.79 29.21 0)
+		(size 58.42 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "7702bebf-1b10-4da5-820a-d481417fc119")
+	)
+	(text_box "L3:POWER/LESS CRITICAL SIGNALS"
+		(exclude_from_sim no)
+		(at 224.79 34.29 0)
+		(size 58.42 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "a152b36d-994a-4c3e-805a-2546038415b8")
+	)
+	(text_box "PCB STACKUP"
+		(exclude_from_sim no)
+		(at 224.79 13.97 0)
+		(size 58.42 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "fe2362c3-d57c-4798-9bfe-b4e09cb8fdeb")
+	)
 	(junction
 		(at 68.58 73.66)
 		(diameter 0)

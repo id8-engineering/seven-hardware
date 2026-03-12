@@ -310,7 +310,7 @@
 		)
 		(uuid "1a90f100-2aac-4e78-a9d0-29fe60afdbc8")
 	)
-	(text_box "UART pin headers will be used to debug SEVEN"
+	(text_box "This circuit provides a UART debug interface that allows serial communication between the MCU and an external device such as a PC or USB-to-UART adapter."
 		(exclude_from_sim no)
 		(at 176.53 24.13 0)
 		(size 107.95 53.34)
@@ -329,26 +329,6 @@
 			(justify left top)
 		)
 		(uuid "36617dc8-cd57-4872-ba9d-2ea345cb3673")
-	)
-	(text_box "\n"
-		(exclude_from_sim no)
-		(at 176.53 85.09 0)
-		(size 107.95 80.01)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left top)
-		)
-		(uuid "5b16b3bb-2224-4bf0-bce1-994bbd8d1a71")
 	)
 	(text_box "Circuit Description\n"
 		(exclude_from_sim no)
@@ -371,28 +351,6 @@
 			(justify left top)
 		)
 		(uuid "8f65721a-a82c-4ccc-83ca-13a5d39a5a40")
-	)
-	(text_box "Component Description\n"
-		(exclude_from_sim no)
-		(at 176.53 77.47 0)
-		(size 107.95 7.62)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(thickness 0.762)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "d079687a-5324-45fc-b47c-a17821ae5399")
 	)
 	(wire
 		(pts

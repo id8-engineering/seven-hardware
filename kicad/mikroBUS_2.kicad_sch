@@ -459,36 +459,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "\n\n"
-		(exclude_from_sim no)
-		(at 227.584 85.09 0)
-		(effects
-			(font
-				(size 4.572 4.572)
-			)
-		)
-		(uuid "fb3a659c-63db-4764-8849-2fd5100cbdc7")
-	)
-	(text_box "mikroBUS socket circuit.\nInterface by MIKROE"
-		(exclude_from_sim no)
-		(at 176.53 24.13 0)
-		(size 107.95 53.34)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left top)
-		)
-		(uuid "35f5aad2-f10e-44fc-b19b-57c5731a1e24")
-	)
 	(text_box "mikroBUS Socket 2"
 		(exclude_from_sim no)
 		(at 176.53 12.7 0)
@@ -533,6 +503,49 @@
 		)
 		(uuid "66d84b42-61da-4efa-b3eb-9c1dd67dbe04")
 	)
+	(text_box "This circuit implements a MikroBUS expansion interface, a standardized connectivity interface for embedded add-on boards. It exposes power rails and several MCU communication signals to allow connection of MikroBUS-compatible peripheral modules."
+		(exclude_from_sim no)
+		(at 176.53 24.13 0)
+		(size 107.95 53.34)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "8e7eefbe-3202-4892-be9b-26d072c3e96a")
+	)
+	(text_box "NOTE: BE caution of all Clicker Board sizes when placing footprint"
+		(exclude_from_sim no)
+		(at 120.65 48.26 0)
+		(size 25.4 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 67 78 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "b5963943-570c-4c5c-b92b-1c751a8e07c0")
+	)
 	(text_box "Component Description\n"
 		(exclude_from_sim no)
 		(at 176.53 77.47 0)
@@ -554,6 +567,26 @@
 			(justify top)
 		)
 		(uuid "f7849dd2-ffc0-425f-a42a-9605647a172f")
+	)
+	(text_box "J1 - MikroBUS Socket\n\nStandard MikroBUS expansion connector\n\nProvides SPI interface (MOSI, MISO, SCK, CS)\n\nProvides UART interface (TX, RX)\n\nProvides I²C interface (SDA, SCL)\n\nAdditional control signals (INT, RST, PWM, AN)\n\nPower rails +5 V and +3.3 V\n\nGND reference for connected modules"
+		(exclude_from_sim no)
+		(at 176.53 85.09 0)
+		(size 107.95 80.01)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "fd90beb5-558f-4272-b7ea-c82e555c064f")
 	)
 	(wire
 		(pts
@@ -714,507 +747,6 @@
 			(type default)
 		)
 		(uuid "e547fa4e-634f-4879-bcb0-8023679ee9f4")
-	)
-	(table
-		(column_count 2)
-		(border
-			(external yes)
-			(header yes)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-		)
-		(separators
-			(rows yes)
-			(cols yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(column_widths 21.59 21.59)
-		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54
-			2.54 2.54
-		)
-		(cells
-			(table_cell "MCU"
-				(exclude_from_sim no)
-				(at 176.53 85.09 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "a0292072-b10f-42a3-87d5-dc04eb391a9a")
-			)
-			(table_cell "MikroBUS_1"
-				(exclude_from_sim no)
-				(at 198.12 85.09 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "e06229e4-babc-40de-a3cb-fa6be99dddca")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 176.53 87.63 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "324faa27-516e-483f-9880-aeaf8a05b7b5")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 198.12 87.63 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "6c59f9e5-d1b7-4f91-8208-459f4adea1e3")
-			)
-			(table_cell "P0.07"
-				(exclude_from_sim no)
-				(at 176.53 90.17 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "500b6690-9eac-4aa9-aa7d-e185af49678b")
-			)
-			(table_cell "CS2"
-				(exclude_from_sim no)
-				(at 198.12 90.17 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "dd40f226-5010-4285-acb4-5cf1d25983bb")
-			)
-			(table_cell "P0.15"
-				(exclude_from_sim no)
-				(at 176.53 92.71 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "12e37105-e45f-4731-842f-b1b5821fb172")
-			)
-			(table_cell "INT2"
-				(exclude_from_sim no)
-				(at 198.12 92.71 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "14fb55a5-bc8f-485d-aa27-86f373bec36d")
-			)
-			(table_cell "P0.016"
-				(exclude_from_sim no)
-				(at 176.53 95.25 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "b75bd1a6-98d3-42ac-96b5-d9db7d1476c5")
-			)
-			(table_cell "RST2"
-				(exclude_from_sim no)
-				(at 198.12 95.25 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "aef74c4d-21df-4640-a8b2-acaf237a3208")
-			)
-			(table_cell "P0.17"
-				(exclude_from_sim no)
-				(at 176.53 97.79 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "57e9f9c8-1ad5-4dae-b832-21d9aee7fc9b")
-			)
-			(table_cell "PWM2"
-				(exclude_from_sim no)
-				(at 198.12 97.79 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "3905abeb-e77e-4336-bb45-511d6d40ec51")
-			)
-			(table_cell "P0.27"
-				(exclude_from_sim no)
-				(at 176.53 100.33 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "f07391d9-c419-4060-aa9e-3626894d8d3d")
-			)
-			(table_cell "SPI_MOSI2"
-				(exclude_from_sim no)
-				(at 198.12 100.33 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "5772ac41-dc24-433e-8839-3767d46970e4")
-			)
-			(table_cell "P0.28"
-				(exclude_from_sim no)
-				(at 176.53 102.87 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "0f1ce065-5b77-41ca-8ea1-8e906a75876e")
-			)
-			(table_cell "SPI_MISO2"
-				(exclude_from_sim no)
-				(at 198.12 102.87 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "210e919b-15b0-4f00-9030-eab3d5ddec93")
-			)
-			(table_cell "P0.29"
-				(exclude_from_sim no)
-				(at 176.53 105.41 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "33fff2ef-f82c-4217-8b1a-03b84ef7567a")
-			)
-			(table_cell "SPI_SCK2"
-				(exclude_from_sim no)
-				(at 198.12 105.41 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "15755965-a463-43be-b047-783fe76ecda6")
-			)
-			(table_cell "P0.30"
-				(exclude_from_sim no)
-				(at 176.53 107.95 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "804708c7-338b-4827-b8b5-2ba14a059a9a")
-			)
-			(table_cell "I2C_SCL2"
-				(exclude_from_sim no)
-				(at 198.12 107.95 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "377991a2-cd89-42df-9fef-378576453f24")
-			)
-			(table_cell "P0.31"
-				(exclude_from_sim no)
-				(at 176.53 110.49 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "02d1cdaa-9712-4c4a-99a4-c71ae6585696")
-			)
-			(table_cell "I2C_SDA2"
-				(exclude_from_sim no)
-				(at 198.12 110.49 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "fee693a0-789c-4b81-8d14-59f77a147828")
-			)
-			(table_cell "P0.12"
-				(exclude_from_sim no)
-				(at 176.53 113.03 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "30d1fb4b-dbf3-48d4-a52c-92bfc70e4485")
-			)
-			(table_cell "UART_TX2"
-				(exclude_from_sim no)
-				(at 198.12 113.03 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "f32fbe40-adf4-4fec-a88d-3836faced153")
-			)
-			(table_cell "P0.13"
-				(exclude_from_sim no)
-				(at 176.53 115.57 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "35d10bac-b183-4d41-950a-6b23e1406233")
-			)
-			(table_cell "UART_RX2"
-				(exclude_from_sim no)
-				(at 198.12 115.57 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "e889dbae-a900-4a6a-8538-cfb2f8a70d55")
-			)
-			(table_cell "P0.26"
-				(exclude_from_sim no)
-				(at 176.53 118.11 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "a74db3ce-957d-47b3-b612-3d40049168e2")
-			)
-			(table_cell "AN2"
-				(exclude_from_sim no)
-				(at 198.12 118.11 0)
-				(size 21.59 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "55cd2cf1-bf49-45eb-a730-8a125db6d2b6")
-			)
-		)
 	)
 	(global_label "VDD_3V3"
 		(shape input)

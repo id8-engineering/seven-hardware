@@ -106,382 +106,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "seven_lib:PTS526_SM15_SMTR2_LFS"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at -2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "PTS526_SM15_SMTR2_LFS"
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "seven-lib:PTS526SM15SMTR2LFS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Tactile Switches 50mA 12VDC, 5.2x5.2mm, 1.5mm H, 160gf, G leads, No ground pin, metal actuator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER_NAME" "C & K COMPONENTS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MF" "C&K"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/CK/PTS526-SM15-SMTR2-LFS?qs=UXgszm6BlbENivbslIA%252B5g%3D%3D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MOUSER_PART_NUMBER" "611-PTS526SM15SMTR2L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/PTS526%20SM15%20SMTR2%20LFS/C%2526K/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "HEIGHT" "1.5mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "PTS526 SM15 SMTR2 LFS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTS526%20SM15%20SMTR2%20LFS/C%2526K/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "ARROW_PRICE-STOCK" "https://www.arrow.com/en/products/pts526-sm15-smtr2-lfs/ck"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "ARROW_PART_NUMBER" "PTS526 SM15 SMTR2 LFS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER_PART_NUMBER" "PTS526 SM15 SMTR2 LFS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "PTS526_SM15_SMTR2_LFS_0_0"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 0)
-					(radius 0.127)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.905) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.905) (xy 1.27 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.905) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.127)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "seven_lib:R"
 			(pin_numbers
 				(hide yes)
@@ -599,6 +223,286 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "seven_lib:TL3336AF160Q"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TL3336AF160Q"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "seven-lib:SW_TL3336AF160Q"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "E-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "7.1mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TL3336AF160Q/E-Switch/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "3.30.2021"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3336AF160Q/E-Switch/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TL3336AF160Q"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=5907806&manufacturer=E-Switch&part_name=TL3336AF160Q&search_term=None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Tactile Switch, SPST-NO, OFF-(ON), Top Actuated, R/A, 0.05A, 12V, TL3336A Series | E-Switch TL3336AF160Q"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "E-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "TL3336AF160Q"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TL3336AF160Q_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.794 2.1336)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.3302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 2.921 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -731,16 +635,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 92.71) (xy 69.85 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03135e25-f404-4b8e-80eb-e94dcb32c31f")
-	)
-	(wire
-		(pts
 			(xy 60.96 92.71) (xy 69.85 92.71)
 		)
 		(stroke
@@ -748,16 +642,6 @@
 			(type default)
 		)
 		(uuid "1754cf5e-eeee-4e75-a149-ee0149c30ef7")
-	)
-	(wire
-		(pts
-			(xy 91.44 92.71) (xy 101.6 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4498b743-cce9-4aea-95c7-a681ed1dc8a4")
 	)
 	(wire
 		(pts
@@ -769,6 +653,16 @@
 		)
 		(uuid "61d2c2af-45ec-4861-ad20-c76e1263748b")
 	)
+	(wire
+		(pts
+			(xy 78.74 92.71) (xy 69.85 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95aaaab1-43ea-49ff-8197-b6b7ed44d39b")
+	)
 	(polyline
 		(pts
 			(xy 176.53 77.47) (xy 284.48 77.47)
@@ -778,6 +672,16 @@
 			(type dash)
 		)
 		(uuid "b57a34b7-03f6-4379-b44b-60b0f97ab8e1")
+	)
+	(wire
+		(pts
+			(xy 93.98 92.71) (xy 101.6 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f3746d-5ae7-4fd1-bc6f-0a84ad4f2a78")
 	)
 	(wire
 		(pts
@@ -969,7 +873,7 @@
 		)
 	)
 	(symbol
-		(lib_id "seven_lib:PTS526_SM15_SMTR2_LFS")
+		(lib_id "seven_lib:TL3336AF160Q")
 		(at 86.36 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -977,24 +881,24 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fb6839df-9199-4b3c-b17d-b89b157a37eb")
-		(property "Reference" "SW1"
-			(at 86.36 86.36 0)
+		(uuid "5c09e4ff-acda-4d2e-b56d-ec6138a48317")
+		(property "Reference" "S1"
+			(at 86.36 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "PTS526_SM15_SMTR2_LFS"
-			(at 86.36 88.9 0)
+		(property "Value" "TL3336AF160Q"
+			(at 86.36 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "seven-lib:PTS526SM15SMTR2LFS"
+		(property "Footprint" "seven-lib:SW_TL3336AF160Q"
 			(at 86.36 92.71 0)
 			(effects
 				(font
@@ -1004,7 +908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
+		(property "Datasheet" ""
 			(at 86.36 92.71 0)
 			(effects
 				(font
@@ -1013,27 +917,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Tactile Switches 50mA 12VDC, 5.2x5.2mm, 1.5mm H, 160gf, G leads, No ground pin, metal actuator"
+		(property "Description" ""
 			(at 86.36 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_NAME" "C & K COMPONENTS"
-			(at 86.36 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "C&K"
+		(property "MF" "E-Switch"
 			(at 86.36 92.71 0)
 			(effects
 				(font
@@ -1043,27 +936,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/CK/PTS526-SM15-SMTR2-LFS?qs=UXgszm6BlbENivbslIA%252B5g%3D%3D"
-			(at 86.36 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" "611-PTS526SM15SMTR2L"
-			(at 86.36 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
+		(property "MAXIMUM_PACKAGE_HEIGHT" "7.1mm"
 			(at 86.36 92.71 0)
 			(effects
 				(font
@@ -1083,7 +956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/PTS526%20SM15%20SMTR2%20LFS/C%2526K/view-part/?ref=eda"
+		(property "Price" "None"
 			(at 86.36 92.71 0)
 			(effects
 				(font
@@ -1093,7 +966,7 @@
 				(hide yes)
 			)
 		)
-		(property "HEIGHT" "1.5mm"
+		(property "Check_prices" "https://www.snapeda.com/parts/TL3336AF160Q/E-Switch/view-part/?ref=eda"
 			(at 86.36 92.71 0)
 			(effects
 				(font
@@ -1103,7 +976,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "PTS526 SM15 SMTR2 LFS"
+		(property "STANDARD" "Manufacturer Recommendations"
 			(at 86.36 92.71 0)
 			(effects
 				(font
@@ -1113,7 +986,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTS526%20SM15%20SMTR2%20LFS/C%2526K/view-part/?ref=snap"
+		(property "PARTREV" "3.30.2021"
 			(at 86.36 92.71 0)
 			(effects
 				(font
@@ -1123,7 +996,7 @@
 				(hide yes)
 			)
 		)
-		(property "ARROW_PRICE-STOCK" "https://www.arrow.com/en/products/pts526-sm15-smtr2-lfs/ck"
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3336AF160Q/E-Switch/view-part/?ref=snap"
 			(at 86.36 92.71 0)
 			(effects
 				(font
@@ -1133,7 +1006,7 @@
 				(hide yes)
 			)
 		)
-		(property "ARROW_PART_NUMBER" "PTS526 SM15 SMTR2 LFS"
+		(property "MP" "TL3336AF160Q"
 			(at 86.36 92.71 0)
 			(effects
 				(font
@@ -1143,7 +1016,27 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=5907806&manufacturer=E-Switch&part_name=TL3336AF160Q&search_term=None"
+			(at 86.36 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Tactile Switch, SPST-NO, OFF-(ON), Top Actuated, R/A, 0.05A, 12V, TL3336A Series | E-Switch TL3336AF160Q"
+			(at 86.36 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
 			(at 86.36 92.71 0)
 			(effects
 				(font
@@ -1163,7 +1056,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "PTS526 SM15 SMTR2 LFS"
+		(property "SNAPEDA_PN" "TL3336AF160Q"
 			(at 86.36 92.71 0)
 			(effects
 				(font
@@ -1173,22 +1066,16 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "2334138f-7c5e-4d3a-81c6-0daa28561f3d")
-		)
 		(pin "2"
-			(uuid "0b0eda02-5119-49f8-bf65-7a558ae8ecbf")
-		)
-		(pin "3"
-			(uuid "b925f249-2a0a-49b9-be5a-75fcd78f2d26")
+			(uuid "b52335a6-a45b-4bb4-9739-593ec5d17931")
 		)
 		(pin "1"
-			(uuid "31a8b84f-4bc0-4b08-9b8b-2822e9e3ddf5")
+			(uuid "dc317be1-4848-4933-957c-a56d9e0152d2")
 		)
 		(instances
 			(project ""
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/fcef6494-c0b2-4cc5-a2e1-aeb845f0853f"
-					(reference "SW1")
+					(reference "S1")
 					(unit 1)
 				)
 			)

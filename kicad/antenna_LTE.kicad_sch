@@ -539,6 +539,29 @@
 		)
 		(uuid "11a7c834-ff98-4377-a15c-7a6fbbf38b83")
 	)
+	(text_box "NOTE: TRACE SHOULD BE 50Ω IMPEDANCE\n"
+		(exclude_from_sim no)
+		(at 95.25 104.14 0)
+		(size 25.4 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 67 78 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "1a70aac6-e53e-4c0a-b085-28518fef9558")
+	)
 	(text_box "LTE to SMA connector"
 		(exclude_from_sim no)
 		(at 176.53 12.7 0)
@@ -561,7 +584,7 @@
 		)
 		(uuid "2fc9abc6-1c15-4cf0-b8af-ac8ece572ebc")
 	)
-	(text_box "An SMA connector is connected to the board for the LTE antenna."
+	(text_box "This circuit provides an SMA connector for the LTE antenna, allowing connection of an external antenna to the cellular modem."
 		(exclude_from_sim no)
 		(at 176.53 24.13 0)
 		(size 107.95 53.34)
@@ -581,47 +604,28 @@
 		)
 		(uuid "5e4dbbec-c0dd-4027-9237-a3b861b5bb19")
 	)
-	(text_box "\n"
+	(text_box "NOTE: Place close to nRF9151"
 		(exclude_from_sim no)
-		(at 176.53 85.09 0)
-		(size 107.95 80.01)
+		(at 128.27 66.04 0)
+		(size 25.4 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
-			(type dash)
+			(type solid)
+			(color 255 0 0 1)
 		)
 		(fill
-			(type none)
+			(type color)
+			(color 255 67 78 1)
 		)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 1.27 1.27)
+				(color 0 0 0 1)
 			)
 			(justify left top)
 		)
-		(uuid "c206986a-fb8e-42cc-97ea-cffed3bb946d")
-	)
-	(text_box "Component Description\n"
-		(exclude_from_sim no)
-		(at 176.53 77.47 0)
-		(size 107.95 7.62)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(thickness 0.762)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "d850ce86-613c-4ccf-81c2-81f8cf0e4f8f")
+		(uuid "6b6286ed-9dac-40c6-8d10-d0c168b6ca54")
 	)
 	(text_box "Circuit Description\n"
 		(exclude_from_sim no)
@@ -664,6 +668,16 @@
 			(type dash)
 		)
 		(uuid "29ccd66c-2561-4ac2-a6a1-cb5c96ef9bf4")
+	)
+	(polyline
+		(pts
+			(xy 95.25 90.17) (xy 95.25 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f7de704-a349-4a8a-a6e3-102e1a7b6611")
 	)
 	(wire
 		(pts

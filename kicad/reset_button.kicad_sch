@@ -265,7 +265,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.mouser.se/datasheet/3/315/1/TL3336AF160Q.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -543,28 +543,6 @@
 		)
 		(uuid "027a742d-b2cc-4673-a7c2-8c726d77d0e6")
 	)
-	(text_box "Component Description\n"
-		(exclude_from_sim no)
-		(at 176.53 77.47 0)
-		(size 107.95 7.62)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(thickness 0.762)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "36778074-b5af-4659-8e3d-4bacbe12d936")
-	)
 	(text_box "Reset button"
 		(exclude_from_sim no)
 		(at 176.53 12.7 0)
@@ -587,27 +565,7 @@
 		)
 		(uuid "595530ef-cabc-4f7a-b50f-a23fcc78db73")
 	)
-	(text_box "\n"
-		(exclude_from_sim no)
-		(at 176.53 85.09 0)
-		(size 107.95 80.01)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left top)
-		)
-		(uuid "5a20c034-a22e-4091-b96e-3bd3b67b49a2")
-	)
-	(text_box "Reset nRF9151\nActive low"
+	(text_box "This circuit implements a manual reset input for the MCU. A pushbutton allows the reset line to be pulled low to trigger a system reset."
 		(exclude_from_sim no)
 		(at 176.53 24.13 0)
 		(size 107.95 53.34)
@@ -908,7 +866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.se/datasheet/3/315/1/TL3336AF160Q.pdf"
 			(at 86.36 92.71 0)
 			(effects
 				(font

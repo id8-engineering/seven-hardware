@@ -5,6 +5,145 @@
 	(uuid "a4797295-7784-4336-a44a-01a52d7306a1")
 	(paper "A4")
 	(lib_symbols
+		(symbol "seven_lib:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "seven-lib:C_1812_4532Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "seven_lib:GND"
 			(power)
 			(pin_numbers
@@ -202,6 +341,130 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "seven_lib:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "seven-lib:R_0603_1608Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -475,7 +738,7 @@
 	)
 	(text_box "Circuit Description\n"
 		(exclude_from_sim no)
-		(at 216.916 12.7 0)
+		(at 217.17 12.7 0)
 		(size 67.31 11.43)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -495,9 +758,9 @@
 		)
 		(uuid "725948de-406c-4e96-81d0-2bc84df0f521")
 	)
-	(text_box "SK6805-EC15 uses a single-wire serial interface (NRZ, self-clocking, typically ~800 kHz), compatible with WS2812/SK6805-style \"NeoPixel\" protocol."
+	(text_box "D5 - SK6805-EC15\n\nAddressable RGB LED with integrated driver\n\nWS2812 / NeoPixel-compatible control protocol\n\nSingle-wire digital data input (DIN)\n\nDOUT for LED chaining\n\nIndividually controllable red, green, and blue channels\n\nPowered from 5 V"
 		(exclude_from_sim no)
-		(at 176.276 85.09 0)
+		(at 176.53 85.09 0)
 		(size 107.95 80.01)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -517,7 +780,7 @@
 	)
 	(text_box "System Controlled RGB LED"
 		(exclude_from_sim no)
-		(at 176.276 12.7 0)
+		(at 176.53 12.7 0)
 		(size 40.64 11.43)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -539,7 +802,7 @@
 	)
 	(text_box "Component Description\n"
 		(exclude_from_sim no)
-		(at 176.276 77.47 0)
+		(at 176.53 77.47 0)
 		(size 107.95 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -559,9 +822,9 @@
 		)
 		(uuid "d5d85b4b-5dc3-4509-8ecc-9c9e15726fe4")
 	)
-	(text_box "RGB LED controlled by user.\n"
+	(text_box "This circuit implements a digitally controlled RGB status LED (NeoPixel-compatible) powered from the 5 V supply. The LED is controlled through a single-wire data signal from the MCU, allowing programmable color and brightness for system status indication."
 		(exclude_from_sim no)
-		(at 176.276 24.13 0)
+		(at 176.53 24.13 0)
 		(size 107.95 53.34)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -578,6 +841,12 @@
 			(justify left top)
 		)
 		(uuid "da4142cc-8fd1-4c9c-a23f-58cb8cc5d5d4")
+	)
+	(junction
+		(at 93.98 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15005e64-2d1c-42fd-b4cf-7f8d39b47e0a")
 	)
 	(junction
 		(at 93.98 74.93)
@@ -601,7 +870,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 73.66) (xy 93.98 74.93)
+			(xy 93.98 68.58) (xy 93.98 71.12)
 		)
 		(stroke
 			(width 0)
@@ -631,7 +900,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 85.09) (xy 86.36 85.09)
+			(xy 68.58 85.09) (xy 73.66 85.09)
 		)
 		(stroke
 			(width 0)
@@ -639,100 +908,49 @@
 		)
 		(uuid "a3078cd8-c727-4f12-8243-cb8b30a45aa0")
 	)
-	(table
-		(column_count 2)
-		(border
-			(external yes)
-			(header yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
+	(wire
+		(pts
+			(xy 81.28 85.09) (xy 86.36 85.09)
 		)
-		(separators
-			(rows yes)
-			(cols yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(column_widths 22.86 22.86)
-		(row_heights 2.54 2.54)
-		(cells
-			(table_cell "MCU"
-				(exclude_from_sim no)
-				(at 176.53 149.86 0)
-				(size 22.86 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "61e95dcc-11fd-468e-82d0-b66f414d2392")
-			)
-			(table_cell "SK6805-EC15"
-				(exclude_from_sim no)
-				(at 199.39 149.86 0)
-				(size 22.86 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "1b5860b2-7552-4492-ba5e-cef517add40e")
-			)
-			(table_cell "P0.18"
-				(exclude_from_sim no)
-				(at 176.53 152.4 0)
-				(size 22.86 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "395810d2-d821-41ad-a717-6784680f5405")
-			)
-			(table_cell "DIN"
-				(exclude_from_sim no)
-				(at 199.39 152.4 0)
-				(size 22.86 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "ded9621f-9f3a-4399-8727-5741e41a19f9")
-			)
+		(uuid "d0361daa-9f7f-442a-8959-98614d768568")
+	)
+	(wire
+		(pts
+			(xy 93.98 71.12) (xy 93.98 74.93)
 		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1432c79-ec86-47d6-84fe-4930c2c5bb86")
+	)
+	(wire
+		(pts
+			(xy 105.41 71.12) (xy 104.14 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e66b4b86-9f86-4522-8e92-01e36f7d0f46")
+	)
+	(wire
+		(pts
+			(xy 96.52 71.12) (xy 93.98 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb6e1118-df5f-4362-99a2-e6d332e56505")
 	)
 	(global_label "VDD_5V"
 		(shape input)
-		(at 93.98 73.66 90)
+		(at 93.98 68.58 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -742,7 +960,7 @@
 		)
 		(uuid "a0e398dd-bfb1-4bb5-a830-5fb4e5879dd0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.98 63.7805 90)
+			(at 93.98 58.7005 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -754,7 +972,7 @@
 	)
 	(hierarchical_label "SYSTEM_LED"
 		(shape input)
-		(at 82.55 85.09 180)
+		(at 68.58 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -762,6 +980,141 @@
 			(justify right)
 		)
 		(uuid "6740081c-1b91-487b-9339-f143466ee792")
+	)
+	(symbol
+		(lib_id "seven_lib:GND")
+		(at 105.41 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1643cdc0-e29c-4161-9bc8-1dbf7ba738be")
+		(property "Reference" "#PWR030"
+			(at 111.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1067a4f-d2ac-466f-8b3e-9ffe820a6aff")
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/57402695-b5b6-411c-ba67-6244479e2395"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "seven_lib:C")
+		(at 100.33 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "172e319a-2518-4adf-9e74-4d1f16f0431f")
+		(property "Reference" "C20"
+			(at 100.33 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 100.33 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "seven-lib:C_1812_4532Metric"
+			(at 104.14 70.1548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 100.33 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6d93b804-64a4-4f94-b325-757a72c492bc")
+		)
+		(pin "1"
+			(uuid "3e2539ea-8dac-49d4-b589-850a599e974e")
+		)
+		(instances
+			(project ""
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/57402695-b5b6-411c-ba67-6244479e2395"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "seven_lib:SK6805-EC15")
@@ -833,6 +1186,74 @@
 			(project "seven"
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/57402695-b5b6-411c-ba67-6244479e2395"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "seven_lib:R")
+		(at 77.47 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53a82268-9fa9-441c-b0dc-b90dd5c65af0")
+		(property "Reference" "R14"
+			(at 77.47 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 77.47 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "seven-lib:R_0603_1608Metric"
+			(at 77.47 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a3453d26-f8fc-454c-8d76-752c8795bd15")
+		)
+		(pin "1"
+			(uuid "574df51d-a216-446f-a0b0-6245baa1af44")
+		)
+		(instances
+			(project ""
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/57402695-b5b6-411c-ba67-6244479e2395"
+					(reference "R14")
 					(unit 1)
 				)
 			)

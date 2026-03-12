@@ -446,48 +446,6 @@
 		)
 		(uuid "00e3914a-9a80-4267-979d-e1ddba326d98")
 	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 176.53 85.09 0)
-		(size 107.95 80.01)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left top)
-		)
-		(uuid "aa837caa-8e35-4d36-947b-8dd65f1b419f")
-	)
-	(text_box "Component Description\n"
-		(exclude_from_sim no)
-		(at 176.53 77.47 0)
-		(size 107.95 7.62)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(thickness 0.762)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "c97ff59a-5a37-49b3-86ea-c821c53d93d7")
-	)
 	(text_box "Power LED"
 		(exclude_from_sim no)
 		(at 176.53 12.7 0)
@@ -510,7 +468,7 @@
 		)
 		(uuid "ca4f4e6c-5ab9-455f-9590-839199f07c70")
 	)
-	(text_box "Lit by 3V3.\nHigh resistance value to keep brightness low"
+	(text_box "This circuit implements a power indicator LED connected to the 3.3 V supply rail. When the rail is powered, the LED turns on to indicate that the 3.3 V supply is present."
 		(exclude_from_sim no)
 		(at 176.53 24.13 0)
 		(size 107.95 53.34)

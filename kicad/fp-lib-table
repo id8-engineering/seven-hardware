@@ -2,5 +2,4 @@
   (version 7)
   (lib (name "seven-lib")(type "KiCad")(uri "${KIPRJMOD}/fp-lib/seven-fp.pretty")(options "")(descr ""))
   (lib (name "my_lib_kicad")(type "KiCad")(uri "/home/bobo/my_lib_kicad")(options "")(descr ""))
-  (lib (name "footprints")(type "KiCad")(uri "/home/bobo/my_lib_kicad/KiCADv6/footprints.pretty")(options "")(descr ""))
 )

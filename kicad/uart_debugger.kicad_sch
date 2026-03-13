@@ -29,7 +29,7 @@
 					)
 				)
 			)
-			(property "Footprint" "seven-lib:PinHeader_1x03_P1.00mm_Vertical_SMD_Pin1Left"
+			(property "Footprint" "seven-lib:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left"
 				(at 0 0 0)
 				(effects
 					(font
@@ -442,7 +442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "seven-lib:PinHeader_1x03_P1.00mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "seven-lib:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left"
 			(at 90.17 88.9 0)
 			(effects
 				(font

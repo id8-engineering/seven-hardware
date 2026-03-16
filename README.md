@@ -97,7 +97,24 @@ Coming soon...
 
 ## License
 
-Coming soon
+Copyright 2026 ID8 Engineering AB
+
+This source describes Open Hardware and is licensed under the CERN-OHL-P v2.
+
+You may redistribute and modify this source and make products using it
+under the terms of the CERN-OHL-P v2 (https://cern.ch/cern-ohl).
+
+This source is distributed WITHOUT ANY EXPRESS OR IMPLIED
+WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY
+AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-P v2
+for applicable conditions.
+
+This source distribution includes the companion documents required by
+the CERN-OHL-P v2 guide:
+
+- [LICENSE](LICENSE)
+- [CERN-OHL-P-v2-user-guide.md](CERN-OHL-P-v2-user-guide.md)
+- [CHANGES.txt](CHANGES.txt)
 
 ---
 

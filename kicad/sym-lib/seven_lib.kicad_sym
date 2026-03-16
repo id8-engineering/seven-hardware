@@ -1616,13 +1616,12 @@
 				)
 			)
 		)
-		(property "Footprint" "seven-lib:L_1008_2520Metric"
+		(property "Footprint" "seven-lib:L_0603_1608Metric"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -2825,7 +2824,7 @@
 				)
 			)
 		)
-		(property "Footprint" "seven-lib:R_0603_1608Metric"
+		(property "Footprint" "seven-lib:R_0402_1005Metric"
 			(at -1.778 0 90)
 			(effects
 				(font

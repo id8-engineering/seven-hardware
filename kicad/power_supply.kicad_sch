@@ -772,13 +772,12 @@
 					)
 				)
 			)
-			(property "Footprint" "seven-lib:L_1008_2520Metric"
+			(property "Footprint" "seven-lib:L_0603_1608Metric"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "~"
@@ -933,7 +932,7 @@
 					)
 				)
 			)
-			(property "Footprint" "seven-lib:R_0603_1608Metric"
+			(property "Footprint" "seven-lib:R_0402_1005Metric"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -1836,7 +1835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "seven-lib:R_0603_1608Metric"
+		(property "Footprint" "seven-lib:R_0402_1005Metric"
 			(at 135.89 86.868 90)
 			(effects
 				(font
@@ -2243,7 +2242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "seven-lib:R_0603_1608Metric"
+		(property "Footprint" "seven-lib:R_0402_1005Metric"
 			(at 121.92 84.328 90)
 			(effects
 				(font
@@ -2379,7 +2378,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "seven-lib:R_0603_1608Metric"
+		(property "Footprint" "seven-lib:R_0402_1005Metric"
 			(at 160.528 81.28 90)
 			(effects
 				(font
@@ -3196,7 +3195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "seven-lib:L_1008_2520Metric"
+		(property "Footprint" "seven-lib:L_0603_1608Metric"
 			(at 39.37 90.17 0)
 			(effects
 				(font
@@ -3266,7 +3265,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "seven-lib:R_0603_1608Metric"
+		(property "Footprint" "seven-lib:R_0402_1005Metric"
 			(at 160.528 92.71 90)
 			(effects
 				(font

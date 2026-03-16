@@ -503,6 +503,29 @@
 		)
 		(uuid "66d84b42-61da-4efa-b3eb-9c1dd67dbe04")
 	)
+	(text_box "NOTE: Click boards come in S,M and L sizes. L size should be incounted for in PCB being 57mm"
+		(exclude_from_sim no)
+		(at 120.65 64.77 0)
+		(size 25.4 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 67 78 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "8c1c4d09-a29e-4cc7-866c-0283077eb06a")
+	)
 	(text_box "This circuit implements a MikroBUS expansion interface, a standardized connectivity interface for embedded add-on boards. It exposes power rails and several MCU communication signals to allow connection of MikroBUS-compatible peripheral modules."
 		(exclude_from_sim no)
 		(at 176.53 24.13 0)

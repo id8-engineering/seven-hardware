@@ -33,7 +33,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "seven-lib:C_1812_4532Metric"
+			(property "Footprint" "seven-lib:C_0402_1005Metric"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -1972,7 +1972,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "seven-lib:C_1812_4532Metric"
+		(property "Footprint" "seven-lib:C_0402_1005Metric"
 			(at 58.7248 69.85 0)
 			(effects
 				(font
@@ -2108,7 +2108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "seven-lib:C_1812_4532Metric"
+		(property "Footprint" "seven-lib:C_0402_1005Metric"
 			(at 25.0952 102.87 0)
 			(effects
 				(font
@@ -2176,7 +2176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "seven-lib:C_1812_4532Metric"
+		(property "Footprint" "seven-lib:C_0402_1005Metric"
 			(at 139.7 86.0552 0)
 			(effects
 				(font
@@ -2648,7 +2648,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "seven-lib:C_1812_4532Metric"
+		(property "Footprint" "seven-lib:C_0402_1005Metric"
 			(at 127.3048 90.17 0)
 			(effects
 				(font
@@ -2718,7 +2718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "seven-lib:C_1812_4532Metric"
+		(property "Footprint" "seven-lib:C_0402_1005Metric"
 			(at 168.6052 85.09 0)
 			(effects
 				(font
@@ -2853,7 +2853,7 @@
 				)
 			)
 		)
-		(property "Footprint" "seven-lib:C_1812_4532Metric"
+		(property "Footprint" "seven-lib:C_0402_1005Metric"
 			(at 48.26 86.0552 0)
 			(effects
 				(font
@@ -2923,7 +2923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "seven-lib:C_1812_4532Metric"
+		(property "Footprint" "seven-lib:C_0402_1005Metric"
 			(at 59.3852 99.06 0)
 			(effects
 				(font
@@ -3128,7 +3128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "seven-lib:C_1812_4532Metric"
+		(property "Footprint" "seven-lib:C_0402_1005Metric"
 			(at 36.5252 102.87 0)
 			(effects
 				(font

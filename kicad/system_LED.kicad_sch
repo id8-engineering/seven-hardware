@@ -33,7 +33,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "seven-lib:C_1812_4532Metric"
+			(property "Footprint" "seven-lib:C_0402_1005Metric"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -372,7 +372,7 @@
 					)
 				)
 			)
-			(property "Footprint" "seven-lib:R_0603_1608Metric"
+			(property "Footprint" "seven-lib:R_0402_1005Metric"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -1046,6 +1046,12 @@
 					(unit 1)
 				)
 			)
+			(project "system_LED"
+				(path "/a4797295-7784-4336-a44a-01a52d7306a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1074,7 +1080,7 @@
 				)
 			)
 		)
-		(property "Footprint" "seven-lib:C_1812_4532Metric"
+		(property "Footprint" "seven-lib:C_0402_1005Metric"
 			(at 104.14 70.1548 0)
 			(effects
 				(font
@@ -1111,6 +1117,12 @@
 			(project ""
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/57402695-b5b6-411c-ba67-6244479e2395"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+			(project "system_LED"
+				(path "/a4797295-7784-4336-a44a-01a52d7306a1"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -1189,6 +1201,12 @@
 					(unit 1)
 				)
 			)
+			(project "system_LED"
+				(path "/a4797295-7784-4336-a44a-01a52d7306a1"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1217,7 +1235,7 @@
 				)
 			)
 		)
-		(property "Footprint" "seven-lib:R_0603_1608Metric"
+		(property "Footprint" "seven-lib:R_0402_1005Metric"
 			(at 77.47 86.868 90)
 			(effects
 				(font
@@ -1254,6 +1272,12 @@
 			(project ""
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/57402695-b5b6-411c-ba67-6244479e2395"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+			(project "system_LED"
+				(path "/a4797295-7784-4336-a44a-01a52d7306a1"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -1324,6 +1348,12 @@
 					(unit 1)
 				)
 			)
+			(project "system_LED"
+				(path "/a4797295-7784-4336-a44a-01a52d7306a1"
+					(reference "#FLG?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1390,6 +1420,18 @@
 					(unit 1)
 				)
 			)
+			(project "system_LED"
+				(path "/a4797295-7784-4336-a44a-01a52d7306a1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

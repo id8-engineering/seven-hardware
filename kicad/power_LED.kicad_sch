@@ -315,7 +315,7 @@
 					)
 				)
 			)
-			(property "Footprint" "seven-lib:R_0603_1608Metric"
+			(property "Footprint" "seven-lib:R_0402_1005Metric"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -732,7 +732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "seven-lib:R_0603_1608Metric"
+		(property "Footprint" "seven-lib:R_0402_1005Metric"
 			(at 85.852 95.25 90)
 			(effects
 				(font

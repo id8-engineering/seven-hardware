@@ -524,6 +524,29 @@
 		)
 		(uuid "be2cc12a-7a91-402c-b9f2-6936d6f9ab27")
 	)
+	(text_box "NOTE: Click boards come in S,M and L sizes. L size should be incounted for in PCB being 57mm"
+		(exclude_from_sim no)
+		(at 115.57 71.12 0)
+		(size 25.4 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 67 78 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "c0088faf-470b-45ce-a327-cc3943328000")
+	)
 	(text_box "Component Description\n"
 		(exclude_from_sim no)
 		(at 176.53 78.74 0)

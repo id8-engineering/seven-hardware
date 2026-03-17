@@ -881,7 +881,7 @@
 		)
 		(uuid "5e4dbbec-c0dd-4027-9237-a3b861b5bb19")
 	)
-	(text_box "NOTE: TRACE SHOULD BE 50Ω IMPEDANCE\n"
+	(text_box "Note: The trace should have a characteristic impedance of 50 Ω."
 		(exclude_from_sim no)
 		(at 101.6 102.87 0)
 		(size 25.4 12.7)
@@ -902,30 +902,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "7a73f9e8-d3b5-44be-b011-75a1a0770946")
-	)
-	(text_box "NOTE: Place close to nRF9151"
-		(exclude_from_sim no)
-		(at 114.3 63.5 0)
-		(size 25.4 12.7)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type color)
-			(color 255 67 78 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "d6c53920-da65-4e2b-9fcf-9b176df88668")
+		(uuid "9fede013-53a6-4252-971e-4bb57df6a306")
 	)
 	(text_box "Circuit Description\n"
 		(exclude_from_sim no)
@@ -948,6 +925,29 @@
 			(justify left top)
 		)
 		(uuid "ea4fc73a-92ed-491c-aefb-813db3608b76")
+	)
+	(text_box "Note: Place SMA close to the nRF9151."
+		(exclude_from_sim no)
+		(at 134.62 64.77 0)
+		(size 25.4 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 67 78 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "fde39f9f-6126-44a5-8bc9-9c6fd0365ba7")
 	)
 	(junction
 		(at 85.09 71.12)

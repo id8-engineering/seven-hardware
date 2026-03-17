@@ -175,7 +175,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 69.85) (xy 100.33 77.47)
+			(xy 100.33 71.12) (xy 100.33 77.47)
 		)
 		(stroke
 			(width 0)
@@ -225,7 +225,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 63.5) (xy 107.95 69.85)
+			(xy 107.95 64.77) (xy 107.95 71.12)
 		)
 		(stroke
 			(width 0)
@@ -282,6 +282,16 @@
 			(type default)
 		)
 		(uuid "683daf95-8f78-496f-b91a-ccba4725e694")
+	)
+	(wire
+		(pts
+			(xy 127 63.5) (xy 133.35 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d87b1a3-cd79-4a87-b050-34d59bb91613")
 	)
 	(wire
 		(pts
@@ -385,7 +395,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 69.85) (xy 100.33 69.85)
+			(xy 107.95 71.12) (xy 100.33 71.12)
 		)
 		(stroke
 			(width 0)
@@ -425,7 +435,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 72.39) (xy 102.87 72.39)
+			(xy 110.49 73.66) (xy 102.87 73.66)
 		)
 		(stroke
 			(width 0)
@@ -435,7 +445,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 63.5) (xy 110.49 72.39)
+			(xy 110.49 64.77) (xy 110.49 73.66)
 		)
 		(stroke
 			(width 0)
@@ -515,7 +525,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 72.39) (xy 102.87 77.47)
+			(xy 102.87 73.66) (xy 102.87 77.47)
 		)
 		(stroke
 			(width 0)
@@ -602,6 +612,28 @@
 			(type default)
 		)
 		(uuid "f76c9c18-3cab-4170-9634-836f445fff85")
+	)
+	(global_label "VDD_JTAG"
+		(shape output)
+		(at 133.35 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19011c9f-2241-4d1e-9b00-97909d9d0bc0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.2252 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "VDD_1V8"
 		(shape output)
@@ -1405,7 +1437,7 @@
 	)
 	(sheet
 		(at 106.68 54.102)
-		(size 20.32 9.398)
+		(size 20.32 10.668)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1438,7 +1470,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 110.49 63.5 270)
+			(at 110.49 64.77 270)
 			(uuid "dd196f63-0fe3-4254-9934-2de8fe6d3ec9")
 			(effects
 				(font
@@ -1448,7 +1480,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 107.95 63.5 270)
+			(at 107.95 64.77 270)
 			(uuid "3853615a-7ea1-4f5e-87a2-6316b166055c")
 			(effects
 				(font
@@ -1480,6 +1512,16 @@
 		(pin "VDD_1V8" output
 			(at 127 55.88 0)
 			(uuid "133e2bc7-a3a8-4a94-a3ce-f93302d6327b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_JTAG" output
+			(at 127 63.5 0)
+			(uuid "a7bc5452-4c0a-416a-9743-5be9db05b5a2")
 			(effects
 				(font
 					(size 1.27 1.27)

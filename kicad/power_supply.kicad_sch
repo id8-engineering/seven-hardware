@@ -1030,6 +1030,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "seven_lib:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "seven-lib:TestPoint_Pad_2.0x2.0mm"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "\n\n"
 		(exclude_from_sim no)
@@ -1160,6 +1267,12 @@
 		(uuid "1c65d8c4-961b-41c7-9717-7acc6f332d2a")
 	)
 	(junction
+		(at 148.59 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "315242c0-0ad6-4c2c-9011-a330dfaca80f")
+	)
+	(junction
 		(at 48.26 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1184,6 +1297,12 @@
 		(uuid "a5280603-824d-483b-a7bf-5f598368182c")
 	)
 	(junction
+		(at 53.34 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd877209-48dc-4c06-8391-20a7a9a9b2ad")
+	)
+	(junction
 		(at 35.56 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1194,6 +1313,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1802303-a4ef-498b-9628-927ff0b9d5c3")
+	)
+	(junction
+		(at 31.75 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7626a1b-d547-406b-aef0-aa5f45d6b3e0")
 	)
 	(junction
 		(at 158.75 74.93)
@@ -1271,13 +1396,23 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 87.63) (xy 53.34 105.41)
+			(xy 53.34 87.63) (xy 53.34 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2a9eec25-91d2-48ee-aa4e-e1e440bd2277")
+	)
+	(wire
+		(pts
+			(xy 27.94 77.47) (xy 31.75 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c25a95f-c0c1-441f-a79b-71631f01ef1a")
 	)
 	(polyline
 		(pts
@@ -1308,6 +1443,26 @@
 			(type default)
 		)
 		(uuid "3c5f9b78-f1ad-4799-925a-547dfcbf9fd1")
+	)
+	(wire
+		(pts
+			(xy 53.34 102.87) (xy 53.34 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bf99478-6248-48bb-8017-c7b457602f4b")
+	)
+	(wire
+		(pts
+			(xy 31.75 83.82) (xy 35.56 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53e5ec32-85e1-4f87-b2a2-e38e4f134aef")
 	)
 	(wire
 		(pts
@@ -1371,7 +1526,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 83.82) (xy 35.56 83.82)
+			(xy 30.48 83.82) (xy 31.75 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1421,7 +1576,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 87.63) (xy 158.75 87.63)
+			(xy 107.95 87.63) (xy 148.59 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1591,6 +1746,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 77.47) (xy 31.75 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7e50eca-1647-4c3a-83ec-be56c5097d42")
+	)
+	(wire
+		(pts
 			(xy 67.31 90.17) (xy 48.26 90.17)
 		)
 		(stroke
@@ -1598,6 +1763,16 @@
 			(type default)
 		)
 		(uuid "eb5f9a5b-3ad2-43c3-8008-c0565afca15b")
+	)
+	(wire
+		(pts
+			(xy 148.59 87.63) (xy 158.75 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee16dbf3-ed13-4070-9340-123e279fe633")
 	)
 	(wire
 		(pts
@@ -2150,6 +2325,70 @@
 		)
 	)
 	(symbol
+		(lib_id "seven_lib:TestPoint")
+		(at 27.94 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55200fa6-1e5f-4dad-aa75-1d7ae49e2e98")
+		(property "Reference" "TP6"
+			(at 31.623 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD_5V"
+			(at 31.623 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "seven-lib:TestPoint_Pad_2.0x2.0mm"
+			(at 33.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 27.94 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a886f2b-0f46-42bd-8a1b-1295ac9cf786")
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/212f259f-7773-4a20-96f5-c599a3d0b814"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "seven_lib:C")
 		(at 143.51 85.09 270)
 		(unit 1)
@@ -2553,6 +2792,70 @@
 		)
 	)
 	(symbol
+		(lib_id "seven_lib:TestPoint")
+		(at 53.34 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b4c8f6c-8437-4167-bf67-198cbe61d9fa")
+		(property "Reference" "TP7"
+			(at 50.038 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "POWER_SUPPLY"
+			(at 52.324 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "seven-lib:TestPoint_Pad_2.0x2.0mm"
+			(at 53.34 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 53.34 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1aeabf2-08d8-4782-a5f3-37dbbcdf1193")
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/212f259f-7773-4a20-96f5-c599a3d0b814"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "seven_lib:GND")
 		(at 107.95 80.01 90)
 		(unit 1)
@@ -2614,6 +2917,70 @@
 			(project "seven"
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/212f259f-7773-4a20-96f5-c599a3d0b814"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "seven_lib:TestPoint")
+		(at 148.59 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "878e7c14-226a-4292-8c34-864354e0cfb5")
+		(property "Reference" "TP8"
+			(at 144.653 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FB"
+			(at 144.653 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "seven-lib:TestPoint_Pad_2.0x2.0mm"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 148.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46c0478e-622c-4f9e-9949-e4db07e07c2f")
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/212f259f-7773-4a20-96f5-c599a3d0b814"
+					(reference "TP8")
 					(unit 1)
 				)
 			)

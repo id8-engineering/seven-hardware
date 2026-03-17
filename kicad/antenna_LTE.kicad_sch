@@ -539,7 +539,7 @@
 		)
 		(uuid "11a7c834-ff98-4377-a15c-7a6fbbf38b83")
 	)
-	(text_box "NOTE: TRACE SHOULD BE 50Ω IMPEDANCE\n"
+	(text_box "Note: The trace should have a characteristic impedance of 50 Ω."
 		(exclude_from_sim no)
 		(at 95.25 104.14 0)
 		(size 25.4 12.7)
@@ -604,7 +604,7 @@
 		)
 		(uuid "5e4dbbec-c0dd-4027-9237-a3b861b5bb19")
 	)
-	(text_box "NOTE: Place close to nRF9151"
+	(text_box "Note: Place SMA close to the nRF9151."
 		(exclude_from_sim no)
 		(at 128.27 66.04 0)
 		(size 25.4 12.7)

@@ -725,6 +725,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "seven_lib:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "seven-lib:TestPoint_Pad_2.0x2.0mm"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "\n\n"
 		(exclude_from_sim no)
@@ -854,6 +961,12 @@
 		(color 0 0 0 0)
 		(uuid "4f838a69-c93b-470f-81a7-7dab1403f333")
 	)
+	(junction
+		(at 83.82 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6df8ab97-d6d1-4f1d-8865-7e50b568f89c")
+	)
 	(no_connect
 		(at 101.6 85.09)
 		(uuid "bd0a7704-6c71-4b66-85e0-98ced4d9fd8c")
@@ -910,7 +1023,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 85.09) (xy 86.36 85.09)
+			(xy 83.82 90.17) (xy 83.82 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be97cc0f-272a-4110-916a-9b670360794e")
+	)
+	(wire
+		(pts
+			(xy 81.28 85.09) (xy 83.82 85.09)
 		)
 		(stroke
 			(width 0)
@@ -947,6 +1070,16 @@
 			(type default)
 		)
 		(uuid "eb6e1118-df5f-4362-99a2-e6d332e56505")
+	)
+	(wire
+		(pts
+			(xy 83.82 85.09) (xy 86.36 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0c722ed-b0ea-4ab9-aef5-24bfc05f49a5")
 	)
 	(global_label "VDD_5V"
 		(shape input)
@@ -1278,6 +1411,70 @@
 			(project "system_LED"
 				(path "/a4797295-7784-4336-a44a-01a52d7306a1"
 					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "seven_lib:TestPoint")
+		(at 83.82 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77a82d95-0726-44e5-887e-e513b4649113")
+		(property "Reference" "TP5"
+			(at 79.883 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SYSTEM_LED"
+			(at 79.883 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "seven-lib:TestPoint_Pad_2.0x2.0mm"
+			(at 78.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 83.82 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70d362b8-fb40-40e3-86b0-0b62a2b0cfa0")
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/57402695-b5b6-411c-ba67-6244479e2395"
+					(reference "TP5")
 					(unit 1)
 				)
 			)

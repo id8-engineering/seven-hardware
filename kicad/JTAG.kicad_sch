@@ -393,6 +393,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "seven_lib:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "seven-lib:TestPoint_Pad_2.0x2.0mm"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "\n\n"
 		(exclude_from_sim no)
@@ -468,13 +575,25 @@
 		)
 		(uuid "5d762859-1aff-4623-a06b-60ad08af630e")
 	)
+	(junction
+		(at 107.95 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1491f4b5-8cdd-4a25-8245-c2b50586e6f9")
+	)
+	(junction
+		(at 107.95 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84395902-d1c5-4640-84e7-a294a34e3b0c")
+	)
 	(no_connect
 		(at 104.14 97.79)
 		(uuid "5145dab9-17a5-44c7-a4e2-9d56926e7508")
 	)
 	(wire
 		(pts
-			(xy 105.41 95.25) (xy 104.14 95.25)
+			(xy 109.22 95.25) (xy 107.95 95.25)
 		)
 		(stroke
 			(width 0)
@@ -484,7 +603,27 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 92.71) (xy 104.14 92.71)
+			(xy 107.95 95.25) (xy 104.14 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bb4624f-1a68-4544-a8f4-dccf9c5edeef")
+	)
+	(wire
+		(pts
+			(xy 107.95 77.47) (xy 107.95 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23ba6d02-8317-42ec-af8d-c7e3ee302558")
+	)
+	(wire
+		(pts
+			(xy 109.22 92.71) (xy 107.95 92.71)
 		)
 		(stroke
 			(width 0)
@@ -502,6 +641,16 @@
 		)
 		(uuid "a3599669-b5bf-4756-9e7e-240042a0423c")
 	)
+	(wire
+		(pts
+			(xy 107.95 102.87) (xy 107.95 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af6b071e-713a-49ca-8f1e-b5c2843fedeb")
+	)
 	(polyline
 		(pts
 			(xy 176.53 77.47) (xy 284.48 77.47)
@@ -511,6 +660,16 @@
 			(type dash)
 		)
 		(uuid "bdeee825-249b-4b80-8b2c-ce01adb8c63e")
+	)
+	(wire
+		(pts
+			(xy 104.14 92.71) (xy 107.95 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8ceba54-6fe4-4913-9fa5-bfc040899674")
 	)
 	(wire
 		(pts
@@ -532,7 +691,7 @@
 		)
 		(uuid "f195e9d5-13c3-42e5-adf5-3a43c60c71f4")
 	)
-	(global_label "VDD_3V3"
+	(global_label "VDD_JTAG"
 		(shape input)
 		(at 78.74 92.71 180)
 		(fields_autoplaced yes)
@@ -542,9 +701,9 @@
 			)
 			(justify right)
 		)
-		(uuid "8584713e-c259-4a5b-9c0e-8448f926cbd9")
+		(uuid "83c112c7-599c-4965-a22c-c525ad9996e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.651 92.71 0)
+			(at 66.8648 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -556,7 +715,7 @@
 	)
 	(hierarchical_label "SWDIO"
 		(shape bidirectional)
-		(at 105.41 92.71 0)
+		(at 109.22 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -578,7 +737,7 @@
 	)
 	(hierarchical_label "SWCLK"
 		(shape output)
-		(at 105.41 95.25 0)
+		(at 109.22 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -669,6 +828,70 @@
 		)
 	)
 	(symbol
+		(lib_id "seven_lib:TestPoint")
+		(at 107.95 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7df0a5b9-8984-4f46-869a-f91df29bfcc3")
+		(property "Reference" "TP10"
+			(at 104.013 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SWCLK"
+			(at 104.013 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "seven-lib:TestPoint_Pad_2.0x2.0mm"
+			(at 102.87 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 107.95 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4aee95e8-4b5b-42be-914d-f50a56f26469")
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/05f18bcb-1f58-4fb2-bbec-23b1ba834d60"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "seven_lib:GND")
 		(at 78.74 97.79 270)
 		(unit 1)
@@ -730,6 +953,70 @@
 			(project "seven"
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/05f18bcb-1f58-4fb2-bbec-23b1ba834d60"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "seven_lib:TestPoint")
+		(at 107.95 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7d77921-79d5-4eca-884f-0d8688174288")
+		(property "Reference" "TP9"
+			(at 111.633 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SWDIO"
+			(at 111.633 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "seven-lib:TestPoint_Pad_2.0x2.0mm"
+			(at 113.03 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 107.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a398e510-83e2-452d-960b-742cfd587db4")
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/05f18bcb-1f58-4fb2-bbec-23b1ba834d60"
+					(reference "TP9")
 					(unit 1)
 				)
 			)

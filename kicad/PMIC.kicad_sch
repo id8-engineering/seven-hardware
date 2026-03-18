@@ -14,7 +14,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 2.54 0)
+				(at 0 2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -22,7 +22,7 @@
 				)
 			)
 			(property "Value" "BAT54KFILM"
-				(at 0 -2.54 0)
+				(at 0.508 -3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30,7 +30,7 @@
 				)
 			)
 			(property "Footprint" "seven-lib:D_SOD-523"
-				(at 0 -4.445 0)
+				(at 0 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -39,7 +39,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/07/50/54/f2/0d/ba/4a/79/CD00001322.pdf/files/CD00001322.pdf/jcr:content/translations/en.CD00001322.pdf"
-				(at 0 0 0)
+				(at -4.572 -15.494 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -48,7 +48,7 @@
 				)
 			)
 			(property "Description" "Schottky barrier diode, SOT-323"
-				(at 0 0 0)
+				(at 0.254 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -117,25 +117,6 @@
 					(at -3.81 0 0)
 					(length 2.54)
 					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 0 90)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5500,9 +5481,6 @@
 		)
 		(pin "2"
 			(uuid "e7c60b9c-c5db-403d-841e-fc0132038141")
-		)
-		(pin "3"
-			(uuid "0d0bbeda-265c-4837-b575-8c14b68f3d62")
 		)
 		(pin "1"
 			(uuid "a5e89f27-b4c7-4c83-ae74-2b6e47910d67")

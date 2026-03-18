@@ -374,14 +374,14 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "" smd rect
 		(at 3.5 -3.5)
 		(size 2.5 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "bf75891f-f4e9-4ef6-878a-42841abb6355")
 	)
-	(pad "2" smd rect
+	(pad "" smd rect
 		(at 3.5 3.5)
 		(size 2.5 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")

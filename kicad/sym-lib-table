@@ -1,6 +1,4 @@
 (sym_lib_table
-  (version 7)
-  (lib (name "seven_lib")(type "KiCad")(uri "${KIPRJMOD}/sym-lib/seven_lib.kicad_sym")(options "")(descr ""))
-  (lib (name "TL3336AF160Q")(type "KiCad")(uri "/home/bobo/my_lib_kicad/TL3336AF160Q.kicad_sym")(options "")(descr ""))
-  (lib (name "CMT-8504-100-SMT-TR")(type "KiCad")(uri "/home/bobo/my_lib_kicad/CMT-8504-100-SMT-TR.kicad_sym")(options "")(descr ""))
+	(version 7)
+	(lib (name "seven_lib") (type "KiCad") (uri "${KIPRJMOD}/sym-lib/seven_lib.kicad_sym") (options "") (descr ""))
 )

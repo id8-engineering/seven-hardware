@@ -501,7 +501,7 @@
 		)
 		(uuid "78dfc42b-a088-4629-b7a4-49e0e1087a14")
 	)
-	(text_box "NOTE: BE caution of all Clicker Board sizes when placing footprint"
+	(text_box "Note: Be cautious of all Clicker Board sizes when placing the footprint."
 		(exclude_from_sim no)
 		(at 116.84 46.99 0)
 		(size 25.4 12.7)
@@ -524,10 +524,10 @@
 		)
 		(uuid "be2cc12a-7a91-402c-b9f2-6936d6f9ab27")
 	)
-	(text_box "NOTE: Click boards come in S,M and L sizes. L size should be incounted for in PCB being 57mm"
+	(text_box "Note: Click boards come in S, M, and L sizes. The L size should be accounted for in the PCB design, with a length of 57 mm."
 		(exclude_from_sim no)
 		(at 115.57 71.12 0)
-		(size 25.4 12.7)
+		(size 25.4 15.24)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)

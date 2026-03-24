@@ -1,0 +1,6 @@
+(version 1)
+
+(rule "U5 local clearance"
+  (constraint clearance (min 0.10mm))
+  (condition "A.memberOfFootprint('U5') || B.memberOfFootprint('U5')")
+)

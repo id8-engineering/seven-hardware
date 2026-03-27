@@ -5009,7 +5009,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM21BR61A106KE51L"
+		(property "MPN" "CL21A106KAYNNNE"
 			(at 57.15 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -6174,7 +6174,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)

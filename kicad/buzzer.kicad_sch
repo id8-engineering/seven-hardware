@@ -141,7 +141,7 @@
 			)
 			(symbol "BAT54W_1_1"
 				(pin passive line
-					(at 3.81 0 180)
+					(at -3.81 0 0)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -159,7 +159,7 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 0 0)
+					(at 3.81 0 180)
 					(length 2.54)
 					(name "K"
 						(effects

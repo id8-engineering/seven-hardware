@@ -1,0 +1,156 @@
+name: KiCad Tag Export
+
+on:
+  push:
+    tags:
+      - "*"
+
+permissions:
+  contents: write
+
+jobs:
+  kicad:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@0c366fd6a839edf440554fa01a7085ccba70ac98 #v6.0.2
+
+      - name: Generate schematic PDF
+        uses: actions-for-kicad/kicad-actions@v2-k10.0
+        with:
+          schematic_file_name: kicad/seven.kicad_sch
+          symbol_libraries: "seven_lib=kicad/sym-lib/seven_lib.kicad_sym"
+          schematic_output_pdf: true
+
+      - name: Generate PCB artifacts
+        uses: actions-for-kicad/kicad-actions@v2-k10.0
+        with:
+          pcb_file_name: kicad/seven.kicad_pcb
+          footprint_libraries: "seven-lib=kicad/fp-lib/seven-fp.pretty"
+          pcb_output_gerbers_and_drill: true
+          pcb_output_image: true
+          pcb_output_pos: true
+          pcb_output_step: true
+
+      - name: Setup KiCad CLI
+        uses: actions-for-kicad/setup-kicad@v1
+        with:
+          version: "10.0"
+
+      - name: Export grouped BOM
+        run: |
+          kicad-cli sch export bom kicad/seven.kicad_sch \
+            --output bom.csv \
+            --fields 'Reference,${QUANTITY},Value,Footprint,MPN' \
+            --labels 'Refs,Qty,Value,Footprint,MPN' \
+            --group-by 'Value,Footprint,MPN'
+
+      - name: Run ERC and DRC
+        id: validation
+        continue-on-error: true
+        uses: actions-for-kicad/kicad-actions@v2-k10.0
+        with:
+          schematic_file_name: kicad/seven.kicad_sch
+          symbol_libraries: "seven_lib=kicad/sym-lib/seven_lib.kicad_sym"
+          run_erc: true
+          pcb_file_name: kicad/seven.kicad_pcb
+          footprint_libraries: "seven-lib=kicad/fp-lib/seven-fp.pretty"
+          run_drc: true
+
+      - name: Upload schematic
+        if: always()
+        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f #v7.0.0
+        with:
+          name: Schematic
+          path: ./schematic.pdf
+          archive: false
+          if-no-files-found: warn
+
+      - name: Upload BOM
+        if: always()
+        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f #v7.0.0
+        with:
+          name: BOM
+          path: ./bom.csv
+          archive: false
+          if-no-files-found: warn
+
+      - name: Upload gerbers and drill file
+        if: always()
+        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f #v7.0.0
+        with:
+          name: Gerbers
+          path: ./gerbers
+          if-no-files-found: warn
+
+      - name: Archive gerbers
+        if: always()
+        run: |
+          if [ -d gerbers ]; then
+            zip -r "seven_nrf9151-${{ github.ref_name }}-gerbers.zip" gerbers
+          fi
+
+      - name: Add tag name to release files
+        if: always()
+        run: |
+          [ -f schematic.pdf ] && cp schematic.pdf "seven_nrf9151-${{ github.ref_name }}-schematic.pdf"
+          [ -f bom.csv ] && cp bom.csv "seven_nrf9151-${{ github.ref_name }}-bom.csv"
+          [ -f pcb.png ] && cp pcb.png "seven_nrf9151-${{ github.ref_name }}-pcb.png"
+          [ -f pcb.pos ] && cp pcb.pos "seven_nrf9151-${{ github.ref_name }}-pcb.pos"
+          [ -f pcb.step ] && cp pcb.step "seven_nrf9151-${{ github.ref_name }}-pcb.step"
+          [ -f erc.rpt ] && cp erc.rpt "seven_nrf9151-${{ github.ref_name }}-erc.rpt"
+          [ -f drc.rpt ] && cp drc.rpt "seven_nrf9151-${{ github.ref_name }}-drc.rpt"
+
+      - name: Upload image render
+        if: always()
+        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f #v7.0.0
+        with:
+          name: PCB-Image
+          path: ./pcb.png
+          archive: false
+          if-no-files-found: warn
+
+      - name: Upload pick and place file
+        if: always()
+        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f #v7.0.0
+        with:
+          name: Pick-and-Place
+          path: ./pcb.pos
+          archive: false
+          if-no-files-found: warn
+
+      - name: Upload 3D model
+        if: always()
+        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f #v7.0.0
+        with:
+          name: PCB-STEP
+          path: ./pcb.step
+          archive: false
+          if-no-files-found: warn
+
+      - name: Upload ERC and DRC reports
+        if: always()
+        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f #v7.0.0
+        with:
+          name: KiCad-Reports
+          path: |
+            ./erc.rpt
+            ./drc.rpt
+          if-no-files-found: warn
+
+      - name: Fail job if ERC or DRC failed
+        if: steps.validation.outcome == 'failure'
+        run: exit 1
+
+      - name: Publish release assets
+        uses: softprops/action-gh-release@4dd30955cca228da305ffee6fbc3fc1f95d447c2
+        with:
+          files: |
+            ./seven_nrf9151-${{ github.ref_name }}-schematic.pdf
+            ./seven_nrf9151-${{ github.ref_name }}-bom.csv
+            ./seven_nrf9151-${{ github.ref_name }}-gerbers.zip
+            ./seven_nrf9151-${{ github.ref_name }}-pcb.png
+            ./seven_nrf9151-${{ github.ref_name }}-pcb.pos
+            ./seven_nrf9151-${{ github.ref_name }}-pcb.step
+            ./seven_nrf9151-${{ github.ref_name }}-erc.rpt
+            ./seven_nrf9151-${{ github.ref_name }}-drc.rpt

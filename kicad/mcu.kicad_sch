@@ -3482,12 +3482,6 @@
 		(uuid "9381128c-de66-4175-bef9-7ebbeabff19b")
 	)
 	(junction
-		(at 134.62 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf6fa072-3e9a-4b28-9283-7f1337e9ba74")
-	)
-	(junction
 		(at 127 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3583,7 +3577,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 152.4) (xy 134.62 152.4)
+			(xy 124.46 152.4) (xy 142.24 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4093,16 +4087,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 149.86) (xy 134.62 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be9d2ee4-39d3-4ad1-aa78-ee9c0ed5d2d5")
-	)
-	(wire
-		(pts
 			(xy 57.15 99.06) (xy 58.42 99.06)
 		)
 		(stroke
@@ -4200,16 +4184,6 @@
 			(type default)
 		)
 		(uuid "d271a588-61d6-41f8-8d15-fbcebfb8460e")
-	)
-	(wire
-		(pts
-			(xy 134.62 152.4) (xy 142.24 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3878484-7974-4123-82d0-e4a59970c9e8")
 	)
 	(wire
 		(pts
@@ -6822,93 +6796,6 @@
 			(project "seven"
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/cf07285a-6c1b-4971-a8bc-a281923e473a"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "seven_lib:TestPoint")
-		(at 134.62 149.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c33540c6-defa-4aa9-8406-a7ac884486da")
-		(property "Reference" "TP4"
-			(at 138.303 145.415 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RESET"
-			(at 138.303 147.955 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "seven-lib:TestPoint_Pad_2.0x2.0mm"
-			(at 139.7 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 134.62 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 134.62 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d1b909fd-f859-4875-9f3e-cc88feaaf78c")
-		)
-		(instances
-			(project "seven"
-				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/cf07285a-6c1b-4971-a8bc-a281923e473a"
-					(reference "TP4")
 					(unit 1)
 				)
 			)

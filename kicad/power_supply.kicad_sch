@@ -1157,129 +1157,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "seven_lib:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "seven-lib:TestPoint_Pad_2.0x2.0mm"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "\n\n"
 		(exclude_from_sim no)
@@ -1440,12 +1317,6 @@
 		(uuid "a5280603-824d-483b-a7bf-5f598368182c")
 	)
 	(junction
-		(at 53.34 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd877209-48dc-4c06-8391-20a7a9a9b2ad")
-	)
-	(junction
 		(at 35.56 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1549,7 +1420,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 87.63) (xy 53.34 102.87)
+			(xy 53.34 87.63) (xy 53.34 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1586,16 +1457,6 @@
 			(type default)
 		)
 		(uuid "3c5f9b78-f1ad-4799-925a-547dfcbf9fd1")
-	)
-	(wire
-		(pts
-			(xy 53.34 102.87) (xy 53.34 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bf99478-6248-48bb-8017-c7b457602f4b")
 	)
 	(wire
 		(pts
@@ -3154,93 +3015,6 @@
 			(project "seven"
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/212f259f-7773-4a20-96f5-c599a3d0b814"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "seven_lib:TestPoint")
-		(at 53.34 102.87 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7b4c8f6c-8437-4167-bf67-198cbe61d9fa")
-		(property "Reference" "TP7"
-			(at 50.038 97.79 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "POWER_SUPPLY"
-			(at 52.324 100.33 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "seven-lib:TestPoint_Pad_2.0x2.0mm"
-			(at 53.34 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 53.34 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 53.34 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a1aeabf2-08d8-4782-a5f3-37dbbcdf1193")
-		)
-		(instances
-			(project "seven"
-				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/212f259f-7773-4a20-96f5-c599a3d0b814"
-					(reference "TP7")
 					(unit 1)
 				)
 			)

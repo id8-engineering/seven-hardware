@@ -4201,7 +4201,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3c322e4e-2f78-44d4-88df-822443d00775")
+			(uuid "7222978f-309e-4446-88be-c9a82e1069a5")
 			(effects
 				(font
 					(size 1 1)
@@ -4214,7 +4214,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6fc4cb55-280c-47b7-acc2-d45dc6056d86")
+			(uuid "fbc9e6fb-939e-44f9-bb98-913237592a10")
 			(effects
 				(font
 					(size 1 1)
@@ -4227,7 +4227,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0f094c84-da94-496d-bf43-924e75d646ee")
+			(uuid "aff31552-cb22-4d77-8a92-3218a82405db")
 			(effects
 				(font
 					(size 1 1)
@@ -4240,7 +4240,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e2b8a19-a250-458a-baf9-21043b54ebb6")
+			(uuid "292dccaf-cd46-4abd-8a86-db6ca3a1e0f3")
 			(effects
 				(font
 					(size 1 1)
@@ -4262,8 +4262,8 @@
 			)
 		)
 		(path "/6d67fa3a-9367-4165-80f3-5f39034a7c0b/4865474f-f392-47d0-b057-0612e8dc1fab")
-		(sheetname "/MikroBUS Socket 1/")
-		(sheetfile "mikroBUS_1.kicad_sch")
+		(sheetname "/MikroBUS Socket 2/")
+		(sheetfile "mikroBUS_2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4817,7 +4817,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/MCU/AN1")
+			(net "/MCU/AN2")
 			(pinfunction "AN_9")
 			(pintype "output")
 			(uuid "5e12871d-3284-44fd-b197-4a307c7117b1")
@@ -4828,7 +4828,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/MCU/RST1")
+			(net "/MCU/RST2")
 			(pinfunction "RST_10")
 			(pintype "input")
 			(uuid "a721e8b1-9e4c-4d83-ad92-c68da8a6126a")
@@ -4839,7 +4839,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/MCU/CS1")
+			(net "/MCU/CS2")
 			(pinfunction "CS_11")
 			(pintype "input")
 			(uuid "1a6d3016-2601-43a2-8e16-6d03f4f784d5")
@@ -4850,7 +4850,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/MCU/SPI_SCK1")
+			(net "/MCU/SPI_SCK2")
 			(pinfunction "SCK_12")
 			(pintype "input")
 			(uuid "b02004dd-1cd9-4f8f-9a14-b67ed16d0116")
@@ -4861,7 +4861,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/MCU/SPI_MISO1")
+			(net "/MCU/SPI_MISO2")
 			(pinfunction "MISO_13")
 			(pintype "passive")
 			(uuid "8f3fcc36-c1d1-4741-921e-4b14e48873b8")
@@ -4872,7 +4872,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/MCU/SPI_MOSI1")
+			(net "/MCU/SPI_MOSI2")
 			(pinfunction "MOSI_14")
 			(pintype "input")
 			(uuid "28fc1c16-fe48-4f42-bc59-5c85b6f4e1fa")
@@ -8904,7 +8904,7 @@
 			(size 0.45 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.05)
-			(net "/MCU/AN2")
+			(net "/MCU/AN1")
 			(pinfunction "P0.20/AIN7_2")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.05)
@@ -8937,7 +8937,7 @@
 			(size 0.45 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.05)
-			(net "/MCU/SPI_MOSI2")
+			(net "/MCU/SPI_MOSI1")
 			(pinfunction "P0.21/TRACECLK_5")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.05)
@@ -8948,7 +8948,7 @@
 			(size 0.45 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.05)
-			(net "/MCU/I2C_SDA2")
+			(net "/MCU/I2C_SDA1")
 			(pinfunction "P0.22/TRACEDATA0_6")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.05)
@@ -8970,7 +8970,7 @@
 			(size 0.45 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.05)
-			(net "/MCU/I2C_SCL2")
+			(net "/MCU/I2C_SCL1")
 			(pinfunction "P0.23/TRACEDATA1_8")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.05)
@@ -9399,7 +9399,7 @@
 			(size 0.45 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.05)
-			(net "/MCU/SPI_MISO2")
+			(net "/MCU/SPI_MISO1")
 			(pinfunction "P0.28_47")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.05)
@@ -9410,7 +9410,7 @@
 			(size 0.45 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.05)
-			(net "/MCU/SPI_SCK2")
+			(net "/MCU/SPI_SCK1")
 			(pinfunction "P0.29_48")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.05)
@@ -9498,7 +9498,7 @@
 			(size 0.45 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.05)
-			(net "/MCU/CS1")
+			(net "/MCU/CS2")
 			(pinfunction "P0.00_56")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.05)
@@ -9509,7 +9509,7 @@
 			(size 0.45 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.05)
-			(net "/MCU/INT1")
+			(net "/MCU/INT2")
 			(pinfunction "P0.01_57")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.05)
@@ -9520,7 +9520,7 @@
 			(size 0.45 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.05)
-			(net "/MCU/RST1")
+			(net "/MCU/RST2")
 			(pinfunction "P0.02_58")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.05)
@@ -9531,7 +9531,7 @@
 			(size 0.45 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.05)
-			(net "/MCU/PWM1")
+			(net "/MCU/PWM2")
 			(pinfunction "P0.03_59")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.05)
@@ -9553,7 +9553,7 @@
 			(size 0.45 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.05)
-			(net "/MCU/SPI_MOSI1")
+			(net "/MCU/SPI_MOSI2")
 			(pinfunction "P0.04_61")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.05)
@@ -9564,7 +9564,7 @@
 			(size 0.45 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.05)
-			(net "/MCU/SPI_MISO1")
+			(net "/MCU/SPI_MISO2")
 			(pinfunction "P0.05_62")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.05)
@@ -9575,7 +9575,7 @@
 			(size 0.45 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.05)
-			(net "/MCU/SPI_SCK1")
+			(net "/MCU/SPI_SCK2")
 			(pinfunction "P0.06_63")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.05)
@@ -9586,7 +9586,7 @@
 			(size 0.45 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.05)
-			(net "/MCU/CS2")
+			(net "/MCU/CS1")
 			(pinfunction "P0.07_64")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.05)
@@ -9619,7 +9619,7 @@
 			(size 0.45 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.05)
-			(net "/MCU/I2C_SCL1")
+			(net "/MCU/I2C_SCL2")
 			(pinfunction "P0.08_67")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.05)
@@ -9630,7 +9630,7 @@
 			(size 0.45 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.05)
-			(net "/MCU/I2C_SDA1")
+			(net "/MCU/I2C_SDA2")
 			(pinfunction "P0.09_68")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.05)
@@ -9641,7 +9641,7 @@
 			(size 0.45 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.05)
-			(net "/MCU/UART_TX1")
+			(net "/MCU/UART_TX2")
 			(pinfunction "P0.10_69")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.05)
@@ -9652,7 +9652,7 @@
 			(size 0.45 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.05)
-			(net "/MCU/UART_RX1")
+			(net "/MCU/UART_RX2")
 			(pinfunction "P0.11_70")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.05)
@@ -9674,7 +9674,7 @@
 			(size 0.45 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.05)
-			(net "/MCU/UART_TX2")
+			(net "/MCU/UART_TX1")
 			(pinfunction "P0.12_72")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.05)
@@ -9685,7 +9685,7 @@
 			(size 0.45 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.05)
-			(net "/MCU/UART_RX2")
+			(net "/MCU/UART_RX1")
 			(pinfunction "P0.13/AIN0_73")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.05)
@@ -9696,7 +9696,7 @@
 			(size 0.45 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.05)
-			(net "/MCU/AN1")
+			(net "/MCU/AN2")
 			(pinfunction "P0.14/AIN1_74")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.05)
@@ -9707,7 +9707,7 @@
 			(size 0.45 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.05)
-			(net "/MCU/INT2")
+			(net "/MCU/INT1")
 			(pinfunction "P0.15/AIN2_75")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.05)
@@ -9729,7 +9729,7 @@
 			(size 0.45 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.05)
-			(net "/MCU/RST2")
+			(net "/MCU/RST1")
 			(pinfunction "P0.16/AIN3_77")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.05)
@@ -9740,7 +9740,7 @@
 			(size 0.45 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.05)
-			(net "/MCU/PWN2")
+			(net "/MCU/PWN1")
 			(pinfunction "P0.17/AIN4_78")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.05)
@@ -17360,7 +17360,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e9226346-5b8d-447e-b4ad-15c2ef4c0440")
+			(uuid "d605df14-f913-42ab-b3f7-ef20a6978477")
 			(effects
 				(font
 					(size 1 1)
@@ -17373,7 +17373,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2901609b-2965-435e-ac9a-43c0bcbe6925")
+			(uuid "40875b4d-2cbc-4946-a629-b70ab7188458")
 			(effects
 				(font
 					(size 1 1)
@@ -17386,7 +17386,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "64773911-4358-4864-90b4-b5c50f52315e")
+			(uuid "ba708076-ca11-40da-90d4-18315155570a")
 			(effects
 				(font
 					(size 1 1)
@@ -17399,7 +17399,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cda7c3bf-d3ab-4fa8-a95e-7d25e55d783c")
+			(uuid "c7cdbe66-793b-468d-a620-146c8de3b1d7")
 			(effects
 				(font
 					(size 1 1)
@@ -17421,8 +17421,8 @@
 			)
 		)
 		(path "/6d67fa3a-9367-4165-80f3-5f39034a7c0b/628577d6-a9d3-4d62-9f3b-fb873d7476ca")
-		(sheetname "/MikroBUS Socket 1/")
-		(sheetfile "mikroBUS_1.kicad_sch")
+		(sheetname "/MikroBUS Socket 2/")
+		(sheetfile "mikroBUS_2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17734,7 +17734,7 @@
 			(uuid "3d1bd21f-e718-4ed4-ab0a-6009748d4fe6")
 		)
 		(fp_text user "2"
-			(at -32.22424 2.372951 270)
+			(at -2.39924 0.897951 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "9a1c5039-2db4-4d5e-82a3-fa4814c15bcd")
@@ -17774,7 +17774,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/MCU/I2C_SDA1")
+			(net "/MCU/I2C_SDA2")
 			(pinfunction "SDA_3")
 			(pintype "bidirectional")
 			(uuid "895c3aad-732a-4673-9bad-8ba399458636")
@@ -17785,7 +17785,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/MCU/I2C_SCL1")
+			(net "/MCU/I2C_SCL2")
 			(pinfunction "SCL_4")
 			(pintype "input")
 			(uuid "71abf91d-9a91-4ab8-9f6e-4c00ea882385")
@@ -17796,7 +17796,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/MCU/UART_RX1")
+			(net "/MCU/UART_RX2")
 			(pinfunction "TX_5")
 			(pintype "output")
 			(uuid "a82ae88f-e991-4225-849c-1dd0397eff56")
@@ -17807,7 +17807,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/MCU/UART_TX1")
+			(net "/MCU/UART_TX2")
 			(pinfunction "RX_6")
 			(pintype "input")
 			(uuid "a72261f5-4fb1-4489-b044-65c3d4e907b4")
@@ -17818,7 +17818,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/MCU/INT1")
+			(net "/MCU/INT2")
 			(pinfunction "INT_7")
 			(pintype "output")
 			(uuid "14b6b2f3-ab04-468b-a3c3-cf9031cae0e0")
@@ -17829,7 +17829,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/MCU/PWM1")
+			(net "/MCU/PWM2")
 			(pinfunction "PWM_8")
 			(pintype "input")
 			(uuid "67c45212-6fb0-47db-b52b-27c50fb58516")
@@ -18675,7 +18675,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "641a5e39-eb7c-4dbd-be54-ce6212028d46")
+			(uuid "56137da1-efc7-4ab5-b719-e8b8c14e5c46")
 			(effects
 				(font
 					(size 1 1)
@@ -18688,7 +18688,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b58dcdef-ee63-421a-865d-d82c3bd32e54")
+			(uuid "a43e68a2-6eac-4004-9034-ee68a216850f")
 			(effects
 				(font
 					(size 1 1)
@@ -18701,7 +18701,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "85b9c0d6-cc45-4b1b-8583-bd485535f6c3")
+			(uuid "a4371488-91b7-44dd-ae8d-5f655ed74f15")
 			(effects
 				(font
 					(size 1 1)
@@ -18714,7 +18714,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fbeff29c-053b-4bf5-b181-9d8cf4194fc1")
+			(uuid "d8927219-d01a-475c-b1da-d63c9ec72028")
 			(effects
 				(font
 					(size 1 1)
@@ -18736,8 +18736,8 @@
 			)
 		)
 		(path "/a6d18936-8c23-4481-bbfb-aad5f65c42c8/c8c57ce4-f9d0-4677-9dd3-df50816e3db6")
-		(sheetname "/MikroBUS Socket 2/")
-		(sheetfile "mikroBUS_2.kicad_sch")
+		(sheetname "/MikroBUS Socket 1/")
+		(sheetfile "mikroBUS_1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19049,7 +19049,7 @@
 			(uuid "c660ad73-c6fe-4455-b9d3-8190535c5c03")
 		)
 		(fp_text user "1"
-			(at 27.37 2.3825 270)
+			(at -2.455 0.6075 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a685c855-1fda-4881-aa6f-019b815232ea")
@@ -19089,7 +19089,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/MCU/I2C_SDA2")
+			(net "/MCU/I2C_SDA1")
 			(pinfunction "SDA_3")
 			(pintype "bidirectional")
 			(uuid "d606eade-d22d-469b-8059-868fa1d6e1ba")
@@ -19100,7 +19100,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/MCU/I2C_SCL2")
+			(net "/MCU/I2C_SCL1")
 			(pinfunction "SCL_4")
 			(pintype "input")
 			(uuid "92b088a7-bb24-4b27-a690-b6df6c034ff6")
@@ -19111,7 +19111,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/MCU/UART_RX2")
+			(net "/MCU/UART_RX1")
 			(pinfunction "TX_5")
 			(pintype "output")
 			(uuid "911dccdd-4e8e-484c-b538-76aa1308a6ca")
@@ -19122,7 +19122,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/MCU/UART_TX2")
+			(net "/MCU/UART_TX1")
 			(pinfunction "RX_6")
 			(pintype "input")
 			(uuid "d72c9256-6ac6-4504-adb1-1c0a13ff7df5")
@@ -19133,7 +19133,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/MCU/INT2")
+			(net "/MCU/INT1")
 			(pinfunction "INT_7")
 			(pintype "output")
 			(uuid "c77c3771-258e-449e-bab2-810a353425cd")
@@ -19144,7 +19144,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/MCU/PWN2")
+			(net "/MCU/PWN1")
 			(pinfunction "PWM_8")
 			(pintype "input")
 			(uuid "c459b7bd-921b-455c-91af-dc9fddbf8f93")
@@ -20616,7 +20616,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "324c9600-bfd2-4772-979c-0a1169ebd50e")
+			(uuid "b8685f15-bc76-42d8-9f91-828d0e48ec18")
 			(effects
 				(font
 					(size 1 1)
@@ -20629,7 +20629,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ab87030f-a4b5-40f2-84e8-545e74d44f54")
+			(uuid "cd49b8e6-d85f-4b33-be35-c3ffca9dbcb4")
 			(effects
 				(font
 					(size 1 1)
@@ -20642,7 +20642,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c6cce6a6-33b6-4dc1-a97c-51e29fae8a77")
+			(uuid "8393f52b-8a3b-4b20-a267-4a4c363fee8f")
 			(effects
 				(font
 					(size 1 1)
@@ -20655,7 +20655,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a0dd3945-90bc-4eb0-8771-fad233fdb620")
+			(uuid "0e4751a3-d4e9-425e-bc22-2832efc6e4cc")
 			(effects
 				(font
 					(size 1 1)
@@ -20677,8 +20677,8 @@
 			)
 		)
 		(path "/a6d18936-8c23-4481-bbfb-aad5f65c42c8/197b802a-4f80-43e5-99b9-8cd8fab9df3c")
-		(sheetname "/MikroBUS Socket 2/")
-		(sheetfile "mikroBUS_2.kicad_sch")
+		(sheetname "/MikroBUS Socket 1/")
+		(sheetfile "mikroBUS_1.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21232,7 +21232,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/MCU/AN2")
+			(net "/MCU/AN1")
 			(pinfunction "AN_9")
 			(pintype "output")
 			(uuid "5a26e879-88b2-425b-b00a-19d834e61aac")
@@ -21243,7 +21243,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/MCU/RST2")
+			(net "/MCU/RST1")
 			(pinfunction "RST_10")
 			(pintype "input")
 			(uuid "805322df-b643-49d1-a00b-105a2b43e241")
@@ -21254,7 +21254,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/MCU/CS2")
+			(net "/MCU/CS1")
 			(pinfunction "CS_11")
 			(pintype "input")
 			(uuid "49c9ca28-978b-42d3-85a3-10773bb3d447")
@@ -21265,7 +21265,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/MCU/SPI_SCK2")
+			(net "/MCU/SPI_SCK1")
 			(pinfunction "SCK_12")
 			(pintype "input")
 			(uuid "3f688dc7-d81b-4e4a-9050-a962b465dfd4")
@@ -21276,7 +21276,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/MCU/SPI_MISO2")
+			(net "/MCU/SPI_MISO1")
 			(pinfunction "MISO_13")
 			(pintype "passive")
 			(uuid "7667aff6-0370-48f8-bc80-383c37fa0576")
@@ -21287,7 +21287,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/MCU/SPI_MOSI2")
+			(net "/MCU/SPI_MOSI1")
 			(pinfunction "MOSI_14")
 			(pintype "input")
 			(uuid "80251944-0b01-4ee0-87a9-114a5eb4f334")
@@ -25023,7 +25023,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "RST/P0.17"
+	(gr_text "RST/P0.16"
 		(at 149.2 64.6 270)
 		(layer "F.SilkS")
 		(uuid "1ff1b17a-ee37-4e5a-b5ce-3f5d1f329dcf")
@@ -32318,7 +32318,7 @@
 		(end 168.17855 71.07855)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/AN1")
+		(net "/MCU/AN2")
 		(uuid "0910831b-5d4b-4137-a2de-a9889a6ad130")
 	)
 	(segment
@@ -32326,7 +32326,7 @@
 		(end 155.1 85.15)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/AN1")
+		(net "/MCU/AN2")
 		(uuid "0cf5c588-9bbd-44a3-8eac-e23a590ed4ae")
 	)
 	(segment
@@ -32334,7 +32334,7 @@
 		(end 175.8 67.92499)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/AN1")
+		(net "/MCU/AN2")
 		(uuid "5d095a3e-5c45-4162-8241-2341fc0c9f01")
 	)
 	(segment
@@ -32342,7 +32342,7 @@
 		(end 152.06 88.19)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/AN1")
+		(net "/MCU/AN2")
 		(uuid "7fb6972a-e06b-4e86-bafa-2cc7f1b4e163")
 	)
 	(segment
@@ -32350,7 +32350,7 @@
 		(end 155.1 84.1571)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/AN1")
+		(net "/MCU/AN2")
 		(uuid "f68b13a2-d8e5-4432-bcf6-6d950ac6fa55")
 	)
 	(via
@@ -32368,7 +32368,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/AN1")
+		(net "/MCU/AN2")
 		(uuid "98992604-0feb-4af3-ba41-0c02c33d4cd6")
 	)
 	(via
@@ -32386,7 +32386,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/AN1")
+		(net "/MCU/AN2")
 		(uuid "ad223b44-d1ec-458a-94a9-e10aafd10479")
 	)
 	(segment
@@ -32394,7 +32394,7 @@
 		(end 168.8071 70.45)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/AN1")
+		(net "/MCU/AN2")
 		(uuid "43083b42-252d-46f3-8289-3b69bfe52b68")
 	)
 	(segment
@@ -32402,7 +32402,7 @@
 		(end 174.1 70.45)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/AN1")
+		(net "/MCU/AN2")
 		(uuid "4d91a08b-11d0-494b-8730-01768691fc46")
 	)
 	(segment
@@ -32410,7 +32410,7 @@
 		(end 168.17855 71.07855)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/AN1")
+		(net "/MCU/AN2")
 		(uuid "ee4bf5ff-9034-41d5-8529-6e0956991a6c")
 	)
 	(segment
@@ -32418,7 +32418,7 @@
 		(end 149.52 92.52)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/RST1")
+		(net "/MCU/RST2")
 		(uuid "13e36d36-09d6-4371-83ee-b0f8fa32a0e3")
 	)
 	(segment
@@ -32426,7 +32426,7 @@
 		(end 184.835019 70.4)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/RST1")
+		(net "/MCU/RST2")
 		(uuid "1bacb312-9093-418b-b5aa-1a35d17108af")
 	)
 	(segment
@@ -32434,7 +32434,7 @@
 		(end 185.6 69.635019)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/RST1")
+		(net "/MCU/RST2")
 		(uuid "20cae97a-57de-4228-a9e0-7528b9cdfea7")
 	)
 	(segment
@@ -32442,7 +32442,7 @@
 		(end 185.6 68.7)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/RST1")
+		(net "/MCU/RST2")
 		(uuid "41fdd011-d793-4efc-91f4-760c1139db55")
 	)
 	(segment
@@ -32450,7 +32450,7 @@
 		(end 182.15 81.180761)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/RST1")
+		(net "/MCU/RST2")
 		(uuid "6d43cb35-dad7-482b-b003-8c0d92ccbd69")
 	)
 	(segment
@@ -32458,7 +32458,7 @@
 		(end 184.467306 68.3)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/RST1")
+		(net "/MCU/RST2")
 		(uuid "742bc543-0eeb-48aa-b47a-d09017339ea4")
 	)
 	(segment
@@ -32466,7 +32466,7 @@
 		(end 182.15 82.95)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/RST1")
+		(net "/MCU/RST2")
 		(uuid "81e6514e-3509-454c-a411-4320ec18a389")
 	)
 	(segment
@@ -32474,7 +32474,7 @@
 		(end 183.030761 80.3)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/RST1")
+		(net "/MCU/RST2")
 		(uuid "81f5a8a0-a9f9-4ee7-8781-68576fd5acd0")
 	)
 	(segment
@@ -32482,7 +32482,7 @@
 		(end 171.429 93.671)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/RST1")
+		(net "/MCU/RST2")
 		(uuid "9af35a83-aa90-44c1-b327-0684dd19be52")
 	)
 	(segment
@@ -32490,7 +32490,7 @@
 		(end 183.516306 69.251)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/RST1")
+		(net "/MCU/RST2")
 		(uuid "a74766fb-ffa8-4b8c-9e5c-a4bf596f0b3c")
 	)
 	(segment
@@ -32498,7 +32498,7 @@
 		(end 183.224 69.251)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/RST1")
+		(net "/MCU/RST2")
 		(uuid "d90565f8-69cc-4625-9669-f6b0a1b3bf39")
 	)
 	(segment
@@ -32506,7 +32506,7 @@
 		(end 150.671 93.671)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/RST1")
+		(net "/MCU/RST2")
 		(uuid "e8cee407-8ba2-48a3-9f3e-938477065b97")
 	)
 	(segment
@@ -32514,7 +32514,7 @@
 		(end 185.2 68.3)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/RST1")
+		(net "/MCU/RST2")
 		(uuid "f7bc87e6-5e2f-40b2-82eb-05adf93da8ff")
 	)
 	(via
@@ -32532,7 +32532,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/RST1")
+		(net "/MCU/RST2")
 		(uuid "4cb424eb-8c47-4833-a5d1-484cb4f22970")
 	)
 	(via
@@ -32550,7 +32550,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/RST1")
+		(net "/MCU/RST2")
 		(uuid "9ce8ccf3-7e8c-4f98-894c-28e6eff3f9f0")
 	)
 	(segment
@@ -32558,7 +32558,7 @@
 		(end 184.835019 70.4)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/RST1")
+		(net "/MCU/RST2")
 		(uuid "158cbd69-4d2a-4f1b-ae38-8d9ec04f8132")
 	)
 	(segment
@@ -32566,7 +32566,7 @@
 		(end 184.501 79.0661)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/RST1")
+		(net "/MCU/RST2")
 		(uuid "3195835e-8fa9-4d6c-b6a5-89b299993b4b")
 	)
 	(segment
@@ -32574,7 +32574,7 @@
 		(end 184.537077 70.697942)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/RST1")
+		(net "/MCU/RST2")
 		(uuid "34685261-bc20-42e6-8167-909cc1d4918f")
 	)
 	(segment
@@ -32582,7 +32582,7 @@
 		(end 184.537077 70.699626)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/RST1")
+		(net "/MCU/RST2")
 		(uuid "48f3051d-984d-4581-8085-ddde226cd7a2")
 	)
 	(segment
@@ -32590,7 +32590,7 @@
 		(end 184.501 70.735703)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/RST1")
+		(net "/MCU/RST2")
 		(uuid "9fd9a6e9-5e83-42fb-a704-bbe652724fea")
 	)
 	(segment
@@ -32598,7 +32598,7 @@
 		(end 184.1 79.4671)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/RST1")
+		(net "/MCU/RST2")
 		(uuid "abfccfee-6757-46c4-8808-18b88b4f7862")
 	)
 	(segment
@@ -32606,7 +32606,7 @@
 		(end 183.936077 70.450683)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/CS1")
+		(net "/MCU/CS2")
 		(uuid "081e7eb6-e154-4925-b6ce-2349790b7d6b")
 	)
 	(segment
@@ -32614,7 +32614,7 @@
 		(end 181.749 81.390628)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/CS1")
+		(net "/MCU/CS2")
 		(uuid "28b5e3e0-d927-49db-821a-5b0f12e0724c")
 	)
 	(segment
@@ -32622,7 +32622,7 @@
 		(end 146.98 90.5471)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/CS1")
+		(net "/MCU/CS2")
 		(uuid "2efa74cb-b988-430e-9b09-ba582b0eda57")
 	)
 	(segment
@@ -32630,7 +32630,7 @@
 		(end 180.992097 80.633725)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/CS1")
+		(net "/MCU/CS2")
 		(uuid "4b6273f6-e7bd-4e44-97c3-ae885bd002f0")
 	)
 	(segment
@@ -32638,7 +32638,7 @@
 		(end 181.749 82.7181)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/CS1")
+		(net "/MCU/CS2")
 		(uuid "7cc6e951-5ac1-41d5-85eb-fd621f1d3bf1")
 	)
 	(segment
@@ -32646,7 +32646,7 @@
 		(end 151 89.65)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/CS1")
+		(net "/MCU/CS2")
 		(uuid "beea5182-9edf-4d9c-8399-75b6aefb45f4")
 	)
 	(segment
@@ -32654,7 +32654,7 @@
 		(end 147.8771 89.65)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/CS1")
+		(net "/MCU/CS2")
 		(uuid "c33e52d0-8485-40ea-9b3e-e36a22758386")
 	)
 	(segment
@@ -32662,7 +32662,7 @@
 		(end 174.8671 89.6)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/CS1")
+		(net "/MCU/CS2")
 		(uuid "cef262d5-a1c2-4f40-9f2a-decd0b3dbbe1")
 	)
 	(segment
@@ -32670,7 +32670,7 @@
 		(end 183.785394 70.3)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/CS1")
+		(net "/MCU/CS2")
 		(uuid "ea09ffbf-13c1-4ec7-9794-52ff15a2c8ff")
 	)
 	(via
@@ -32688,7 +32688,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/CS1")
+		(net "/MCU/CS2")
 		(uuid "6e512ac4-4eae-414a-abd2-e2a08500efe1")
 	)
 	(via
@@ -32706,7 +32706,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/CS1")
+		(net "/MCU/CS2")
 		(uuid "7c2270fc-2f2d-457f-b0b6-bd11c5f004f7")
 	)
 	(via
@@ -32724,7 +32724,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/CS1")
+		(net "/MCU/CS2")
 		(uuid "835355d9-1232-43fc-b785-f744d8885f41")
 	)
 	(via
@@ -32742,7 +32742,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/CS1")
+		(net "/MCU/CS2")
 		(uuid "cb348fd9-09da-43a9-b9ec-e03509d1d1b1")
 	)
 	(segment
@@ -32750,7 +32750,7 @@
 		(end 184.1 78.9)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/CS1")
+		(net "/MCU/CS2")
 		(uuid "19c75c06-a2a1-4291-a1e6-ba6a3c4cc24e")
 	)
 	(segment
@@ -32758,7 +32758,7 @@
 		(end 183.936077 70.450683)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/CS1")
+		(net "/MCU/CS2")
 		(uuid "235b19a9-7838-47dc-931e-90d99f17823f")
 	)
 	(segment
@@ -32766,7 +32766,7 @@
 		(end 181.058372 80.7)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/CS1")
+		(net "/MCU/CS2")
 		(uuid "3547af5e-3615-4871-b925-337acb7ab822")
 	)
 	(segment
@@ -32774,7 +32774,7 @@
 		(end 153.4 89.6)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/CS1")
+		(net "/MCU/CS2")
 		(uuid "5c542371-c7e4-41c4-8823-e55480677a95")
 	)
 	(segment
@@ -32782,7 +32782,7 @@
 		(end 181.309665 80.599)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/CS1")
+		(net "/MCU/CS2")
 		(uuid "6cfbbb3d-1306-43de-877e-aba6808a843d")
 	)
 	(segment
@@ -32790,7 +32790,7 @@
 		(end 184.1 70.614606)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/CS1")
+		(net "/MCU/CS2")
 		(uuid "87017723-66d4-40e1-81af-644539024479")
 	)
 	(segment
@@ -32798,7 +32798,7 @@
 		(end 181.208665 80.7)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/CS1")
+		(net "/MCU/CS2")
 		(uuid "92495656-95a6-4818-a9df-68036bf65d97")
 	)
 	(segment
@@ -32806,7 +32806,7 @@
 		(end 182.401 80.599)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/CS1")
+		(net "/MCU/CS2")
 		(uuid "d60c80b8-9c7f-4b13-8e60-df6cae127365")
 	)
 	(segment
@@ -32814,7 +32814,7 @@
 		(end 153.35 89.65)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/CS1")
+		(net "/MCU/CS2")
 		(uuid "ff00bf56-b866-4c63-86e8-65145374ae16")
 	)
 	(segment
@@ -32822,7 +32822,7 @@
 		(end 180.743154 81.234725)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "039e542d-d149-47d7-90cd-499a4c4a0308")
 	)
 	(segment
@@ -32830,7 +32830,7 @@
 		(end 186.499 66.799)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "33d82893-de06-46bf-8c3c-b67aaa1e5169")
 	)
 	(segment
@@ -32838,7 +32838,7 @@
 		(end 148.81 88.15)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "380b67af-f8c6-4374-80c3-cc85fac946de")
 	)
 	(segment
@@ -32846,7 +32846,7 @@
 		(end 180.732694 81.224265)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "441d405c-7690-4229-8fcf-a60bb691953f")
 	)
 	(segment
@@ -32854,7 +32854,7 @@
 		(end 181.301 67.698754)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "45398fa7-c0b9-49e2-8d34-8534aa8cbd41")
 	)
 	(segment
@@ -32862,7 +32862,7 @@
 		(end 181.348 81.556728)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "4ed0604b-0d20-4b65-a423-5462892e1bb4")
 	)
 	(segment
@@ -32870,7 +32870,7 @@
 		(end 181.29997 67.699784)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "51dea332-e466-4e42-8c82-de8e0343f8e6")
 	)
 	(segment
@@ -32878,7 +32878,7 @@
 		(end 182.9 65.9)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "798d2cf2-bbd9-403a-8610-f242fd65853e")
 	)
 	(segment
@@ -32886,7 +32886,7 @@
 		(end 186.499 69.851)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "8354b63e-45df-490e-9e29-c6c670eebbdf")
 	)
 	(segment
@@ -32894,7 +32894,7 @@
 		(end 181.348 82.552)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "8b8ab544-719f-4918-bbf3-3b07d379b07b")
 	)
 	(segment
@@ -32902,7 +32902,7 @@
 		(end 185.6 65.9)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "939002cd-b31c-4a22-8e18-b47200b09ae2")
 	)
 	(segment
@@ -32910,7 +32910,7 @@
 		(end 186.25 70.1)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "99dc78e3-f1ea-4932-bfc2-743a157de960")
 	)
 	(segment
@@ -32918,7 +32918,7 @@
 		(end 181.301 67.499)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "aeca65c9-7937-4ace-9e30-2520d4c75472")
 	)
 	(segment
@@ -32926,7 +32926,7 @@
 		(end 174.701 89.199)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "bc2d499d-f338-4a93-9b95-b123a4b59ba6")
 	)
 	(segment
@@ -32934,7 +32934,7 @@
 		(end 154.699 89.199)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "c5b441f3-37f6-46fd-ba35-f09f3c79e1e9")
 	)
 	(segment
@@ -32942,7 +32942,7 @@
 		(end 181.025997 81.234725)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "dadadc2b-48ef-4246-ac8e-4bb193d2c782")
 	)
 	(segment
@@ -32950,7 +32950,7 @@
 		(end 151.05 88.15)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "e1a69dee-5925-4baf-980c-f2f781d5696f")
 	)
 	(segment
@@ -32958,7 +32958,7 @@
 		(end 153.5 88)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "e67603c2-9e9d-47cf-9844-f8b0d17315e1")
 	)
 	(via
@@ -32976,7 +32976,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "978326a8-118f-4e4c-82c9-65d68adfa1f6")
 	)
 	(via
@@ -32994,7 +32994,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "b1dffe7b-3389-4d90-b8e6-96ffc2dda68d")
 	)
 	(via
@@ -33012,7 +33012,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "da123505-c221-4833-9e9f-2656d08b3bf6")
 	)
 	(via
@@ -33030,7 +33030,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "fd272378-dc3f-4856-8992-77eb503aa5ea")
 	)
 	(segment
@@ -33038,7 +33038,7 @@
 		(end 181.475765 81)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "18305257-43e5-4f19-a9c3-552dece0d039")
 	)
 	(segment
@@ -33046,7 +33046,7 @@
 		(end 153.5 88)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "209b6d19-7849-4436-8bd0-0336525e936d")
 	)
 	(segment
@@ -33054,7 +33054,7 @@
 		(end 180.224265 81.224265)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "5446b9a4-5457-4039-9354-dff67741cee8")
 	)
 	(segment
@@ -33062,7 +33062,7 @@
 		(end 180.234725 81.234725)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "56ce964c-3afc-46ac-a98d-744c88a2f755")
 	)
 	(segment
@@ -33070,7 +33070,7 @@
 		(end 186.45 70.3)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "5cb2d176-ae74-4727-baad-011f01cd58da")
 	)
 	(segment
@@ -33078,7 +33078,7 @@
 		(end 187.649 81.370562)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "609f0d46-7ed1-47dd-b436-7caf6d483d6b")
 	)
 	(segment
@@ -33086,7 +33086,7 @@
 		(end 153.251 87.751)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "759f2959-fb8b-44b3-a945-ff959724c12d")
 	)
 	(segment
@@ -33094,7 +33094,7 @@
 		(end 151.449 87.751)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "89fc832e-7b25-4538-9768-017f29f486a7")
 	)
 	(segment
@@ -33102,7 +33102,7 @@
 		(end 187.65 81.369562)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "8e9ff1c0-a76a-4384-a2d7-da33a877ac54")
 	)
 	(segment
@@ -33110,7 +33110,7 @@
 		(end 187.35 75.565075)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "96b1dc3f-3939-4ad6-a83f-faa7186fe50b")
 	)
 	(segment
@@ -33118,7 +33118,7 @@
 		(end 185.2 81)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "a083ccaf-8b0b-4a35-a0fa-9fd23da926d1")
 	)
 	(segment
@@ -33126,7 +33126,7 @@
 		(end 181.24104 81.234725)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "a3a3e818-9104-41b1-b5ea-718b61edb1ea")
 	)
 	(segment
@@ -33134,7 +33134,7 @@
 		(end 187.65 79.805553)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "beaa09cf-3aaa-4c05-bc7b-f710c1f3ce73")
 	)
 	(segment
@@ -33142,7 +33142,7 @@
 		(end 186.599 82.399)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "dd55bccb-d8b0-4014-af17-d032da0e197c")
 	)
 	(segment
@@ -33150,7 +33150,7 @@
 		(end 187.649 81.8839)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "de6964e2-236f-4e0a-89a7-55373a7f0355")
 	)
 	(segment
@@ -33158,7 +33158,7 @@
 		(end 186.45 74.665075)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "deebf99e-1c90-434c-a370-922971b3f40d")
 	)
 	(segment
@@ -33166,7 +33166,7 @@
 		(end 187.1339 82.399)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "e1c4fc16-a6b4-4c15-8219-8f401d551f58")
 	)
 	(segment
@@ -33174,7 +33174,7 @@
 		(end 187.35 79.505553)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_SCK1")
+		(net "/MCU/SPI_SCK2")
 		(uuid "ee59c13d-77be-465c-bc68-d69014dd9113")
 	)
 	(segment
@@ -33182,7 +33182,7 @@
 		(end 185.177354 66.349)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MISO1")
+		(net "/MCU/SPI_MISO2")
 		(uuid "3446e140-c6a5-4872-b925-8d0d9cf2a2cc")
 	)
 	(segment
@@ -33190,7 +33190,7 @@
 		(end 143.451 94.071)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MISO1")
+		(net "/MCU/SPI_MISO2")
 		(uuid "4c7b0084-8308-4b42-81d8-0533163dff53")
 	)
 	(segment
@@ -33198,7 +33198,7 @@
 		(end 181.8 67.626754)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MISO1")
+		(net "/MCU/SPI_MISO2")
 		(uuid "57a451b7-dbd4-40a5-8241-c650cce53978")
 	)
 	(segment
@@ -33206,7 +33206,7 @@
 		(end 184.926105 82.099)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MISO1")
+		(net "/MCU/SPI_MISO2")
 		(uuid "74a82738-ea5d-4ac0-a50f-bbf1684b33ac")
 	)
 	(segment
@@ -33214,7 +33214,7 @@
 		(end 183.077754 66.349)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MISO1")
+		(net "/MCU/SPI_MISO2")
 		(uuid "899112d2-2325-4a09-809e-67c7ef65d4c5")
 	)
 	(segment
@@ -33222,7 +33222,7 @@
 		(end 183.58176 82.099)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MISO1")
+		(net "/MCU/SPI_MISO2")
 		(uuid "97515528-0607-4b76-b692-8cc68bb4832c")
 	)
 	(segment
@@ -33230,7 +33230,7 @@
 		(end 185.1715 81.853605)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MISO1")
+		(net "/MCU/SPI_MISO2")
 		(uuid "a8eb9bd8-9978-43bd-a9f9-e2928f29d0c0")
 	)
 	(segment
@@ -33238,7 +33238,7 @@
 		(end 171.60976 94.071)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MISO1")
+		(net "/MCU/SPI_MISO2")
 		(uuid "c551cf8b-339f-4039-9975-a6c2e05aa496")
 	)
 	(segment
@@ -33246,7 +33246,7 @@
 		(end 185.378354 66.55)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MISO1")
+		(net "/MCU/SPI_MISO2")
 		(uuid "e7adc36f-134c-4b2a-981a-55b5e3500899")
 	)
 	(via
@@ -33264,7 +33264,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/SPI_MISO1")
+		(net "/MCU/SPI_MISO2")
 		(uuid "48e16f0b-5518-4f36-b679-3d56b8e0138a")
 	)
 	(via
@@ -33282,7 +33282,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/SPI_MISO1")
+		(net "/MCU/SPI_MISO2")
 		(uuid "5a37a536-9743-4367-9251-10639e422bdb")
 	)
 	(segment
@@ -33290,7 +33290,7 @@
 		(end 188.051 79.639453)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_MISO1")
+		(net "/MCU/SPI_MISO2")
 		(uuid "06ffa77c-b77b-42ee-bcba-508cffcb2181")
 	)
 	(segment
@@ -33298,7 +33298,7 @@
 		(end 186.45 66.55)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_MISO1")
+		(net "/MCU/SPI_MISO2")
 		(uuid "09e4bc64-8b0e-4d26-8b40-78fa8ce501cd")
 	)
 	(segment
@@ -33306,7 +33306,7 @@
 		(end 185.378354 66.55)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_MISO1")
+		(net "/MCU/SPI_MISO2")
 		(uuid "24e6eeb9-9715-4f1d-98f8-2c98d765ddb0")
 	)
 	(segment
@@ -33314,7 +33314,7 @@
 		(end 188.051 81.535662)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_MISO1")
+		(net "/MCU/SPI_MISO2")
 		(uuid "3d809c8b-f0d2-4992-90f7-a097e5d1c615")
 	)
 	(segment
@@ -33322,7 +33322,7 @@
 		(end 187.751 76.149)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_MISO1")
+		(net "/MCU/SPI_MISO2")
 		(uuid "4e8dbc56-fe25-4d24-9272-e557ca04d604")
 	)
 	(segment
@@ -33330,7 +33330,7 @@
 		(end 187.751 79.339453)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_MISO1")
+		(net "/MCU/SPI_MISO2")
 		(uuid "5271ccdc-a8ec-4519-a03d-fb9539ad99e0")
 	)
 	(segment
@@ -33338,7 +33338,7 @@
 		(end 188.05 81.536662)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_MISO1")
+		(net "/MCU/SPI_MISO2")
 		(uuid "567619d4-ec1d-4c45-af59-198a464c6e60")
 	)
 	(segment
@@ -33346,7 +33346,7 @@
 		(end 186.117895 82.8)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_MISO1")
+		(net "/MCU/SPI_MISO2")
 		(uuid "66ba69c3-62f1-47d5-a065-a7d01edf39a1")
 	)
 	(segment
@@ -33354,7 +33354,7 @@
 		(end 188.05 82.05)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_MISO1")
+		(net "/MCU/SPI_MISO2")
 		(uuid "7f37e79c-b7fe-4029-abc6-6a78a32bb989")
 	)
 	(segment
@@ -33362,7 +33362,7 @@
 		(end 188.649 68.749)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_MISO1")
+		(net "/MCU/SPI_MISO2")
 		(uuid "a30a885b-d1cd-43d1-be27-34d675893d1b")
 	)
 	(segment
@@ -33370,7 +33370,7 @@
 		(end 188.649 75.251)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_MISO1")
+		(net "/MCU/SPI_MISO2")
 		(uuid "d3e43f59-b19a-4fde-867b-8b7b3562d77f")
 	)
 	(segment
@@ -33378,7 +33378,7 @@
 		(end 187.3 82.8)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_MISO1")
+		(net "/MCU/SPI_MISO2")
 		(uuid "d8c95c7b-88a0-4b12-bd75-d7e9abb14767")
 	)
 	(segment
@@ -33386,7 +33386,7 @@
 		(end 186.459523 80.240477)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "2845b6bc-4a92-44e0-85e8-390821ef84cd")
 	)
 	(segment
@@ -33394,7 +33394,7 @@
 		(end 185.468628 82.5)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "2c64eea7-11cc-483b-bc07-cd5de0d39bd8")
 	)
 	(segment
@@ -33402,7 +33402,7 @@
 		(end 143.2839 94.471)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "36b0facc-b1e7-4896-bcd8-c0b0873a8e53")
 	)
 	(segment
@@ -33410,7 +33410,7 @@
 		(end 183.74786 82.5)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "37edfe94-1801-4950-9110-2060d700de26")
 	)
 	(segment
@@ -33418,7 +33418,7 @@
 		(end 182.594854 67.399)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "42a14fe5-acae-4790-8d33-d66774f720cd")
 	)
 	(segment
@@ -33426,7 +33426,7 @@
 		(end 141.311 94.471)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "6bc5693a-65f4-4821-b50a-a40bde356820")
 	)
 	(segment
@@ -33434,7 +33434,7 @@
 		(end 185.789514 80.910486)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "739501e3-dd99-459f-9971-9c8922757a7a")
 	)
 	(segment
@@ -33442,7 +33442,7 @@
 		(end 185.335366 67.357012)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "8bf61e8b-e3ff-4d90-ae36-a7ff2ce33483")
 	)
 	(segment
@@ -33450,7 +33450,7 @@
 		(end 182.3 67.693854)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "9091018b-0f13-4979-ae38-9486c6c8a03e")
 	)
 	(segment
@@ -33458,7 +33458,7 @@
 		(end 184.728354 66.75)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "963ee0f9-3736-4d40-8534-df8051f01f1b")
 	)
 	(segment
@@ -33466,7 +33466,7 @@
 		(end 186.529289 80.240477)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "a2384bff-1de9-4772-a1e4-e62f57a7ddaa")
 	)
 	(segment
@@ -33474,7 +33474,7 @@
 		(end 143.2849 94.472)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "a25caecd-29f6-4690-9d65-89b1ab3a7832")
 	)
 	(segment
@@ -33482,7 +33482,7 @@
 		(end 171.77586 94.472)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "b39cf27f-3d7b-4ed2-9446-0ced92bfd7e5")
 	)
 	(segment
@@ -33490,7 +33490,7 @@
 		(end 182.6 67.393854)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "b8aa3d70-a3aa-4d5b-9a37-32822c18c447")
 	)
 	(segment
@@ -33498,7 +33498,7 @@
 		(end 185.645254 67.357012)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "c070d590-7be0-4c11-8eb5-21534e00d52d")
 	)
 	(segment
@@ -33506,7 +33506,7 @@
 		(end 185.789514 82.179114)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "c0f8d02a-295f-48ea-9f2c-77563f318baa")
 	)
 	(segment
@@ -33514,7 +33514,7 @@
 		(end 139.36 92.52)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "cfd8b41b-8b3b-4162-9319-a60ad3d1a6f3")
 	)
 	(segment
@@ -33522,7 +33522,7 @@
 		(end 183.243854 66.75)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "e1ab9986-b711-4320-8287-c67d6799eaf5")
 	)
 	(segment
@@ -33530,7 +33530,7 @@
 		(end 182.6 67.399)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "e8bfe323-f482-4c66-8399-579b8440870b")
 	)
 	(via
@@ -33548,7 +33548,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "84f3cc73-7329-4c01-b27f-25791dfe8e23")
 	)
 	(via
@@ -33566,7 +33566,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "a5526aa3-0b15-422d-847b-70147b7eade1")
 	)
 	(segment
@@ -33574,7 +33574,7 @@
 		(end 185.6 71.601057)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "22d64933-5409-41f1-927b-cdae00ab6bd3")
 	)
 	(segment
@@ -33582,7 +33582,7 @@
 		(end 185.645254 67.357012)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "2616bbf9-9f80-4615-aff3-880e27b356b0")
 	)
 	(segment
@@ -33590,7 +33590,7 @@
 		(end 185.9 72.698943)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "2f25f006-898e-4bf2-80d2-5d3aa8f43bdf")
 	)
 	(segment
@@ -33598,7 +33598,7 @@
 		(end 186.529289 80.240477)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "35d6b1dd-50f3-4358-b649-e1461e0f41be")
 	)
 	(segment
@@ -33606,7 +33606,7 @@
 		(end 186.05 72.548943)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "668991eb-b6c7-4d82-9f9c-c5c8872cd988")
 	)
 	(segment
@@ -33614,7 +33614,7 @@
 		(end 186.288766 80.240477)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "90f0f17e-fde8-43d0-b6c7-b01be52142fd")
 	)
 	(segment
@@ -33622,7 +33622,7 @@
 		(end 186.05 72.051057)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "b93f99f5-fe8d-4fcf-92b5-0e2e8e55c178")
 	)
 	(segment
@@ -33630,7 +33630,7 @@
 		(end 185.6 67.402266)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "bb5ecac7-3124-4fe6-9313-714f82133424")
 	)
 	(segment
@@ -33638,7 +33638,7 @@
 		(end 185.9 79.851711)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/SPI_MOSI1")
+		(net "/MCU/SPI_MOSI2")
 		(uuid "d0186bf1-304c-4c7d-a6ff-a45f3499b5b8")
 	)
 	(segment
@@ -36940,7 +36940,7 @@
 		(end 169.9 63.2)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/AN2")
+		(net "/MCU/AN1")
 		(uuid "074ca41a-5d30-4161-a022-bbcc0afb0a5a")
 	)
 	(segment
@@ -36948,7 +36948,7 @@
 		(end 171.54963 68.79963)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/AN2")
+		(net "/MCU/AN1")
 		(uuid "251dfd59-15d7-4c88-83fb-69813c9e4e62")
 	)
 	(segment
@@ -36956,7 +36956,7 @@
 		(end 152.88 61.9)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/AN2")
+		(net "/MCU/AN1")
 		(uuid "5cf5f167-3c60-44c9-99f7-e09267c53b61")
 	)
 	(segment
@@ -36964,7 +36964,7 @@
 		(end 171.925 68.79963)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/AN2")
+		(net "/MCU/AN1")
 		(uuid "82ccbc51-f736-4ad2-9827-703104e0885e")
 	)
 	(segment
@@ -36972,7 +36972,7 @@
 		(end 169.9 67.15)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/AN2")
+		(net "/MCU/AN1")
 		(uuid "f343e6cd-2d56-47c2-a05b-81a7a879cbfa")
 	)
 	(segment
@@ -36980,7 +36980,7 @@
 		(end 168.6 61.9)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/AN2")
+		(net "/MCU/AN1")
 		(uuid "f6df919e-5956-4284-8ae8-8ae69603eb89")
 	)
 	(segment
@@ -36988,7 +36988,7 @@
 		(end 146.64 70)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MOSI2")
+		(net "/MCU/SPI_MOSI1")
 		(uuid "18c69ed1-0b4f-4bb5-ab61-754cb8f56d57")
 	)
 	(segment
@@ -36996,7 +36996,7 @@
 		(end 171.925 70.29963)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MOSI2")
+		(net "/MCU/SPI_MOSI1")
 		(uuid "25516124-7d98-43bd-a436-537826e27b5c")
 	)
 	(segment
@@ -37004,7 +37004,7 @@
 		(end 170.037711 70)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MOSI2")
+		(net "/MCU/SPI_MOSI1")
 		(uuid "e84938dc-5816-4dff-a87a-acf72c22a07f")
 	)
 	(segment
@@ -37012,7 +37012,7 @@
 		(end 170.337341 70.29963)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MOSI2")
+		(net "/MCU/SPI_MOSI1")
 		(uuid "f941143f-3a6c-4cf8-a8d3-ae19ad6752db")
 	)
 	(segment
@@ -37020,7 +37020,7 @@
 		(end 139.42 85.58)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SDA2")
+		(net "/MCU/I2C_SDA1")
 		(uuid "1fb5688c-a659-446e-8a12-9714f0ba8121")
 	)
 	(segment
@@ -37028,7 +37028,7 @@
 		(end 144.1119 82.801)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SDA2")
+		(net "/MCU/I2C_SDA1")
 		(uuid "5ea15d35-05eb-4410-8586-34262445e3b9")
 	)
 	(segment
@@ -37036,7 +37036,7 @@
 		(end 170.271655 70.79963)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SDA2")
+		(net "/MCU/I2C_SDA1")
 		(uuid "63b6aa7e-318e-452e-a156-5f2d33d2f43e")
 	)
 	(segment
@@ -37044,7 +37044,7 @@
 		(end 142.199 82.801)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SDA2")
+		(net "/MCU/I2C_SDA1")
 		(uuid "701fafe0-fd1b-4fbd-b477-d5d5dfedc35b")
 	)
 	(segment
@@ -37052,7 +37052,7 @@
 		(end 171.925 70.79963)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SDA2")
+		(net "/MCU/I2C_SDA1")
 		(uuid "960cebb4-48ae-4c23-89f6-d70b2e68f369")
 	)
 	(segment
@@ -37060,7 +37060,7 @@
 		(end 156.5129 70.4)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SDA2")
+		(net "/MCU/I2C_SDA1")
 		(uuid "9ad35d95-0641-41a1-951d-23607ff2fb67")
 	)
 	(segment
@@ -37068,7 +37068,7 @@
 		(end 169.872025 70.4)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SDA2")
+		(net "/MCU/I2C_SDA1")
 		(uuid "a5a9a189-ffea-42f0-b892-ddab57da03f5")
 	)
 	(segment
@@ -37076,7 +37076,7 @@
 		(end 155.28 72.2)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SCL2")
+		(net "/MCU/I2C_SCL1")
 		(uuid "06794585-d112-4854-9f7c-dd1a154e3992")
 	)
 	(segment
@@ -37084,7 +37084,7 @@
 		(end 156.932843 72.2)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SCL2")
+		(net "/MCU/I2C_SCL1")
 		(uuid "1f4acd7b-072e-401f-a7b4-695c0e9a8805")
 	)
 	(segment
@@ -37092,7 +37092,7 @@
 		(end 170.868333 71.79963)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SCL2")
+		(net "/MCU/I2C_SCL1")
 		(uuid "a82c7214-bc2b-46ab-9954-ad1e3ac4065d")
 	)
 	(segment
@@ -37100,7 +37100,7 @@
 		(end 170.818333 71.74963)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SCL2")
+		(net "/MCU/I2C_SCL1")
 		(uuid "e470436b-6025-42ff-9727-28b509179a60")
 	)
 	(segment
@@ -37108,7 +37108,7 @@
 		(end 157.501 72.199)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SCL2")
+		(net "/MCU/I2C_SCL1")
 		(uuid "e518a70c-591a-4a88-b9de-4bdaf6ecb2ce")
 	)
 	(segment
@@ -37116,7 +37116,7 @@
 		(end 156.933843 72.199)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SCL2")
+		(net "/MCU/I2C_SCL1")
 		(uuid "ec5b5bda-4b11-43aa-a958-0847c0908f8e")
 	)
 	(segment
@@ -37124,7 +37124,7 @@
 		(end 141.9 85.58)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SCL2")
+		(net "/MCU/I2C_SCL1")
 		(uuid "fc5f59c4-e58c-45c3-8d2d-514429e7e1c8")
 	)
 	(via
@@ -37142,7 +37142,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/I2C_SCL2")
+		(net "/MCU/I2C_SCL1")
 		(uuid "2b94fd9a-3d7b-4a98-8aed-3747eaf4560e")
 	)
 	(via
@@ -37160,7 +37160,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/I2C_SCL2")
+		(net "/MCU/I2C_SCL1")
 		(uuid "b9c1c9f8-2f47-4ff6-9bcb-39c6cf461d9a")
 	)
 	(segment
@@ -37168,7 +37168,7 @@
 		(end 166.848943 72.001)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SCL2")
+		(net "/MCU/I2C_SCL1")
 		(uuid "47cf4c19-27df-43e8-a598-27a1c58f462c")
 	)
 	(segment
@@ -37176,7 +37176,7 @@
 		(end 166.849943 72)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SCL2")
+		(net "/MCU/I2C_SCL1")
 		(uuid "56d15d45-d24f-47ae-a7ba-613774ffa5c0")
 	)
 	(segment
@@ -37184,7 +37184,7 @@
 		(end 168.91341 71.49963)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SCL2")
+		(net "/MCU/I2C_SCL1")
 		(uuid "68fa531a-6f06-4dc6-ab30-f16239ffb546")
 	)
 	(segment
@@ -37192,7 +37192,7 @@
 		(end 170.568333 71.49963)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SCL2")
+		(net "/MCU/I2C_SCL1")
 		(uuid "72922781-ad57-406c-90c5-5cb19600aa4f")
 	)
 	(segment
@@ -37200,7 +37200,7 @@
 		(end 166.301427 72.001)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SCL2")
+		(net "/MCU/I2C_SCL1")
 		(uuid "c08b65b1-7207-4aa9-9b72-c0b502e6c314")
 	)
 	(segment
@@ -37208,7 +37208,7 @@
 		(end 168.41304 72)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SCL2")
+		(net "/MCU/I2C_SCL1")
 		(uuid "cac1e82e-dfd4-45f2-b538-05abc415f88f")
 	)
 	(segment
@@ -37216,7 +37216,7 @@
 		(end 166.300427 72)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SCL2")
+		(net "/MCU/I2C_SCL1")
 		(uuid "efbbfe29-95d5-487e-abe1-078090deb609")
 	)
 	(segment
@@ -37224,7 +37224,7 @@
 		(end 170.818333 71.74963)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SCL2")
+		(net "/MCU/I2C_SCL1")
 		(uuid "f4aa40bc-3f84-4ec3-a8dc-da23a2c81ad0")
 	)
 	(segment
@@ -38196,7 +38196,7 @@
 		(end 183.175 74.8)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MISO2")
+		(net "/MCU/SPI_MISO1")
 		(uuid "3c243a9b-ebd6-4c44-b8df-931515e4b83b")
 	)
 	(segment
@@ -38204,7 +38204,7 @@
 		(end 146.3429 60.25)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MISO2")
+		(net "/MCU/SPI_MISO1")
 		(uuid "432dd422-4e90-418b-8ef5-acd605e92d9c")
 	)
 	(segment
@@ -38212,7 +38212,7 @@
 		(end 144.37 60.25)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MISO2")
+		(net "/MCU/SPI_MISO1")
 		(uuid "4b301529-2a3d-4f2d-bfd3-dcd8c5644d3b")
 	)
 	(segment
@@ -38220,7 +38220,7 @@
 		(end 146.3439 60.249)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MISO2")
+		(net "/MCU/SPI_MISO1")
 		(uuid "4ded859a-0f49-4d4a-87ad-aca8d8673989")
 	)
 	(segment
@@ -38228,7 +38228,7 @@
 		(end 187.3 72)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MISO2")
+		(net "/MCU/SPI_MISO1")
 		(uuid "715388dd-bfd3-4410-9e42-bfa279dac7ad")
 	)
 	(segment
@@ -38236,7 +38236,7 @@
 		(end 184.5 74.8)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MISO2")
+		(net "/MCU/SPI_MISO1")
 		(uuid "98e9d385-069a-448e-a303-bc386b884ce3")
 	)
 	(segment
@@ -38244,7 +38244,7 @@
 		(end 187.301 66.401)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MISO2")
+		(net "/MCU/SPI_MISO1")
 		(uuid "9a61920d-8555-4765-a626-cac9946b85d1")
 	)
 	(segment
@@ -38252,7 +38252,7 @@
 		(end 181.149 60.249)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MISO2")
+		(net "/MCU/SPI_MISO1")
 		(uuid "ada50b39-0788-4665-9e91-a253ecda5434")
 	)
 	(segment
@@ -38260,7 +38260,7 @@
 		(end 187.3 71.947861)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MISO2")
+		(net "/MCU/SPI_MISO1")
 		(uuid "b8488f18-2ca5-4999-a3c6-937a2cac240c")
 	)
 	(segment
@@ -38268,7 +38268,7 @@
 		(end 187.301 71.946861)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_MISO2")
+		(net "/MCU/SPI_MISO1")
 		(uuid "da1bf9ed-f5ad-4954-980e-2335a93cf312")
 	)
 	(segment
@@ -38276,7 +38276,7 @@
 		(end 186.9 66.6)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_SCK2")
+		(net "/MCU/SPI_SCK1")
 		(uuid "110732d4-0047-4093-8cec-8d27c9a054f6")
 	)
 	(segment
@@ -38284,7 +38284,7 @@
 		(end 183.175 74.3)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_SCK2")
+		(net "/MCU/SPI_SCK1")
 		(uuid "24563a90-4a68-486e-98d3-edb616dd9bc6")
 	)
 	(segment
@@ -38292,7 +38292,7 @@
 		(end 146.51 60.65)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_SCK2")
+		(net "/MCU/SPI_SCK1")
 		(uuid "3493933f-ec4f-4b9e-b00c-6e7c8ff88e1a")
 	)
 	(segment
@@ -38300,7 +38300,7 @@
 		(end 186.9 71.780761)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_SCK2")
+		(net "/MCU/SPI_SCK1")
 		(uuid "5f50b7a1-cc9a-41ec-a075-799f3180006c")
 	)
 	(segment
@@ -38308,7 +38308,7 @@
 		(end 180.95 60.65)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_SCK2")
+		(net "/MCU/SPI_SCK1")
 		(uuid "670bfbd0-a028-4ab9-9f0b-6f7cada60ff9")
 	)
 	(segment
@@ -38316,7 +38316,7 @@
 		(end 184.380761 74.3)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/SPI_SCK2")
+		(net "/MCU/SPI_SCK1")
 		(uuid "ad3ec975-b81f-4d3d-b001-749801381952")
 	)
 	(segment
@@ -38820,7 +38820,7 @@
 		(end 154.6729 112.2)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/INT1")
+		(net "/MCU/INT2")
 		(uuid "0cf2d46c-bca9-4be4-a30b-6e420b5fb3d5")
 	)
 	(segment
@@ -38828,7 +38828,7 @@
 		(end 152.7 112.2)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/INT1")
+		(net "/MCU/INT2")
 		(uuid "265033c8-92c4-42a7-a759-98a176a9c502")
 	)
 	(segment
@@ -38836,7 +38836,7 @@
 		(end 161.629025 100.229025)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/INT1")
+		(net "/MCU/INT2")
 		(uuid "68c901a6-4ceb-4607-bf96-81e1be0b887b")
 	)
 	(segment
@@ -38844,7 +38844,7 @@
 		(end 161.629025 105.243875)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/INT1")
+		(net "/MCU/INT2")
 		(uuid "8c45f1c2-53bf-4a45-a0c4-2738c8e9bfbe")
 	)
 	(segment
@@ -38852,7 +38852,7 @@
 		(end 184 69.8)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/INT1")
+		(net "/MCU/INT2")
 		(uuid "9165ecb3-135b-4cff-b273-d649ab58e570")
 	)
 	(segment
@@ -38860,7 +38860,7 @@
 		(end 184.9 68.9)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/INT1")
+		(net "/MCU/INT2")
 		(uuid "9739ee58-f1e4-46d2-8d51-361237883445")
 	)
 	(segment
@@ -38868,7 +38868,7 @@
 		(end 161.25 99.85)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/INT1")
+		(net "/MCU/INT2")
 		(uuid "d5d132ed-84e1-4c6a-b53f-81868e0e1753")
 	)
 	(via
@@ -38886,7 +38886,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/INT1")
+		(net "/MCU/INT2")
 		(uuid "275c1146-9313-49ec-8ed5-ec7bf840f5bb")
 	)
 	(via
@@ -38904,7 +38904,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/INT1")
+		(net "/MCU/INT2")
 		(uuid "f74663f6-befb-4fa5-9c4c-3047b7441d20")
 	)
 	(segment
@@ -38912,7 +38912,7 @@
 		(end 181.92359 79.17641)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/INT1")
+		(net "/MCU/INT2")
 		(uuid "01d350df-1654-4f2a-8bde-28d82da15633")
 	)
 	(segment
@@ -38920,7 +38920,7 @@
 		(end 183.001 70.449)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/INT1")
+		(net "/MCU/INT2")
 		(uuid "198f8682-4886-4b88-88b8-1f0b25a78550")
 	)
 	(segment
@@ -38928,7 +38928,7 @@
 		(end 162.631025 98.468975)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/INT1")
+		(net "/MCU/INT2")
 		(uuid "1c7696f4-7f54-4549-b19d-df4fbf545b48")
 	)
 	(segment
@@ -38936,7 +38936,7 @@
 		(end 175.80779 79.17641)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/INT1")
+		(net "/MCU/INT2")
 		(uuid "2989971f-65b8-4550-90ed-2312a9248b84")
 	)
 	(segment
@@ -38944,7 +38944,7 @@
 		(end 184.55 68.9)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/INT1")
+		(net "/MCU/INT2")
 		(uuid "8a3d1492-ab3c-49db-8e31-82f975cb8f28")
 	)
 	(segment
@@ -38952,7 +38952,7 @@
 		(end 162.631025 92.353175)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/INT1")
+		(net "/MCU/INT2")
 		(uuid "91b0c435-23a9-4888-bc9f-8685173fd39c")
 	)
 	(segment
@@ -38960,7 +38960,7 @@
 		(end 183.001 78.099)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/INT1")
+		(net "/MCU/INT2")
 		(uuid "a0f478cc-acd4-4352-a668-bab3050b2e5f")
 	)
 	(segment
@@ -38968,7 +38968,7 @@
 		(end 184.9 68.9)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/INT1")
+		(net "/MCU/INT2")
 		(uuid "ad993311-aced-4563-a3c2-118c6a7537c9")
 	)
 	(segment
@@ -38976,7 +38976,7 @@
 		(end 162.030025 105.409975)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/PWM1")
+		(net "/MCU/PWM2")
 		(uuid "304b4edb-5d51-495c-954e-cd0c837a2e2a")
 	)
 	(segment
@@ -38984,7 +38984,7 @@
 		(end 182.882694 68.8)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/PWM1")
+		(net "/MCU/PWM2")
 		(uuid "928be985-050e-41aa-a0b5-5bff4cb4edd5")
 	)
 	(segment
@@ -38992,7 +38992,7 @@
 		(end 182.4 69.282694)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/PWM1")
+		(net "/MCU/PWM2")
 		(uuid "9c7c666f-b219-41ea-9592-bd457f4b6d56")
 	)
 	(segment
@@ -39000,7 +39000,7 @@
 		(end 182.4 69.9)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/PWM1")
+		(net "/MCU/PWM2")
 		(uuid "cef63bca-938b-4715-a26e-3283644a0900")
 	)
 	(segment
@@ -39008,7 +39008,7 @@
 		(end 162.030025 105.409975)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/PWM1")
+		(net "/MCU/PWM2")
 		(uuid "ed7fc7fd-d61d-4976-ae24-83c083a19158")
 	)
 	(via
@@ -39026,7 +39026,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/PWM1")
+		(net "/MCU/PWM2")
 		(uuid "2fe8b27f-36ca-4ebd-89d9-32bdeebc9088")
 	)
 	(via
@@ -39044,7 +39044,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/PWM1")
+		(net "/MCU/PWM2")
 		(uuid "61fab483-a001-4e31-af07-b3e826896ea2")
 	)
 	(segment
@@ -39052,7 +39052,7 @@
 		(end 162 96.78995)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/PWM1")
+		(net "/MCU/PWM2")
 		(uuid "08cc87c2-3995-4087-a64c-18b2923d997c")
 	)
 	(segment
@@ -39060,7 +39060,7 @@
 		(end 181.063362 75.999)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/PWM1")
+		(net "/MCU/PWM2")
 		(uuid "0abb205f-1701-4f8e-8325-a487d58fda09")
 	)
 	(segment
@@ -39068,7 +39068,7 @@
 		(end 177.150647 77.266453)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/PWM1")
+		(net "/MCU/PWM2")
 		(uuid "36fa25aa-9ac2-49e6-a30f-5d406ff59fdc")
 	)
 	(segment
@@ -39076,7 +39076,7 @@
 		(end 162 92.4171)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/PWM1")
+		(net "/MCU/PWM2")
 		(uuid "41f3cb7c-a95a-4ee1-b3b2-af1bc3a6f54e")
 	)
 	(segment
@@ -39084,7 +39084,7 @@
 		(end 162.030025 96.819975)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/PWM1")
+		(net "/MCU/PWM2")
 		(uuid "46d7aa9e-98af-4812-a0d6-cf5bf3b8c80a")
 	)
 	(segment
@@ -39092,7 +39092,7 @@
 		(end 181.604329 70.695671)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/PWM1")
+		(net "/MCU/PWM2")
 		(uuid "6e0b97a7-0351-429b-936c-64876470686e")
 	)
 	(segment
@@ -39100,7 +39100,7 @@
 		(end 178.401 75.999)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/PWM1")
+		(net "/MCU/PWM2")
 		(uuid "9eafd996-87c3-4873-9547-6e3112bd848c")
 	)
 	(segment
@@ -39108,7 +39108,7 @@
 		(end 177.150647 77.249353)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/PWM1")
+		(net "/MCU/PWM2")
 		(uuid "ef10ce66-1452-4b57-838c-2e25882cfc02")
 	)
 	(segment
@@ -39116,7 +39116,7 @@
 		(end 181.604329 71.660375)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/PWM1")
+		(net "/MCU/PWM2")
 		(uuid "f06a8228-e049-4388-8db4-688d811b1b09")
 	)
 	(segment
@@ -39124,7 +39124,7 @@
 		(end 181.063362 72.201342)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/PWM1")
+		(net "/MCU/PWM2")
 		(uuid "fd49cdc0-3215-411e-9135-536c68a54083")
 	)
 	(segment
@@ -39132,7 +39132,7 @@
 		(end 180.79997 64.89997)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/CS2")
+		(net "/MCU/CS1")
 		(uuid "0184e4b1-28c8-45ca-9997-1bab52ca7698")
 	)
 	(segment
@@ -39140,7 +39140,7 @@
 		(end 148.65 61.05)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/CS2")
+		(net "/MCU/CS1")
 		(uuid "94298808-067e-422d-b7fc-2494e8748444")
 	)
 	(segment
@@ -39148,7 +39148,7 @@
 		(end 180.79997 67.92499)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/CS2")
+		(net "/MCU/CS1")
 		(uuid "9d3747d3-a57a-453e-a550-870d503d3593")
 	)
 	(segment
@@ -39156,7 +39156,7 @@
 		(end 180.79997 67.92499)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/CS2")
+		(net "/MCU/CS1")
 		(uuid "eca89c01-92e5-4612-a01c-620d2921d5f6")
 	)
 	(segment
@@ -39164,7 +39164,7 @@
 		(end 176.95 61.05)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/CS2")
+		(net "/MCU/CS1")
 		(uuid "ee0674cd-cb02-4425-85ad-dbb536823743")
 	)
 	(segment
@@ -39568,7 +39568,7 @@
 		(end 155.999 90.401)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "1e18eedf-d272-400c-a032-93ecb3205526")
 	)
 	(segment
@@ -39576,7 +39576,7 @@
 		(end 155.3 97.3)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "2bcca1f2-c1ff-4912-8672-53290e061db2")
 	)
 	(segment
@@ -39584,7 +39584,7 @@
 		(end 160.4 91.018808)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "5da81b1f-e9bb-413e-840a-d936e5d1b151")
 	)
 	(segment
@@ -39592,7 +39592,7 @@
 		(end 176.216295 71.55)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "71c5bc37-b24c-4001-aa32-cb115ddd1e93")
 	)
 	(segment
@@ -39600,7 +39600,7 @@
 		(end 155.25 91.15)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "77ee0a71-7bae-4d7b-a4c7-e05de1f1bb78")
 	)
 	(segment
@@ -39608,7 +39608,7 @@
 		(end 176.099647 71.666648)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "9625d3f1-19a4-48ac-a641-0fc6fee133c7")
 	)
 	(segment
@@ -39616,7 +39616,7 @@
 		(end 179.29998 70.417316)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "97bfc2e5-e9d7-4422-bcca-233fd9a4bc19")
 	)
 	(segment
@@ -39624,7 +39624,7 @@
 		(end 178.167296 71.55)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "a43024ed-a549-4834-b110-e993f8ef5160")
 	)
 	(segment
@@ -39632,7 +39632,7 @@
 		(end 141.9 115.38)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "b1c82067-8ded-453f-b553-c4240447aaf6")
 	)
 	(segment
@@ -39640,7 +39640,7 @@
 		(end 155.25 92.3)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "cd6e942c-3d33-4558-8a1e-6c0bef61c4e6")
 	)
 	(segment
@@ -39648,7 +39648,7 @@
 		(end 159.782192 90.401)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "e4bae95b-849b-45bc-bd3e-000d2bedd201")
 	)
 	(segment
@@ -39656,7 +39656,7 @@
 		(end 141.9 110.7)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "ffa40227-0707-4904-9d09-84ad3d295286")
 	)
 	(via
@@ -39674,7 +39674,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "06387795-36f8-49f6-8f28-147139fb227a")
 	)
 	(via
@@ -39692,7 +39692,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "9405893f-4567-433e-aa68-4fb4b56d976e")
 	)
 	(via
@@ -39710,7 +39710,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "c9bba6ed-6033-4662-a325-6dabdb48114c")
 	)
 	(via
@@ -39728,7 +39728,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "eb1c2b8f-0304-4083-901f-3f45ebae4bb3")
 	)
 	(segment
@@ -39736,7 +39736,7 @@
 		(end 155.25 92.3)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "0f16299a-abf8-43aa-b778-70e9ceaef0fc")
 	)
 	(segment
@@ -39744,7 +39744,7 @@
 		(end 160.8 91.381192)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "3a8af391-767e-4492-a905-13f4d5b80fbe")
 	)
 	(segment
@@ -39752,7 +39752,7 @@
 		(end 174.003177 77.596823)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "4d5cf961-412c-40a1-9c1f-2f4ab2995b29")
 	)
 	(segment
@@ -39760,7 +39760,7 @@
 		(end 173.583937 78.016063)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "5cca3ccc-c48c-4c2d-ad3e-ab0e8d8a73de")
 	)
 	(segment
@@ -39768,7 +39768,7 @@
 		(end 160.781192 91.4)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "6cb103f9-1aec-45e3-82e0-b1f8aeafcd46")
 	)
 	(segment
@@ -39776,7 +39776,7 @@
 		(end 173.083937 78.016063)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "81af761c-0822-4a67-84bd-d425a89820aa")
 	)
 	(segment
@@ -39784,7 +39784,7 @@
 		(end 171.90862 79.19138)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "88408393-0d58-488e-8b9a-6adb81ef0ec0")
 	)
 	(segment
@@ -39792,7 +39792,7 @@
 		(end 174.003177 73.763118)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "a7f9b575-2e7c-4121-9385-afa5ed28757a")
 	)
 	(segment
@@ -39800,7 +39800,7 @@
 		(end 154.501 93.049)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "aa013ffe-0c27-4666-9089-283ed9cb9554")
 	)
 	(segment
@@ -39808,7 +39808,7 @@
 		(end 161.901708 91.381192)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "bedef007-f8f7-4a60-8b46-d25fac68cd1e")
 	)
 	(segment
@@ -39816,7 +39816,7 @@
 		(end 176.099647 71.666648)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "d7c96783-6b0e-423a-b6cf-b44c9456df98")
 	)
 	(segment
@@ -39824,7 +39824,7 @@
 		(end 171.90862 81.37428)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "dd57ce6c-c8d0-41b6-93fe-0d5ff183dff6")
 	)
 	(segment
@@ -39832,7 +39832,7 @@
 		(end 154.501 95.701)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SCL1")
+		(net "/MCU/I2C_SCL2")
 		(uuid "e271c2c0-79e7-45c3-aa8e-c11bb0cc9dc5")
 	)
 	(segment
@@ -39840,7 +39840,7 @@
 		(end 183.376305 78.701)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "1009a6df-af18-43f0-ac91-55c4bf1be786")
 	)
 	(segment
@@ -39848,7 +39848,7 @@
 		(end 178.79997 67.92499)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "25147b2a-02a2-499b-a534-1ede58540d2a")
 	)
 	(segment
@@ -39856,7 +39856,7 @@
 		(end 185 78)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "327fd313-65d3-478a-8118-6746b9e26305")
 	)
 	(segment
@@ -39864,7 +39864,7 @@
 		(end 168.230761 81.35)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "3de9ecb1-66d2-46d0-8afc-6a7a6c1a752a")
 	)
 	(segment
@@ -39872,7 +39872,7 @@
 		(end 139.36 115.38)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "4558ac90-5630-42b6-81de-f24a5af5fc07")
 	)
 	(segment
@@ -39880,7 +39880,7 @@
 		(end 162.630761 86.95)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "46b32f83-2ae3-41a8-b0cf-b9598eb45692")
 	)
 	(segment
@@ -39888,7 +39888,7 @@
 		(end 183.15304 78.924265)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "4f6c0e38-156b-40e9-a43a-8c6c33045250")
 	)
 	(segment
@@ -39896,7 +39896,7 @@
 		(end 188.4 78)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "81092cb6-00e0-40de-9d8c-409a4bfefd42")
 	)
 	(segment
@@ -39904,7 +39904,7 @@
 		(end 154.075735 97.924265)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "8b09effe-7510-4122-accc-3b16dec6e9d6")
 	)
 	(segment
@@ -39912,7 +39912,7 @@
 		(end 139.36 112.64)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "bce51e15-05e5-424e-ab07-c98f4dc56627")
 	)
 	(segment
@@ -39920,7 +39920,7 @@
 		(end 178.85 81.35)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "d44ed333-b0f5-49b9-acf1-c1d19d570f31")
 	)
 	(segment
@@ -39928,7 +39928,7 @@
 		(end 184.299 78.701)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "e93f25f7-4e83-43a8-8cbb-b7651a852d7b")
 	)
 	(segment
@@ -39936,7 +39936,7 @@
 		(end 178.79997 64.90003)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "fb48994b-40e4-4ce7-a16d-d691364f3b09")
 	)
 	(segment
@@ -39944,7 +39944,7 @@
 		(end 154.9 86.95)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "fe235cd4-27ac-4442-82eb-ed9a567a330e")
 	)
 	(via
@@ -39962,7 +39962,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "094d65c3-57ce-477e-9200-ecd991b41076")
 	)
 	(via
@@ -39980,7 +39980,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "7cd99fbf-4357-4a48-ac32-8e4b2591f285")
 	)
 	(via
@@ -39998,7 +39998,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "8a7f5b74-93a9-4b59-a511-5d812da0b667")
 	)
 	(via
@@ -40016,7 +40016,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "9a6853df-7103-4088-ba1a-3c63888fb060")
 	)
 	(via
@@ -40034,7 +40034,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "c69221af-1b26-4228-a527-3722c58e360d")
 	)
 	(via
@@ -40052,7 +40052,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "ec35f52b-1cb4-48d6-b1f2-97dbec2ac2b8")
 	)
 	(segment
@@ -40060,7 +40060,7 @@
 		(end 189.05 68.55)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "09376ea8-e6dc-4eb2-9843-9defc3556a73")
 	)
 	(segment
@@ -40068,7 +40068,7 @@
 		(end 183.7 63.2)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "27a007e6-9bc5-48ba-9223-b57b9c6ae2eb")
 	)
 	(segment
@@ -40076,7 +40076,7 @@
 		(end 180.72259 79.57741)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "2a2d69c2-81e2-455f-a53d-4a991b0c0dc6")
 	)
 	(segment
@@ -40084,7 +40084,7 @@
 		(end 154.617157 86.95)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "2f823a42-d24c-4ecc-8eee-da3e69312565")
 	)
 	(segment
@@ -40092,7 +40092,7 @@
 		(end 182.7171 78.95)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "6cc7e466-060d-4a30-ab9c-9e4514409aa0")
 	)
 	(segment
@@ -40100,7 +40100,7 @@
 		(end 182.99853 78.95)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "7e939d93-4acc-4dbf-aad2-fdd04f3f07c3")
 	)
 	(segment
@@ -40108,7 +40108,7 @@
 		(end 154.1 96.35147)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "8695a3d9-4bf7-401e-8615-d36e3753494f")
 	)
 	(segment
@@ -40116,7 +40116,7 @@
 		(end 180.1 80.1)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "87087620-3aad-42ac-832e-3d69c87aea93")
 	)
 	(segment
@@ -40124,7 +40124,7 @@
 		(end 188.152 77.752)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "9050d49b-1226-4e86-bb67-7d8ff101f680")
 	)
 	(segment
@@ -40132,7 +40132,7 @@
 		(end 182.08969 79.57741)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "99b5c10b-419c-4958-a857-da32f2b6e71b")
 	)
 	(segment
@@ -40140,7 +40140,7 @@
 		(end 188.152 76.348)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "9f522ee8-bdd2-469d-89ed-d079f46e7792")
 	)
 	(segment
@@ -40148,7 +40148,7 @@
 		(end 189.05 75.45)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "b07ccd5e-4465-487b-9326-c1d2c7dee65c")
 	)
 	(segment
@@ -40156,7 +40156,7 @@
 		(end 154.9 86.95)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "b3685cc9-7bb3-40e1-bc10-a37681165012")
 	)
 	(segment
@@ -40164,7 +40164,7 @@
 		(end 180.5 63.2)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "b92e993b-b899-4d27-ab30-e39f0f3ee54f")
 	)
 	(segment
@@ -40172,7 +40172,7 @@
 		(end 180.2 80.1)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "c9ae51a8-6ff6-4eb7-a865-3aa1eb25723d")
 	)
 	(segment
@@ -40180,7 +40180,7 @@
 		(end 178.9 64.8)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "cb0ec62a-2297-4d17-a788-2fe3fc67d181")
 	)
 	(segment
@@ -40188,7 +40188,7 @@
 		(end 154.1 87.467157)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/I2C_SDA1")
+		(net "/MCU/I2C_SDA2")
 		(uuid "eb0447bf-e53e-4710-98df-9938ec4625e9")
 	)
 	(segment
@@ -40196,7 +40196,7 @@
 		(end 177.4 65)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_TX1")
+		(net "/MCU/UART_TX2")
 		(uuid "10203d51-425b-4a7b-9aa3-8d29ef2433e3")
 	)
 	(segment
@@ -40204,7 +40204,7 @@
 		(end 178.3 65.9)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_TX1")
+		(net "/MCU/UART_TX2")
 		(uuid "19cf04b9-71c0-4e88-a5ef-0473e02c8af3")
 	)
 	(segment
@@ -40212,7 +40212,7 @@
 		(end 146.98 115.38)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_TX1")
+		(net "/MCU/UART_TX2")
 		(uuid "211d4c20-cbf1-4d4b-8d2d-1e4b3f4e3fec")
 	)
 	(segment
@@ -40220,7 +40220,7 @@
 		(end 146.98 106.787157)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_TX1")
+		(net "/MCU/UART_TX2")
 		(uuid "923a156c-1d41-48ee-9643-b8ac19307cfc")
 	)
 	(segment
@@ -40228,7 +40228,7 @@
 		(end 155.967157 97.8)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_TX1")
+		(net "/MCU/UART_TX2")
 		(uuid "94fd8476-dcea-4687-8538-1c04c527c42c")
 	)
 	(via
@@ -40246,7 +40246,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/UART_TX1")
+		(net "/MCU/UART_TX2")
 		(uuid "51f8d6e0-0f9b-4db0-9788-a6b5c688a957")
 	)
 	(via
@@ -40264,7 +40264,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/UART_TX1")
+		(net "/MCU/UART_TX2")
 		(uuid "d2310774-526c-4116-bb3c-6f4a12ff0d80")
 	)
 	(segment
@@ -40272,7 +40272,7 @@
 		(end 177.4 65)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/UART_TX1")
+		(net "/MCU/UART_TX2")
 		(uuid "0ed69627-1fb0-4212-8b6c-02989cb4813a")
 	)
 	(segment
@@ -40280,7 +40280,7 @@
 		(end 156.4 72.450057)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/UART_TX1")
+		(net "/MCU/UART_TX2")
 		(uuid "11ec3db2-5361-4a4f-aba7-2158c6808e8c")
 	)
 	(segment
@@ -40288,7 +40288,7 @@
 		(end 158.552057 70.298)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/UART_TX1")
+		(net "/MCU/UART_TX2")
 		(uuid "7b90038e-87d4-4daa-a970-b8de7094da17")
 	)
 	(segment
@@ -40296,7 +40296,7 @@
 		(end 168.1 65)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/UART_TX1")
+		(net "/MCU/UART_TX2")
 		(uuid "cfd18f33-ae27-4a22-aa47-ab09730d298e")
 	)
 	(segment
@@ -40304,7 +40304,7 @@
 		(end 162.802 70.298)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/UART_TX1")
+		(net "/MCU/UART_TX2")
 		(uuid "e6de7f83-1f22-43ed-9f85-4536957b6964")
 	)
 	(segment
@@ -40312,7 +40312,7 @@
 		(end 156.4 97.65)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/UART_TX1")
+		(net "/MCU/UART_TX2")
 		(uuid "f01894fe-76d7-4da8-ac9b-afed871f94fe")
 	)
 	(segment
@@ -40320,7 +40320,7 @@
 		(end 177.5 66.3)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_RX1")
+		(net "/MCU/UART_RX2")
 		(uuid "7d1366ce-9ee8-4aec-987f-5a0205637ebe")
 	)
 	(segment
@@ -40328,7 +40328,7 @@
 		(end 177.8 66.6)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_RX1")
+		(net "/MCU/UART_RX2")
 		(uuid "9a008885-5156-406c-8461-50c4de470184")
 	)
 	(segment
@@ -40336,7 +40336,7 @@
 		(end 144.44 108.760057)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_RX1")
+		(net "/MCU/UART_RX2")
 		(uuid "b27243ab-57d3-4942-a69c-638ce5874b54")
 	)
 	(segment
@@ -40344,7 +40344,7 @@
 		(end 156.100057 97.1)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_RX1")
+		(net "/MCU/UART_RX2")
 		(uuid "c819d5fe-6caf-490f-aff6-561df9981724")
 	)
 	(segment
@@ -40352,7 +40352,7 @@
 		(end 144.44 115.38)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_RX1")
+		(net "/MCU/UART_RX2")
 		(uuid "d66e3395-9f16-4338-89f3-8d9123ce97b2")
 	)
 	(via
@@ -40370,7 +40370,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/UART_RX1")
+		(net "/MCU/UART_RX2")
 		(uuid "6d81287e-69c6-4aa4-aaee-022dcd91fae7")
 	)
 	(via
@@ -40388,7 +40388,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/UART_RX1")
+		(net "/MCU/UART_RX2")
 		(uuid "dbfb109b-1e99-4a2a-8947-2d225612eb24")
 	)
 	(segment
@@ -40396,7 +40396,7 @@
 		(end 158.1 95.75)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/UART_RX1")
+		(net "/MCU/UART_RX2")
 		(uuid "0c2a8722-6585-4f5d-bc92-6f9d76308cee")
 	)
 	(segment
@@ -40404,7 +40404,7 @@
 		(end 176.749647 77.100353)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/UART_RX1")
+		(net "/MCU/UART_RX2")
 		(uuid "2dab6e5a-aad4-48c7-8827-5437501a5ed4")
 	)
 	(segment
@@ -40412,7 +40412,7 @@
 		(end 176.749647 67.650353)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/UART_RX1")
+		(net "/MCU/UART_RX2")
 		(uuid "4a2e6ede-62d9-41fb-b7bf-b1d29b6e9cf6")
 	)
 	(segment
@@ -40420,7 +40420,7 @@
 		(end 158.1 97)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/UART_RX1")
+		(net "/MCU/UART_RX2")
 		(uuid "59aa5738-b741-4679-b068-025afd6e4fd7")
 	)
 	(segment
@@ -40428,7 +40428,7 @@
 		(end 177.4 67)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/UART_RX1")
+		(net "/MCU/UART_RX2")
 		(uuid "a7b18b41-5ee5-40f5-b689-2ef2656f5084")
 	)
 	(segment
@@ -40436,7 +40436,7 @@
 		(end 177.4 66.4)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/UART_RX1")
+		(net "/MCU/UART_RX2")
 		(uuid "bd5afbca-1a77-409a-9317-e0366003b4e9")
 	)
 	(segment
@@ -40444,7 +40444,7 @@
 		(end 177.5 66.3)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/UART_RX1")
+		(net "/MCU/UART_RX2")
 		(uuid "d4cfdd9a-cb39-4b0e-982d-5b140c15d1ce")
 	)
 	(segment
@@ -40452,7 +40452,7 @@
 		(end 162.95037 71.44963)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_TX2")
+		(net "/MCU/UART_TX1")
 		(uuid "0c784786-52d0-4bd4-9270-d6c5a6b63881")
 	)
 	(segment
@@ -40460,7 +40460,7 @@
 		(end 157.266043 73.001)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_TX2")
+		(net "/MCU/UART_TX1")
 		(uuid "0dd28333-704b-47d8-b690-5450bfd9192b")
 	)
 	(segment
@@ -40468,7 +40468,7 @@
 		(end 176.8 66.85)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_TX2")
+		(net "/MCU/UART_TX1")
 		(uuid "18f166c3-689d-45d3-8091-cbc5467e943d")
 	)
 	(segment
@@ -40476,7 +40476,7 @@
 		(end 160.7671 71.44963)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_TX2")
+		(net "/MCU/UART_TX1")
 		(uuid "1953a01b-0d90-4b88-a1fb-abddbd4c1955")
 	)
 	(segment
@@ -40484,7 +40484,7 @@
 		(end 146.98 85.58)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_TX2")
+		(net "/MCU/UART_TX1")
 		(uuid "3a6d61f8-3f39-43d0-b072-efc0544357df")
 	)
 	(segment
@@ -40492,7 +40492,7 @@
 		(end 159.21573 73.001)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_TX2")
+		(net "/MCU/UART_TX1")
 		(uuid "4aa19cc6-c1aa-45df-8a48-c92866ad4f6f")
 	)
 	(segment
@@ -40500,7 +40500,7 @@
 		(end 155.6122 73.002)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_TX2")
+		(net "/MCU/UART_TX1")
 		(uuid "c72aa75e-f988-40a3-9cba-854dff8346b1")
 	)
 	(segment
@@ -40508,7 +40508,7 @@
 		(end 157.265043 73.002)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_TX2")
+		(net "/MCU/UART_TX1")
 		(uuid "debca545-179e-4fe1-91b8-e5cf796547df")
 	)
 	(segment
@@ -40516,7 +40516,7 @@
 		(end 176.75 66.8)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_TX2")
+		(net "/MCU/UART_TX1")
 		(uuid "e60c86f0-a743-44a9-a21a-51eb878c35b4")
 	)
 	(segment
@@ -40524,7 +40524,7 @@
 		(end 146.98 81.6342)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_TX2")
+		(net "/MCU/UART_TX1")
 		(uuid "fc1fb729-4fdb-440c-9284-72f576abe879")
 	)
 	(via
@@ -40542,7 +40542,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/UART_TX2")
+		(net "/MCU/UART_TX1")
 		(uuid "93091dfe-9598-4b7a-9f83-9f1e90bd13df")
 	)
 	(via
@@ -40560,7 +40560,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/UART_TX2")
+		(net "/MCU/UART_TX1")
 		(uuid "e5ea35ea-6ac2-44c2-b141-69f2f91615a3")
 	)
 	(segment
@@ -40568,7 +40568,7 @@
 		(end 175.148 65.848)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/UART_TX2")
+		(net "/MCU/UART_TX1")
 		(uuid "24a5c0c7-f362-47bf-b159-83714c4c8e4f")
 	)
 	(segment
@@ -40576,7 +40576,7 @@
 		(end 163.1 71.15147)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/UART_TX2")
+		(net "/MCU/UART_TX1")
 		(uuid "4d9cd2a9-4bde-43f0-b184-600e0320d908")
 	)
 	(segment
@@ -40584,7 +40584,7 @@
 		(end 176.1 66.8)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/UART_TX2")
+		(net "/MCU/UART_TX1")
 		(uuid "593f942b-ebf0-497c-8f9f-7261acaf0efa")
 	)
 	(segment
@@ -40592,7 +40592,7 @@
 		(end 168.40347 65.848)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/UART_TX2")
+		(net "/MCU/UART_TX1")
 		(uuid "d61a0947-8909-4806-a7c5-ff995a84a448")
 	)
 	(segment
@@ -40600,7 +40600,7 @@
 		(end 176.75 66.8)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/UART_TX2")
+		(net "/MCU/UART_TX1")
 		(uuid "ff797fe3-065b-43c8-a1d7-3a15fffd35b6")
 	)
 	(segment
@@ -40608,7 +40608,7 @@
 		(end 176.25 66.1)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_RX2")
+		(net "/MCU/UART_RX1")
 		(uuid "254cd547-1881-4d0c-8e35-834cfbcc314a")
 	)
 	(segment
@@ -40616,7 +40616,7 @@
 		(end 159.793846 71.855784)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_RX2")
+		(net "/MCU/UART_RX1")
 		(uuid "46802e32-65e7-466c-b279-2fac3907ed5a")
 	)
 	(segment
@@ -40624,7 +40624,7 @@
 		(end 144.44 85.58)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_RX2")
+		(net "/MCU/UART_RX1")
 		(uuid "4a4fc3db-f8b9-40ab-9b24-dfae52ec8ab1")
 	)
 	(segment
@@ -40632,7 +40632,7 @@
 		(end 159.793846 71.4)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_RX2")
+		(net "/MCU/UART_RX1")
 		(uuid "65740d4a-7d32-4d86-a7aa-80ee1bb4ae3f")
 	)
 	(segment
@@ -40640,7 +40640,7 @@
 		(end 176.1 66.25)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_RX2")
+		(net "/MCU/UART_RX1")
 		(uuid "68454978-e8f3-4e83-bcaf-f4b9e3908667")
 	)
 	(segment
@@ -40648,7 +40648,7 @@
 		(end 157.099943 72.6)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_RX2")
+		(net "/MCU/UART_RX1")
 		(uuid "6e20b6ab-45aa-4800-a5d1-24188e15835e")
 	)
 	(segment
@@ -40656,7 +40656,7 @@
 		(end 144.44 83.6071)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_RX2")
+		(net "/MCU/UART_RX1")
 		(uuid "a4d7440f-88c5-4dfa-b818-415da888a623")
 	)
 	(segment
@@ -40664,7 +40664,7 @@
 		(end 157.098943 72.601)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_RX2")
+		(net "/MCU/UART_RX1")
 		(uuid "a71a364d-a917-45f8-a2e9-422161215087")
 	)
 	(segment
@@ -40672,7 +40672,7 @@
 		(end 155.4461 72.601)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_RX2")
+		(net "/MCU/UART_RX1")
 		(uuid "bf9b453a-03e7-4d09-bbdd-9da8a69d5aa1")
 	)
 	(segment
@@ -40680,7 +40680,7 @@
 		(end 176.3 67.269239)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_RX2")
+		(net "/MCU/UART_RX1")
 		(uuid "c669f1ff-2949-4d02-9fc4-72090b526bf2")
 	)
 	(segment
@@ -40688,7 +40688,7 @@
 		(end 176.1 67.069239)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/UART_RX2")
+		(net "/MCU/UART_RX1")
 		(uuid "d58e20f7-cfaa-4194-be30-3a753d1f9080")
 	)
 	(via
@@ -40706,7 +40706,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/UART_RX2")
+		(net "/MCU/UART_RX1")
 		(uuid "72304ad9-ae28-4016-86c3-7de8a54bfece")
 	)
 	(via
@@ -40724,7 +40724,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/UART_RX2")
+		(net "/MCU/UART_RX1")
 		(uuid "7dfe6185-6dfc-417f-92db-b5918a7e72b0")
 	)
 	(segment
@@ -40732,7 +40732,7 @@
 		(end 160.401 70.699)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/UART_RX2")
+		(net "/MCU/UART_RX1")
 		(uuid "005b1780-377a-4598-ab38-792fe8fa727c")
 	)
 	(segment
@@ -40740,7 +40740,7 @@
 		(end 159.793846 71.4)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/UART_RX2")
+		(net "/MCU/UART_RX1")
 		(uuid "536c628a-0a0e-4a7d-8db7-ac474fa4afe8")
 	)
 	(segment
@@ -40748,7 +40748,7 @@
 		(end 159.843476 71.44963)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/UART_RX2")
+		(net "/MCU/UART_RX1")
 		(uuid "553607dc-c5a0-46dc-a2bc-cc673c9fab58")
 	)
 	(segment
@@ -40756,7 +40756,7 @@
 		(end 175.9671 66.1)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/UART_RX2")
+		(net "/MCU/UART_RX1")
 		(uuid "6415962b-935d-4264-9272-f0c4583cd89d")
 	)
 	(segment
@@ -40764,7 +40764,7 @@
 		(end 175.3141 65.447)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/UART_RX2")
+		(net "/MCU/UART_RX1")
 		(uuid "77939ecd-1b96-417a-92c2-13adec50fb78")
 	)
 	(segment
@@ -40772,7 +40772,7 @@
 		(end 162.98537 70.699)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/UART_RX2")
+		(net "/MCU/UART_RX1")
 		(uuid "a69f7db6-83bb-4712-bbdb-f4840fcc6b33")
 	)
 	(segment
@@ -40780,7 +40780,7 @@
 		(end 168.23737 65.447)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/UART_RX2")
+		(net "/MCU/UART_RX1")
 		(uuid "cc79ed43-dbe2-476a-9901-9ea67db8da59")
 	)
 	(segment
@@ -40788,7 +40788,7 @@
 		(end 159.843476 71.256524)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/UART_RX2")
+		(net "/MCU/UART_RX1")
 		(uuid "cd0b8f4c-787d-4cfe-b27d-7d9ff252186a")
 	)
 	(segment
@@ -40796,7 +40796,7 @@
 		(end 160.88383 71.9)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/INT2")
+		(net "/MCU/INT1")
 		(uuid "064a4c88-8a02-487b-b15f-91d101ac334b")
 	)
 	(segment
@@ -40804,7 +40804,7 @@
 		(end 163.349943 71.9)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/INT2")
+		(net "/MCU/INT1")
 		(uuid "1fee1296-1438-4217-89df-57cfbb4dc6c3")
 	)
 	(segment
@@ -40812,7 +40812,7 @@
 		(end 157.431143 73.403)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/INT2")
+		(net "/MCU/INT1")
 		(uuid "2dd9b6a7-c254-4983-b725-9f83f8f74ca2")
 	)
 	(segment
@@ -40820,7 +40820,7 @@
 		(end 162.850057 71.9)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/INT2")
+		(net "/MCU/INT1")
 		(uuid "3998b4be-7ae8-4d8d-9727-1ad39a12f2db")
 	)
 	(segment
@@ -40828,7 +40828,7 @@
 		(end 162.851057 71.901)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/INT2")
+		(net "/MCU/INT1")
 		(uuid "69580f33-e9ce-4525-aa3c-38e6e1138406")
 	)
 	(segment
@@ -40836,7 +40836,7 @@
 		(end 165.19963 71.9)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/INT2")
+		(net "/MCU/INT1")
 		(uuid "896237ac-edeb-402b-9528-9b180cd1a8a0")
 	)
 	(segment
@@ -40844,7 +40844,7 @@
 		(end 159.38183 73.402)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/INT2")
+		(net "/MCU/INT1")
 		(uuid "8ef10a28-a017-4150-a0fc-84f53dba9ae9")
 	)
 	(segment
@@ -40852,7 +40852,7 @@
 		(end 155.7783 73.403)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/INT2")
+		(net "/MCU/INT1")
 		(uuid "9ed7c2ae-96eb-4155-87a5-278b170848a7")
 	)
 	(segment
@@ -40860,7 +40860,7 @@
 		(end 149.52 79.6613)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/INT2")
+		(net "/MCU/INT1")
 		(uuid "a0448286-2470-4b8c-95a3-77e1da2fbd39")
 	)
 	(segment
@@ -40868,7 +40868,7 @@
 		(end 157.432143 73.402)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/INT2")
+		(net "/MCU/INT1")
 		(uuid "aa1eaeaf-4b51-46f2-9176-0a17e02534eb")
 	)
 	(segment
@@ -40876,7 +40876,7 @@
 		(end 165.65 71.44963)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/INT2")
+		(net "/MCU/INT1")
 		(uuid "b71d16e1-1d9f-45ce-8541-63d997119ef5")
 	)
 	(segment
@@ -40884,7 +40884,7 @@
 		(end 149.52 85.58)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/INT2")
+		(net "/MCU/INT1")
 		(uuid "e691a223-9e5c-4ff6-9f70-c44e56bc5404")
 	)
 	(segment
@@ -40892,7 +40892,7 @@
 		(end 175.3 67.92499)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/INT2")
+		(net "/MCU/INT1")
 		(uuid "e8779133-74c5-4531-ab6a-14c64397845b")
 	)
 	(segment
@@ -40900,7 +40900,7 @@
 		(end 163.348943 71.901)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/INT2")
+		(net "/MCU/INT1")
 		(uuid "f8f0d820-e51d-412d-a58c-fe12911a41f8")
 	)
 	(via
@@ -40918,7 +40918,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/INT2")
+		(net "/MCU/INT1")
 		(uuid "0968bdd4-fcbf-49c2-8bee-dc40b64c2436")
 	)
 	(via
@@ -40936,7 +40936,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/INT2")
+		(net "/MCU/INT1")
 		(uuid "8cac932c-299e-4ea5-b55e-ff89aac4e950")
 	)
 	(segment
@@ -40944,7 +40944,7 @@
 		(end 175.3 66.5671)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/INT2")
+		(net "/MCU/INT1")
 		(uuid "03bf6e61-cd5e-4051-8751-d2b72e69bf59")
 	)
 	(segment
@@ -40952,7 +40952,7 @@
 		(end 165.65 69.16857)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/INT2")
+		(net "/MCU/INT1")
 		(uuid "0fc4264c-b741-4ef7-8fea-047a1ca602d8")
 	)
 	(segment
@@ -40960,7 +40960,7 @@
 		(end 174.9819 66.249)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/INT2")
+		(net "/MCU/INT1")
 		(uuid "6feb0bd5-e7d4-4efc-84c2-9d1814c68cab")
 	)
 	(segment
@@ -40968,7 +40968,7 @@
 		(end 168.56957 66.249)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/INT2")
+		(net "/MCU/INT1")
 		(uuid "84a663ea-8563-4ec6-b06a-78a89312102d")
 	)
 	(segment
@@ -40976,7 +40976,7 @@
 		(end 175.3 66.85)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/INT2")
+		(net "/MCU/INT1")
 		(uuid "aaccd83e-06fb-4403-b074-acb0d50f35a8")
 	)
 	(segment
@@ -40984,7 +40984,7 @@
 		(end 171.05 61.45)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/RST2")
+		(net "/MCU/RST1")
 		(uuid "2d675981-70ad-4439-9af7-6a5d2db1fba9")
 	)
 	(segment
@@ -40992,7 +40992,7 @@
 		(end 174.3 67.632684)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/RST2")
+		(net "/MCU/RST1")
 		(uuid "360e98f2-46cd-4f7d-90bf-9538f6b00f69")
 	)
 	(segment
@@ -41000,7 +41000,7 @@
 		(end 174.3 67.92499)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/RST2")
+		(net "/MCU/RST1")
 		(uuid "43a00abe-f1a2-444f-8ce6-1d3edc203dc7")
 	)
 	(segment
@@ -41008,7 +41008,7 @@
 		(end 174.601 65.001)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/RST2")
+		(net "/MCU/RST1")
 		(uuid "69ef4005-2023-48f1-b00c-2496f506e33d")
 	)
 	(segment
@@ -41016,7 +41016,7 @@
 		(end 174.601 67.331684)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/RST2")
+		(net "/MCU/RST1")
 		(uuid "6b001402-034a-4cfc-a099-1fe920631e24")
 	)
 	(segment
@@ -41024,7 +41024,7 @@
 		(end 150.79 61.45)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/RST2")
+		(net "/MCU/RST1")
 		(uuid "99b71d7c-4116-4be6-91a0-1c7bfb04d23e")
 	)
 	(segment
@@ -41032,7 +41032,7 @@
 		(end 166.6 72.09)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/PWN2")
+		(net "/MCU/PWN1")
 		(uuid "02fb3e8c-43e0-4219-afd8-cf8282f8679f")
 	)
 	(segment
@@ -41040,7 +41040,7 @@
 		(end 174 67.019056)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/PWN2")
+		(net "/MCU/PWN1")
 		(uuid "0f1ba8d8-021d-4e28-b5d0-ce021c96d984")
 	)
 	(segment
@@ -41048,7 +41048,7 @@
 		(end 152.06 85.58)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/PWN2")
+		(net "/MCU/PWN1")
 		(uuid "4b06a889-6cfd-4e40-8605-8262e6c4e04a")
 	)
 	(segment
@@ -41056,7 +41056,7 @@
 		(end 153.11 85.58)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/PWN2")
+		(net "/MCU/PWN1")
 		(uuid "68923c4c-b534-4c45-b33f-aa24df074f8c")
 	)
 	(segment
@@ -41064,7 +41064,7 @@
 		(end 173.8 67.219056)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/PWN2")
+		(net "/MCU/PWN1")
 		(uuid "d285c9fa-f963-42b4-8a65-d12162f263cb")
 	)
 	(via
@@ -41082,7 +41082,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/PWN2")
+		(net "/MCU/PWN1")
 		(uuid "31b04de7-7dc5-4a41-9fd1-246829149fa6")
 	)
 	(via
@@ -41100,7 +41100,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/PWN2")
+		(net "/MCU/PWN1")
 		(uuid "efcc4e76-1dae-48a9-bc87-bfd2c3e87cb1")
 	)
 	(segment
@@ -41108,7 +41108,7 @@
 		(end 173.630944 66.65)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/PWN2")
+		(net "/MCU/PWN1")
 		(uuid "4841691c-1664-4a82-95e2-239a76bdc802")
 	)
 	(segment
@@ -41116,7 +41116,7 @@
 		(end 168.73567 66.65)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/PWN2")
+		(net "/MCU/PWN1")
 		(uuid "d20206e3-b347-419e-98bc-e8946fc3a886")
 	)
 	(segment
@@ -41124,7 +41124,7 @@
 		(end 166.6 68.78567)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/PWN2")
+		(net "/MCU/PWN1")
 		(uuid "d81ad5ec-d6a2-44d0-8963-df6c1bd5c914")
 	)
 	(segment
@@ -41132,7 +41132,7 @@
 		(end 174 67.019056)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/PWN2")
+		(net "/MCU/PWN1")
 		(uuid "e20b5566-9a30-4b90-809a-7f7e46f697f1")
 	)
 	(segment

@@ -4411,7 +4411,7 @@
 			)
 		)
 	)
-	(hierarchical_label "PWM1"
+	(hierarchical_label "PWM2"
 		(shape output)
 		(at 57.15 68.58 180)
 		(effects
@@ -4433,7 +4433,7 @@
 		)
 		(uuid "01543da6-32a5-43db-ad22-1fc5b31d17fd")
 	)
-	(hierarchical_label "PWN2"
+	(hierarchical_label "PWN1"
 		(shape output)
 		(at 57.15 104.14 180)
 		(effects
@@ -4455,7 +4455,7 @@
 		)
 		(uuid "18575d60-ccec-4ee5-b3d1-fde7c9dfb27c")
 	)
-	(hierarchical_label "INT2"
+	(hierarchical_label "INT1"
 		(shape input)
 		(at 57.15 99.06 180)
 		(effects
@@ -4499,7 +4499,7 @@
 		)
 		(uuid "3a4f09f8-66c4-45fb-8d80-b1c62af81160")
 	)
-	(hierarchical_label "SPI_MISO2"
+	(hierarchical_label "SPI_MISO1"
 		(shape input)
 		(at 57.15 119.38 180)
 		(effects
@@ -4510,7 +4510,7 @@
 		)
 		(uuid "46f34cd7-2fb7-4ce4-ae14-9fb59a62c724")
 	)
-	(hierarchical_label "SPI_MISO1"
+	(hierarchical_label "SPI_MISO2"
 		(shape input)
 		(at 57.15 73.66 180)
 		(effects
@@ -4532,7 +4532,7 @@
 		)
 		(uuid "4983aed4-4d02-4fc6-9c24-24e786793571")
 	)
-	(hierarchical_label "I2C_SDA2"
+	(hierarchical_label "I2C_SDA1"
 		(shape bidirectional)
 		(at 125.73 119.38 0)
 		(effects
@@ -4543,7 +4543,7 @@
 		)
 		(uuid "49876cc4-0112-4813-b92f-82ba2a9db3f3")
 	)
-	(hierarchical_label "I2C_SCL2"
+	(hierarchical_label "I2C_SCL1"
 		(shape output)
 		(at 125.73 121.92 0)
 		(effects
@@ -4554,7 +4554,7 @@
 		)
 		(uuid "4b3bb8c0-adc2-4ab9-afdb-9eebcf93d39a")
 	)
-	(hierarchical_label "CS1"
+	(hierarchical_label "CS2"
 		(shape output)
 		(at 57.15 60.96 180)
 		(effects
@@ -4565,7 +4565,7 @@
 		)
 		(uuid "4d78862b-e92c-44b9-be56-24d288eb88f4")
 	)
-	(hierarchical_label "SPI_SCK2"
+	(hierarchical_label "SPI_SCK1"
 		(shape output)
 		(at 57.15 121.92 180)
 		(effects
@@ -4598,7 +4598,7 @@
 		)
 		(uuid "61ebe08f-a31a-44b7-ba11-df8a1875fb50")
 	)
-	(hierarchical_label "SPI_SCK1"
+	(hierarchical_label "SPI_SCK2"
 		(shape output)
 		(at 57.15 76.2 180)
 		(effects
@@ -4620,7 +4620,7 @@
 		)
 		(uuid "79618eac-2e61-454a-b51d-64fa5720bb05")
 	)
-	(hierarchical_label "I2C_SDA1"
+	(hierarchical_label "I2C_SDA2"
 		(shape bidirectional)
 		(at 57.15 83.82 180)
 		(effects
@@ -4642,7 +4642,7 @@
 		)
 		(uuid "88cb5128-eca0-4ddd-9a2c-bf7788cc3bd4")
 	)
-	(hierarchical_label "I2C_SCL1"
+	(hierarchical_label "I2C_SCL2"
 		(shape output)
 		(at 57.15 81.28 180)
 		(effects
@@ -4653,7 +4653,7 @@
 		)
 		(uuid "8b5ce876-1a79-489d-ad29-4178f9217caf")
 	)
-	(hierarchical_label "UART_TX2"
+	(hierarchical_label "UART_TX1"
 		(shape output)
 		(at 57.15 91.44 180)
 		(effects
@@ -4675,7 +4675,7 @@
 		)
 		(uuid "8ede0a89-fbbc-4d3c-bc47-5de5e9f0ce82")
 	)
-	(hierarchical_label "INT1"
+	(hierarchical_label "INT2"
 		(shape input)
 		(at 57.15 63.5 180)
 		(effects
@@ -4686,7 +4686,7 @@
 		)
 		(uuid "91455a59-8577-44b9-9fa4-837e1b192b40")
 	)
-	(hierarchical_label "CS2"
+	(hierarchical_label "CS1"
 		(shape output)
 		(at 57.15 78.74 180)
 		(effects
@@ -4697,7 +4697,7 @@
 		)
 		(uuid "9697fdd1-4804-4517-95df-637e23707344")
 	)
-	(hierarchical_label "AN1"
+	(hierarchical_label "AN2"
 		(shape input)
 		(at 57.15 96.52 180)
 		(effects
@@ -4708,7 +4708,7 @@
 		)
 		(uuid "9c528f97-db13-4510-bc26-02accbd20851")
 	)
-	(hierarchical_label "SPI_MOSI2"
+	(hierarchical_label "SPI_MOSI1"
 		(shape output)
 		(at 125.73 116.84 0)
 		(effects
@@ -4730,7 +4730,7 @@
 		)
 		(uuid "a22706eb-8279-49a8-950e-446bf563a0a3")
 	)
-	(hierarchical_label "UART_RX2"
+	(hierarchical_label "UART_RX1"
 		(shape input)
 		(at 57.15 93.98 180)
 		(effects
@@ -4741,7 +4741,7 @@
 		)
 		(uuid "a63afc09-25f1-4271-81f4-881bd17d978a")
 	)
-	(hierarchical_label "UART_TX1"
+	(hierarchical_label "UART_TX2"
 		(shape output)
 		(at 57.15 86.36 180)
 		(effects
@@ -4763,7 +4763,7 @@
 		)
 		(uuid "bc7b1c28-6213-4f9b-955e-d8f78e489a45")
 	)
-	(hierarchical_label "RST2"
+	(hierarchical_label "RST1"
 		(shape output)
 		(at 57.15 101.6 180)
 		(effects
@@ -4774,7 +4774,7 @@
 		)
 		(uuid "c8a518bf-4ece-46c0-b762-36680e3976a9")
 	)
-	(hierarchical_label "SPI_MOSI1"
+	(hierarchical_label "SPI_MOSI2"
 		(shape output)
 		(at 57.15 71.12 180)
 		(effects
@@ -4785,7 +4785,7 @@
 		)
 		(uuid "cc48f2d7-0ece-4707-b3a5-b8828de835e3")
 	)
-	(hierarchical_label "RST1"
+	(hierarchical_label "RST2"
 		(shape output)
 		(at 57.15 66.04 180)
 		(effects
@@ -4807,7 +4807,7 @@
 		)
 		(uuid "d141a323-b839-4302-bf22-b3544fc32a6f")
 	)
-	(hierarchical_label "AN2"
+	(hierarchical_label "AN1"
 		(shape input)
 		(at 57.15 111.76 180)
 		(effects
@@ -4818,7 +4818,7 @@
 		)
 		(uuid "e0e5a326-d3cc-4297-a85c-7bda6de31894")
 	)
-	(hierarchical_label "UART_RX1"
+	(hierarchical_label "UART_RX2"
 		(shape input)
 		(at 57.15 88.9 180)
 		(effects

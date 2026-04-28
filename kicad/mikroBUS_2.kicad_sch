@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "8523731c-ba66-4064-abf2-d9615a859363")
+	(uuid "d6734cd5-74ce-4d0d-855b-c6f4cead33f5")
 	(paper "A4")
 	(lib_symbols
 		(symbol "seven_lib:GND"
@@ -585,9 +585,51 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "J4 - MikroBUS Socket\n\nStandard MikroBUS expansion connector\n\nProvides SPI interface (MOSI, MISO, SCK, CS)\n\nProvides UART interface (TX, RX)\n\nProvides I²C interface (SDA, SCL)\n\nAdditional control signals (INT, RST, PWM, AN)\n\nPower rails +5 V and +3.3 V\n\nGND reference for connected modules"
+		(exclude_from_sim no)
+		(at 176.53 86.36 0)
+		(size 107.95 80.01)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "3fd938fe-8db7-4ab3-9faa-d34b31fd9180")
+	)
+	(text_box "mikroBUS Socket 2"
+		(exclude_from_sim no)
+		(at 176.53 13.97 0)
+		(size 40.64 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "78dfc42b-a088-4629-b7a4-49e0e1087a14")
+	)
 	(text_box "Note: Be cautious of all Clicker Board sizes when placing the footprint."
 		(exclude_from_sim no)
-		(at 124.46 53.34 0)
+		(at 116.84 46.99 0)
 		(size 25.4 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -606,55 +648,11 @@
 			)
 			(justify left top)
 		)
-		(uuid "03561d4e-31d3-447c-b685-422da3275c1c")
-	)
-	(text_box "mikroBUS Socket 2"
-		(exclude_from_sim no)
-		(at 176.53 12.7 0)
-		(size 40.64 11.43)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "5982b3e1-75ad-4a25-8d86-6f4b7f178756")
-	)
-	(text_box "Circuit Description\n"
-		(exclude_from_sim no)
-		(at 217.17 12.7 0)
-		(size 67.31 11.43)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(thickness 0.762)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "66d84b42-61da-4efa-b3eb-9c1dd67dbe04")
+		(uuid "be2cc12a-7a91-402c-b9f2-6936d6f9ab27")
 	)
 	(text_box "Note: Click boards come in S, M, and L sizes. The L size should be accounted for in the PCB design, with a length of 57 mm."
 		(exclude_from_sim no)
-		(at 123.19 77.47 0)
+		(at 115.57 71.12 0)
 		(size 25.4 15.24)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -673,31 +671,11 @@
 			)
 			(justify left top)
 		)
-		(uuid "82de2f74-d62a-46e1-afda-c97089e3833e")
-	)
-	(text_box "This circuit implements a MikroBUS expansion interface, a standardized connectivity interface for embedded add-on boards. It exposes power rails and several MCU communication signals to allow connection of MikroBUS-compatible peripheral modules."
-		(exclude_from_sim no)
-		(at 176.53 24.13 0)
-		(size 107.95 53.34)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left top)
-		)
-		(uuid "8e7eefbe-3202-4892-be9b-26d072c3e96a")
+		(uuid "c0088faf-470b-45ce-a327-cc3943328000")
 	)
 	(text_box "Component Description\n"
 		(exclude_from_sim no)
-		(at 176.53 77.47 0)
+		(at 176.53 78.74 0)
 		(size 107.95 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -715,12 +693,34 @@
 			)
 			(justify top)
 		)
-		(uuid "f7849dd2-ffc0-425f-a42a-9605647a172f")
+		(uuid "c3db53d3-a34c-4782-a8fb-a0d52c05ea9c")
 	)
-	(text_box "J1 - MikroBUS Socket\n\nStandard MikroBUS expansion connector\n\nProvides SPI interface (MOSI, MISO, SCK, CS)\n\nProvides UART interface (TX, RX)\n\nProvides I²C interface (SDA, SCL)\n\nAdditional control signals (INT, RST, PWM, AN)\n\nPower rails +5 V and +3.3 V\n\nGND reference for connected modules"
+	(text_box "Circuit Description\n"
 		(exclude_from_sim no)
-		(at 176.53 85.09 0)
-		(size 107.95 80.01)
+		(at 217.17 13.97 0)
+		(size 67.31 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "dae4f531-1216-4eed-b441-d196f6e94c65")
+	)
+	(text_box "This circuit implements a MikroBUS expansion interface, a standardized connectivity interface for embedded add-on boards. It exposes power rails and several MCU communication signals to allow connection of MikroBUS-compatible peripheral modules."
+		(exclude_from_sim no)
+		(at 176.53 25.4 0)
+		(size 107.95 53.34)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -735,205 +735,181 @@
 			)
 			(justify left top)
 		)
-		(uuid "fd90beb5-558f-4272-b7ea-c82e555c064f")
+		(uuid "e4f83fdd-20d2-49a6-bcf9-7a5fb6dd52c7")
 	)
 	(wire
 		(pts
-			(xy 107.95 110.49) (xy 106.68 110.49)
+			(xy 96.52 92.71) (xy 95.25 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "346abf55-cc38-4caa-91ef-80d5fd7aee0a")
+		(uuid "14a8f1e0-060d-4305-a05a-1f6d70a9ceb3")
 	)
 	(wire
 		(pts
-			(xy 97.79 90.17) (xy 97.79 91.44)
+			(xy 86.36 105.41) (xy 86.36 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4539a889-49eb-4c04-92c6-b6f7ae6d6fb2")
-	)
-	(wire
-		(pts
-			(xy 90.17 90.17) (xy 90.17 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "529637ec-1a12-4558-b141-c205584eac0f")
-	)
-	(wire
-		(pts
-			(xy 80.01 100.33) (xy 81.28 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d01cfd2-c85d-44f1-99e3-d71211405565")
-	)
-	(wire
-		(pts
-			(xy 80.01 102.87) (xy 81.28 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f499b04-3de1-4bb0-8d7e-2f1418defa59")
-	)
-	(wire
-		(pts
-			(xy 107.95 107.95) (xy 106.68 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62ed957e-a7c8-4953-b45e-732e118d528e")
-	)
-	(wire
-		(pts
-			(xy 80.01 113.03) (xy 81.28 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "676b2afb-9e29-4974-b9a3-4bd8e66269cc")
-	)
-	(wire
-		(pts
-			(xy 97.79 120.65) (xy 97.79 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73343fc8-b177-4ab6-9805-a7cf4eafe24e")
-	)
-	(wire
-		(pts
-			(xy 80.01 107.95) (xy 81.28 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c486379-3546-4cf2-b003-08c90af987b1")
-	)
-	(wire
-		(pts
-			(xy 80.01 105.41) (xy 81.28 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85e59e4b-0584-4b39-bbe6-5f3ffaeae721")
-	)
-	(wire
-		(pts
-			(xy 107.95 100.33) (xy 106.68 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "880fbf7c-3b02-4a10-9a5b-c28886b4d29b")
+		(uuid "1ab176f1-b7eb-4019-bd82-99ee9248514f")
 	)
 	(polyline
 		(pts
-			(xy 176.53 77.47) (xy 284.48 77.47)
+			(xy 176.53 78.74) (xy 284.48 78.74)
 		)
 		(stroke
 			(width 0)
 			(type dash)
 		)
-		(uuid "8e3e8081-eb32-4a27-921a-56cfde8c7e2d")
+		(uuid "1be621a0-b3bd-4ff8-80af-a68033a19cbc")
 	)
 	(wire
 		(pts
-			(xy 90.17 120.65) (xy 90.17 119.38)
+			(xy 78.74 105.41) (xy 78.74 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a917fb3a-ab3f-43d2-820c-4d96c285127b")
+		(uuid "24b1c590-3856-436f-9150-aeb89b3e02ca")
 	)
 	(wire
 		(pts
-			(xy 107.95 113.03) (xy 106.68 113.03)
+			(xy 78.74 74.93) (xy 78.74 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b5005b2a-0569-48d5-9f4f-c629b069af14")
+		(uuid "31e43413-cb65-4c19-b971-858ea30627c5")
 	)
 	(wire
 		(pts
-			(xy 80.01 110.49) (xy 81.28 110.49)
+			(xy 68.58 90.17) (xy 69.85 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1b465bd-925a-4943-8e0a-125db05c411a")
+		(uuid "39379301-fb75-4688-8a5a-3c48f8f18384")
 	)
 	(wire
 		(pts
-			(xy 107.95 102.87) (xy 106.68 102.87)
+			(xy 96.52 90.17) (xy 95.25 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e26e8a30-b58d-4116-85a5-d12c22844439")
+		(uuid "3b63e705-e0bb-4a5f-ac55-fcc87d374730")
 	)
 	(wire
 		(pts
-			(xy 107.95 105.41) (xy 106.68 105.41)
+			(xy 96.52 97.79) (xy 95.25 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3a7b507-a2f5-45bd-af86-a20ec749e029")
+		(uuid "4fe44867-7ce0-479a-9149-7a30a5811d02")
 	)
-	(global_label "VDD_3V3"
-		(shape input)
-		(at 90.17 90.17 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+	(wire
+		(pts
+			(xy 68.58 85.09) (xy 69.85 85.09)
 		)
-		(uuid "58ddc817-1a29-49b8-8ac6-86dd927c12a9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.17 79.081 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
+		(uuid "5cfa4033-c8fc-45cc-a28a-77db1bd33ff1")
+	)
+	(wire
+		(pts
+			(xy 68.58 95.25) (xy 69.85 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c918617-596f-4ccc-93a2-1c52258bf502")
+	)
+	(wire
+		(pts
+			(xy 68.58 97.79) (xy 69.85 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94f5b7bb-8712-4ec0-8645-ee9e8a2930f4")
+	)
+	(wire
+		(pts
+			(xy 96.52 85.09) (xy 95.25 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a09235f-b198-4e2d-89a7-970815de07da")
+	)
+	(wire
+		(pts
+			(xy 68.58 92.71) (xy 69.85 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9d20a75-cb52-400b-b9e0-1813246af174")
+	)
+	(wire
+		(pts
+			(xy 68.58 87.63) (xy 69.85 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b24a6895-e81c-416b-9643-270c5ce7e729")
+	)
+	(wire
+		(pts
+			(xy 86.36 74.93) (xy 86.36 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6138de1-7ce2-40e7-9f62-47b435915a6a")
+	)
+	(wire
+		(pts
+			(xy 96.52 87.63) (xy 95.25 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1052378-2618-4dcf-a257-2a833496f5a2")
+	)
+	(wire
+		(pts
+			(xy 96.52 95.25) (xy 95.25 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d2997c-362c-4d3e-b319-de0bca32fb42")
 	)
 	(global_label "VDD_5V"
 		(shape input)
-		(at 97.79 90.17 90)
+		(at 86.36 74.93 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -941,9 +917,9 @@
 			)
 			(justify left)
 		)
-		(uuid "dc9484a4-3d28-4429-a605-55345dffd3fe")
+		(uuid "a1805bf1-faed-4caa-bec2-713d610b198d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.79 80.2905 90)
+			(at 86.36 65.0505 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -955,141 +931,165 @@
 			)
 		)
 	)
-	(hierarchical_label "UART_RX2"
+	(global_label "VDD_3V3"
 		(shape input)
-		(at 107.95 107.95 0)
+		(at 78.74 74.93 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "008bff60-ab74-49b3-ae00-d8e917484201")
-	)
-	(hierarchical_label "SPI_SCK2"
-		(shape output)
-		(at 80.01 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "ba40f9d9-c4b1-4f22-8e6e-8ae966c4b1f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.74 63.841 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
-			(justify right)
 		)
-		(uuid "052f9b88-4e01-4519-818a-0c174783e976")
-	)
-	(hierarchical_label "SPI_MISO2"
-		(shape output)
-		(at 80.01 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0d3a3cbf-51ec-4166-afe2-cb0e27e642f3")
-	)
-	(hierarchical_label "AN2"
-		(shape output)
-		(at 80.01 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0e7c4aa6-1fc5-4e01-a2e0-627ee46bd567")
-	)
-	(hierarchical_label "RST2"
-		(shape input)
-		(at 80.01 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2b97bb5c-75ce-4190-871a-7818fdf78527")
-	)
-	(hierarchical_label "PWM2"
-		(shape input)
-		(at 107.95 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "429dd920-dcbe-4bdf-97d0-f9a759509835")
-	)
-	(hierarchical_label "I2C_SCL2"
-		(shape input)
-		(at 107.95 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "48eba72a-5cf0-45bf-9d8f-0d45634e8572")
-	)
-	(hierarchical_label "SPI_MOSI2"
-		(shape input)
-		(at 80.01 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8cb12834-5396-497a-bddf-ee20c564afa5")
 	)
 	(hierarchical_label "UART_TX2"
 		(shape output)
-		(at 107.95 105.41 0)
+		(at 96.52 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "9f568f61-8d65-4954-b99f-fe23864071a3")
+		(uuid "1aaf5c85-eb66-4626-a654-d9a029c615f2")
 	)
-	(hierarchical_label "INT2"
-		(shape output)
-		(at 107.95 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a4206f24-9da4-4ea7-837e-e81c95da8c4f")
-	)
-	(hierarchical_label "CS2"
+	(hierarchical_label "SPI_MOSI2"
 		(shape input)
-		(at 80.01 105.41 180)
+		(at 68.58 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "b6b92943-7212-47d3-a41a-f13792212d5a")
+		(uuid "374fdefa-3804-46a2-8065-b178275f6834")
 	)
-	(hierarchical_label "I2C_SDA2"
-		(shape bidirectional)
-		(at 107.95 102.87 0)
+	(hierarchical_label "AN2"
+		(shape output)
+		(at 68.58 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44a5956d-b72c-4e9a-a0e8-e64ea5112a46")
+	)
+	(hierarchical_label "I2C_SCL2"
+		(shape input)
+		(at 96.52 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "e3b07cf0-d3c5-491c-9ee7-0fbb47cc1190")
+		(uuid "4f522a53-dcd0-497b-9ed7-f22e65987791")
+	)
+	(hierarchical_label "CS2"
+		(shape input)
+		(at 68.58 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4fb63188-7387-41b9-bb36-73d9fe098ab3")
+	)
+	(hierarchical_label "SPI_MISO2"
+		(shape output)
+		(at 68.58 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ad05375-2dd6-4333-a65f-cbc82ccacbd5")
+	)
+	(hierarchical_label "PWM2"
+		(shape input)
+		(at 96.52 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b92eb02-63c4-445f-85cf-765856e28b73")
+	)
+	(hierarchical_label "SPI_SCK2"
+		(shape output)
+		(at 68.58 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7878129d-fad0-4b85-ad90-a5a55d833d56")
+	)
+	(hierarchical_label "RST2"
+		(shape input)
+		(at 68.58 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "da2cfb3d-6aa0-4198-a870-0f65ca67b028")
+	)
+	(hierarchical_label "UART_RX2"
+		(shape input)
+		(at 96.52 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5992e8a-5b4e-4e44-84d5-b65268424962")
+	)
+	(hierarchical_label "INT2"
+		(shape output)
+		(at 96.52 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f01049e0-43e5-4106-9747-5f6dc2237cd9")
+	)
+	(hierarchical_label "I2C_SDA2"
+		(shape bidirectional)
+		(at 96.52 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f27ad3cc-6e4a-4bbf-a118-8d4a8ae690c8")
 	)
 	(symbol
 		(lib_id "seven_lib:mikroBUS_Socket_left")
-		(at 91.44 91.44 0)
+		(at 80.01 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1098,9 +1098,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "197b802a-4f80-43e5-99b9-8cd8fab9df3c")
-		(property "Reference" "mB3"
-			(at 91.44 91.44 0)
+		(uuid "4865474f-f392-47d0-b057-0612e8dc1fab")
+		(property "Reference" "mB1"
+			(at 80.01 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1111,7 +1111,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 91.44 91.44 0)
+			(at 80.01 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1121,7 +1121,7 @@
 			)
 		)
 		(property "Footprint" "seven-lib:mikroBUS_socket_left"
-			(at 91.44 91.44 0)
+			(at 80.01 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1132,7 +1132,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 91.44 0)
+			(at 80.01 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1143,7 +1143,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 91.44 0)
+			(at 80.01 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1154,7 +1154,7 @@
 			)
 		)
 		(property "MPN" " M20-7820842 "
-			(at 91.44 91.44 0)
+			(at 80.01 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1165,189 +1165,33 @@
 			)
 		)
 		(pin "9"
-			(uuid "622bdb29-d05a-4ce9-93ab-349a1e7050cd")
+			(uuid "a14578d8-d78c-4fba-ac20-78cc7a4a184a")
 		)
 		(pin "11"
-			(uuid "ea9a80fd-5aa5-421b-92b9-9e7b280a6adf")
+			(uuid "3725fcda-3a5a-43da-b126-dc5a4991ddbc")
 		)
 		(pin "13"
-			(uuid "be2606de-05b1-455f-8630-087f2df3f36e")
+			(uuid "ea2e47a1-0130-4a16-b0f1-59cf3d7a4b1c")
 		)
 		(pin "14"
-			(uuid "4333b2e7-ecf8-4236-8e53-88108f2b8fd2")
+			(uuid "ccd319c0-b581-492f-9ec5-d8309bc938d1")
 		)
 		(pin "12"
-			(uuid "911c1550-c5c5-4d04-ac7c-ffb48f0b67c8")
+			(uuid "b79a8c02-8146-4f4c-8ef6-6ab33111fa44")
 		)
 		(pin "10"
-			(uuid "b0706943-7332-48cd-b754-5535682a5800")
+			(uuid "3033a056-6e0b-44d5-ac24-757df0281be4")
 		)
 		(pin "15"
-			(uuid "c24f72c0-e688-4cc6-8dd0-eaa7a1913693")
+			(uuid "24666d5e-f15d-4eb0-adcc-8d21b6fcc6f8")
 		)
 		(pin "16"
-			(uuid "1aa92ca5-d4bf-4d1a-9277-5dd2e442294c")
+			(uuid "1c203066-2639-43d3-a1b6-7addce42b245")
 		)
 		(instances
 			(project "seven"
-				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/a6d18936-8c23-4481-bbfb-aad5f65c42c8"
-					(reference "mB3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "seven_lib:GND")
-		(at 90.17 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2cd0972c-2b35-4832-9640-a2a5c8a000d7")
-		(property "Reference" "#PWR046"
-			(at 90.17 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 90.17 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5f210482-a627-4ed7-aa76-01d4fb95eddb")
-		)
-		(instances
-			(project "seven"
-				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/a6d18936-8c23-4481-bbfb-aad5f65c42c8"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "seven_lib:GND")
-		(at 97.79 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6257d6fa-2012-439b-a574-edaa048a926f")
-		(property "Reference" "#PWR047"
-			(at 97.79 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 97.79 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ef9b96ac-cf74-4dfe-a325-1b9b4cb9830a")
-		)
-		(instances
-			(project "seven"
-				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/a6d18936-8c23-4481-bbfb-aad5f65c42c8"
-					(reference "#PWR047")
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/6d67fa3a-9367-4165-80f3-5f39034a7c0b"
+					(reference "mB1")
 					(unit 1)
 				)
 			)
@@ -1355,7 +1199,7 @@
 	)
 	(symbol
 		(lib_id "seven_lib:mikroBUS_Socket_right")
-		(at 96.52 91.44 0)
+		(at 85.09 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1364,9 +1208,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c8c57ce4-f9d0-4677-9dd3-df50816e3db6")
-		(property "Reference" "mB4"
-			(at 96.52 91.44 0)
+		(uuid "628577d6-a9d3-4d62-9f3b-fb873d7476ca")
+		(property "Reference" "mB2"
+			(at 85.09 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1377,7 +1221,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 96.52 91.44 0)
+			(at 85.09 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1387,7 +1231,7 @@
 			)
 		)
 		(property "Footprint" "seven-lib:mikroBUS_socket_right"
-			(at 96.52 91.44 0)
+			(at 85.09 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1398,7 +1242,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 91.44 0)
+			(at 85.09 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1409,7 +1253,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 91.44 0)
+			(at 85.09 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1420,7 +1264,7 @@
 			)
 		)
 		(property "MPN" " M20-7820842"
-			(at 96.52 91.44 0)
+			(at 85.09 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1431,33 +1275,189 @@
 			)
 		)
 		(pin "8"
-			(uuid "0d03cdd5-2a15-47c6-83a0-cd31a4892e0c")
+			(uuid "1923ec3e-f3c8-42b1-b292-b1c3089517b3")
 		)
 		(pin "5"
-			(uuid "2d4e7cf2-8d8a-4081-ac92-2d3a025b6409")
+			(uuid "beeb3a4d-b9e0-4fce-97d0-f151a0b352d9")
 		)
 		(pin "3"
-			(uuid "7713317b-83f6-4034-afcc-46200894c759")
+			(uuid "1ed5279b-0383-4092-b35a-ca6241ba0978")
 		)
 		(pin "1"
-			(uuid "9a288383-3690-47a7-9122-237c24e2bb45")
+			(uuid "4f24133a-2a06-4a1d-9537-4b8a96fd6f6e")
 		)
 		(pin "4"
-			(uuid "cab65c99-5c27-489f-b9a5-7d62c06be4f7")
+			(uuid "8b03dc58-b37b-42be-892a-759d616d308f")
 		)
 		(pin "6"
-			(uuid "aca8ad71-c355-4b30-8077-8ecf7f82ab2e")
+			(uuid "5b9d7755-f91c-4142-9bbb-6161a219d84e")
 		)
 		(pin "2"
-			(uuid "35fa6c6f-a99b-4c8b-8faa-2258b5084ee7")
+			(uuid "43d6a897-fa97-4183-b934-347c3eec7195")
 		)
 		(pin "7"
-			(uuid "3f5bf043-5c3c-4888-a32c-a6db8ebc33ee")
+			(uuid "253fee35-7b06-4fe6-a9c6-aec93ecacc64")
 		)
 		(instances
 			(project "seven"
-				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/a6d18936-8c23-4481-bbfb-aad5f65c42c8"
-					(reference "mB4")
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/6d67fa3a-9367-4165-80f3-5f39034a7c0b"
+					(reference "mB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "seven_lib:GND")
+		(at 78.74 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76ceec0c-3124-42d8-95c1-c8dd98eee28e")
+		(property "Reference" "#PWR044"
+			(at 78.74 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a16a9cb-e245-4403-8c57-b93c9fe04dd0")
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/6d67fa3a-9367-4165-80f3-5f39034a7c0b"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "seven_lib:GND")
+		(at 86.36 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1611383-f3dd-4e9c-a80b-b3dd1a9a7300")
+		(property "Reference" "#PWR043"
+			(at 86.36 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "938bf235-1237-4b5f-997a-2c2354dde9cd")
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/6d67fa3a-9367-4165-80f3-5f39034a7c0b"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)

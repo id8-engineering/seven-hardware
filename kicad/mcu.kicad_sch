@@ -3506,8 +3506,16 @@
 		(uuid "1534fa39-3da5-480d-b090-f27b36ee1911")
 	)
 	(no_connect
+		(at 58.42 114.3)
+		(uuid "236fa074-053d-4df4-b2d9-04b83a04f444")
+	)
+	(no_connect
 		(at 124.46 76.2)
 		(uuid "28e822a0-dc2f-4f12-b3d5-82b07580bbcc")
+	)
+	(no_connect
+		(at 58.42 116.84)
+		(uuid "33e3f335-9d7f-4314-b435-e533d1215160")
 	)
 	(no_connect
 		(at 124.46 142.24)
@@ -3557,16 +3565,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 114.3) (xy 58.42 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b0eb826-c2ae-4190-8861-094bf53de781")
-	)
-	(wire
-		(pts
 			(xy 29.21 19.05) (xy 43.18 19.05)
 		)
 		(stroke
@@ -3604,16 +3602,6 @@
 			(type default)
 		)
 		(uuid "19daebfa-b65b-46e3-9400-b31a561b56c9")
-	)
-	(wire
-		(pts
-			(xy 36.83 116.84) (xy 58.42 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1efdb560-8e02-4e75-b8aa-8bfaa97c003e")
 	)
 	(wire
 		(pts
@@ -4521,17 +4509,6 @@
 		)
 		(uuid "4843ee24-b4e2-4765-be07-c47d953942aa")
 	)
-	(hierarchical_label "UART_TX"
-		(shape output)
-		(at 36.83 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4983aed4-4d02-4fc6-9c24-24e786793571")
-	)
 	(hierarchical_label "I2C_SDA1"
 		(shape bidirectional)
 		(at 125.73 119.38 0)
@@ -4575,17 +4552,6 @@
 			(justify right)
 		)
 		(uuid "53484025-0e80-4b04-af07-f0721ac79a02")
-	)
-	(hierarchical_label "UART_RX"
-		(shape input)
-		(at 36.83 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5c7e2e91-e4b2-42a9-b784-cabecf9829e6")
 	)
 	(hierarchical_label "SWCLK"
 		(shape input)

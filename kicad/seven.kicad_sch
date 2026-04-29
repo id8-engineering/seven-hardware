@@ -445,16 +445,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 71.12) (xy 87.63 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1c892b5-b934-4093-a327-7b6e6fcf702b")
-	)
-	(wire
-		(pts
 			(xy 107.95 71.12) (xy 100.33 71.12)
 		)
 		(stroke
@@ -592,16 +582,6 @@
 			(type default)
 		)
 		(uuid "e70f7e58-0c53-4455-b56f-7ee0e4e116ba")
-	)
-	(wire
-		(pts
-			(xy 85.09 71.12) (xy 85.09 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7b5ca36-c339-4806-96e6-a54531cba4ff")
 	)
 	(wire
 		(pts
@@ -1416,72 +1396,6 @@
 		)
 	)
 	(sheet
-		(at 83.82 63.5)
-		(size 12.7 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "bfb076a8-082c-4e75-8c21-42e3541223ce")
-		(property "Sheetname" "UART Debugger"
-			(at 83.566 61.214 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "uart_debugger.kicad_sch"
-			(at 83.82 54.864 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "UART_TX" output
-			(at 87.63 71.12 270)
-			(uuid "459f4849-82c3-4841-b642-2af2c2201b44")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "UART_RX" input
-			(at 85.09 71.12 270)
-			(uuid "fb2ecbba-1518-4a48-87d1-a6a0ab2e7b6e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "seven"
-				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 106.68 54.102)
 		(size 20.32 10.668)
 		(exclude_from_sim no)
@@ -1878,26 +1792,6 @@
 		(pin "SWDIO" bidirectional
 			(at 71.12 77.47 90)
 			(uuid "d86fab25-23fa-4d1c-8c3c-1c3d55c68cfc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "UART_RX" input
-			(at 87.63 77.47 90)
-			(uuid "2d053f05-f13c-4442-af25-f97548623639")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "UART_TX" output
-			(at 85.09 77.47 90)
-			(uuid "2350890f-c3b5-44bd-9e55-260115e5fa14")
 			(effects
 				(font
 					(size 1.27 1.27)

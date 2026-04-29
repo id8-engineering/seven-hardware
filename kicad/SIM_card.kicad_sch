@@ -706,47 +706,39 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "seven_lib:TPD3F303DPV"
+		(symbol "seven_lib:TPD3F303DPVR"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -17.145 8.89 0)
+				(at -15.24 16.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "TPD3F303DPV"
-				(at 7.62 9.525 0)
+			(property "Value" "TPD3F303DPVR"
+				(at -15.24 -19.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "seven-lib:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias"
-				(at -1.27 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/tpd3f303"
-				(at 3.81 -12.7 0)
+			(property "Footprint" "seven-lib:SON50P210X160X65-9N"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -754,9 +746,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "Description" "3 channel EMI filters with integrated ESD protection for SIM Card Interface, USON-8"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -767,7 +760,7 @@
 					)
 				)
 			)
-			(property "MPN" "TPD3F303DPV"
+			(property "Description" "3 channel 5.5-V, ±15kV ESD protection & EMI filter with 300-MHz -3-dB for sim card"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -776,9 +769,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "ki_keywords" "EMI ESD protection"
+			(property "MF" "Texas Instruments"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -787,9 +781,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "ki_fp_filters" "*USON*1EP*1.6x2.1mm*P0.5mm*"
+			(property "MOUSER-PURCHASE-URL" "https://snapeda.com/shop?store=Mouser&id=495583"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -798,12 +793,145 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(symbol "TPD3F303DPV_0_1"
+			(property "PACKAGE" "USON-8 Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PRICE" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "USON-8 Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TPD3F303DPVR/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPD3F303DPVR/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "TPD3F303DPVR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "TEXAS_INSTRUMENTS-PURCHASE-URL" "https://snapeda.com/shop?store=Texas+Instruments&id=495583"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "AVAILABILITY" "Good"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DIGIKEY-PURCHASE-URL" "https://snapeda.com/shop?store=DigiKey&id=495583"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "TPD3F303DPVR_0_0"
 				(rectangle
-					(start -17.78 7.62)
-					(end 17.78 -7.62)
+					(start -15.24 -15.24)
+					(end 15.24 15.24)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -812,395 +940,164 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -6.858 1.524) (xy -6.858 0.762) (xy -4.826 0.762) (xy -4.826 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.842 2.032) (xy -5.842 0.762) (xy -5.842 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.842 0.762) (xy -6.604 -1.016) (xy -5.08 -1.016) (xy -5.842 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.842 -2.032) (xy 5.588 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.064 -0.508) (xy -1.524 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.794 2.032) (xy -2.794 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.794 -0.508) (xy -2.794 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy -4.064 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.143 2.032) (xy -6.858 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.143 2.032) (xy -1.143 1.397) (xy 1.397 1.397) (xy 1.397 2.667) (xy -1.143 2.667) (xy -1.143 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.032) (xy 0 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0.254) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.397 2.032) (xy 6.604 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.032) (xy 2.54 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -0.508) (xy 2.54 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -0.508) (xy 1.27 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.588 2.032) (xy 5.588 0.762) (xy 5.588 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.588 0.762) (xy 6.35 -1.016) (xy 4.826 -1.016) (xy 5.588 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.604 1.524) (xy 6.604 0.762) (xy 4.572 0.762) (xy 4.572 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TPD3F303DPV_1_1"
-				(pin passive line
-					(at 20.32 2.54 180)
-					(length 2.54)
+				(pin output line
+					(at 20.32 0 180)
+					(length 5.08)
 					(name "DATA1_OUT"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 20.32 0 180)
-					(length 2.54)
+				(pin output clock
+					(at 20.32 5.08 180)
+					(length 5.08)
 					(name "CLK_OUT"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 20.32 -2.54 180)
-					(length 2.54)
+					(length 5.08)
 					(name "DATA2_OUT"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin no_connect line
-					(at -17.78 -5.08 0)
-					(length 2.54)
-					(hide yes)
+					(at 20.32 -7.62 180)
+					(length 5.08)
 					(name "NC"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "V_{CC}"
+					(at -20.32 12.7 0)
+					(length 5.08)
+					(name "VCC"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at -20.32 -2.54 0)
-					(length 2.54)
+					(length 5.08)
 					(name "DATA2_IN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at -20.32 0 0)
-					(length 2.54)
+				(pin input clock
+					(at -20.32 5.08 0)
+					(length 5.08)
 					(name "CLK_IN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "7"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at -20.32 2.54 0)
-					(length 2.54)
+				(pin input line
+					(at -20.32 0 0)
+					(length 5.08)
 					(name "DATA1_IN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
+					(at 20.32 -12.7 180)
+					(length 5.08)
 					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "9"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1349,28 +1246,22 @@
 		(uuid "ba29cf63-17a8-4e4c-84f5-c5dafff62803")
 	)
 	(junction
-		(at 119.38 99.06)
+		(at 36.83 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0e4bbac4-1a76-4b7d-bc5d-8f83f90c7503")
+		(uuid "5ba36cef-a933-4859-91d9-80e555014498")
+	)
+	(junction
+		(at 120.65 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc212fea-9efa-49ea-b1cf-7f94af07da3c")
 	)
 	(junction
 		(at 113.03 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "55856011-ff56-4dda-b24a-1e0444e143c9")
-	)
-	(junction
-		(at 113.03 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75d6be0c-9540-4945-8f5d-0e50dc4aee52")
-	)
-	(junction
-		(at 71.12 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75e07b0a-a0cb-4f4d-8bae-d967459d9def")
+		(uuid "f9ec9eb8-dc9d-4b7b-bfe3-d772fc0640be")
 	)
 	(no_connect
 		(at 124.46 91.44)
@@ -1382,33 +1273,43 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 67.31) (xy 71.12 67.31)
+			(xy 120.65 96.52) (xy 124.46 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00d10fe4-7b29-48a4-9d97-3712c3a6996e")
+		(uuid "0311c6d1-2875-42ee-9c57-d7e9e6298432")
 	)
 	(wire
 		(pts
-			(xy 91.44 83.82) (xy 124.46 83.82)
+			(xy 39.37 86.36) (xy 41.91 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1499fecf-adaf-4098-9121-f3bf47bb1ae2")
+		(uuid "16908aed-92d0-41a4-ba46-25f4b0113a71")
 	)
 	(wire
 		(pts
-			(xy 119.38 96.52) (xy 119.38 99.06)
+			(xy 39.37 78.74) (xy 41.91 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22825f72-bc61-4882-b5da-621d1bdc628e")
+		(uuid "18fbae9a-ca9e-435f-8a5b-78b853a7206d")
+	)
+	(wire
+		(pts
+			(xy 36.83 71.12) (xy 41.91 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20dcbbdc-5244-4ce3-9966-7257f3d4add3")
 	)
 	(wire
 		(pts
@@ -1422,47 +1323,47 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 99.06) (xy 113.03 99.06)
+			(xy 36.83 60.96) (xy 36.83 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "515f6fd0-3d9d-4368-a867-3619306f0e44")
+		(uuid "47ea9067-b5c2-46cc-8715-d076694e73be")
 	)
 	(wire
 		(pts
-			(xy 119.38 99.06) (xy 124.46 99.06)
+			(xy 36.83 60.96) (xy 91.44 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a8acc96-478a-4bc8-a237-d51c3eebea94")
+		(uuid "584bd6dd-379f-4e28-a742-b907a4c6ce38")
 	)
 	(wire
 		(pts
-			(xy 113.03 100.33) (xy 113.03 99.06)
+			(xy 91.44 83.82) (xy 82.55 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b42c2f4-3445-40e0-89f1-5df73cc21ee2")
+		(uuid "5e090acd-939e-49a1-b4cc-342d6f1e393d")
 	)
 	(wire
 		(pts
-			(xy 124.46 96.52) (xy 119.38 96.52)
+			(xy 82.55 96.52) (xy 120.65 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6bfb4903-fccc-4fa2-97a2-f503fb93a943")
+		(uuid "67421d26-589e-40cd-984c-934c5c4fee02")
 	)
 	(wire
 		(pts
-			(xy 113.03 93.98) (xy 113.03 99.06)
+			(xy 113.03 95.25) (xy 113.03 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1472,7 +1373,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 71.12) (xy 113.03 86.36)
+			(xy 113.03 71.12) (xy 113.03 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1482,23 +1383,33 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 99.06) (xy 119.38 99.06)
+			(xy 120.65 96.52) (xy 120.65 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "99736571-5d5e-4d08-9575-8fe3c83254be")
+		(uuid "915c1b47-395b-46ef-a70b-daa07bdba98e")
 	)
 	(wire
 		(pts
-			(xy 91.44 81.28) (xy 124.46 81.28)
+			(xy 82.55 81.28) (xy 82.55 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a07b3536-28cc-4b47-b3ad-9771f9a1420a")
+		(uuid "9df60fa5-1886-41b5-8dde-a878ec6613da")
+	)
+	(wire
+		(pts
+			(xy 39.37 83.82) (xy 41.91 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac599606-10f9-4e50-8dae-bb9a0e4932f6")
 	)
 	(wire
 		(pts
@@ -1512,13 +1423,23 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 99.06) (xy 71.12 91.44)
+			(xy 82.55 86.36) (xy 124.46 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b251a240-0e23-44d8-8cf5-285805d28afc")
+		(uuid "aeb0a912-583e-42c5-9e1a-85b77cf3c86a")
+	)
+	(wire
+		(pts
+			(xy 91.44 78.74) (xy 91.44 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed007b5-3b0b-4712-bfbf-bca6057bb540")
 	)
 	(polyline
 		(pts
@@ -1532,27 +1453,17 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 67.31) (xy 71.12 71.12)
+			(xy 120.65 99.06) (xy 124.46 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b75fe391-cc1e-4677-845b-fe2238f42d00")
+		(uuid "c11cb81f-689b-42f3-931e-c708588be98a")
 	)
 	(wire
 		(pts
-			(xy 50.8 78.74) (xy 49.53 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2e4f4a4-de6b-4954-9398-33e1d56da5be")
-	)
-	(wire
-		(pts
-			(xy 91.44 71.12) (xy 91.44 67.31)
+			(xy 91.44 71.12) (xy 91.44 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1562,7 +1473,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 67.31) (xy 71.12 67.31)
+			(xy 30.48 60.96) (xy 36.83 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1572,23 +1483,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 83.82) (xy 124.46 86.36)
+			(xy 82.55 81.28) (xy 124.46 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e23627be-33de-4916-a647-21c77bcf5488")
-	)
-	(wire
-		(pts
-			(xy 49.53 83.82) (xy 50.8 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9e2080d-7d19-4e68-a06f-2a435b9c320a")
+		(uuid "de03720a-1bc3-4c85-9277-49fc3241171c")
 	)
 	(wire
 		(pts
@@ -1600,19 +1501,9 @@
 		)
 		(uuid "f8cfe2ca-de21-469c-a0a1-6c4d0f9acd67")
 	)
-	(wire
-		(pts
-			(xy 49.53 81.28) (xy 50.8 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff79c627-70d6-414a-b9bb-86e1de986bad")
-	)
 	(global_label "VDD_1V8"
 		(shape input)
-		(at 63.5 67.31 90)
+		(at 30.48 60.96 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1622,7 +1513,7 @@
 		)
 		(uuid "10c64e05-ccb3-4a4f-8df3-ba4d1d2a823b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.5 56.221 90)
+			(at 30.48 49.871 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1636,7 +1527,7 @@
 	)
 	(hierarchical_label "SIM_IO"
 		(shape bidirectional)
-		(at 49.53 83.82 180)
+		(at 39.37 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1647,7 +1538,7 @@
 	)
 	(hierarchical_label "SIM_RST"
 		(shape input)
-		(at 49.53 78.74 180)
+		(at 39.37 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1658,7 +1549,7 @@
 	)
 	(hierarchical_label "SIM_CLK"
 		(shape input)
-		(at 49.53 81.28 180)
+		(at 39.37 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1666,131 +1557,6 @@
 			(justify right)
 		)
 		(uuid "ccd15485-099a-4975-992d-81f66d8a2e97")
-	)
-	(symbol
-		(lib_id "seven_lib:TPD3F303DPV")
-		(at 71.12 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d349e0b-3644-4607-b4cc-1199f5df1ebf")
-		(property "Reference" "U2"
-			(at 73.2633 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TPD3F303DPV"
-			(at 73.2633 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "seven-lib:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias"
-			(at 69.85 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tpd3f303"
-			(at 74.93 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "3 channel EMI filters with integrated ESD protection for SIM Card Interface, USON-8"
-			(at 71.12 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TPD3F303DPV"
-			(at 71.12 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 71.12 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "8e077644-b08b-4569-9195-caeaa4270fec")
-		)
-		(pin "7"
-			(uuid "aa3940d4-216e-496d-b136-76eac401369f")
-		)
-		(pin "6"
-			(uuid "f502f2ac-60d6-4873-aa85-b6e8ac7b3276")
-		)
-		(pin "4"
-			(uuid "d416252a-7bde-44ca-b5cc-66a82c3a71e2")
-		)
-		(pin "5"
-			(uuid "0a75e4fe-1dd6-4031-b730-1abbc2ea8898")
-		)
-		(pin "9"
-			(uuid "3164b24f-5cdd-4611-9d10-769699363698")
-		)
-		(pin "1"
-			(uuid "d7790c84-1f4e-46fc-bdf8-7b1ae1474d3a")
-		)
-		(pin "2"
-			(uuid "47a7f200-dcb0-464e-adf9-c9c6b04fdce2")
-		)
-		(pin "3"
-			(uuid "d1ba1424-16b9-4370-90b2-07411d18fef4")
-		)
-		(instances
-			(project "seven"
-				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/ef31896a-fdc5-4b8e-a0fb-516beec6daff"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "seven_lib:NSIM-2-C")
@@ -2079,7 +1845,7 @@
 	)
 	(symbol
 		(lib_id "seven_lib:C")
-		(at 113.03 90.17 0)
+		(at 113.03 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2090,7 +1856,7 @@
 		(fields_autoplaced yes)
 		(uuid "adf38b43-932f-45d4-b8e2-f70ee45476a9")
 		(property "Reference" "C1"
-			(at 116.84 88.8999 0)
+			(at 116.84 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2101,7 +1867,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 116.84 91.4399 0)
+			(at 116.84 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2112,7 +1878,7 @@
 			)
 		)
 		(property "Footprint" "seven-lib:C_0402_1005Metric"
-			(at 113.9952 93.98 0)
+			(at 113.9952 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2123,7 +1889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 90.17 0)
+			(at 113.03 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2134,7 +1900,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 113.03 90.17 0)
+			(at 113.03 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2145,7 +1911,7 @@
 			)
 		)
 		(property "MPN" "GRM155R71C103KA01D"
-			(at 113.03 90.17 0)
+			(at 113.03 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2156,7 +1922,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 113.03 90.17 0)
+			(at 113.03 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2254,6 +2020,265 @@
 			(project "seven"
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/ef31896a-fdc5-4b8e-a0fb-516beec6daff"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "seven_lib:TPD3F303DPVR")
+		(at 62.23 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef141e88-7524-45ff-a561-d2ff111359be")
+		(property "Reference" "U3"
+			(at 62.23 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPD3F303DPVR"
+			(at 62.23 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "seven-lib:SON50P210X160X65-9N"
+			(at 62.23 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3 channel 5.5-V, ±15kV ESD protection & EMI filter with 300-MHz -3-dB for sim card"
+			(at 62.23 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 62.23 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MOUSER-PURCHASE-URL" "https://snapeda.com/shop?store=Mouser&id=495583"
+			(at 62.23 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PACKAGE" "USON-8 Texas Instruments"
+			(at 62.23 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PRICE" "None"
+			(at 62.23 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "USON-8 Texas Instruments"
+			(at 62.23 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TPD3F303DPVR/Texas+Instruments/view-part/?ref=eda"
+			(at 62.23 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 62.23 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPD3F303DPVR/Texas+Instruments/view-part/?ref=snap"
+			(at 62.23 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "TPD3F303DPVR"
+			(at 62.23 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "TEXAS_INSTRUMENTS-PURCHASE-URL" "https://snapeda.com/shop?store=Texas+Instruments&id=495583"
+			(at 62.23 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 62.23 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "AVAILABILITY" "Good"
+			(at 62.23 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DIGIKEY-PURCHASE-URL" "https://snapeda.com/shop?store=DigiKey&id=495583"
+			(at 62.23 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "8"
+			(uuid "be7cd5cc-c806-487d-a2d9-0239c6182de7")
+		)
+		(pin "7"
+			(uuid "2f1a41dc-66e5-4190-bf6c-85e31339550b")
+		)
+		(pin "6"
+			(uuid "058a7a5a-2cdb-473c-a664-9325acefa50d")
+		)
+		(pin "3"
+			(uuid "0ea489c5-4197-458a-b30e-ace1e15dbd28")
+		)
+		(pin "1"
+			(uuid "9bf98b62-f1b8-43bf-bb33-704e6d25277d")
+		)
+		(pin "5"
+			(uuid "2e07d15b-bec0-44bd-88ce-5ce73c8c3ff3")
+		)
+		(pin "9"
+			(uuid "302fdb7d-67b5-418e-ae9f-f743548584c5")
+		)
+		(pin "2"
+			(uuid "60bbfdd6-d219-4f60-99f2-7cd0b30164be")
+		)
+		(pin "4"
+			(uuid "9f8521d3-b93b-49fc-a87c-1e6262f14ee4")
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/ef31896a-fdc5-4b8e-a0fb-516beec6daff"
+					(reference "U3")
 					(unit 1)
 				)
 			)

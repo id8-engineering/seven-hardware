@@ -165,6 +165,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 107.95) (xy 67.31 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e312942-526b-4e77-a493-6920c148a6bf")
+	)
+	(wire
+		(pts
 			(xy 100.33 71.12) (xy 100.33 77.47)
 		)
 		(stroke
@@ -1899,6 +1909,16 @@
 				(justify right)
 			)
 		)
+		(pin "SIM_1V8" output
+			(at 67.31 107.95 180)
+			(uuid "7dec9fd4-6412-4875-ba93-42e9dc6a1a32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "seven"
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
@@ -1966,7 +1986,7 @@
 	)
 	(sheet
 		(at 48.26 99.06)
-		(size 12.7 8.128)
+		(size 12.7 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1992,7 +2012,7 @@
 			)
 		)
 		(property "Sheetfile" "SIM_card.kicad_sch"
-			(at 48.26 107.7726 0)
+			(at 48.26 109.8046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2026,6 +2046,16 @@
 		(pin "SIM_CLK" input
 			(at 60.96 102.87 0)
 			(uuid "17c06efc-ee5e-4fa2-b943-5c9ecd13bb5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SIM_1V8" input
+			(at 60.96 107.95 0)
+			(uuid "08cc7071-8f6b-4f3a-aef9-30a43c8ad5fa")
 			(effects
 				(font
 					(size 1.27 1.27)

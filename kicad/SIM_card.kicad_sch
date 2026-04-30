@@ -1501,30 +1501,6 @@
 		)
 		(uuid "f8cfe2ca-de21-469c-a0a1-6c4d0f9acd67")
 	)
-	(global_label "VDD_1V8"
-		(shape input)
-		(at 30.48 60.96 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "10c64e05-ccb3-4a4f-8df3-ba4d1d2a823b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.48 49.871 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(hierarchical_label "SIM_IO"
 		(shape bidirectional)
 		(at 39.37 86.36 180)
@@ -1535,6 +1511,17 @@
 			(justify right)
 		)
 		(uuid "140a50d1-5e25-460c-8fec-8d20f941f34c")
+	)
+	(hierarchical_label "SIM_1V8"
+		(shape input)
+		(at 30.48 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3209cc50-ba38-4275-a6ed-e60617930dde")
 	)
 	(hierarchical_label "SIM_RST"
 		(shape input)

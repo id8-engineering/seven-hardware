@@ -475,6 +475,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 71.12) (xy 87.63 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9d7ba6b-73e3-4dec-b255-aac0a9a496bf")
+	)
+	(wire
+		(pts
 			(xy 127 58.42) (xy 133.35 58.42)
 		)
 		(stroke
@@ -592,6 +602,16 @@
 			(type default)
 		)
 		(uuid "e70f7e58-0c53-4455-b56f-7ee0e4e116ba")
+	)
+	(wire
+		(pts
+			(xy 83.82 71.12) (xy 83.82 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecbba1b6-825d-4aac-9f4b-f1d6a316d415")
 	)
 	(wire
 		(pts
@@ -1235,6 +1255,72 @@
 			(project "seven"
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 60.96)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "940eac2d-c100-4374-bc50-bce1e4d40d2f")
+		(property "Sheetname" "UART Debugger"
+			(at 80.772 59.944 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "uart_debugger.kicad_sch"
+			(at 94.5646 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "UART_RX" input
+			(at 83.82 71.12 270)
+			(uuid "eeb45f84-9118-40a2-b364-12dacc886f8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_TX" output
+			(at 87.63 71.12 270)
+			(uuid "deab28da-abe8-4d73-bf33-bb257efeb975")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
+					(page "9")
 				)
 			)
 		)
@@ -1917,6 +2003,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "UART_TX" output
+			(at 83.82 77.47 90)
+			(uuid "871322a3-5107-4421-b5b3-16b33bff975a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_RX" input
+			(at 87.63 77.47 90)
+			(uuid "f8f4c6ea-d68b-4aea-9140-b099b426657a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

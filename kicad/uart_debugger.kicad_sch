@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "0617caac-ce3d-44ad-acb0-ce2a2272b2e4")
+	(uuid "e1ffdfc9-665d-4f47-a669-7d6268e59e03")
 	(paper "A4")
 	(lib_symbols
 		(symbol "seven_lib:Conn_01x03"
@@ -338,7 +338,27 @@
 				(size 4.572 4.572)
 			)
 		)
-		(uuid "f1d11682-d249-467b-be48-e3f6f05a6054")
+		(uuid "383d633f-546c-49d7-a93a-3c26e280391b")
+	)
+	(text_box "This circuit provides a UART debug interface that allows serial communication between the MCU and an external device such as a PC or USB-to-UART adapter."
+		(exclude_from_sim no)
+		(at 176.53 24.13 0)
+		(size 107.95 53.34)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "33af0011-21f8-4344-91f9-0bdc86abead0")
 	)
 	(text_box "UART Debugger"
 		(exclude_from_sim no)
@@ -360,27 +380,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "1a90f100-2aac-4e78-a9d0-29fe60afdbc8")
-	)
-	(text_box "This circuit provides a UART debug interface that allows serial communication between the MCU and an external device such as a PC or USB-to-UART adapter."
-		(exclude_from_sim no)
-		(at 176.53 24.13 0)
-		(size 107.95 53.34)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left top)
-		)
-		(uuid "36617dc8-cd57-4872-ba9d-2ea345cb3673")
+		(uuid "c057afb4-a828-4e57-8a39-3a5a7bd1a122")
 	)
 	(text_box "Circuit Description\n"
 		(exclude_from_sim no)
@@ -402,27 +402,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "8f65721a-a82c-4ccc-83ca-13a5d39a5a40")
-	)
-	(wire
-		(pts
-			(xy 83.82 88.9) (xy 85.09 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15a930d6-110d-42c7-b083-eff3b10994c7")
-	)
-	(polyline
-		(pts
-			(xy 176.53 77.47) (xy 284.48 77.47)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "97324fd3-69bb-4ca5-9ea6-c2acb94064a0")
+		(uuid "c65e608e-835d-4350-ba40-cac0adfe36b3")
 	)
 	(wire
 		(pts
@@ -432,7 +412,27 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a01ca990-1202-4945-b791-3ec3670773a5")
+		(uuid "41a6adef-3286-4cca-9922-369fe51f979c")
+	)
+	(wire
+		(pts
+			(xy 83.82 88.9) (xy 85.09 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70094044-2e74-4e58-a90e-71e303ce8b51")
+	)
+	(polyline
+		(pts
+			(xy 176.53 77.47) (xy 284.48 77.47)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "72761625-fc50-4bc3-af5f-033910c2b8de")
 	)
 	(wire
 		(pts
@@ -442,18 +442,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b6b8ef39-4cfc-4c69-92c2-2ff771727880")
-	)
-	(hierarchical_label "UART_TX"
-		(shape output)
-		(at 83.82 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "79b8d858-5b50-4218-8428-950327e603ef")
+		(uuid "c7b8b41c-4ab6-4165-89a8-600b7e330b1c")
 	)
 	(hierarchical_label "UART_RX"
 		(shape input)
@@ -464,7 +453,97 @@
 			)
 			(justify right)
 		)
-		(uuid "7f6bd917-0bdc-44a0-a367-77eaaa10c485")
+		(uuid "4eb9e474-abc3-45e3-8e1a-a9697f575613")
+	)
+	(hierarchical_label "UART_TX"
+		(shape output)
+		(at 83.82 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff2c8f68-036b-48ad-bef1-660b5ed72389")
+	)
+	(symbol
+		(lib_id "seven_lib:GND")
+		(at 83.82 86.36 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6cd2f8b-c6e6-4f02-9ef3-66cbb8bd4911")
+		(property "Reference" "#PWR06"
+			(at 77.47 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 86.3599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2541ca3a-bf8f-4ecd-86da-8175bdec0cd8")
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/940eac2d-c100-4374-bc50-bce1e4d40d2f"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "seven_lib:Conn_01x03")
@@ -477,7 +556,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7f6c1a26-d15a-4314-b536-4ef1910793ca")
+		(uuid "dad1d224-72e8-4f22-ab5d-45c378c6dd4f")
 		(property "Reference" "J3"
 			(at 92.71 87.6299 0)
 			(show_name no)
@@ -567,97 +646,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "1eaf7a7b-1927-4a6f-a661-7133217990a3")
+			(uuid "071a2635-ce92-463d-b57d-420e583c121c")
 		)
 		(pin "3"
-			(uuid "3a306d53-dc5c-484c-a5e3-00550aaca544")
+			(uuid "3d5b0195-eaa5-42f4-b4fb-e808c814f170")
 		)
 		(pin "1"
-			(uuid "bd20d49d-a365-4101-8ffd-25d5adfa9de4")
+			(uuid "2a3927c2-26df-41ec-807b-8e6ba1b79598")
 		)
 		(instances
 			(project "seven"
-				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/bfb076a8-082c-4e75-8c21-42e3541223ce"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/940eac2d-c100-4374-bc50-bce1e4d40d2f"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "seven_lib:GND")
-		(at 83.82 86.36 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d221e62-fdd2-4c3b-8c94-a4fe10437fff")
-		(property "Reference" "#PWR06"
-			(at 77.47 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 80.01 86.3599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e9d26d6f-073e-4a57-98ca-8ea5c0be39c0")
-		)
-		(instances
-			(project "seven"
-				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/bfb076a8-082c-4e75-8c21-42e3541223ce"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)

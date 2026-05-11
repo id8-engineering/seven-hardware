@@ -865,7 +865,7 @@
         "uuid": "8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
       }
     ],
-    "used_designators": "#FLG6,U3",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -900,6 +900,10 @@
     [
       "05f18bcb-1f58-4fb2-bbec-23b1ba834d60",
       "JTAG SWD"
+    ],
+    [
+      "940eac2d-c100-4374-bc50-bce1e4d40d2f",
+      "UART Debugger"
     ],
     [
       "fcef6494-c0b2-4cc5-a2e1-aeb845f0853f",

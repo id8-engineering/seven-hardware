@@ -5882,15 +5882,15 @@
 			(uuid "5afabe77-2294-407e-9e27-5c41d4f3bd7a")
 		)
 		(embedded_fonts no)
-		(model "/home/bobo/my_lib_kicad/SMA_CONNECTOR.step"
+		(model "${KIPRJMOD}/3dmodels/c-2081679-1-1-3d.igs"
 			(offset
-				(xyz 0 0 -4)
+				(xyz 15.7 0 6.1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz 90 -180 90)
 			)
 		)
 	)
@@ -15549,15 +15549,15 @@
 			(uuid "9cb2b39b-5f61-41df-9603-78d527047a2c")
 		)
 		(embedded_fonts no)
-		(model "/home/bobo/my_lib_kicad/SMA_CONNECTOR.step"
+		(model "${KIPRJMOD}/3dmodels/c-2081679-1-1-3d.igs"
 			(offset
-				(xyz 0 0 -4)
+				(xyz 15.7 0 6.1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz 90 -180 90)
 			)
 		)
 	)

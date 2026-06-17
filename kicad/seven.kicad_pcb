@@ -10370,7 +10370,7 @@
 			(size 0.45 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.05)
-			(net "/MCU/PWN1")
+			(net "/MCU/PWM1")
 			(pinfunction "P0.17/AIN4_78")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.05)
@@ -18830,7 +18830,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/MCU/PWN1")
+			(net "/MCU/PWM1")
 			(pinfunction "PWM_8")
 			(pintype "input")
 			(uuid "c459b7bd-921b-455c-91af-dc9fddbf8f93")
@@ -40874,7 +40874,7 @@
 		(end 166.6 72.09)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/PWN1")
+		(net "/MCU/PWM1")
 		(uuid "02fb3e8c-43e0-4219-afd8-cf8282f8679f")
 	)
 	(segment
@@ -40882,7 +40882,7 @@
 		(end 174 67.019056)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/PWN1")
+		(net "/MCU/PWM1")
 		(uuid "0f1ba8d8-021d-4e28-b5d0-ce021c96d984")
 	)
 	(segment
@@ -40890,7 +40890,7 @@
 		(end 152.06 85.58)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/PWN1")
+		(net "/MCU/PWM1")
 		(uuid "4b06a889-6cfd-4e40-8605-8262e6c4e04a")
 	)
 	(segment
@@ -40898,7 +40898,7 @@
 		(end 153.11 85.58)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/PWN1")
+		(net "/MCU/PWM1")
 		(uuid "68923c4c-b534-4c45-b33f-aa24df074f8c")
 	)
 	(segment
@@ -40906,7 +40906,7 @@
 		(end 173.8 67.219056)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/MCU/PWN1")
+		(net "/MCU/PWM1")
 		(uuid "d285c9fa-f963-42b4-8a65-d12162f263cb")
 	)
 	(via
@@ -40924,7 +40924,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/PWN1")
+		(net "/MCU/PWM1")
 		(uuid "31b04de7-7dc5-4a41-9fd1-246829149fa6")
 	)
 	(via
@@ -40942,7 +40942,7 @@
 			(back no)
 		)
 		(filling no)
-		(net "/MCU/PWN1")
+		(net "/MCU/PWM1")
 		(uuid "efcc4e76-1dae-48a9-bc87-bfd2c3e87cb1")
 	)
 	(segment
@@ -40950,7 +40950,7 @@
 		(end 173.630944 66.65)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/PWN1")
+		(net "/MCU/PWM1")
 		(uuid "4841691c-1664-4a82-95e2-239a76bdc802")
 	)
 	(segment
@@ -40958,7 +40958,7 @@
 		(end 168.73567 66.65)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/PWN1")
+		(net "/MCU/PWM1")
 		(uuid "d20206e3-b347-419e-98bc-e8946fc3a886")
 	)
 	(segment
@@ -40966,7 +40966,7 @@
 		(end 166.6 68.78567)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/PWN1")
+		(net "/MCU/PWM1")
 		(uuid "d81ad5ec-d6a2-44d0-8963-df6c1bd5c914")
 	)
 	(segment
@@ -40974,7 +40974,7 @@
 		(end 174 67.019056)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/MCU/PWN1")
+		(net "/MCU/PWM1")
 		(uuid "e20b5566-9a30-4b90-809a-7f7e46f697f1")
 	)
 	(segment

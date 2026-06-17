@@ -4415,7 +4415,7 @@
 		)
 		(uuid "01543da6-32a5-43db-ad22-1fc5b31d17fd")
 	)
-	(hierarchical_label "PWN1"
+	(hierarchical_label "PWM1"
 		(shape output)
 		(at 57.15 104.14 180)
 		(effects

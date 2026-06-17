@@ -1124,7 +1124,7 @@
 			(uuid "bd01a078-f6b0-482e-bb41-3a3d6b2a96ec")
 		)
 		(embedded_fonts no)
-		(model "/home/bobo/my_lib_kicad/CMT-8504-100-SMT-TR.step"
+		(model "${KIPRJMOD}/3dmodels/CMT-8504-100-SMT-TR--3DModel-STEP-1.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2261,6 +2261,17 @@
 			(uuid "92c0b624-cfd7-46cc-9389-c2887f854a96")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3dmodels/TPD3F303DPVR--3DModel-STEP-56544.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
+			)
+		)
 	)
 	(footprint "seven-lib:TestPoint_Pad_2.0x2.0mm"
 		(layer "F.Cu")
@@ -3908,7 +3919,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "/home/bobo/my_lib_kicad/NSIM-2-C.step"
+		(model "${KIPRJMOD}/3dmodels/NSIM-2-C--3DModel-STEP-1.STEP"
 			(offset
 				(xyz 0 -9.5 0)
 			)
@@ -4982,6 +4993,17 @@
 			(uuid "f39f71c3-4227-4ba1-96f9-f5aa198ba5b3")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3dmodels/M20-7820842--3DModel-STEP-56544.STEP"
+			(offset
+				(xyz -11.5 -8.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
+			)
+		)
 	)
 	(footprint "seven-lib:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -6392,6 +6414,17 @@
 			(uuid "d40113ae-b8f0-4496-9e93-fe62e2a4d32d")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3dmodels/ISL85410FRZ-T7A.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "seven-lib:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -8761,6 +8794,17 @@
 			(uuid "660d4047-121f-4103-84c2-3c2cb0768e41")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3dmodels/TL3336AF160Q--3DModel-STEP-510211.STEP"
+			(offset
+				(xyz 0 0.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "seven-lib:C_0805_2012Metric"
 		(layer "F.Cu")
@@ -10762,7 +10806,7 @@
 			(uuid "a86c4ac8-7852-4faa-9e07-b29401cae539")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_hlord2000_nordic-lib-kicad/nordic-lib-kicad-nrf9.3dshapes/LGA_9151_12.1x11.1mm.STEP"
+		(model "${KIPRJMOD}/3dmodels/NRF9151-LACA-R--3DModel-STEP-510211.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10770,7 +10814,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -17521,6 +17565,17 @@
 			(uuid "67c45212-6fb0-47db-b52b-27c50fb58516")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3dmodels/M20-7820842--3DModel-STEP-56544.STEP"
+			(offset
+				(xyz 11.5 17 -0.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
+			)
+		)
 	)
 	(footprint "seven-lib:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -18836,6 +18891,17 @@
 			(uuid "c459b7bd-921b-455c-91af-dc9fddbf8f93")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3dmodels/M20-7820842--3DModel-STEP-56544.STEP"
+			(offset
+				(xyz 11.5 -1 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
+			)
+		)
 	)
 	(footprint "seven-lib:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm_ThermalVias"
 		(layer "F.Cu")
@@ -21386,6 +21452,17 @@
 			(uuid "1d5d2c25-5fd9-4f02-b8b8-126109f0ae89")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3dmodels/M20-7820842--3DModel-STEP-56544.STEP"
+			(offset
+				(xyz -11.5 9.2 -0.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
+			)
+		)
 	)
 	(footprint "seven-lib:C_0805_2012Metric"
 		(layer "F.Cu")

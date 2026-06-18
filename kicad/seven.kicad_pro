@@ -881,7 +881,7 @@
         "uuid": "8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D4,C22-23,C36,R19-20,#PWR2,#PWR29,#PWR48,#PWR53-57,J1,U2",
     "variants": []
   },
   "sheets": [
@@ -944,6 +944,10 @@
     [
       "cefcb938-0954-4d9a-a5b2-e2e651c202a6",
       "PMIC"
+    ],
+    [
+      "ab9c185f-8874-4703-ad0b-ef7d1358f608",
+      "USB-TO-UART"
     ]
   ],
   "text_variables": {},

@@ -4083,16 +4083,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 157.48) (xy 124.46 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb688938-85aa-4c01-81ad-1d5c2b571820")
-	)
-	(wire
-		(pts
 			(xy 97.79 38.1) (xy 96.52 38.1)
 		)
 		(stroke
@@ -4280,6 +4270,16 @@
 			(type default)
 		)
 		(uuid "e811b5d9-d08a-4bdb-9b0c-5c15464f75e7")
+	)
+	(wire
+		(pts
+			(xy 125.73 157.48) (xy 124.46 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee213789-ef47-4b35-bb6a-c810163d5c1e")
 	)
 	(wire
 		(pts
@@ -4558,17 +4558,6 @@
 		)
 		(uuid "53484025-0e80-4b04-af07-f0721ac79a02")
 	)
-	(hierarchical_label "SWCLK"
-		(shape input)
-		(at 125.73 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "61ebe08f-a31a-44b7-ba11-df8a1875fb50")
-	)
 	(hierarchical_label "UART_TX"
 		(shape output)
 		(at 57.15 116.84 180)
@@ -4810,6 +4799,17 @@
 			(justify right)
 		)
 		(uuid "e0e5a326-d3cc-4297-a85c-7bda6de31894")
+	)
+	(hierarchical_label "SWDCLK"
+		(shape input)
+		(at 125.73 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eab7f283-f761-4f77-8f20-aeb20a4d90a2")
 	)
 	(hierarchical_label "UART_RX2"
 		(shape input)

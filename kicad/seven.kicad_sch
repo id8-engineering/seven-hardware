@@ -117,11 +117,25 @@
 		)
 		(uuid "fe2362c3-d57c-4798-9bfe-b4e09cb8fdeb")
 	)
-	(junction
-		(at 68.58 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "791160ae-6223-43e0-9df4-2ff5dd00d497")
+	(no_connect
+		(at 73.66 71.12)
+		(uuid "285d24f9-99db-47fc-9d58-33bb5a5b92ca")
+	)
+	(no_connect
+		(at 83.82 71.12)
+		(uuid "3c3f6e50-5a63-420a-abd8-281ab450808b")
+	)
+	(no_connect
+		(at 71.12 71.12)
+		(uuid "57be3301-fa69-435e-aca0-7539e1de7bbf")
+	)
+	(no_connect
+		(at 68.58 71.12)
+		(uuid "8cb6075f-8ded-4eee-886e-a09786f29706")
+	)
+	(no_connect
+		(at 87.63 71.12)
+		(uuid "ac0add0c-f6b7-458f-933a-fa91ee548ef3")
 	)
 	(wire
 		(pts
@@ -155,13 +169,23 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 73.66) (xy 68.58 77.47)
+			(xy 60.96 156.21) (xy 67.31 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ece226d-5bcd-4cf7-9078-803c02f9b0c9")
+		(uuid "0f9f12a5-5f59-444e-8912-c30dbd9bf9a9")
+	)
+	(wire
+		(pts
+			(xy 60.96 146.05) (xy 67.31 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c21ee63-c9d6-48b4-bc44-720bdec125b0")
 	)
 	(wire
 		(pts
@@ -375,16 +399,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 71.12) (xy 71.12 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e57b274-b8e7-4ddc-bc29-07411037b9a2")
-	)
-	(wire
-		(pts
 			(xy 113.03 127) (xy 121.92 127)
 		)
 		(stroke
@@ -435,6 +449,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 140.97) (xy 67.31 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97320593-a848-4a76-a0a9-0033e0818ea8")
+	)
+	(wire
+		(pts
 			(xy 113.03 156.21) (xy 121.92 156.21)
 		)
 		(stroke
@@ -445,16 +469,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 71.12) (xy 73.66 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a22adcb-fedb-4905-b393-11a1bc6c8861")
-	)
-	(wire
-		(pts
 			(xy 107.95 71.12) (xy 100.33 71.12)
 		)
 		(stroke
@@ -462,26 +476,6 @@
 			(type default)
 		)
 		(uuid "a34c9735-4294-4a56-8f68-7dbd812c32d0")
-	)
-	(wire
-		(pts
-			(xy 60.96 73.66) (xy 68.58 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a52475af-0a70-49ab-9a3a-24c41fc10e42")
-	)
-	(wire
-		(pts
-			(xy 87.63 71.12) (xy 87.63 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9d7ba6b-73e3-4dec-b255-aac0a9a496bf")
 	)
 	(wire
 		(pts
@@ -535,6 +529,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 148.59) (xy 67.31 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed4ca44-296a-48bf-88e7-dc1d784600b9")
+	)
+	(wire
+		(pts
 			(xy 127 48.26) (xy 133.35 48.26)
 		)
 		(stroke
@@ -585,16 +589,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 71.12) (xy 68.58 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5cc4ba1-46ba-495f-b862-c323ef17a692")
-	)
-	(wire
-		(pts
 			(xy 60.96 105.41) (xy 67.31 105.41)
 		)
 		(stroke
@@ -605,13 +599,13 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 71.12) (xy 83.82 77.47)
+			(xy 60.96 143.51) (xy 67.31 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ecbba1b6-825d-4aac-9f4b-f1d6a316d415")
+		(uuid "f7d9d8aa-2f0b-4b52-884b-065657e95dba")
 	)
 	(wire
 		(pts
@@ -1492,6 +1486,93 @@
 		)
 	)
 	(sheet
+		(at 44.45 139.7)
+		(size 16.51 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ce349f74-fc3c-462a-b9fe-94e66834be85")
+		(property "Sheetname" "Debug probe"
+			(at 44.45 138.9884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "debug_probe.kicad_sch"
+			(at 44.45 150.4446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SWCLK" output
+			(at 60.96 140.97 0)
+			(uuid "19eb192e-e69e-465c-a868-88bcda507b34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWDIO" bidirectional
+			(at 60.96 143.51 0)
+			(uuid "b063c4a6-e6e3-4a61-ac00-bc71f342ce7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_TX" output
+			(at 60.96 148.59 0)
+			(uuid "a576fcc1-ffe8-499d-82ac-1ae1cbc46d20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_RX" input
+			(at 60.96 146.05 0)
+			(uuid "d7443dbb-d1c8-4fe4-b75d-877bfbbf18ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 106.68 54.102)
 		(size 20.32 10.668)
 		(exclude_from_sim no)
@@ -1866,33 +1947,23 @@
 			)
 		)
 		(pin "nRESET" input
-			(at 68.58 77.47 90)
+			(at 67.31 156.21 180)
 			(uuid "30d8fa65-ea6f-4de2-a3ba-214b4bec6acf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-			)
-		)
-		(pin "SWCLK" input
-			(at 73.66 77.47 90)
-			(uuid "2d7679f3-b2de-466f-bb08-626f4f6fbec3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "SWDIO" bidirectional
-			(at 71.12 77.47 90)
+			(at 67.31 143.51 180)
 			(uuid "d86fab25-23fa-4d1c-8c3c-1c3d55c68cfc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "BUZZER" output
@@ -1996,23 +2067,23 @@
 			)
 		)
 		(pin "UART_TX" output
-			(at 83.82 77.47 90)
+			(at 67.31 146.05 180)
 			(uuid "871322a3-5107-4421-b5b3-16b33bff975a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "UART_RX" input
-			(at 87.63 77.47 90)
+			(at 67.31 148.59 180)
 			(uuid "f8f4c6ea-d68b-4aea-9140-b099b426657a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "PWM1" output
@@ -2023,6 +2094,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "SWDCLK" input
+			(at 67.31 140.97 180)
+			(uuid "dd5f270d-a5be-4c86-80b4-540e90ee5004")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -2178,7 +2259,7 @@
 		)
 	)
 	(sheet
-		(at 48.26 71.12)
+		(at 48.26 153.67)
 		(size 12.7 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2193,7 +2274,7 @@
 		)
 		(uuid "fcef6494-c0b2-4cc5-a2e1-aeb845f0853f")
 		(property "Sheetname" "Reset Button"
-			(at 48.26 70.4084 0)
+			(at 48.26 152.9584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2204,7 +2285,7 @@
 			)
 		)
 		(property "Sheetfile" "reset_button.kicad_sch"
-			(at 39.37 76.708 0)
+			(at 39.37 159.258 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2216,7 +2297,7 @@
 			)
 		)
 		(pin "nRESET" output
-			(at 60.96 73.66 0)
+			(at 60.96 156.21 0)
 			(uuid "0d9931bd-0724-4957-9be8-73bf04c09f7c")
 			(effects
 				(font

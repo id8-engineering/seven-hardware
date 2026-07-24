@@ -462,27 +462,20 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "seven_lib:Jumper_3_Open"
+		(symbol "seven_lib:Jumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom no)
+			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "JP"
-				(at -2.54 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_3_Open"
 				(at 0 2.794 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -492,7 +485,17 @@
 					)
 				)
 			)
-			(property "Footprint" "seven-lib:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left"
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "seven-lib:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -514,7 +517,7 @@
 					)
 				)
 			)
-			(property "Description" "Jumper, 3-pole, both open"
+			(property "Description" "Jumper, 2-pole, open"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -525,7 +528,7 @@
 					)
 				)
 			)
-			(property "MPN" "M20-8770342"
+			(property "MPN" "M20-8770242P"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -536,7 +539,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Jumper SPDT"
+			(property "Shunt MPN" "M7567-05"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -547,7 +550,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
+			(property "Assembly Note" "FIT SHUNT ON JP2"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -558,9 +561,31 @@
 					)
 				)
 			)
-			(symbol "Jumper_3_Open_0_0"
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
 				(circle
-					(center -3.302 0)
+					(center -2.032 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -571,18 +596,7 @@
 					)
 				)
 				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.302 0)
+					(center 2.032 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -593,35 +607,11 @@
 					)
 				)
 			)
-			(symbol "Jumper_3_Open_0_1"
+			(symbol "Jumper_2_Open_0_1"
 				(arc
-					(start -3.048 1.016)
-					(mid -1.651 1.4992)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.508) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.651 1.4992)
-					(end 3.048 1.016)
+					(start -1.524 1.27)
+					(mid 0 1.778)
+					(end 1.524 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -631,9 +621,9 @@
 					)
 				)
 			)
-			(symbol "Jumper_3_Open_1_1"
+			(symbol "Jumper_2_Open_1_1"
 				(pin passive line
-					(at -6.35 0 0)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -651,25 +641,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
+					(at 5.08 0 180)
 					(length 2.54)
 					(name "B"
 						(effects
@@ -678,7 +650,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -934,129 +906,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "seven_lib:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "seven-lib:TestPoint_Pad_2.0x2.0mm"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3422,28 +3271,10 @@
 		(uuid "cec19a1f-0edd-45d9-9635-984dfe2d0ef2")
 	)
 	(junction
-		(at 88.9 19.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0deea1d8-7fd4-4a4d-9e9c-2cd0d76e24dc")
-	)
-	(junction
-		(at 88.9 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bb43ecf-06e9-4e52-a4d4-a4bd4116f665")
-	)
-	(junction
 		(at 114.3 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c44ab6f-a44f-4f0a-ad93-33fb47b6dd23")
-	)
-	(junction
-		(at 105.41 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27eecfee-7c2c-424f-827c-ec3f9b98240c")
 	)
 	(junction
 		(at 69.85 19.05)
@@ -3458,10 +3289,10 @@
 		(uuid "3ddb5204-9060-41a1-806d-e2449ef0b955")
 	)
 	(junction
-		(at 95.25 25.4)
+		(at 88.9 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4f1094e5-10b2-44b5-9d67-315e55b3adb7")
+		(uuid "4d20f3cc-f5d1-4049-8229-335d58b50476")
 	)
 	(junction
 		(at 96.52 38.1)
@@ -3486,6 +3317,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9381128c-de66-4175-bef9-7ebbeabff19b")
+	)
+	(junction
+		(at 77.47 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad89e9ec-04d9-48bd-8865-cdbf7e802696")
 	)
 	(junction
 		(at 127 25.4)
@@ -3553,7 +3390,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 25.4) (xy 127 25.4)
+			(xy 137.16 25.4) (xy 127 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3653,13 +3490,33 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 25.4) (xy 151.13 27.94)
+			(xy 88.9 19.05) (xy 88.9 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3778031c-349c-49b8-8372-305e38cbfded")
+		(uuid "369d609b-7150-463a-8943-4853467fb4e1")
+	)
+	(wire
+		(pts
+			(xy 58.42 48.26) (xy 58.42 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36af2c14-eeff-422d-9bb7-1e99eda4c9ed")
+	)
+	(wire
+		(pts
+			(xy 88.9 33.02) (xy 88.9 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ad95bab-6041-4381-8ba1-a96cb7d6be07")
 	)
 	(wire
 		(pts
@@ -3720,16 +3577,6 @@
 			(type default)
 		)
 		(uuid "5223390f-bc41-42c2-b680-79711fb75ac1")
-	)
-	(wire
-		(pts
-			(xy 57.15 53.34) (xy 58.42 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52a4d0a8-cea2-41f1-b405-d602332d8608")
 	)
 	(wire
 		(pts
@@ -3813,7 +3660,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 36.83) (xy 48.26 53.34)
+			(xy 58.42 36.83) (xy 58.42 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3860,16 +3707,6 @@
 			(type default)
 		)
 		(uuid "68c7a9d9-6ae8-409f-ac5c-36a45b483f84")
-	)
-	(wire
-		(pts
-			(xy 151.13 43.18) (xy 151.13 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b78925d-85c2-4d7c-b3c1-ca9885e41581")
 	)
 	(wire
 		(pts
@@ -3940,16 +3777,6 @@
 			(type default)
 		)
 		(uuid "8d7d5df1-1a12-44d3-a451-7d761794310a")
-	)
-	(wire
-		(pts
-			(xy 156.21 43.18) (xy 151.13 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f514a4d-629c-4931-98c4-4bdcc8203a4f")
 	)
 	(wire
 		(pts
@@ -4053,36 +3880,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 25.4) (xy 105.41 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3bfb3d5-305f-4692-bc97-cbef3c4fbfef")
-	)
-	(wire
-		(pts
-			(xy 151.13 25.4) (xy 156.21 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6da7b2c-0bbd-444a-ae0c-073a4cb07f6c")
-	)
-	(wire
-		(pts
-			(xy 91.44 25.4) (xy 95.25 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9bd24ae-c89a-4fda-a95f-37c5bce9012c")
-	)
-	(wire
-		(pts
 			(xy 125.73 157.48) (xy 124.46 157.48)
 		)
 		(stroke
@@ -4163,23 +3960,23 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 36.83) (xy 88.9 36.83)
+			(xy 77.47 36.83) (xy 88.9 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce48eab1-860a-4603-b76b-6dc084a08f47")
+	)
+	(wire
+		(pts
+			(xy 58.42 36.83) (xy 77.47 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cf2fa750-2005-4e09-9896-352fa30a209a")
-	)
-	(wire
-		(pts
-			(xy 48.26 53.34) (xy 49.53 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2015404-e7b2-49a7-8499-37ecb919880f")
 	)
 	(wire
 		(pts
@@ -4223,26 +4020,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 34.29) (xy 147.32 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc307265-78ea-4c00-b9c7-c2acef4d434e")
-	)
-	(wire
-		(pts
-			(xy 88.9 19.05) (xy 88.9 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddfd7a44-1806-4b5c-8c4b-04e3b5e52929")
-	)
-	(wire
-		(pts
 			(xy 57.15 19.05) (xy 59.69 19.05)
 		)
 		(stroke
@@ -4283,7 +4060,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 25.4) (xy 114.3 25.4)
+			(xy 91.44 25.4) (xy 114.3 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4321,33 +4098,9 @@
 		)
 		(uuid "faf55695-6f9b-4010-8041-9ed9c3e5dd73")
 	)
-	(global_label "VDD_1V8"
-		(shape input)
-		(at 156.21 25.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2774a7b2-c24f-4830-a365-e0cdde1bfad4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.299 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "VDD_3V3"
 		(shape input)
-		(at 156.21 43.18 0)
+		(at 137.16 25.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4355,9 +4108,9 @@
 			)
 			(justify left)
 		)
-		(uuid "bbe9db0e-1915-489b-9e5a-b518397fd6eb")
+		(uuid "93222283-e0b3-44cc-af86-d47b93a858ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.299 43.18 0)
+			(at 148.249 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4823,93 +4576,6 @@
 		(uuid "f046f209-5593-4639-aba8-d88949decc85")
 	)
 	(symbol
-		(lib_id "seven_lib:TestPoint")
-		(at 105.41 25.4 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "15babf7b-c0b6-4c9b-b46c-28decd8cd85d")
-		(property "Reference" "TP3"
-			(at 101.473 27.305 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VDD_GPIO"
-			(at 101.473 29.845 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "seven-lib:TestPoint_Pad_2.0x2.0mm"
-			(at 100.33 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 105.41 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 105.41 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ed502b2f-20b2-4725-9914-4374fec88426")
-		)
-		(instances
-			(project "seven"
-				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/cf07285a-6c1b-4971-a8bc-a281923e473a"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "seven_lib:C")
 		(at 57.15 24.13 0)
 		(unit 1)
@@ -5370,84 +5036,6 @@
 			(project "seven"
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/cf07285a-6c1b-4971-a8bc-a281923e473a"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "seven_lib:PWR_FLAG")
-		(at 95.25 25.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5af4332f-ebf1-43e1-85e9-dd9b8cb24ce7")
-		(property "Reference" "#FLG03"
-			(at 95.25 23.495 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 95.25 20.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 95.25 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f8affa71-f097-4b05-a268-f5fbdbdde5a9")
-		)
-		(instances
-			(project "seven"
-				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/cf07285a-6c1b-4971-a8bc-a281923e473a"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -5955,6 +5543,120 @@
 		)
 	)
 	(symbol
+		(lib_id "seven_lib:Jumper_2_Open")
+		(at 88.9 27.94 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6dd213cb-7dcc-4bee-b69a-2aec4e0118d5")
+		(property "Reference" "JP1"
+			(at 86.36 20.066 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Current measurement"
+			(at 84.074 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "seven-lib:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left"
+			(at 88.9 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 88.9 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "M20-8770242P"
+			(at 88.9 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Shunt MPN" "M7567-05"
+			(at 88.9 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly Note" "FIT SHUNT ON JP1"
+			(at 88.9 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d809cd6-0ae3-40dc-b091-cdf42d90a8f3")
+		)
+		(pin "2"
+			(uuid "c9240351-3307-4a7f-978f-e8cebaf9a251")
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/cf07285a-6c1b-4971-a8bc-a281923e473a"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "seven_lib:GND")
 		(at 142.24 161.29 0)
 		(unit 1)
@@ -6130,113 +5832,6 @@
 			(project "seven"
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/cf07285a-6c1b-4971-a8bc-a281923e473a"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "seven_lib:Jumper_3_Open")
-		(at 151.13 34.29 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72fffd6f-d309-40ad-8054-cf5a576956c6")
-		(property "Reference" "JP1"
-			(at 153.67 33.0199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Jumper_3_Open"
-			(at 153.67 35.5599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "seven-lib:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left"
-			(at 151.13 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 3-pole, both open"
-			(at 151.13 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "M20-8770342"
-			(at 151.13 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 151.13 34.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "6b5c5297-57df-4a2f-a31e-770f27bdcd7f")
-		)
-		(pin "2"
-			(uuid "edfaa4ba-34b5-43fa-b513-a2eca10344b8")
-		)
-		(pin "1"
-			(uuid "97f01965-85bc-4137-94fa-49c1a3a97dc7")
-		)
-		(instances
-			(project "seven"
-				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/cf07285a-6c1b-4971-a8bc-a281923e473a"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -6563,84 +6158,6 @@
 		)
 	)
 	(symbol
-		(lib_id "seven_lib:PWR_FLAG")
-		(at 88.9 19.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1ad7d9f-96f2-4600-8d52-9addc8f83eee")
-		(property "Reference" "#FLG05"
-			(at 88.9 17.145 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 88.9 13.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 88.9 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "df123a03-9739-4121-a4ca-869abd993998")
-		)
-		(instances
-			(project "seven"
-				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/cf07285a-6c1b-4971-a8bc-a281923e473a"
-					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "seven_lib:GND")
 		(at 57.15 27.94 0)
 		(unit 1)
@@ -6795,8 +6312,8 @@
 		)
 	)
 	(symbol
-		(lib_id "seven_lib:R")
-		(at 53.34 53.34 90)
+		(lib_id "seven_lib:PWR_FLAG")
+		(at 77.47 36.83 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6805,9 +6322,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c50c0eac-4885-4be6-aa0c-04431e088cd5")
-		(property "Reference" "R2"
-			(at 53.34 46.99 90)
+		(uuid "bea182d3-0411-4ac9-ac45-9e8ce495419f")
+		(property "Reference" "#FLG05"
+			(at 77.47 38.735 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6816,8 +6334,8 @@
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 53.34 49.53 90)
+		(property "Value" "PWR_FLAG"
+			(at 77.47 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6826,8 +6344,8 @@
 				)
 			)
 		)
-		(property "Footprint" "seven-lib:R_0402_1005Metric"
-			(at 53.34 55.118 90)
+		(property "Footprint" ""
+			(at 77.47 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6838,7 +6356,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 53.34 0)
+			(at 77.47 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 77.47 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c16aa0eb-b3c0-492d-8b40-9ca2379bf3c3")
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/cf07285a-6c1b-4971-a8bc-a281923e473a"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "seven_lib:R")
+		(at 58.42 44.45 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c50c0eac-4885-4be6-aa0c-04431e088cd5")
+		(property "Reference" "R2"
+			(at 53.086 42.926 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 53.086 45.466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "seven-lib:R_0402_1005Metric"
+			(at 60.198 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6849,7 +6445,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 53.34 53.34 0)
+			(at 58.42 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6860,7 +6456,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0710KL"
-			(at 53.34 53.34 90)
+			(at 58.42 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6871,7 +6467,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 53.34 53.34 90)
+			(at 58.42 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

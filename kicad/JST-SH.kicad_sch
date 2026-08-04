@@ -261,7 +261,7 @@
 		)
 		(uuid "f615f3ec-20e5-4c98-bea9-963269ab0a8e")
 	)
-	(text_box "This circuit provides a Tag-Connect TC2030 programming and debugging interface for the MCU. It exposes the SWD (Serial Wire Debug) signals and power reference required to program and debug the device."
+	(text_box "FLASH CONNECTOR ONLY\nJST-SH operating rating: -25°C to +85°C.\nNot required for normal board operation.\nDo not connect, disconnect, or use this interface below -25°C."
 		(exclude_from_sim no)
 		(at 176.53 24.13 0)
 		(size 107.95 53.34)
@@ -281,7 +281,7 @@
 		)
 		(uuid "246a6cb9-b509-458f-8b05-bf5d7ca3c345")
 	)
-	(text_box "JTAG SWD TC2030"
+	(text_box "JST-SH SWD Connector\n"
 		(exclude_from_sim no)
 		(at 176.53 12.7 0)
 		(size 40.64 11.43)

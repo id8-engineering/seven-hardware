@@ -597,7 +597,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "seven.step",
       "svg": "",
       "vrml": ""
     },
@@ -881,7 +881,7 @@
         "uuid": "8e3cc843-5797-49f3-8b3a-1c11450ccd1e"
       }
     ],
-    "used_designators": "D4,C22-23,C36,R19-20,#PWR2,#PWR29,#PWR48,#PWR53-57,J1,U2",
+    "used_designators": "VDD_GNSS1,U2,J1,#PWR2,#PWR29,#PWR48,#PWR53-57,R19-20,JP1-4,C22-23,C36,D4,#FLG5",
     "variants": []
   },
   "sheets": [
@@ -915,7 +915,7 @@
     ],
     [
       "05f18bcb-1f58-4fb2-bbec-23b1ba834d60",
-      "JTAG SWD"
+      "JST-SH Contact"
     ],
     [
       "940eac2d-c100-4374-bc50-bce1e4d40d2f",
@@ -944,10 +944,6 @@
     [
       "cefcb938-0954-4d9a-a5b2-e2e651c202a6",
       "PMIC"
-    ],
-    [
-      "ab9c185f-8874-4703-ad0b-ef7d1358f608",
-      "USB-TO-UART"
     ]
   ],
   "text_variables": {},

@@ -41,9 +41,9 @@ jobs:
         run: |
           kicad-cli sch export bom kicad/seven.kicad_sch \
             --output bom.csv \
-            --fields 'Reference,${QUANTITY},Value,Footprint,MPN' \
-            --labels 'Refs,Qty,Value,Footprint,MPN' \
-            --group-by 'Value,Footprint,MPN'
+            --fields 'Reference,${QUANTITY},Value,Footprint,MPN,Shunt MPN,Assembly Note' \
+            --labels 'Refs,Qty,Value,Footprint,MPN,Shunt MPN,Assembly Note' \
+            --group-by 'Value,Footprint,MPN,Shunt MPN,Assembly Note'
 
       - name: Run ERC and DRC
         id: validation

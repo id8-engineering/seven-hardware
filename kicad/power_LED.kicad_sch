@@ -597,7 +597,7 @@
 		)
 		(uuid "a16c7105-d681-44c4-8d53-238cba7ae281")
 	)
-	(global_label "VDD_3V3"
+	(global_label "VDD_POWER_LED"
 		(shape input)
 		(at 87.63 87.63 90)
 		(fields_autoplaced yes)
@@ -607,9 +607,9 @@
 			)
 			(justify left)
 		)
-		(uuid "070b4f89-050b-4f06-b86a-144c64adcee6")
+		(uuid "076c1c6b-e4ef-43fa-a969-c83060d7a358")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.63 76.541 90)
+			(at 87.63 69.163 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -5,180 +5,6 @@
 	(uuid "39cdc7fc-c9fc-4f55-9aa5-857fb78b482b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "seven_lib:BAT54W"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.286 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BAT54KFILM"
-				(at 0.508 -3.048 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "seven-lib:D_SOD-523"
-				(at 0 -13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/07/50/54/f2/0d/ba/4a/79/CD00001322.pdf/files/CD00001322.pdf/jcr:content/translations/en.CD00001322.pdf"
-				(at -4.572 -15.494 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Schottky barrier diode, SOT-323"
-				(at 0.254 -12.192 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "BAT54KFILM"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "schottky diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?323*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BAT54W_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BAT54W_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "seven_lib:C"
 			(pin_numbers
 				(hide yes)
@@ -864,6 +690,195 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "seven_lib:SolderJumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "seven-lib:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1879,16 +1894,16 @@
 		(uuid "00998340-12ba-48a0-82dc-7dc7a387ca15")
 	)
 	(junction
+		(at 146.05 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04cfbada-e50d-4336-8406-6336799bcafb")
+	)
+	(junction
 		(at 146.05 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "057b29b9-7259-44f3-a330-2949a51f5d78")
-	)
-	(junction
-		(at 146.05 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2590cfa9-44d1-46d5-90b5-1de81d605122")
 	)
 	(junction
 		(at 135.89 62.23)
@@ -1921,16 +1936,16 @@
 		(uuid "56c0f999-83d3-4f1e-a906-6f8b7722ba9b")
 	)
 	(junction
-		(at 142.24 113.03)
+		(at 118.11 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5e2fdf6e-09a8-4b13-9a8d-d90a420c9522")
+		(uuid "578e3786-b245-4b34-89ba-1ad28f834f86")
 	)
 	(junction
-		(at 146.05 97.79)
+		(at 144.78 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "764418cf-b528-4fe0-9d4c-9f1976f1d81d")
+		(uuid "655b9f6a-3c6c-4d41-ace3-91c1425d61a7")
 	)
 	(junction
 		(at 33.02 124.46)
@@ -1957,6 +1972,12 @@
 		(uuid "800a6fdb-50b3-4d34-8812-fdee3be42581")
 	)
 	(junction
+		(at 146.05 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8650e40b-ea5c-444e-ac63-0849125109f6")
+	)
+	(junction
 		(at 115.57 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1981,16 +2002,10 @@
 		(uuid "b903d74a-69a3-45f6-a7c3-b47f61e490fc")
 	)
 	(junction
-		(at 146.05 104.14)
+		(at 118.11 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bd2968e8-2a4f-42dc-afd9-25376644c0a6")
-	)
-	(junction
-		(at 120.65 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1f5d377-f856-44a7-a510-9c62ef35befb")
+		(uuid "d2401f2c-1af9-4dbc-9e09-692eeb4526cc")
 	)
 	(junction
 		(at 96.52 62.23)
@@ -2088,6 +2103,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 128.27) (xy 114.3 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07becf61-89fe-42bf-a9c8-b605a2d8ff4c")
+	)
+	(wire
+		(pts
 			(xy 149.86 62.23) (xy 152.4 62.23)
 		)
 		(stroke
@@ -2105,6 +2130,26 @@
 			(type default)
 		)
 		(uuid "0cac2871-f541-43d6-b839-66d6d7aca15f")
+	)
+	(wire
+		(pts
+			(xy 146.05 114.3) (xy 153.67 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10314a5a-40f5-495b-85b1-5741d036c63b")
+	)
+	(wire
+		(pts
+			(xy 118.11 128.27) (xy 120.65 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13d3f4dd-7a39-4e04-bbe1-87638a97870c")
 	)
 	(wire
 		(pts
@@ -2146,16 +2191,6 @@
 		)
 		(uuid "18b9de87-53ef-4633-a820-2b7c262b4708")
 	)
-	(wire
-		(pts
-			(xy 120.65 118.11) (xy 120.65 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18ba4a60-fe0e-4e76-b10a-01b322d06743")
-	)
 	(polyline
 		(pts
 			(xy 176.53 77.47) (xy 284.48 77.47)
@@ -2188,7 +2223,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 118.11) (xy 120.65 118.11)
+			(xy 114.3 118.11) (xy 118.11 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2228,13 +2263,23 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 113.03) (xy 142.24 113.03)
+			(xy 114.3 114.3) (xy 144.78 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "288223ad-0c5f-448f-b65f-8e038ee8606a")
+	)
+	(wire
+		(pts
+			(xy 114.3 128.27) (xy 118.11 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d1f9dba-00a0-4761-bc62-3fdcfb694bd3")
 	)
 	(wire
 		(pts
@@ -2298,16 +2343,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 113.03) (xy 146.05 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a3ab1e0-79f4-48d2-9dbc-872088d4c1df")
-	)
-	(wire
-		(pts
 			(xy 138.43 104.14) (xy 138.43 110.49)
 		)
 		(stroke
@@ -2315,16 +2350,6 @@
 			(type default)
 		)
 		(uuid "3a90d8ee-1781-4b68-b403-32c613a59f9c")
-	)
-	(wire
-		(pts
-			(xy 146.05 96.52) (xy 148.59 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b6ffd2a-6dc4-47a7-92ce-b797462b89eb")
 	)
 	(wire
 		(pts
@@ -2368,16 +2393,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 96.52) (xy 146.05 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e0fff19-baaf-4a94-89cf-39fe8794673d")
-	)
-	(wire
-		(pts
 			(xy 33.02 125.73) (xy 35.56 125.73)
 		)
 		(stroke
@@ -2385,16 +2400,6 @@
 			(type default)
 		)
 		(uuid "63ecb1d3-a84a-4d4e-b085-62eff5e3647f")
-	)
-	(wire
-		(pts
-			(xy 138.43 104.14) (xy 146.05 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64b780d7-721a-4552-aaa1-4055662b0f7c")
 	)
 	(polyline
 		(pts
@@ -2470,13 +2475,23 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 97.79) (xy 146.05 97.79)
+			(xy 142.24 97.79) (xy 147.32 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "83823a4a-c8c1-4db3-98d3-fe2b4718e5e4")
+	)
+	(wire
+		(pts
+			(xy 146.05 104.14) (xy 153.67 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "858c8639-0d38-4258-82aa-3d39600fc05e")
 	)
 	(wire
 		(pts
@@ -2497,16 +2512,6 @@
 			(type default)
 		)
 		(uuid "8d6e2518-7b1d-42f1-b78a-3e2f3af79937")
-	)
-	(wire
-		(pts
-			(xy 120.65 120.65) (xy 114.3 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8faa19f6-b124-4bcb-9705-59be83f70db2")
 	)
 	(polyline
 		(pts
@@ -2581,26 +2586,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 104.14) (xy 153.67 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaa831ce-6f3d-459d-9b5f-f0fe5c0f3ff2")
-	)
-	(wire
-		(pts
-			(xy 146.05 100.33) (xy 147.32 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aeab80fa-ba24-482c-8d89-902142d3822d")
-	)
-	(wire
-		(pts
 			(xy 76.2 49.53) (xy 76.2 57.15)
 		)
 		(stroke
@@ -2631,33 +2616,43 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 120.65) (xy 120.65 120.65)
+			(xy 144.78 114.3) (xy 146.05 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6d220b1-51c5-4649-8be2-8b8e2a842821")
+		(uuid "cc8fb751-2e3b-4cdb-91d0-f1243dff1fe5")
 	)
 	(wire
 		(pts
-			(xy 146.05 97.79) (xy 146.05 100.33)
+			(xy 114.3 114.3) (xy 114.3 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bac8d49b-7ff5-400b-8d28-fde9a218f721")
+		(uuid "ceba8666-2e60-410f-b37b-cf4e669d71b1")
 	)
 	(wire
 		(pts
-			(xy 146.05 105.41) (xy 146.05 104.14)
+			(xy 118.11 118.11) (xy 120.65 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0f1832e-a259-4987-95dd-752b6e39ae6e")
+		(uuid "d4d44601-749e-416c-a25b-6b080f243d87")
+	)
+	(wire
+		(pts
+			(xy 138.43 104.14) (xy 146.05 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d591240f-0d51-44a0-aca4-b3a61862c45b")
 	)
 	(polyline
 		(pts
@@ -2669,16 +2664,6 @@
 			(color 255 74 77 1)
 		)
 		(uuid "d7e6712d-f680-4529-a02c-198622051e34")
-	)
-	(wire
-		(pts
-			(xy 146.05 113.03) (xy 153.67 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d89b98a0-72db-4665-bef9-7f46b6792f48")
 	)
 	(wire
 		(pts
@@ -2772,16 +2757,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 100.33) (xy 158.75 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f83d36df-ef30-434a-91b9-a5979daf4351")
-	)
-	(wire
-		(pts
 			(xy 115.57 62.23) (xy 125.73 62.23)
 		)
 		(stroke
@@ -2838,7 +2813,31 @@
 			)
 		)
 	)
-	(global_label "VDD_1V8"
+	(global_label "VDD_3V3"
+		(shape input)
+		(at 120.65 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "937e4078-4a29-4840-8f13-220b26191c78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.739 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VDD_3V3"
 		(shape input)
 		(at 33.02 104.14 90)
 		(fields_autoplaced yes)
@@ -2848,7 +2847,7 @@
 			)
 			(justify left)
 		)
-		(uuid "dd5c8fd9-91c2-41a1-a2e7-6cb795050bde")
+		(uuid "a82751db-5d73-42a8-b9a8-0fd6b5463207")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 33.02 93.051 90)
 			(hide yes)
@@ -2862,7 +2861,7 @@
 			)
 		)
 	)
-	(global_label "VDD_1V8"
+	(global_label "VDD_3V3"
 		(shape input)
 		(at 76.2 49.53 90)
 		(fields_autoplaced yes)
@@ -2872,7 +2871,7 @@
 			)
 			(justify left)
 		)
-		(uuid "deeac9a2-c624-40a6-8530-1105817c73a1")
+		(uuid "d32c7e55-5cb7-443f-8bab-8148f2a0ea73")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 76.2 38.441 90)
 			(hide yes)
@@ -2888,7 +2887,7 @@
 	)
 	(hierarchical_label "VDD_3V3"
 		(shape output)
-		(at 148.59 96.52 0)
+		(at 147.32 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2910,7 +2909,7 @@
 	)
 	(hierarchical_label "VDD_GNSS"
 		(shape output)
-		(at 153.67 113.03 0)
+		(at 153.67 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2918,6 +2917,17 @@
 			(justify left)
 		)
 		(uuid "6e219162-b708-4df7-9fca-615b9f378f37")
+	)
+	(hierarchical_label "VDD_POWER_LED"
+		(shape output)
+		(at 120.65 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9ad64f7a-09c9-4fda-b40d-94cb85d55377")
 	)
 	(hierarchical_label "SCL"
 		(shape input)
@@ -2940,17 +2950,6 @@
 			(justify right)
 		)
 		(uuid "ecb0644e-da18-4f97-b68c-1a8fbd9e630e")
-	)
-	(hierarchical_label "VDD_JTAG"
-		(shape output)
-		(at 158.75 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f63ed112-bced-4e47-9520-a0e156b482b5")
 	)
 	(symbol
 		(lib_id "seven_lib:R")
@@ -3816,85 +3815,6 @@
 		)
 	)
 	(symbol
-		(lib_id "seven_lib:GND")
-		(at 121.92 120.65 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c9d42be-800b-4d2e-93c9-dc7de2a84a95")
-		(property "Reference" "#PWR051"
-			(at 128.27 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 120.6499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d612e619-0f80-4a22-9254-e36dd6fbbeaa")
-		)
-		(instances
-			(project "seven"
-				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/cefcb938-0954-4d9a-a5b2-e2e651c202a6"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "seven_lib:C")
 		(at 87.63 58.42 180)
 		(unit 1)
@@ -4357,7 +4277,7 @@
 	)
 	(symbol
 		(lib_id "seven_lib:TestPoint")
-		(at 142.24 113.03 180)
+		(at 144.78 114.3 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4366,8 +4286,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e82e669-6869-4841-975d-b64fa3d91b44")
-		(property "Reference" "TP19"
-			(at 138.303 114.935 0)
+		(property "Reference" "VDD_GNSS1"
+			(at 140.843 116.205 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4377,7 +4297,7 @@
 			)
 		)
 		(property "Value" "VDD_GNSS"
-			(at 138.303 117.475 0)
+			(at 140.843 118.745 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4387,7 +4307,7 @@
 			)
 		)
 		(property "Footprint" "seven-lib:TestPoint_Pad_2.0x2.0mm"
-			(at 137.16 113.03 0)
+			(at 139.7 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4398,7 +4318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 113.03 0)
+			(at 139.7 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4409,7 +4329,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 142.24 113.03 0)
+			(at 144.78 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4420,7 +4340,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 142.24 113.03 0)
+			(at 144.78 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4436,7 +4356,7 @@
 		(instances
 			(project "seven"
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/cefcb938-0954-4d9a-a5b2-e2e651c202a6"
-					(reference "TP19")
+					(reference "VDD_GNSS1")
 					(unit 1)
 				)
 			)
@@ -4521,6 +4441,88 @@
 		)
 	)
 	(symbol
+		(lib_id "seven_lib:SolderJumper_2_Bridged")
+		(at 118.11 123.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b1de7c4-0982-46e6-8365-06e005bf49d0")
+		(property "Reference" "JP4"
+			(at 120.65 121.9199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 120.65 124.4599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "seven-lib:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 118.11 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 123.19 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b0ef29a-8ed2-4caa-b2d7-26189dd679fa")
+		)
+		(pin "2"
+			(uuid "dc055b1d-1b70-4351-8d41-c0d013c5488f")
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/cefcb938-0954-4d9a-a5b2-e2e651c202a6"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "seven_lib:GND")
 		(at 124.46 69.85 90)
 		(unit 1)
@@ -4594,110 +4596,6 @@
 			(project "seven"
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/cefcb938-0954-4d9a-a5b2-e2e651c202a6"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "seven_lib:R")
-		(at 146.05 109.22 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69baf85f-1f81-44c0-b605-32c7c4b15d72")
-		(property "Reference" "R9"
-			(at 148.59 107.9499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0"
-			(at 148.59 110.4899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "seven-lib:R_0402_1005Metric"
-			(at 147.828 109.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 146.05 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402FR-070RL"
-			(at 146.05 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 146.05 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d17b7307-8f6f-479d-a2fe-3d8e6f164c5c")
-		)
-		(pin "1"
-			(uuid "c3f14f24-ed56-48cf-b79d-4a74b32baac5")
-		)
-		(instances
-			(project "seven"
-				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/cefcb938-0954-4d9a-a5b2-e2e651c202a6"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6124,6 +6022,88 @@
 		)
 	)
 	(symbol
+		(lib_id "seven_lib:SolderJumper_2_Bridged")
+		(at 146.05 109.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8d3583e-4b9b-466f-8354-a7a921ce4d1b")
+		(property "Reference" "JP3"
+			(at 148.59 107.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 148.59 110.4899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "seven-lib:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 146.05 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 151.13 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d873078-a1c4-4ffb-887d-e1542dfb12f8")
+		)
+		(pin "2"
+			(uuid "c40d0f0e-db5e-4768-b909-84ae60a3c887")
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/cefcb938-0954-4d9a-a5b2-e2e651c202a6"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "seven_lib:R")
 		(at 39.37 125.73 90)
 		(unit 1)
@@ -6327,109 +6307,6 @@
 		)
 	)
 	(symbol
-		(lib_id "seven_lib:BAT54W")
-		(at 151.13 100.33 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dc88058d-8cb5-4f03-b04c-7ad8150266de")
-		(property "Reference" "D2"
-			(at 154.94 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BAT54KFILM"
-			(at 146.558 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "seven-lib:D_SOD-523"
-			(at 151.13 95.885 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/07/50/54/f2/0d/ba/4a/79/CD00001322.pdf/files/CD00001322.pdf/jcr:content/translations/en.CD00001322.pdf"
-			(at 151.13 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Schottky barrier diode, SOT-323"
-			(at 151.13 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "BAT54KFILM"
-			(at 151.13 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 151.13 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e7c60b9c-c5db-403d-841e-fc0132038141")
-		)
-		(pin "1"
-			(uuid "a5e89f27-b4c7-4c83-ae74-2b6e47910d67")
-		)
-		(instances
-			(project "seven"
-				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/cefcb938-0954-4d9a-a5b2-e2e651c202a6"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "seven_lib:TestPoint")
 		(at 130.81 85.09 0)
 		(unit 1)
@@ -6440,7 +6317,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de6a4fca-38c3-4489-987b-ff6da0c13bb2")
-		(property "Reference" "TP18"
+		(property "Reference" "VDD_1V8"
 			(at 134.493 80.645 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6510,7 +6387,7 @@
 		(instances
 			(project "seven"
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/cefcb938-0954-4d9a-a5b2-e2e651c202a6"
-					(reference "TP18")
+					(reference "VDD_1V8")
 					(unit 1)
 				)
 			)
@@ -6527,7 +6404,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e91abf49-3ff6-4a43-bfc3-4a73c0bc794b")
-		(property "Reference" "TP20"
+		(property "Reference" "VDD_3V3"
 			(at 138.303 99.695 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6597,7 +6474,7 @@
 		(instances
 			(project "seven"
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/cefcb938-0954-4d9a-a5b2-e2e651c202a6"
-					(reference "TP20")
+					(reference "VDD_3V3")
 					(unit 1)
 				)
 			)

@@ -17,7 +17,8 @@ Specification:
 * 2 x mikroBUS™ sockets for easy expansion with Click Boards
 * RGB LED
 * Passive buzzer
-* Programming interface (SWD) via TAG connector
+* Programming interface (SWD) via Raspberry Pi Debug Probe
+* Debug interface (UART) via Raspberry Pi Debug Probe
 * Industrial temperature range (-40 to 85 Celsius)
 
 The software stack is built on the Zephyr Project, providing a robust, secure,

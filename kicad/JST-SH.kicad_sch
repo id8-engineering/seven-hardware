@@ -196,7 +196,7 @@
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 5.08)
-					(name "SWDIO"
+					(name "SWCLK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -232,7 +232,7 @@
 				(pin passive line
 					(at -7.62 -2.54 0)
 					(length 5.08)
-					(name "SWCLK"
+					(name "SWDIO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -367,17 +367,6 @@
 	)
 	(hierarchical_label "SWDIO"
 		(shape bidirectional)
-		(at 81.28 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "00e72a16-66d1-4d39-b539-4de35748fbf3")
-	)
-	(hierarchical_label "SWCLK"
-		(shape output)
 		(at 81.28 87.63 180)
 		(effects
 			(font
@@ -385,7 +374,18 @@
 			)
 			(justify right)
 		)
-		(uuid "7613565c-093d-4a24-b1fe-c982a46a6033")
+		(uuid "3019aa74-9b79-427e-a48a-a90543985f93")
+	)
+	(hierarchical_label "SWCLK"
+		(shape output)
+		(at 81.28 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81cea5a7-d807-48b5-a1d2-ed9c25fd6164")
 	)
 	(symbol
 		(lib_id "seven_lib:JST_SH_BM03B-SRSS-TB_1x03")

@@ -1,5 +1,11 @@
 # Seven Hardware
 
+<p align="center">
+  <a href="https://certification.oshwa.org/se000031.html">
+    <img src="assets/oshwa-certification-mark-se000031.svg" alt="OSHWA certified open source hardware — SE000031" width="280" />
+  </a>
+</p>
+
 Seven is a rapid‑prototyping platform for low‑cost, low‑power connected
 IoT devices with integrated LTE cellular connectivity.
 

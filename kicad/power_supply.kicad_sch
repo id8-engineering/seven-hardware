@@ -1831,7 +1831,7 @@
 				)
 			)
 		)
-		(property "Value" "ISL85410FRZ-T7A"
+		(property "Value" "ISL85410FRZ-T"
 			(at 87.63 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1876,7 +1876,7 @@
 				)
 			)
 		)
-		(property "MPN" "ISL85410FRZ-T7A"
+		(property "MPN" "ISL85410FRZ-T"
 			(at 67.31 80.01 0)
 			(hide yes)
 			(show_name no)

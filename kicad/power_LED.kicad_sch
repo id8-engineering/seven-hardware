@@ -697,7 +697,7 @@
 				)
 			)
 		)
-		(property "MPN" "TLMG1100-GS08"
+		(property "MPN" "TLMG1100-GS15"
 			(at 99.06 105.41 0)
 			(hide yes)
 			(show_name no)

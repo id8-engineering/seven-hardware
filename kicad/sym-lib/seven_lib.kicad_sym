@@ -2650,7 +2650,7 @@
 				)
 			)
 		)
-		(property "MPN" "TLMG1100-GS08"
+		(property "MPN" "TLMG1100-GS15"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

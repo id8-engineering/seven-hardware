@@ -1305,6 +1305,18 @@
 		(uuid "3877c963-e063-4090-8fd9-92294ddb9032")
 	)
 	(junction
+		(at 62.23 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "675bec14-25e3-484e-9679-e33e24914f83")
+	)
+	(junction
+		(at 85.09 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd1b1817-9004-4c1c-893b-f0015d0c6ded")
+	)
+	(junction
 		(at 85.09 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1330,6 +1342,26 @@
 		)
 		(uuid "1619f59f-b566-4c61-adc0-0d238dfc013d")
 	)
+	(wire
+		(pts
+			(xy 62.23 101.6) (xy 67.31 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd2e6d3-dcfa-4ccd-ac51-50bedee179ba")
+	)
+	(wire
+		(pts
+			(xy 67.31 110.49) (xy 62.23 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "365eefb2-abc8-4e0f-abf9-29c7140b73dd")
+	)
 	(polyline
 		(pts
 			(xy 176.53 77.47) (xy 284.48 77.47)
@@ -1352,7 +1384,17 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 101.6) (xy 67.31 101.6)
+			(xy 74.93 110.49) (xy 85.09 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b8fec8f-bdb1-414f-80b7-8b3f0416a4e7")
+	)
+	(wire
+		(pts
+			(xy 59.69 101.6) (xy 62.23 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1382,7 +1424,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 106.68) (xy 85.09 111.76)
+			(xy 85.09 106.68) (xy 85.09 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1429,6 +1471,26 @@
 			(type default)
 		)
 		(uuid "d844a7e6-c39b-4a99-8566-a13a58bd78e7")
+	)
+	(wire
+		(pts
+			(xy 85.09 110.49) (xy 85.09 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ac52a2-4f3a-4e6a-bcf3-f6f4ffde1871")
+	)
+	(wire
+		(pts
+			(xy 62.23 110.49) (xy 62.23 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "effb0081-3f1e-4f1b-afe8-61334ffae967")
 	)
 	(wire
 		(pts
@@ -2273,6 +2335,109 @@
 			(project "seven"
 				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/3959a5c9-da67-4dbd-8c3b-230c0962e71e"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "seven_lib:R")
+		(at 71.12 110.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c8bb0e46-b362-46e0-a27c-15f80c2554b7")
+		(property "Reference" "R9"
+			(at 69.596 106.172 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 69.342 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "seven-lib:R_0402_1005Metric"
+			(at 71.12 112.268 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 71.12 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 71.12 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 71.12 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b09f7cf2-f573-479d-8ec0-94f643ac49b1")
+		)
+		(pin "2"
+			(uuid "dc8e1fb0-385a-4773-9cdc-9661ebdc3f30")
+		)
+		(instances
+			(project "seven"
+				(path "/8e3cc843-5797-49f3-8b3a-1c11450ccd1e/3959a5c9-da67-4dbd-8c3b-230c0962e71e"
+					(reference "R9")
 					(unit 1)
 				)
 			)
